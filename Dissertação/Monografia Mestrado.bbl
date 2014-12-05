@@ -1,0 +1,38 @@
+\begin{thebibliography}{}
+
+\bibitem[ABNT e SEBRAE, 2012]{guia.sebrae}
+ABNT e SEBRAE (2012).
+\newblock Guia de implementa{\c c}\~ao desenvolvimento de softwares para
+  pequenas organiza{\c c}\~oes.
+\newblock http://portalmpe.abnt.org.br/bibliotecadearquivos/, Rio de Janeiro.
+
+\bibitem[Calvo-Manzano et~al., 2008]{reicis}
+Calvo-Manzano, J.~A., Garz{\'a}s, J., Piattini, M., Pino, F.~J., Salillas, J.,
+  e S{\'a}nchez, J.~L. (2008).
+\newblock Perfiles del ciclo de vida del software para peque{\~n}as empresas:
+  los informes t{\'e}cnicos {ISO/IEC} 29110.
+\newblock {\em Revista Espa{\~n}ola de Innovaci{\'o}n, Calidad e Ingenier{\'i}a
+  del Software}, 4(2).
+
+\bibitem[Fayad et~al., 2000]{fayad}
+Fayad, M.~E., Laitinen, M., e Ward, R.~P. (2000).
+\newblock Software engineering in the small.
+\newblock {\em Communications of the {ACM}}, 43(3):115--118.
+
+\bibitem[H\'ebert et~al., 2014]{swicetrip}
+H\'ebert, C., Laporte, C.~Y., e Mineau, C. (2014).
+\newblock Development of a social network website using the new {ISO/IEC} 29110
+  standard developed specifically for very small entities.
+\newblock {\em SQP}, 16(4).
+
+\bibitem[Laporte et~al., 2008]{ieee_comp}
+Laporte, C.~Y., Alexandre, S., e Renault, A. (2008).
+\newblock Developing international standardsfor very small enterprises.
+\newblock {\em IEEE Computer}.
+
+\bibitem[Pressman, 2006]{pressman}
+Pressman, R. (2006).
+\newblock {\em Engenharia de Software}.
+\newblock McGraw Hill Brasil, 6 edition.
+
+\end{thebibliography}

@@ -11,8 +11,8 @@ Calvo-Manzano, J.~A., Garz{\'a}s, J., Piattini, M., Pino, F.~J., Salillas, J.,
   e S{\'a}nchez, J.~L. (2008).
 \newblock Perfiles del ciclo de vida del software para peque{\~n}as empresas:
   los informes t{\'e}cnicos {ISO/IEC} 29110.
-\newblock {\em Revista Espa{\~n}ola de Innovaci{\'o}n, Calidad e Ingenier{\'i}a
-  del Software}, 4(2).
+\newblock {\em Revista Espa{\~n}ola de Innovaci{\'o}n, Calidad e
+  Ingenier{\'\i}a del Software}, 4(2).
 
 \bibitem[Fayad et~al., 2000]{fayad}
 Fayad, M.~E., Laitinen, M., e Ward, R.~P. (2000).
@@ -24,6 +24,13 @@ H\'ebert, C., Laporte, C.~Y., e Mineau, C. (2014).
 \newblock Development of a social network website using the new {ISO/IEC} 29110
   standard developed specifically for very small entities.
 \newblock {\em SQP}, 16(4).
+
+\bibitem[ISO, 2011]{iso}
+ISO (2011).
+\newblock Software engineering --- lifecycle profiles for very small entities
+  (vses) - part 5-1-2: Management and engineering guide: Generic profile group:
+  Basic profile.
+\newblock Technical report, SO/IEC.
 
 \bibitem[Laporte et~al., 2008]{ieee_comp}
 Laporte, C.~Y., Alexandre, S., e Renault, A. (2008).

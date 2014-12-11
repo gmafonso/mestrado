@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  9 DEC 2014 11:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  9 DEC 2014 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,18 +601,18 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 (./Monografia Mestrado.aux (./intro.aux) (./iso.aux) (./analise.aux))
 \openout1 = `"Monografia Mestrado.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -740,20 +740,44 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 [6] [7]
 \openout2 = `iso.aux'.
 
- (./iso.tex
-Overfull \hbox (4.92036pt too wide) in paragraph at lines 24--24
- []|\OT1/cmr/m/n/9 Parte| 
- []
+ (./iso.tex <figuras/serie_iso.png, id=37, 721.69624pt x 645.41125pt>
+File: figuras/serie_iso.png Graphic file (type png)
+
+<use figuras/serie_iso.png>
+Package pdftex.def Info: figuras/serie_iso.png used on input line 11.
+(pdftex.def)             Requested size: 288.67339pt x 258.15993pt.
+ [8
 
 
-Overfull \hbox (0.61348pt too wide) in paragraph at lines 14--55
- [][] 
- []
+ <./figuras/serie_iso.png>]
+<figuras/gp_desenv_sw.png, id=43, 919.435pt x 529.98pt>
+File: figuras/gp_desenv_sw.png Graphic file (type png)
 
-) [8
+<use figuras/gp_desenv_sw.png>
+Package pdftex.def Info: figuras/gp_desenv_sw.png used on input line 48.
+(pdftex.def)             Requested size: 275.83263pt x 158.99521pt.
+ [9 <./figuras/gp_desenv_sw.png>]
+<figuras/gp_diagr.png, id=48, 550.055pt x 650.43pt>
+File: figuras/gp_diagr.png Graphic file (type png)
+ <use figuras/gp_diagr.png>
+Package pdftex.def Info: figuras/gp_diagr.png used on input line 79.
+(pdftex.def)             Requested size: 275.02682pt x 325.2142pt.
 
 
-]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] [11 <./figuras/gp_diagr.png>]
+<figuras/dsw_diagr.png, id=56, 576.1525pt x 752.8125pt>
+File: figuras/dsw_diagr.png Graphic file (type png)
+
+<use figuras/dsw_diagr.png>
+Package pdftex.def Info: figuras/dsw_diagr.png used on input line 110.
+(pdftex.def)             Requested size: 288.07553pt x 376.40532pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [12] [13 <./figuras/dsw_diagr.png>]
 \openout2 = `analise.aux'.
 
  (./analise.tex
@@ -767,7 +791,7 @@ Overfull \hbox (1.95805pt too wide) in paragraph at lines 39--39
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/jan_contatos_lancamento.jpg, id=40, 593.96906pt x 415.5525pt>
+<figuras/jan_contatos_lancamento.jpg, id=65, 593.96906pt x 415.5525pt>
 File: figuras/jan_contatos_lancamento.jpg Graphic file (type jpg)
 
 <use figuras/jan_contatos_lancamento.jpg>
@@ -775,7 +799,7 @@ Package pdftex.def Info: figuras/jan_contatos_lancamento.jpg used on input line
  58.
 (pdftex.def)             Requested size: 356.38419pt x 249.33342pt.
 
-<figuras/jan_pendencias_lancamento.jpg, id=41, 594.72188pt x 414.79968pt>
+<figuras/jan_pendencias_lancamento.jpg, id=66, 594.72188pt x 414.79968pt>
 File: figuras/jan_pendencias_lancamento.jpg Graphic file (type jpg)
 
 <use figuras/jan_pendencias_lancamento.jpg>
@@ -786,11 +810,11 @@ ne 65.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9
+[14
 
 
  <./figuras/jan_contatos_lancamento.jpg>]
-<figuras/atendimentos_por_tipo.jpg, id=45, 360.59718pt x 214.55156pt>
+<figuras/atendimentos_por_tipo.jpg, id=70, 360.59718pt x 214.55156pt>
 File: figuras/atendimentos_por_tipo.jpg Graphic file (type jpg)
 
 <use figuras/atendimentos_por_tipo.jpg>
@@ -804,12 +828,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
+[15]
 
-LaTeX Warning: Text page 11 contains only floats.
+LaTeX Warning: Text page 16 contains only floats.
 
-[11 <./figuras/jan_pendencias_lancamento.jpg> <./figuras/atendimentos_por_tipo.
-jpg>] [12] [13]
+[16 <./figuras/jan_pendencias_lancamento.jpg> <./figuras/atendimentos_por_tipo.
+jpg>] [17] [18]
 Overfull \hbox (6.30954pt too wide) in paragraph at lines 235--240
  []|[]| 
  []
@@ -834,14 +858,14 @@ Overfull \hbox (5.28487pt too wide) in paragraph at lines 223--270
  [][] 
  []
 
-) [14] (./Monografia Mestrado.bbl) [15
+) [19] (./Monografia Mestrado.bbl) [20
 
 ] (./Monografia Mestrado.aux (./intro.aux) (./iso.aux) (./analise.aux)) ) 
 Here is how much of TeX's memory you used:
- 5435 strings out of 493315
- 72740 string characters out of 6137904
- 163880 words of memory out of 5000000
- 8729 multiletter control sequences out of 15000+600000
+ 5477 strings out of 493315
+ 73325 string characters out of 6137904
+ 164389 words of memory out of 5000000
+ 8767 multiletter control sequences out of 15000+600000
  12662 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,21n,43p,1049b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -859,10 +883,10 @@ ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "Monografia Mestrado.pdf" (15 pages, 404973 bytes).
+Output written on "Monografia Mestrado.pdf" (20 pages, 675868 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

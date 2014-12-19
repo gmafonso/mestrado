@@ -1,0 +1,93 @@
+% !TEX root = Monografia Mestrado.tex
+
+\chapter{Estudo de caso}
+
+\section{Estratégia}
+\label{Sec:ec:estrategia}
+
+A implantação de um novo processo, ou de sua melhoria, é uma atividade que possui um custo financeiro, de tempo e de recursos muito alto para qualquer empresa, independente do seu porte. A implantação de processos baseados em normas pode ser ainda mais custoso e complexo, principalmente para uma pequena empresa.
+
+Por conta destes fatores, a empresa objeto de estudo desta dissertação optou por realizar a implantação incremental da \iso, escolhendo as áreas mais deficientes citadas no diagnóstico que se encontra no Capítulo \ref{Cap:analise:cenario}.
+
+Esta dissertação teve como foco o tratamento dos problemas identificados no departamento de \textbf{Desenvolvimento}, descritos na Seção \ref{Sec:desenvolvimento}. Apesar do foco ter sido em somente um departamento, foi observado que as soluções propostas afetariam diretamente os demais departamentos, pois havia uma raiz comum a todos os problemas diagnosticados: a comunicação com o cliente. A criação de processos bem estruturados de registro de atendimentos em conjunto com ferramentas que suportassem estes processos cobririam todos os problemas diagnosticados.
+
+Outro fato de suma importância observado foi a abrangência da solução proposta. Apesar do estudo de caso ter sido feito em uma empresa de desenvolvimento de \sw, outros segmentos podem se beneficiar do processo de integração entre registro de contato com o cliente e controle de tarefas. 
+
+Para se alcançar o objetivo desta dissertação, foi adotada como estratégia inicial a seleção dos objetivos da \iso, descritos nas Seções \ref{Sec:iso:obj:gp} e \ref{Sec:iso:obj:dsw}, que pudessem contribuir para a solução dos problemas identificados na análise realizada no Capítulo \ref{Cap:analise:cenario}.
+
+Após a seleção e análise dos objetivos da \iso, foram relacionadas as atividades mais importantes de cada um destes objetivos que dariam suporte ao alcance dos objetivos deste trabalho.
+
+\subsection{Seleção dos objetivos da \iso}
+\label{Sec:estr:obj:iso}
+
+Dentre os objetivos da \iso, foram selecionados 3 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
+
+\begin{table}[h!]\footnotesize
+\centering
+\begin{tabular}
+{
+ 	|p{7cm}
+ 	|p{7cm}|
+}
+
+\hline
+
+	\textbf{Objetivo \iso}&
+	\textbf{Problemas relacionados ao processo atual}\\
+	\hline
+	
+	PM.03 A \muda é abordada através de sua recepção e análise. Mudanças aos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.&
+	Não existe processo formal para repeção, análise e avaliação da \muda.\\
+	\hline
+	
+	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
+	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
+	\hline
+	
+	PM.O6 Uma \vcs de \sw é desenvolvida. Itens da \swcfg são identificados, definidos e incluídos em uma \bline. Modificações e entregas de um item são controladas e disponibilizadas ao cliente e equipe de trabalho. O armazenamento, manuseio e entrega dos itens são controlados.&
+	Entregas de novas versões são realizadas sem nenhum controle de previsão e aviso aos clientes.\\
+	\hline
+	
+	SI.O6 Uma \swcfg, que cumpra com o \req acertado com o cliente, que inclua documentações de usuário, operação e manutenção é integrada, incluída na \bline e armazenada no \rep. Necessidades de mudança na \swcfg são detectadas e os pedidos de mudança relacionados são iniciados.&
+	Não existe processo formal para repeção, análise e avaliação da \muda.\\
+	\hline
+
+\end{tabular}
+\caption{Seleção dos objetivos da \iso}
+\label{Tab:estrat:obj:iso}
+\end{table}
+
+\subsection{Seleção das atividades dos objetivos da \iso}
+
+Dentre as atividades que dão suporte aos objetivos da \iso selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos da \iso na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
+
+\begin{table}[h!]\footnotesize
+\centering
+\begin{tabular}
+{
+ 	|p{7cm}
+ 	|p{3,5cm}
+ 	|p{3,5cm}|
+}
+
+\hline
+
+	\textbf{Atividade \iso}&
+	\textbf{Entradas}&
+	\textbf{Saídas}\\
+	\hline
+	
+	PM.2.2 Analisar e avaliar a \muda em relação ao custo, cronograma e impacto técnico. A mudança solicitada pode ser iniciada pelo cliente ou pela equipe interna de trabalho. Atualize o \ppj se as mudanças aceitas não afetam acordos com o cliente. Solicitações de mudança que afetem esses acordos devem ser negociadas por ambas as partes.&
+	\muda (iniciada)\par\ppj&
+	\muda (avaliada)\par\ppj (atualizado)\\
+	\hline
+	
+\end{tabular}
+\caption{Atividades da \iso}
+\label{Tab:estrat:ativ:iso}
+\end{table}
+
+%\section{Solução proposta}
+%\label{Sec:ec:solucao:proposta}
+
+%Registrar a reunião como um contato e os acertos como tarefas se mostrou ser mais efetivo, vindo a permitir a rastreabilidade dentro do projeto.

@@ -1,0 +1,144 @@
+\documentclass[12pt,a4paper]{ufpr}
+\usepackage[portuges,brazil]{babel}
+% \usepackage[portuguese,brazil]{babel}
+
+%\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{url}
+
+%\usepackage{auto-pst-pdf}
+
+
+\usepackage{isolatin1}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{caption2}
+\usepackage{setspace}
+\usepackage{ps-macros}
+% \usepackage{psfig}
+
+\setcounter{secnumdepth}{3}    % n - numero de niveis de subsubsection numeradas
+\setcounter{tocdepth}{3}       % coloca ate o nivel n no sumario
+
+\newcommand{\sw}{\textit{software}\xspace}
+\newcommand{\Sw}{\textit{Software}\xspace}
+\newcommand{\sws}{\textit{softwares}\xspace}
+\newcommand{\iso}{ISO 29110\xspace}
+\newcommand{\gp}{Gerência de Projetos\xspace}
+\newcommand{\dsw}{Desenvolvimento de \Sw}
+\newcommand{\bline}{\textit{baseline}\xspace}
+
+% nomenclaturas de documentação
+\newcommand{\dt}{Declaração de Trabalho\xspace}
+\newcommand{\swcfg}{Configuração de \Sw}
+\newcommand{\ppj}{Plano de Projeto\xspace}
+\newcommand{\prog}{Registro de Status de Progresso\xspace}
+\newcommand{\qsw}{Garantia da Qualidade de \Sw}
+\newcommand{\req}{Especificação de Requisitos\xspace}
+\newcommand{\aceite}{Registro de Aceite\xspace}
+\newcommand{\muda}{Solicitação de Mudanças\xspace}
+\newcommand{\vcs}{Estratégia de Controle de Versionamento\xspace}
+\newcommand{\comp}{Componentes de \Sw}
+\newcommand{\tcase}{Casos de Teste\xspace}
+\newcommand{\tproc}{Procedimentos de Teste\xspace}
+\newcommand{\trep}{Relatório de Testes\xspace}
+\newcommand{\rep}{Repositório do Projeto\xspace}
+\newcommand{\vvres}{Resultados de Verificação/Validação\xspace}
+\newcommand{\corre}{Registro de Correções\xspace}
+\newcommand{\entrega}{Instruções de Entrega\xspace}
+\newcommand{\crono}{Cronograma das Tarefas do Projeto\xspace}
+
+\title{ISO 29110}
+\author{Gladistone Moreira Afonso}
+\advisortitle{Orientador}
+\advisorname{Prof. Dr. Antônio Roberto Mury}
+\advisorplace{Laboratório Nacional de Computação Científica, LNCC}
+
+\city{Petrópolis}
+\year{2015}
+
+%\banca        % nao insira o nome do orientador, ja eh feito automaticamente
+%{Prof. Dr. Antnio Roberto Mury}{Laboratrio Nacional de Computao Cientfica, LNCC}
+%{Prof. Dr. Bruno Schulze}{Laboratrio Nacional de Computao Cientfica, LNCC}
+%{Prof. Dr. ???}{Departamento de Informtica, UFPR} % se nao houver deixe em branco {}{}
+%{Prof. Dr. ???}{Laboratrio Nacional de Computao Cientfica, LNCC}    % se houver um quarto membro na banca, inserir nome e instituicao
+
+\defesa{ 2015 } % dia em que foi realizada a defesa da dissertacao
+
+
+\begin{document}
+
+\makecapaproposta             % cria capa para proposta%
+\makecapadissertacao           % cria capa para dissertacao de mestrado %
+\makerosto                     % cria folha de rosto para versao final da UFPR %
+%\maketermo                     % cria folha com o termo de aprovacao da dissertacao%
+
+%\singlespacing           % espacamento 1 - capa UFPR%
+%\onehalfspacing          % espacamento 1/2 %
+\doublespacing            % espacamento 2 - UFPR %
+
+\pagestyle{headings}
+\pagenumbering{roman}
+
+% % %\chapter*{Agradecimentos}
+% % % \input{agradecimentos.tex}          % possiu somente o texto
+
+\tableofcontents
+
+\listoffigures         % se houver mais do que 3 figuras
+\addcontentsline{toc}{chapter}{\MakeUppercase{Lista de Figuras}}
+\newpage
+
+\listoftables        % se houver mais do que 3 tabelas
+\addcontentsline{toc}{chapter}{\MakeUppercase{Lista de Tabelas}}
+\newpage
+
+\chapter*{Resumo}
+\addcontentsline{toc}{chapter}{\MakeUppercase{Resumo}}
+\input{resumo.tex}           % somente o texto
+\newpage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{\MakeUppercase{Abstract}}
+\input{abstract.tex}        % somente o texto
+\newpage
+
+\pagenumbering{arabic}
+
+\input{capitulo1.tex}
+\input{capitulo2.tex}
+\input{capitulo3.tex}
+\input{capitulo4.tex}
+% % % % %\input{capitulo5.tex}
+% % % % %\input{capitulo6.tex}
+%\input{capitulo7.tex}
+% % % % %\input{capitulo8.tex}
+\input{conclusao.tex}
+\input{casos_uso.tex}
+% %\input{anexo2.tex}
+% %\input{anexo3.tex}
+
+\bibliographystyle{brazil}
+\bibliography{research}
+% utilize macros (3 primeiras letras do mes em ingles, minusculas) no seu
+% .bib para atribuir o nome do mes em portugues nas referencia,
+% se o style for brazil, outros estilos tambem aceitam estas macros
+% Ex:
+%
+% @InProceedings{teste,
+%   author =       {Luciano}
+%   year =         {2000}
+%   month =        {}#sep;
+% }
+%
+\addcontentsline{toc}{chapter}{\MakeUppercase{Bibliografia}}
+
+\singlespacing
+\makecapadissertacao
+
+\end{document}

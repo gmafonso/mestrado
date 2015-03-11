@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{guia.sebrae}
+ABNT e SEBRAE.
+\newblock Guia de implementa{\c c}\~ao desenvolvimento de softwares para
+  pequenas organiza{\c c}\~oes.
+\newblock http://portalmpe.abnt.org.br/bibliotecadearquivos/, Rio de Janeiro,
+  2012.
+
+\bibitem{reicis}
+Jos{\'e}~A. Calvo-Manzano, Javier Garz{\'a}s, Mario Piattini, Francisco~J.
+  Pino, Jes{\'u}s Salillas, e Jos{\'e}~Luis S{\'a}nchez.
+\newblock Perfiles del ciclo de vida del software para peque{\~n}as empresas:
+  los informes t{\'e}cnicos {ISO/IEC} 29110.
+\newblock {\em Revista Espa{\~n}ola de Innovaci{\'o}n, Calidad e
+  Ingenier{\'\i}a del Software}, 4(2), Setembro de 2008.
+
+\bibitem{fayad}
+Mohamed~E. Fayad, Mauri Laitinen, e Robert~P. Ward.
+\newblock Software engineering in the small.
+\newblock {\em Communications of the {ACM}}, 43(3):115--118, 2000.
+
+\bibitem{swicetrip}
+Charles H\'ebert, Claude~Y Laporte, e Christian Mineau.
+\newblock Development of a social network website using the new {ISO/IEC} 29110
+  standard developed specifically for very small entities.
+\newblock {\em SQP}, 16(4), 2014.
+
+\bibitem{iso}
+ISO.
+\newblock Software engineering --- lifecycle profiles for very small entities
+  (vses) - part 5-1-2: Management and engineering guide: Generic profile group:
+  Basic profile.
+\newblock Relatório técnico, SO/IEC, 2011.
+
+\bibitem{kotler}
+P.~Kotler e K.L. Keller.
+\newblock {\em Administra{\c{c}}{\~a}o de marketing}.
+\newblock Administra{\c{c}}{\~a}o/Marketing. Pearson Prentice Hall, 2012.
+
+\bibitem{ieee_comp}
+Claude~Y. Laporte, Simon Alexandre, e Alain Renault.
+\newblock Developing international standardsfor very small enterprises.
+\newblock {\em IEEE Computer}, 2008.
+
+\bibitem{pressman}
+R.S. Pressman.
+\newblock {\em Engenharia de Software}.
+\newblock McGraw Hill Brasil, 6 edition, 2006.
+
+\end{thebibliography}

@@ -1,0 +1,55 @@
+% !TEX root = dissertacao.tex
+\chapter{Introdução}
+\label{Introducao}
+
+O autor identificou na empresa DataSerra, uma pequena empresa de desenvolvimento de \sw, várias demandas de melhoria em seus processos. Anteriormente, com o objetivo de alcançar essas melhorais, o autor havia pesquisado e aplicado alguns padrões encontrados na \iso mas vários fatores levaram à paralisação e até mesmo abandono dos poucos processos que viam sendo implementados.
+
+A \iso foi desenvolvida especificamente para pequenas empresas ou pequenas equipes de desenvolvimento de \sw, chamadas em inglês de \textit{Very Small Entities} (VSE). O autor pretende dar continuidade à implementação de seus processos utilizando o trabalho de pesquisa da dissertação como catalisador, assim como a carga de conhecimento adquirida durante o curso de Mestrado.
+
+Como cita \cite{pressman}, a construção de \sw dentro de prazos estabelecidos e com qualidade ainda é um problema que atinge grande parte das empresas desenvolvedoras. Um dos maiores problemas envolvendo prazos e qualidade na empresa foco foi a demora ou até mesmo inexistência de \textit{feedback} aos clientes em relação à solução de problemas ou implementação de solicitações de mudanças. O autor selecionou este problema como foco do trabalho de dissertação 
+
+\section{Objetivos gerais}
+
+O trabalho de dissertação tem como objetivo \textbf{criar processos e ferramentas de \sw que gerenciem a comunicação com o cliente}.
+
+\section{Objetivos específicos}
+
+Para lograr êxito na criação da solução ideal para a demanda identificada, o autor determinou os objetivos abaixo:
+
+\begin{itemize}
+
+\item Realizar um diagnóstico da situação atual dos processos que envolvem comunicação com o cliente;
+
+\item Categorizar a situação atual destes processos através da análise SWOT\footnotemark;
+
+\footnotetext{Avaliação das forças, fraquezas, oportunidades e ameaças, dos termos em inglês \textit{strengths, weaknesses, opportunities e threats} \cite{kotler}}
+
+\item Pesquisar a norma \iso a procura de soluções que possam ser aplicadas às ameaças e fraquezas identificadas na análise SWOT;
+
+\item Desenvolver um projeto de melhoria de processo que contemple a criação de ferramentas de \sw que facilitem a implantação e operacionalização das melhorias;
+
+\item Executar o projeto de melhorias;
+
+\item Coletar os resultados do projeto de melhorias.
+
+\end{itemize}
+
+
+\section{Definição do Problema}
+%	Em funo do anteriormente exposto,  necessrio analisar com base na categorizao das aplicaes, quais classes de aplicaes podem compartilhar os mesmos ambientes reais e virtuais, minimizando assim a perda de desempenho causada pela concorrncia e quais classes de aplicaes cujo compartilhamento poderia comprometer significativamente o desempenho, assim como verificar os efeitos das bibliotecas utilizadas na implementao destas classes.\\
+		
+%	Para categorizao das aplicaes foi utilizado o conceito de \textit{Dwarfs} descrito na Seo \ref{dwarfs} que categoriza as aplicaes, e que identifica o tipo de algoritmo que pode ser usado para uma anlise de desempenho. A verificao do grau de afinidade por meio dos Dwarfs permite determinar que aplicaes podem coexistir e quais no devem coexistir em funo da classe a que pertena.\\
+	
+	%A proposta deste trabalho foca na criao de uma infraestrutura de gerncia de recursos distribudos e heterogneos, em ambientes de nuvem, por meio da seleo e designao de recursos mais confiveis, que no degradariam com uso, e que seriam adequados a execuo dos servios a eles atribudos, afim de reduzir a possibilidade de ``falta" dos mesmos atravs de informaes disponibilizadas pelos recursos fsicos e virtuais disponveis, configurando como um modelo de afinidade entre hardware e software.
+	
+%	O trabalho aqui apresentado procura ento preencher uma lacuna quanto  anlise de desempenho em ambientes virtualizados no que tange a concorrncia pelo uso dos recursos, contribuindo para o uso de ambientes virtualizados e de nuvens computacionais. Podendo seus resultados serem utilizados para o desenvolvimento de algoritmos para novos escalonadores capazes de atender s caractersticas especficas deste ambiente, sobretudo no tocante ao uso de nuvens computacionais como recursos adicionais  computao massivamente paralela e distribuda.\\
+%	Este trabalho busca contribuir para estes pontos ao tratar do problema relacionado  afinidade entre aplicaes e processos quando hospedados em um ambiente de nuvem compartilhado, e que sero apresentados nos Captulos \ref{tecnologias} e \ref{proposta}. E se integra aos esforos de pesquisadores e empresas em criarem uma infraestrutura funcional, e mais adequada ao uso por pessoas que no possuem conhecimento sobre como a nuvem  implementada, tornando seu uso transparente para o usurio.
+	
+\section{Delimitao do Trabalho}
+
+%	Para avaliar os efeitos da concorrncia, este trabalho analisou dentre as 13 classes de Dwarfs existentes as 3 classes que abrangem em maior ou menor grau todas as reas de aplicaes. Tambm analisou os efeitos de duas bibliotecas utilizadas para implementao de aplicaes paralelas (OpenCL e OpenMP). O uso de OpenCL (\textit{Open Computing Language}) se deu dado que esta biblioteca fornece APIs que so usadas para definir e controlar as plataformas heterogneas tanto de CPUs, quanto de GPUs alm de permitir programao paralela usando paralelismo de tarefas e de dados. O uso de OpenMP (\textit{Open 1Multi-Processing}) se deu dado que esta biblioteca fornece APIs para a programao multiprocessamento de memria compartilhada baseada em threads para mltiplas plataformas em um modelo portvel e escalvel que possui um paralelismo explcito e usa sincronizao para evitar competio entre threads.\\	
+%	 importante definir que no faz parte do trabalho a criao dos escalonadores e sim, com o conhecimento gerado, criar mecanismos de testes e analisadores de desempenho para caracterizar a afinidade entre hardware e software com o uso do conceito de tipos de aplicaes.\\
+
+\section{Organizao do Trabalho}
+
+%	Este trabalho est organizado da seguinte forma: No Captulo 1  apresentada uma breve introduo, no Captulo 2 so apresentadas as revises bibliogrficas, as tecnologias envolvidas, os trabalhos relacionados e os conceitos bsicos necessrios ao entendimento dos captulos seguintes. No Captulo 3  apresentada a descrio da proposta e a metodologia utilizada para a obteno dos resultados. No Captulo 4 so apresentados os resultados obtidos e no Captulo 5 as concluses e os trabalhos futuros.\\

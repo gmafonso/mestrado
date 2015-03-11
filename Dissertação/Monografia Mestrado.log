@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  13 DEC 2014 12:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  15 FEB 2015 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -606,18 +606,18 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 (./estudo_caso.aux) (./casos_uso.aux))
 \openout1 = `"Monografia Mestrado.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -895,7 +895,47 @@ Overfull \hbox (5.28487pt too wide) in paragraph at lines 27--56
  []
 
 
-Overfull \hbox (17.68486pt too wide) in paragraph at lines 66--86
+Underfull \hbox (badness 1400) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/9 PM.1.7 Atri-buir da-tas es-ti-ma-das de in^^S^^Pcio e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/9 Composi^^Xc~ao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\OT1/cmr/m/n/9 da Equipe de
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 99--100
+[]\OT1/cmr/m/n/9 Cronograma das
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 99--100
+\OT1/cmr/m/n/9 Ta-re-fas do Pro-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 109--109
+[]|\OT1/cmr/m/n/9 Registro de Sta-tus de
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 123--123
+[]\OT1/cmr/m/n/9 Configura^^Xc~ao de \OT1/cmr/m/it/9 Soft-
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 124--125
+[]|\OT1/cmr/m/n/9 Configura^^Xc~ao de \OT1/cmr/m/it/9 Soft-
+ []
+
+
+Overfull \hbox (17.68486pt too wide) in paragraph at lines 68--128
  [][] 
  []
 
@@ -938,10 +978,10 @@ ao para o De-sen-vol-vi-mento (UC125)
 ] (./Monografia Mestrado.aux (./intro.aux)
 (./iso.aux) (./analise.aux) (./estudo_caso.aux) (./casos_uso.aux)) ) 
 Here is how much of TeX's memory you used:
- 5557 strings out of 493315
- 74559 string characters out of 6137904
- 166775 words of memory out of 5000000
- 8828 multiletter control sequences out of 15000+600000
+ 5560 strings out of 493315
+ 74576 string characters out of 6137904
+ 170863 words of memory out of 5000000
+ 8831 multiletter control sequences out of 15000+600000
  16032 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,21n,43p,1047b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -962,7 +1002,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "Monografia Mestrado.pdf" (30 pages, 792421 bytes).
+Output written on "Monografia Mestrado.pdf" (30 pages, 793695 bytes).
 PDF statistics:
  179 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams

@@ -20,7 +20,7 @@ Após a seleção e análise dos objetivos da \iso, foram relacionadas as ativid
 \subsection{Seleção dos objetivos da \iso}
 \label{Sec:estr:obj:iso}
 
-Dentre os objetivos da \iso, foram selecionados 3 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
+Dentre os objetivos da \iso encontrados em \cite{iso}, foram selecionados 2 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
 
 \begin{table}[h!]\footnotesize
 \centering
@@ -40,16 +40,16 @@ Dentre os objetivos da \iso, foram selecionados 3 referentes à \gp e 1 referent
 	Não existe processo formal para repeção, análise e avaliação da \muda.\\
 	\hline
 	
-	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
-	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
-	\hline
+%	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
+%	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
+%	\hline
 	
 	PM.O6 Uma \vcs de \sw é desenvolvida. Itens da \swcfg são identificados, definidos e incluídos em uma \bline. Modificações e entregas de um item são controladas e disponibilizadas ao cliente e equipe de trabalho. O armazenamento, manuseio e entrega dos itens são controlados.&
 	Entregas de novas versões são realizadas sem nenhum controle de previsão e aviso aos clientes.\\
 	\hline
 	
 	SI.O6 Uma \swcfg, que cumpra com o \req acertado com o cliente, que inclua documentações de usuário, operação e manutenção é integrada, incluída na \bline e armazenada no \rep. Necessidades de mudança na \swcfg são detectadas e os pedidos de mudança relacionados são iniciados.&
-	Não existe processo formal para repeção, análise e avaliação da \muda.\\
+	Não existe processo formal para recepção, análise e avaliação da \muda.\\
 	\hline
 
 \end{tabular}
@@ -59,7 +59,9 @@ Dentre os objetivos da \iso, foram selecionados 3 referentes à \gp e 1 referent
 
 \subsection{Seleção das atividades dos objetivos da \iso}
 
-Dentre as atividades que dão suporte aos objetivos da \iso selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos da \iso na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
+Dentre as atividades que dão suporte aos objetivos da \iso \citep{iso} selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
+
+As atividades iniciadas com a sigla PM são relacionadas à \gp e as iniciadas com a sigla SI ao \dsw.
 
 \begin{table}[h!]\footnotesize
 \centering
@@ -77,11 +79,51 @@ Dentre as atividades que dão suporte aos objetivos da \iso selecionados em \ref
 	\textbf{Saídas}\\
 	\hline
 	
+	PM.1.2 Definir com o Cliente as \entrega para cada um dos entregáveis especificados na \dt.&
+	\dt (revisada)&
+	\ppj (\entrega)\\
+	\hline
+	
+	PM.1.4 Estabelecer a duração estimada para realizar cada tarefa.&
+	\ppj\par\begin{itemize}\item Tarefas\end{itemize}&
+	\ppj\par\begin{itemize}\item Duração estimada\end{itemize}\\
+	\hline
+	
+	PM.1.7 Atribuir datas estimadas de início e término para cada uma das tarefas a fim de criar o \crono levando em consideração os recursos, sequência e dependências das tarefas.&
+	\ppj\par\begin{itemize}
+		\item Tarefas
+		\item Duração estimada
+		\item Composição da Equipe de Trabalho
+	\end{itemize}&
+	\ppj\par\begin{itemize}
+		\item \crono
+	\end{itemize}\\
+	\hline
+
 	PM.2.2 Analisar e avaliar a \muda em relação ao custo, cronograma e impacto técnico. A mudança solicitada pode ser iniciada pelo cliente ou pela equipe interna de trabalho. Atualize o \ppj se as mudanças aceitas não afetam acordos com o cliente. Solicitações de mudança que afetem esses acordos devem ser negociadas por ambas as partes.&
 	\muda (iniciada)\par\ppj&
 	\muda (avaliada)\par\ppj (atualizado)\\
 	\hline
-	
+
+	PM.3.3 Identificar mudanças aos requisitos e/ou \ppj relacionados à desvios significativos, riscos potenciais ou problemas relacionados à realização do plano, documentando-os na \muda e acompanhando-os até sua conclusão.&
+	\prog (avaliado)\par&
+	\muda (iniciada)\\
+	\hline
+
+%	PM.3.2 Estabelecer ações para corrigir desvios ou problemas e identificar riscos relacionados à realização do \ppj, conforme necessário, documentando-os no \corre e acompanhando-os até o seu fechamento.&
+%	\prog (avaliado)\par&
+%	\corre\\
+%	\hline
+
+	SI.6.6 Realizar entregas de acordo com as \entrega.&
+	\ppj\par
+	\begin{itemize}
+		\item \entrega
+	\end{itemize}\par
+	\swcfg&
+	\swcfg (entregue)\\
+	\hline
+
 \end{tabular}
 \caption{Atividades da \iso}
 \label{Tab:estrat:ativ:iso}

@@ -1,21 +1,641 @@
 % !TEX root = dissertacao.tex
-\chapter{Considerações Iniciais Sobre a Pesquisa}
-\label{trabalhosrelac}
+\chapter{Descrição da Proposta}
+\label{proposta}
 
-%\section{Concluso do Captulo}
-%	Este captulo teve como principal valor bibliogrfico a apresentao dos conceitos iniciais e das abordagens que esto sendo desenvolvidas dentro do ambiente de nuvens computacionais, coube principalmente nesse sentido:\\
+Como visto no Capítulo \ref{Sec:intro:problema}, era necessário encontrar uma solução que tornasse viável a implantação da norma \iso em uma pequena empresa de desenvolvimento de \sw com o menor risco possível de paralisação e abandono nas suas fases iniciais.
+
+Muitas empresas e especialistas em implantação da norma \iso se utilizam de questionários para realizar a avaliação inicial do estado atual das empresas de \sw e determinar o caminho que deverá ser percorrido, através da implantação dos processos da norma, para se alcançar o estado desejado. Porém, estes questionários não são disponibilizados para um auto diagnóstico e é necessário arcar com o alto custo da consultoria inicial para conseguir os resultados que podem demorar a ser divulgados. Ademais, os questionários de avaliação colocam todas as atividades e tarefas da \iso em um mesmo patamar de importância, sem levar em consideração os valores das empresas alvo. 
+
+A proposta desta dissertação é a criação de um questionário de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação.
+
+\section{Definição do Problema}
+\label{sec:def:prob}
+
+O primeiro passo tomado neste estudo foi formalizar a definição do problema e a sua delimitação. Foi constatado que nenhum método preexistente era capaz de auxiliar as empresas conforme a proposta colocada anteriormente. Para então procurar cobrir essa lacuna o seguinte problema para estudo foi definido:
+
+\begin{itemize}
+
+\item Pequenas empresas de \sw geralmente possuem grandes limitações de recursos financeiros, humanos e materiais para executar projetos de melhorias de processos, principalmente os que representam custos maiores como normas ISO. Mesmo cientes dos benefícios que podem representar, muitos empresários se mostram receosos em implantar essas soluções por conta dos altos riscos de insucesso provenientes da desmotivação que se abate nos estágios iniciais onde o trabalho é muito dispendioso e os benefícios observáveis são pequenos ou nulos.
+
+\item A análise inicial que determina o estado atual da empresa desenvolvedora de \sw é realizado através de uma empresa ou consultor especializado, cujo custo pode ser muito alto, a metodologia não é acessível e os resultados podem demorar a chegar nas mãos dos clientes.
+
+\item As ações de correção e melhoria sugeridas a partir da análise inicial não levam em consideração os valores da empresa e colocam no mesmo patamar todas as atividades e tarefas. Ao implantar uma ação que não traga um benefício relevante, os membros da equipe podem se sentir desmotivados e o projeto fica mais sujeito à paralisações e um possível abandono.
+
+\end{itemize}
+
+
+\section{Justificativa do Trabalho}
+
+Este trabalho tem como justificativa principal a demanda por melhorias já existente na empresa foco. Conforme análise realizada no Capítulo \ref{Sec:analise:org}, é de importância estratégica para a empresa que as melhorias sejam implantadas para suportar o crescimento vigente, minimizando os possíveis riscos de paralisação e abandono do projeto, fatos que já ocorreram no passado 
+
+%    O problema acima definido e as hipóteses formuladas, têm por objetivo avaliar o grau de degradação causado pela concorrência dos recursos quando de seu compartilhamento, por meio da combinação de diversa classes de aplicações, procurando cobrir uma lacuna ainda existente na análise destes ambientes. \\
+
+%    A determinação dos graus de degradação causado pelas diversas combinações aqui avaliadas, considerando classes de aplicações e bibliotecas, possibilitará verificar a viabilidade do uso do conceito de classes de aplicações como forma de introduzir o conceito de \textit{Afinidade} entre estas as classes de aplicações e suas implementações, contribuindo assim para os esforços atualmente em andamento que buscam avaliar o uso e a melhoria no desempenho de ambientes consolidados ou de nuvem, sobretudo no tocante a sua utilização como recursos para execução de aplicações massivamente paralelas e distribuídas.\\
+
+%    Do ponto de vista prático, os resultados deste estudo tem como contribuição o seu uso no desenvolvimento de escalonadores, capazes de utilizar o conceito de afinidade de forma a melhor distribuir os ambientes virtuais requisitados, e por conseguinte a qualidade de serviços nestes ambientes consolidados ou de nuvem.\\
+
+%    A análise do efeito do tipo de biblioteca utilizado na implementação das aplicações também procura contribuir  para a definição de requisitos e para o desenvolvimento de novas aplicações em ambientes compartilhados.\\
+
+\section{Metodologia e Desenvolvimento}
+
+O trabalho foi realizado em três etapas distintas: análise, projeto e conclusão.
+
+\subsection{Análise}
+
+A análise dos processos de produção de \sw atuais foram realizados a partir do mapeamento e olhar crítico de cada etapa identificada. O autor se utilizou de algumas ferramentas de administração, tais como a análise SWOT, para caracterizar e avaliar cada etapa do processo produtivo.
+
+\subsection{Projeto}
+
+O projeto foi a etapa onde as ações necessárias para a melhoria dos processos foram elencadas, priorizadas e devidamente documentadas. Também foram identificados os principais atores (\textit{stakeholders}), o cronograma, os recursos necessários e outros elementos, conforme diretrizes do PMBOK\footnotemark{} criado pelo PMI\footnotemark. Nesta etapa foram desenvolvidas as ferramentas de \sw que buscam facilitar as melhorias através da integração de informações vitais para os processos identificados.
+
+\footnotetext{\textit{Project Management Book Of Knowledge}, guia de boas práticas de gerência de projetos mundialmente reconhecido}
+\footnotetext{\textit{Project Management Institute}, instituição internacional referência em gerência de projetos.}
+
+\subsection{Conclusão}
+
+A conclusão consistiu na coleta dos resultados obtidos após a implantação do projeto de melhoria dos processos e análise da qualidade destes resultados em comparação ao cenário atual da empresa.
+
+\section{Estudo de caso}
+
+\subsection{Análise Organizacional e de Processos}
+\label{Sec:analise:org}
+
+
+\textbf{Diagnóstico:} observou-se que a empresa possui qualidades essenciais para o crescimento contínuo, como por exemplo, o comprometimento dos profissionais, a comunicação, o bom clima organizacional, assim como a cultura de prezar pela excelência e ser reconhecida através da sua confiabilidade e qualidade nos serviços. Porém, para que a empresa suporte o crescimento que tende a acontecer cada vez mais, devido a demanda pelos serviços, torna-se necessário alguns reajustes nos processos.
+
+\subsubsection{Suporte Técnico}
+\label{Sec:suporte}
+
+Este departamento é o único responsável pelo atendimento ao cliente atualmente. Assuntos sobre problemas e dúvidas relacionados aos \sws fornecidos são tratados diretamento com os técnicos do suporte. Para isso o departamento se utiliza de 2 \sws, cujas especificações estão relacionadas na Tabela \ref{Tab:espec:sw:atend} e as janelas principais podem ser observadas nas Figuras \ref{Fig:jan:contatos:lanca} e \ref{Fig:jan:pendencias:lanca}.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{1,5cm}|p{12cm}|
+		}
+		
+		\hline
+		\textbf{Nome}&
+		\textbf{Especificações}\\
+		\hline
+		
+		Contatos&
+		\begin{itemize}
+			\item Registra atendimentos;
+			\item Registra o cliente que está sendo atendido;
+			\item Possui um espaço virtualmente ilimitado para informar o assunto do contato;
+			\item Cronometra automaticamente o atendimento;
+			\item Possui uma data de previsão de retorno;
+			\item Não permite inclusões de novas interações com o cliente durante o andamento do atendimento, que pode se estender por dias (neste caso novos atendimentos deverão ser registrados, sem haver qualquer ligação entre a primeira e as demais chamadas).
+		\end{itemize}\\
+		\hline
+		
+		Pendências&
+		\begin{itemize}
+			\item Registra tarefas;
+			\item Registra o cliente que fez a solicitação (opcional);
+			\item Associa o solicitante e o responsável por sua realização (ambos colaboradores da empresa);
+			\item Permite definir prioridade, data limite para realização e previsão de atendimento;
+			\item Possui um controle de fechamento, onde o responsável indica a data em que aquela tarefa foi realizada;
+			\item Possui um controle de ``ok'', onde o solicitante indica que aquela tarefa já foi liberada para o cliente;
+			\item Diferentemente do Contatos, permite acrescentar novas tarefas ao mesmo registro principal.
+		\end{itemize}\\
+		\hline
+		
+	\end{tabular}
+	\caption {Especificações dos \sws de atendimento}
+	\label{Tab:espec:sw:atend}
+\end{table}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.6]{figuras/jan_contatos_lancamento.jpg}
+	\caption{Janela de lançamento dos atendimentos}
+	\label{Fig:jan:contatos:lanca}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.6]{figuras/jan_pendencias_lancamento.jpg}
+	\caption{Janela de lançamento das pendencias}
+	\label{Fig:jan:pendencias:lanca}
+\end{figure}
+
+Os atendimentos podem ser realizados através do telefone, acesso remoto via internet, e-mail ou presencial. Como pode ser observado na Figura \ref{Fig:atend11}, somente 3 tipos foram registrados no mês de novembro de 2014, mostrando que as comunicacões via e-mail não são registradas.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.5]{figuras/atendimentos_por_tipo.jpg}
+	\caption{Atendimentos por tipo em novembro/2014}
+	\label{Fig:atend11}
+\end{figure}
+
+Outros problemas foram diagnosticados e estão relacionados na Tabela \ref{Tab:probl:atend}, sendo a falta de acompanhamento do andamento das solicitações e retorno ao cliente as mais críticas.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{14cm}|
+		}
+		
+		\hline
+		\textbf{Problema diagnosticado}\\
+		\hline
+		
+		Falta de registro de atendimento (para qualquer tipo)\\
+		\hline
+		
+		Postergação de registro de atendimento (para qualquer tipo), que pode levar ao esquecimento (falta de registro)\\
+		\hline
+		
+		Dados insuficientes sobre o contato\\
+		\hline
+		
+		Falta de acompanhamento do andamento das solicitações (fechamento dos registros de atendimento)\\
+		\hline
+		
+		Falta de retorno da situação das solicitações ao cliente\\
+		\hline
+		
+		Tarefas originadas dos atendimentos, para o próprio departamento de suporte ou para outros departamentos, são registradas em um \sw separado e não há nenhuma rastreabilidade\\
+		\hline
+		
+	\end{tabular}
+	\caption {Problemas diagnosticados no departamento de suporte}
+	\label{Tab:probl:atend}
+\end{table}
+
+As seguintes ações devem ser tomadas para contonar os problemas diagnosticados:
+
+\begin{itemize}
+	
+	\item Todos os chamados técnicos deverão ser registrados no ato de sua execução (ligação, acesso remoto ou recebimento do e-mail), com exceção do atendimento externo que deve ser registrado no ato do retorno do técnico;
+	
+	\item O máximo de informações possíveis precisa ser registrado no histórico do chamado;
+	
+	\item A fusão entre o Contatos e o Pendências é extremamente necessária, a fim de criar um registro de todas as ações vinculadas naquele chamado, tornando-se obrigatório o registro de todas as ações realizadas por cada técnico que atender o chamado;
+	
+	\item Qualquer nova informação de um chamado deve ser adicionada ao registro já aberto, sem a necessidade de abrir um novo chamado e permitindo a rastreabilidade;
+	
+	\item Um departamento de Serviço de Atendimento ao Cliente (SAC) deverá ser criado e pelo menos uma pessoa deve ser colocada como responsável pelas suas atribuições;
+	
+	\item O SAC realizará o fechamento do chamado junto ao cliente, consultando se realmente o problema foi solucionado e realizando pesquisas de satisfação e gerando indicadores de desempenho e qualidade (tempo médio de conclusão dos chamados, problemas mais ocorridos, cliente mais ativo, técnico mais ativo, etc);
+	
+	\item Os clientes deverão receber um Documento de Abertura e Acompanhamento de Chamados, juntamente com o manual  do \sw, para que saibam exatamente como proceder para abrir e acompanhar um chamado;
+	
+	\item Para uma melhor performance da equipe de suporte, deverá ser feito a gestão do conhecimento, documentando a resolução de cada problema que surja no atendimento do suporte técnico;
+	
+	\item É necessária a elaboração de um fluxograma do atendimento, com as informações chaves de requisitos para abertura de chamados;
+	
+	\item É necessária a elaboração de um fluxograma do atendimento de serviços diferenciados, tais como treinamentos, suportes avulsos, entrada de equipamento para concerto ou manutenção, entre outros, lembrando de acrescentar no fluxo a emissão da Ordem de Serviço;
+	
+	\item Deverá ser realizado o acompanhamento dos clientes que não abrem chamado com o suporte há mais de 3 meses.
+	
+\end{itemize}
+
+\subsubsection{Desenvolvimento}
+\label{Sec:desenvolvimento}
+
+Este departamento não tem contato direto com os clientes, pois todas as solicitações passam pelo departamento de suporte técnico. Porém, todas as solcitações de mudança ou correção de problemas nos \sws são resolvidas por este departamento e alguns atendimentos são repassados para o setor de desenvolvimento para resolução conjunta quando os técnicos não possuem conhecimento ou capacidade para tratá-los por si mesmos. 
+
+As tarefas deste departamento são registradas no \sw Pendências mas, como já relatado anteriormente, não possuem relacionamento com os chamados abertos no \sw Contatos. Todos os problemas diagnosticados estão relacionados na Tabela \ref{Tab:probl:desenv}.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{14cm}|
+		}
+		
+		\hline
+		\textbf{Problema diagnosticado}\\
+		\hline
+		
+		Falta de posicionamento quanto ao andamento das solicitações\\
+		\hline
+		
+		Falta de previsão de entrega das soluções\\
+		\hline
+		
+		Falta de rastreabilidade entre abertura de chamados e tarefas\\
+		\hline
+		
+	\end{tabular}
+	\caption {Problemas diagnosticados no departamento de desenvolvimento}
+	\label{Tab:probl:desenv}
+\end{table}
+
+Para solucionar os problemas diagnosticados para este setor, além das ações ja citadas em \ref{Sec:suporte}, serão necessárias as seguintes ações:
+
+\begin{itemize}
+	
+	\item Criar processos para determinar a previsão de lançamento de versões de \sws;
+	
+	\item Criar processos para determinar em qual versão determinada solicitação será incluída;
+	
+	\item Integrar aos \sws de atendimento as informações de lançamento de versões e, consequentemente, a previsão das solicitacões.
+	
+\end{itemize}
+
+\subsubsection{Financeiro}
+
+O departamento financeiro lida com o cliente com uma frequência menor que os departamentos de suporte e desenvolvimento. Porém, os assuntos relacionados a este departamento podem gerar transtornos e prejuízos quando feitos de forma incorreta. Além disso, este departamento também é responsável por bloquear o atendimento aos clientes inadimplentes, portanto representa um papel importante nos processos descritos em \ref{Sec:suporte} e \ref{Sec:desenvolvimento}.
+
+Nenhum atendimento ou tarefa relacionados a este departamento são registrados nos \sws de atendimento. Portanto, as ações necessárias para melhoria dos processos são:
+
+\begin{itemize}
+	
+	\item Registrar todo e qualquer contato com clientes nos \sws de atendimento;
+	
+	\item Integrar as informações financeiras com os \sws de atendimento para que a liberação ou bloqueio seja feito automaticamente no ato da identificação do cliente.
+	
+\end{itemize}
+
+\subsubsection{Marketing}
+
+O departamento de marketing é o responsável, geralmente, pelo primeiro contato com o cliente. Durante as negociações de venda de \sw, é comum haver solicitações de modificações ou acertos sobre configurações, conversões de dados e treinamentos. Porém, nenhuma dessas informações são registradas nos \sws de atendimento. O mesmo ocorre na venda de equipamentos e outros serviços.
+
+Portanto, as ações necessárias para melhoria dos processos são:
+
+\begin{itemize}
+	
+	\item Registrar os primeiros contatos com todos os prospectos, mesmo que não se tornem clientes;
+	
+	\item Registrar toda e qualquer interação com os clientes, novos ou antigos;
+	
+	\item Incluir nos registros as informações sobre negociação, possíveis modificações, conversões e outras condições estabelecidas durante ou após a venda.
+	
+\end{itemize}
+
+
+\subsection{Análise SWOT}
+
+
+A fim de resumir e melhor entender a análise organizacional e de processos realizada em \ref{Sec:analise:org}, foi desenvolvida a Tabela \ref{Tab:SWOT} com a análise SWOT.
+
+%\begin{table}[h!]\footnotesize
+%\centering
+%\begin{tabular}
+%{
+%	| >{\centering\arraybackslash}p{7cm}
+%	| >{\centering\arraybackslash}p{7cm}|
+%}
+%\hline
+%
+%	Forças&
+%	Fraquezas\\
+%	\hline
+%
+%	%Forças
+%	\begin{tabular}{p{6,8cm}}
+%	Comprometimento dos profissionais;\\
+%	Bom clima organizacional;\\
+%	Cultura de prezar pela excelência;\\
+%	Ser reconhecida através da sua confiabilidade e qualidade nos serviços.\\
+%	\end{tabular}&
+%
+%	%Fraquezas
+%	\begin{tabular}{p{6,8cm}}
+%	Falta de informações no acompanhamento de solicitações;\\
+%	Ineficiência na comunicação com o cliente.\\
+%	\end{tabular}\\
+%	\hline
+%
+%	Oportunidades&
+%	Ameaças\\
+%	\hline
+%
+%	% Oportunidades
+%	\begin{tabular}{p{6,8cm}}
+%	Taxa de crescimento elevada nos últimos meses;\\
+%	Aumento no faturamento;\\
+%	Alta divulgação da marca, dentro e fora da sua própria cidade.\\
+%	\end{tabular}&
+%
+%	% Ameaças
+%	\begin{tabular}{p{6,8cm}}
+%	Perder a confiabilidade dos clientes;\\
+%	Manchar a reputação;\\
+%	Sofrer queda nas vendas pela perda de indicações de clientes e parceiros insatisfeitos;\\
+%	Sofrer perda de clientes já estabelecidos por não prestar um bom atendimento.\\
+%	\end{tabular}\\
+%	\hline
+%
+%\end{tabular}
+%\caption {Análise SWOT dos processos}
+%\label{Tab:SWOT}
+%\end{table}
+
+
+\subsection{Estratégia}
+
+\label{Sec:ec:estrategia}
+
+A implantação de um novo processo, ou de sua melhoria, é uma atividade que possui um custo financeiro, de tempo e de recursos muito alto para qualquer empresa, independente do seu porte. A implantação de processos baseados em normas pode ser ainda mais custoso e complexo, principalmente para uma pequena empresa.
+
+Por conta destes fatores, a empresa objeto de estudo desta dissertação optou por realizar a implantação incremental da \iso, escolhendo as áreas mais deficientes citadas no diagnóstico que se encontra no Capítulo \ref{Cap:analise:cenario}.
+
+Esta dissertação teve como foco o tratamento dos problemas identificados no departamento de \textbf{Desenvolvimento}, descritos na Seção \ref{Sec:desenvolvimento}. Apesar do foco ter sido em somente um departamento, foi observado que as soluções propostas afetariam diretamente os demais departamentos, pois havia uma raiz comum a todos os problemas diagnosticados: a comunicação com o cliente. A criação de processos bem estruturados de registro de atendimentos em conjunto com ferramentas que suportassem estes processos cobririam todos os problemas diagnosticados.
+
+Outro fato de suma importância observado foi a abrangência da solução proposta. Apesar do estudo de caso ter sido feito em uma empresa de desenvolvimento de \sw, outros segmentos podem se beneficiar do processo de integração entre registro de contato com o cliente e controle de tarefas. 
+
+Para se alcançar o objetivo desta dissertação, foi adotada como estratégia inicial a seleção dos objetivos da \iso, descritos nas Seções \ref{Sec:iso:obj:gp} e \ref{Sec:iso:obj:dsw}, que pudessem contribuir para a solução dos problemas identificados na análise realizada no Capítulo \ref{Cap:analise:cenario}.
+
+Após a seleção e análise dos objetivos da \iso, foram relacionadas as atividades mais importantes de cada um destes objetivos que dariam suporte ao alcance dos objetivos deste trabalho.
+
+\subsubsection{Seleção dos objetivos da \iso}
+\label{Sec:estr:obj:iso}
+
+Dentre os objetivos da \iso encontrados em \cite{iso}, foram selecionados 2 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{7cm}
+			|p{7cm}|
+		}
+		
+		\hline
+		
+		\textbf{Objetivo \iso}&
+		\textbf{Problemas relacionados ao processo atual}\\
+		\hline
+		
+		PM.03 A \muda é abordada através de sua recepção e análise. Mudanças aos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.&
+		Não existe processo formal para recepção, análise e avaliação da \muda.\\
+		\hline
+		
+		%	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
+		%	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
+		%	\hline
+		
+		PM.O6 Uma \vcs de \sw é desenvolvida. Itens da \swcfg são identificados, definidos e incluídos em uma \bline. Modificações e entregas de um item são controladas e disponibilizadas ao cliente e equipe de trabalho. O armazenamento, manuseio e entrega dos itens são controlados.&
+		Entregas de novas versões são realizadas sem nenhum controle de previsão e aviso aos clientes.\\
+		\hline
+		
+		SI.O6 Uma \swcfg, que cumpra com o \req acertado com o cliente, que inclua documentações de usuário, operação e manutenção é integrada, incluída na \bline e armazenada no \rep. Necessidades de mudança na \swcfg são detectadas e os pedidos de mudança relacionados são iniciados.&
+		Não existe processo formal para recepção, análise e avaliação da \muda.\\
+		\hline
+		
+	\end{tabular}
+	\caption{Seleção dos objetivos da \iso}
+	\label{Tab:estrat:obj:iso}
+\end{table}
+
+\subsubsection{Seleção das atividades dos objetivos da \iso}
+
+
+Dentre as atividades que dão suporte aos objetivos da \iso \cite{iso} selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
+
+As atividades iniciadas com a sigla PM são relacionadas à \gp e as iniciadas com a sigla SI ao \dsw.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{7cm}
+			|p{3,5cm}
+			|p{3,5cm}|
+		}
+		
+		\hline
+		
+		\textbf{Atividade \iso}&
+		\textbf{Entradas}&
+		\textbf{Saídas}\\
+		\hline
+		
+		PM.1.2 Definir com o Cliente as \entrega para cada um dos entregáveis especificados na \dt.&
+		\dt (revisada)&
+		\ppj (\entrega)\\
+		\hline
+		
+		PM.1.4 Estabelecer a duração estimada para realizar cada tarefa.&
+		\ppj\par\begin{itemize}\item Tarefas\end{itemize}&
+		\ppj\par\begin{itemize}\item Duração estimada\end{itemize}\\
+		\hline
+		
+		PM.1.7 Atribuir datas estimadas de início e término para cada uma das tarefas a fim de criar o \crono levando em consideração os recursos, sequência e dependências das tarefas.&
+		\ppj\par\begin{itemize}
+			\item Tarefas
+			\item Duração estimada
+			\item Composição da Equipe de Trabalho
+		\end{itemize}&
+		\ppj\par\begin{itemize}
+			\item \crono
+		\end{itemize}\\
+		\hline
+		
+		PM.2.2 Analisar e avaliar a \muda em relação ao custo, cronograma e impacto técnico. A mudança solicitada pode ser iniciada pelo cliente ou pela equipe interna de trabalho. Atualize o \ppj se as mudanças aceitas não afetam acordos com o cliente. Solicitações de mudança que afetem esses acordos devem ser negociadas por ambas as partes.&
+		\muda (iniciada)\par\ppj&
+		\muda (avaliada)\par\ppj (atualizado)\\
+		\hline
+		
+		PM.3.3 Identificar mudanças aos requisitos e/ou \ppj relacionados à desvios significativos, riscos potenciais ou problemas relacionados à realização do plano, documentando-os na \muda e acompanhando-os até sua conclusão.&
+		\prog (avaliado)\par&
+		\muda (iniciada)\\
+		\hline
+		
+		%	PM.3.2 Estabelecer ações para corrigir desvios ou problemas e identificar riscos relacionados à realização do \ppj, conforme necessário, documentando-os no \corre e acompanhando-os até o seu fechamento.&
+		%	\prog (avaliado)\par&
+		%	\corre\\
+		%	\hline
+		
+		SI.6.6 Realizar entregas de acordo com as \entrega.&
+		\ppj\par
+		\begin{itemize}
+			\item \entrega
+		\end{itemize}\par
+		\swcfg&
+		\swcfg (entregue)\\
+		\hline
+		
+	\end{tabular}
+	\caption{Atividades da \iso}
+	\label{Tab:estrat:ativ:iso}
+\end{table}
+
+
+%	Nesta seção será apresentada a metodologia utilizada para a verificação das hipóteses apresentadas na Seção \ref{hipoteses}.\\
+
+%\subsection{Infraestrutura (Ambiente Real)}
+%	Para execução dos testes foram criados e configurados 3 servidores com as seguintes especificações:
+%	\begin{enumerate}
+%		\item Processador Intel(R) Xeon(R) CPU X5650 2.67GHz (12 núcleos)
+%		\item 24 Gb de memória RAM.
+%		\item Disco Rígido SATA de 500 Gb.
+%		\item Sistema Operacional Ubuntu Server 12.04.
+%	\end{enumerate}
+%	
+%\subsection{Infraestrutura (Ambiente Virtual)}	
+%	Em cada servidor real foram criados 3 servidores virtuais que foram instanciados simultaneamente para os testes. Estes servidores foram configurados da seguinte maneira:
+%	\begin{enumerate}
+%		\item QEMU Virtual CPU version 1.0 (Processador Intel(R) Xeon(R) CPU X5650 2.67GHz (12 núcleos))
+%		\item 4 Gb de memória RAM.
+%		\item Disco Rígido SATA de 10 Gb.
+%		\item Sistema Operacional Ubuntu Server 12.04.
+%	\end{enumerate}
+%
+%\subsection{Tipos de Testes de Concorrência Executados}	
+%	Todos os servidores compartilharam os recursos de processamento em seus 12 núcleos para verificar a concorrência das aplicações. Os testes foram executados com as seguintes combinações de ambientes:
+%	
+%	\begin{enumerate}
+%		\item Ambiente Real;
+%		\item Ambiente Virtual;
+%		\item Ambiente Real X Ambiente Virtual;
+%		\item Ambiente Virtual X Ambiente Real;
+%		\item Ambiente Real X Ambiente Real;
+%		\item Ambiente Virtual X Ambiente Virtual.
+%	\end{enumerate}
+%	
+%	Para cada uma das combinações acima foram executados 20 testes com os 4 algoritmos citados na Seção \ref{dwarfs}, sendo computados os tempos de execução (individualmente e concorrentemente) e comparados os seus desempenhos. Os tempos de execução individuais foram utilizados como linha de base para a comparação com os demais testes.\\
+%
+
+%\section{Abordagem do Problema}
+%\label{abordagemDoProblema}
+%	Para o planejamento dos testes tomou-se por base as conclusões dos trabalhos apresentados na Seção \ref{trabalhosrelacionados}. Entretanto como já citado, estes trabalhos nos conduzem para a necessidade de obter informações sobre o efeito da concorrência em ambientes compartilhados. Em toda a pesquisa realizada até o momento, muito foi feito para avaliar o impacto de ambientes virtuais em servidores reais, mas nenhum destes estudos dedicou-se ao efeito da concorrência causada pelas aplicações executadas nestes ambientes, e a contribuição do tipo de bibliotecas utilizadas na implementação destas aplicações. \\
+%	%quando é necessário o uso da concorrência entre aplicações. E até o momento do encerramento do trabalho, não houve nenhuma abordagem que propusesse o uso do conceito de tipos de aplicações para tratar este problema.
+%	
+%	E neste sentido, para que fosse possível avaliar o efeito do compartilhamento foram testadas quatro tipos de aplicações desenvolvidas com dois tipos de bibliotecas de programação paralela, OpenCL e OpenMP. As duas bibliotecas foram utilizadas por apresentarem boa documentação e por permitir testes de desempenho em diversas CPUs. Outro ponto importante é que esta abordagem permitiu o uso do Rodínia, \textit{Benchmark} utilizado nos testes, que é apresentado na Seção \ref{rodinia} e que possui implementação em OpenCL apresentado na Seção \ref{opencl} e em OpenMP apresentado na Seção \ref{openmp}.\\
+%	
+%	Os testes com as duas bibliotecas (OpenCL e OpenMP) se mostraram necessários devido às diferenças encontradas nos tempos de execução quando usadas em um mesmo algoritmo.\\
+%	
+%	Para os testes foram utilizados quatro \textit{Benchmarks} do Rodínia que correspondem à três tipos de classes. As classes de Dwarfs que foram escolhidas neste trabalho são: Álgebra Linear Densa (DLA), Grade Estruturada (SG) e Grafo Transversal (GT). A escolha por essas três classes foi porque há um grande número de aplicações científicas em diversas áreas, como foi apresentado na Figura \ref{fig:dwarfs-areas} e em destaque na Figura \ref{fig:dwarfs-areas-destaque}. Além disso, o trabalho se concentra nestas três classes porque abrangem o maior conjunto de tipos de aplicações catalogadas pela abordagem dos Dwarfs.\\
+%	
+%	\begin{figure}
+%		\centering\includegraphics[width=150mm]{Figuras/areasDwarfsDestaque.png}
+%		\caption{Destaque das classes de Dwarfs usadas neste trabalho.}
+%		\label{fig:dwarfs-areas-destaque}
+%	\end{figure}
+%
+%\subsection{Classes e Algoritmos Escolhidos}
+%	As seguintes classes de algoritmos foram escolhidos para testes de concorrência:
+%\begin{enumerate}
+%	\item Álgebra Linear Densa é uma classe de Dwarf que envolve um conjunto de operadores matemáticos realizados em valores escalares, vetores ou matrizes, quando a maioria dos elementos da matriz ou vetor são diferentes de zeros. Densa neste Dwarf refere-se à estrutura de dados aceita durante a computação. A intensidade aritmética do cálculo operando os dados são de operadores de baixa intensidade (escalar por vetores, vetor-vetor, matriz-vetor , matriz-matriz, redução do vetor, vetor de digitalização e produto escalar) que carregam um número constante de operações aritméticas por elemento de dados. Tem uma razão elevada de operações matemáticas para carga e um elevado grau de interdependência entre segmentos de dados. Eles são a base de solucionadores mais sofisticados, como LU de decomposição (LUD) ou Cholesky e apresentam alta intensidade aritmética \cite{Kaiser:2010}. Aplicações classificados como DLA são relevantes através de uma variedade de domínios. Por exemplo, em ciência dos materiais para a física molecular e ciência em nanoescala; em garantia de energia para a combustão, fusão e energia nuclear; na ciência fundamental como astrofísica e física nuclear; no projeto de engenharia aerodinâmica. Algoritmos representativos desta classe são LUD, matriz transposta, matriz triangular, algoritmos de agrupamento, como K-means e Fluxo de cluster, e muitos outros. Os experimentos desta tese utilizou algoritmos LUD e Kmeans.\\
+%	\begin{enumerate}
+%		\item LUD é um algoritmo para calcular as soluções de um conjunto de equações lineares que decompõe a matriz como o produto de uma matriz triangular inferior e uma matriz triangular superior para conseguir uma forma triangular, que pode ser utilizada para resolver um sistema de equações lineares facilmente. A matriz $A \in$ $\mathbb{R}^{n \times n}$ tem uma fatoração LU \emph{iff} todos os seus valores principais são não-zeros, ou seja, $det(A[1:k, 1:k]) \neq 0$ for $k = 1 : n-1$.\\
+%		
+%		\item Kmeans é um algoritmo de agrupamento amplamente utilizado na mineração de dados, é um método que particiona $n$ pontos que estão em espaço $d-$dimensional em $k$ aglomerados. O algoritmo semea $k$ aglomerados inicialmente no centro e determina para cada ponto de dados o seu centro mais próximo, e então recalcula os novos centros como o meio de seus pontos atribuídos. Este processo de atribuição de pontos de dados e reajustar centros é repetido até que ele se estabilize.\\
+%	\end{enumerate}
+%	\item Grafo Transversal é um tipo de Dwarf que deve atravessar um número de objetos em um gráfico e examinar as características desses objetos. Um gráfico ou uma rede são abstrações intuitivas e úteis para a análise de dados relacionais, onde as entidades singulares são representadas como vértices, e as interações entre elas são retratadas como bordas. Aos vértices e às bordas podem ser adicionalmente atribuídos atributos com base na informação que encapsulam. Tais algoritmos normalmente envolvem uma quantidade significativa de memória de acesso aleatório para pesquisas indiretas e pouca computação \cite{Kaiser:2010}. Domínios científicos que incluem aplicações importantes nesta classe são as de bioinformática (MUMmer), gráficos e pesquisa (BFS e B+Tree).\\
+%	\begin{enumerate}
+%		\item B+Tree é uma árvore $n-$ária muitas vezes com grande número de filhos por nó. B+Tree consiste em uma raiz, nós internos e folhas. A raiz pode ser uma folha ou um nó com dois ou mais filhos. O valor principal de uma B+Tree é no armazenamento de dados para recuperação eficiente em um contexto de armazenamento orientados para o bloco. Isto se dá porque B+Tree tem alta ``fanout" (número de apontadores para nós filhos em um nó, tipicamente na ordem de 100 ou mais), o que reduz o número de operações de E/S necessárias para obter um elemento da árvore. A ordem, ou fator de ramificação, b de uma B+Tree mede a capacidade de nós (ou seja, o número de nós filhos) para nós internos da árvore. O número real de filhos para um nó, referido aqui como m, é limitada para nós internos de modo que $[b/2] \leq m \leq b$. Nós folha não tem filhos, mas são limitados, de modo que o número de chaves deve ser de pelo menos $[b/2]$ e no máximo $b-1$. Na situação em que a B+Tree está quase vazia, ela contém apenas um nó, que é um nó folha. A raiz é também a única folha, neste caso. A este nó é permitido ter uma chave, se necessário, e, no máximo, $b$ \\
+%	\end{enumerate}
+%	\item Grade Estruturada são algoritmos que servem para organizar dados em uma grade multidimensional regular, onde a computação se dá como uma série de atualizações desta grade. Para cada atualização da grade, todos os pontos são atualizados com valores a partir de uma pequena vizinhança em torno de cada ponto. A vizinhança está normalmente implícita nos dados e determinada pelo algoritmo. Devido ao seu paralelismo inerente e calculo de natureza intensa, aplicações de grade estruturados são geralmente uma boa opção para as arquiteturas multi-core como GPU. Algoritmos de grade estruturada aparecem em muitos domínios científicos que são citados a seguir com respectivo exemplo de aplicação: imagens médicas (leucócitos, Parede Coração e filtro de partículas), simulações de física (\textit{HotSpot}), processamento de imagem (\textit{Speckle Reducing Anisotropic Diffusion}) e simulações biológicas (miócitos) \cite{Springer:2011}.\\
+%	\begin{enumerate}
+%		\item Speckle Reducing Anisotropic Diffusion (SRAD) é uma aplicação de processamento de imagem para imagens de ultrassom e de radar. Ele reduz o ruído de uma imagem dada, mantendo suas características importantes. Além disso, cada elemento da grade estruturada representa um pixel da imagem.\\
+%	\end{enumerate}
+%\end{enumerate}
+%
+%	
+%\subsection{Ambiente de Testes}
+%
+%	O ambiente de testes necessita ser preciso afim de evitar que as avaliações sejam prejudicadas. Para conseguir uma base funcional é necessário que o sistema seja ajustado seguindo algumas métricas de testes, tanto de hardware quanto de software e desta forma criou-se uma estrutura livre de testes tendenciosos.\\
+%	
+%	Para a análise de desempenho nos testes realizados foram colhidas 20 amostras, que se mostraram suficientes para gerar uma base de dados confiável. Este número foi conseguido após avaliar-se o intervalo de confiança\footnote{Cálculo que apresenta o grau de confiança de amostras estatísticas.} das amostras. Neste caso foi avaliado que, desconsiderando aquelas com tempos constantes, as que mostravam variações de tempo de execução nas mesmas comparações não eram significativas e ficavam em um intervalo próximo com 10 execuções. Assim, para se evitar conclusões incertas, optou-se por testar 20 vezes cada combinação de algoritmos, mesmo aquelas que possuíam tempos de execução constantes.\\
+%	
+%	Foram executados 4 tipos de algoritmos (B+Tree, Kmeans, LUD e SRAD) com combinações de 2 tipos de bibliotecas (OpenMP e OpenCL) em ambientes reais e virtuais. Inicialmente foram testados os algoritmos em um ambiente livre de concorrência para verificar os tempos de execução, afim de ter uma base de tempos para comparar a perda causada pela concorrência em relação à não concorrência. Comparou-se então a concorrência com todos os 4 algoritmos implementados usando a biblioteca OpenMP em ambientes reais e virtuais, seguido de todos os 4 algoritmos implementados em OpenCL em ambientes reais e virtuais (considerou-se estes testes como homogêneos) e por fim testou-se a concorrência entre algoritmos implementados com as duas bibliotecas também executando a concorrência em ambientes reais e virtuais (considerou-se estes testes como heterogêneos).\\
+%	
+%	Com todas as combinações possíveis e desconsiderando os testes iniciais de cada implementação, buscando a adequação dos testes, foram feitos 7120 testes, o que gerou uma base de conhecimento abrangente e confiável. Os resultados de todos estes testes são apresentados no Capítulo \ref{resultados}.\\
+%%	Inicialmente foi feita uma análise gerencial de um ambiente na nuvem composto por recursos distintos em ambientes remotos, a fim de conseguir uma base de dados que possa ser utilizada pela Inteligência Computacional (IC). Uma vez disponível tal base, será possível prever problemas em ambientes reais, já que se poderá analisar que o evento que ocorreu anteriormente e que houve um problema associado a ele, ou mesmo que um conjunto de servidores/aplicações não devem ser usados em conjunto, pois podem degradar o serviço. De posse dessa análise, é possível prever a ...
+
+%\subsection{Definições e Metas dos Testes}
+
+%		Este trabalho tem o foco principal no teste de desempenho, mediante avaliação de tempo de execução quando há concorrência entre aplicações para o mesmo recurso físico. Qualquer variação dos requisitos estipulados pelos testes deve ser tomada como uma não-conformidade e deve ser tratada desta forma. Este é o motivo desta seção e fazem-se necessárias as seguintes definições sobre testes:
 %	
 %	\begin{itemize}
-%	\item Definir nuvens computacionais e os tipos de servios prestados por essas infraestruturas, bem como o modelo de prestao de servios computacionais adequados ao usurio final;
-%	\item Apresentar os conceitos de segurana na nuvem, escalabilidade e virtualizao;
-%%	\item Apresentar os requisitos necessrios para coleta de recursos e como o modelo se encaixa nesse trabalho;
-%	\item Mostrar os requisitos e objetivos do teste de desempenho;
-%	\item Distinguir aplicaes comerciais de cientficas;
-%	\item Apresentar as definies de dependabilidade e afinidade;
-%	\item Caracterizar os \textit{Dwarfs};
-%	\item Apresentar os trabalhos relacionados  proposta sendo apresentada.
+%		\item Capacidade - É a carga de trabalho total que um sistema pode manipular sem violar os critérios de aceitação.
+
+%		\item Investigação - Busca o recolhimento de informações relacionadas com a velocidade, escalabilidade e/ou características de estabilidade do sistema. A avaliação é frequentemente utilizada para provar ou refutar hipóteses sobre a causa de um ou mais problemas de desempenho observado.
+%		
+%		\item Latência - É uma medida da capacidade de resposta que representa o tempo que leva para completar a execução de um determinado processo. Pode-se também representar a soma de todas as latências de vários processos.
+%		
+%		\item Métricas - São obtidas pela execução de testes de desempenho. As métricas normalmente são obtidos através de testes de desempenho, que incluem a utilização do processador ou memória ao longo de um determinado tempo.
+%		
+%		\item Desempenho - Refere-se a informações relativas ao tempo de resposta de uma aplicação e/ou os níveis de utilização de recursos.
+%		
+%		\item Teste de Desempenho - É uma ``investigação" feita para determinar e/ou validar a velocidade, escalabilidade e/ou características de estabilidade do sistema. Este teste é o superconjunto que contém todas as outras subcategorias de testes de desempenho.
+
+
+%		\item Teste de Unidade - É qualquer teste que visa as características de desempenho.
+%		
+%		\item Utilização - É a porcentagem de tempo que um recurso está ocupado. O percentual restante do tempo é considerado o tempo ocioso.
+
 %	\end{itemize}
+
+%\section{Normalização dos Dados}
+%\label{normal}
 %	
-%	O trabalho proposto aqui precisa ser demonstrado sobre a infraestrutura de nuvens computacionais e esse  o principal motivo da explanao desse conceito, at o nvel de segurana, escalabilidade e virtualizao do ambiente. Como a apresentao do tema  baseado em afinidade entre recursos de hardware e os softwares executados nessa infraestrutura, faz-se necessrio o entendimento desses conceitos e de como eles sero includos no trabalho proposto. Por fim, foi feita uma pesquisa bibliogrfica, buscando principalmente trabalhos similares ao proposto, para justificar sua apresentao na tese de doutorado. Desta pesquisa tomou-se que at o momento, no foram encontrados trabalhos similares ao proposto.\\
+%	A necessidade de normalizar os resultados se deu devido a análise dos tempos observados, que se mostraram, apesar de mesma grandeza (da ordem de segundos, ou no máximo minutos), serem diferentes quanto ao tempo de execução total, podendo um algoritmo executar em 50 segundos e outro em 8 minutos. Neste caso, houve a necessidade de executar o mesmo algoritmo (menor tempo de execução) diversas vezes para que houvesse concorrência durante toda a execução do teste (algoritmo com execução mais longa). Com isso foi possível extrair o percentual de aumento na execução concorrente do algoritmo de tempo mais longo e do algoritmo de tempo mais curto. Mas isto não foi suficiente para comparar individualmente cada algoritmo, sendo necessário criar um mecanismo que ``colocasse" todos os valores obtidos em uma mesma escala, e neste sentido optou-se pelo uso da normalização de valores. Essa normalização tem importância para fornecer valores em uma escala pré-definida que pode ser utilizada por escalonadores de tarefas para predizer o melhor recurso para executar determinado tipo de algoritmo, quando for necessária a existência de concorrência.\\
 %	
+%	Para exemplificar melhor a normalização de dados publicada por estes autores em \cite{licht:2013}, optou-se por apresentar recursos coletados de ordem de grandeza variadas em um nível onde os valores poderão ser comparados mais facilmente, usou-se a Fórmula \ref{normalizacao}.\\
+%\begin{equation}
+%\label{normalizacao}
+%	R = \frac{C - M2}{M1 - M2} (N1 - N2) + N2
+%\end{equation}
+%	Onde: \\
+%	R : é o valor normalizado de cada entrada. \\
+%	C : é o valor bruto coletado, sem tratamento. \\
+%	M1 : é o maior valor encontrado em todos os valores lidos. \\
+%	M2 : é o menor valor encontrado em todos os valores lidos. \\
+%	N1 : é o maior valor da escala que se deseja trabalhar. \\
+%	N2 : é o menor valor da escala que se deseja trabalhar. \\
 %	
+%	A maior vantagem do uso da Fórmula \ref{normalizacao} é poder elevar ou reduzir a pontuação de tempos de acordo com a necessidade em cada medição e desta forma, já que existe a comparação entre todos os valores, a que tiver a maior pontuação, é consequentemente a que tem a maior perda. Repara-se que o valor tratado de cada recurso poderá ser somado, já que após o uso da fórmula, estarão na mesma ordem de grandeza. Nesse exemplo, considera-se que os valores terão escala entre 0 e 9, sendo 0 para a menor perda de desempenho e 9 para a maior perda de desempenho.\\
+
+%\begin{table}[h]
+%\label{realnormal}
+%\centering
+%\caption{Tabela de Dados Reais Versus Dados Normalizados} % igual ao ambiente figura 
+%\small
+%\scriptsize
+%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+%\hline
+%\textbf{Algoritmo}  & \multicolumn{12}{c|}{\textbf{Tempo (segundos)}}                                 & \textbf{Média} \\ \hline
+%Real B+Tree         & 14  & 14    & 14    & 14   & 14   & 14   & 14  & 14  & 14   & 14  & 14  & 14    & 14,05          \\ \hline
+%V. B+Tree x V. SRAD & 221 & 218   & 220   & 223  & 219  & 219  & 221 & 225 & 223  & 217 & 221 & 218   & 220,6          \\ \hline
+%R. B+Tree x V. LUD  & 21  & 21    & 22    & 20   & 20   & 21   & 21  & 22  & 21   & 21  & 21  & 21    & 21             \\ \hline
+%V. B+Tree x R. SRAD & 211 & 214   & 212   & 216  & 212  & 213  & 215 & 211 & 213  & 214 & 211 & 214   & 213,1          \\ \hline
+%\multicolumn{14}{|c|}{}                                                                                                \\ \hline
+%\textbf{Algoritmo}  & \multicolumn{12}{c|}{\textbf{Tempo Normalizado}}                                & \textbf{Média} \\ \hline
+%Real B+Tree         & 0   & 0     & 0     & 0    & 0    & 0    & 0   & 0   & 0    & 9   & 0   & 0     & 2,25           \\ \hline
+%V. B+Tree x V. SRAD & 4,5 & 7,875 & 5,625 & 2,25 & 6,75 & 6,75 & 4,5 & 0   & 2,25 & 9   & 4,5 & 7,875 & 4,95           \\ \hline
+%R. B+Tree x V. LUD  & 4,5 & 4,5   & 0     & 9    & 9    & 4,5  & 4,5 & 0   & 4,5  & 4,5 & 4,5 & 4,5   & 4,5            \\ \hline
+%V. B+Tree x R. SRAD & 9   & 3,6   & 7,2   & 0    & 7,2  & 5,4  & 1,8 & 9   & 5,4  & 3,6 & 9   & 3,6   & 5,22           \\ \hline
+%\end{tabular}
+%\end{table}
+%
+%\begin{equation}
+%\label{somatorio}
+%	P = \frac{\sum _{k=1}^{r} x_{k}}{r} 
+%\end{equation}
+%	Onde: \\
+%	P é a pontuação obtida. \\
+%	r é a quantidade de valores. \\
+%	$x_{k}$ é cada recurso já normalizado.\\
+%	
+%	Para verificar a aplicação das fórmulas foram tomadas 4 amostras de tempos de execução e a média gerada por estes. É possível comparar na Tabela 3.1 as 4 primeiras linhas os valores (em segundos) da execução de alguns algoritmos. Percebe-se, por exemplo, que a média obtida por ``Real B+Tree" (14,05) tem uma ordem da valor bem menor que ``V. B+Tree x V. SRAD" (220,6), não podendo ser comparados diretamente, entretanto, após normalizados, os valores aparecem como 2,25 e 4,95 respectivamente. Esta normalização permite atribuir valores de forma que um escalonador poderia definir as melhores combinações mediante uma escala de valores dentro de um intervalo pré-definido, gerados pela Fórmula \ref{somatorio}.\\
+
+%	Pode-se ainda, através da Fórmula \ref{somatorioComPesos} definir pesos para cada pontuação afim de dar prioridade para determinadas combinações, por exemplo, quando há implementações com OpenMP e OpenCL (maior ou menor peso de acordo com o tipo de implementação).\\
+
+%	As Fórmulas \ref{normalizacao}, \ref{somatorio} e \ref{somatorioComPesos} podem ainda ser utilizadas para outros tipos de dados, que referenciariam, capacidade de memória, disco, cpu, ou qualquer outro tipo de valor de grandezas diferentes, por exemplo, para uma aplicação que demanda maior quantidade de memória, poder-se-ia atribuir um peso maior para servidores com mais memória, esta entretanto é uma possibilidade a ser investigada em um novo projeto, não sendo contemplada por esta pesquisa.\\
+
+%	\begin{equation}
+%	\label{somatorioComPesos}
+%		P = \frac{\sum _{k=1}^{r} x_{k} x p}{\sum_{k=1}^{r} p}
+%	\end{equation}
+%		Onde: \\
+%		P é a pontuação obtida por cada análise com os pesos de cada. \\
+%		r é a quantidade de valores obtidos. \\
+%		$x_{k}$ é cada valor já normalizado.\\
+%		p é o peso dado a cada item. \\
+
+
+%	O uso da abordagem de normalização definida aqui será melhor apresentada nos resultados da Seção \ref{testesHeterogeneos}.
+
+\section{Conclusão do Capítulo}
+%	Este capítulo apresentou as metodologias utilizadas, bem como os testes efetuados afim de propor o conceito de afinidade e a avaliação dos critérios de coexistência de tipos de aplicações. No próximo capítulo serão apresentados os testes e os resultados obtidos à partir destas metodologias.
+

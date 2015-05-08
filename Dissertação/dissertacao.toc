@@ -4,54 +4,50 @@
 \contentsline {chapter}{\MakeUppercase {Resumo}}{vi}
 \contentsline {chapter}{\MakeUppercase {Abstract}}{vii}
 \contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c {c}\~ao}}{1}
-\contentsline {section}{\numberline {1.1}Objetivos gerais}{1}
-\contentsline {section}{\numberline {1.2}Objetivos espec\'{\i }ficos}{2}
-\contentsline {section}{\numberline {1.3}Defini\c {c}\~ao do Problema}{2}
-\contentsline {section}{\numberline {1.4}Delimitao do Trabalho}{2}
-\contentsline {section}{\numberline {1.5}Organizao do Trabalho}{2}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {Revis\~ao Bibliogr\'afica}}{3}
-\contentsline {section}{\numberline {2.1}Engenharia de \textit {software}\xspace }{3}
-\contentsline {section}{\numberline {2.2}ISO 29110\xspace }{4}
-\contentsline {subsection}{\numberline {2.2.1}Representatitividade e dificuldades das VSEs}{4}
-\contentsline {subsection}{\numberline {2.2.2}Hist\'oria da ISO 29110\xspace }{6}
-\contentsline {subsection}{\numberline {2.2.3}Benef\'{\i }cios da ISO 29110\xspace }{9}
-\contentsline {subsection}{\numberline {2.2.4}Divis\~ao da ISO 29110\xspace }{10}
-\contentsline {subsection}{\numberline {2.2.5}Ger\^encia de Projetos\xspace }{11}
-\contentsline {subsection}{\numberline {2.2.6}Desenvolvimento de \textit {Software}\xspace }{13}
-\contentsline {section}{\numberline {2.3}Tecnologias Envolvidas}{15}
-\contentsline {subsection}{\numberline {2.3.1}Programa\c {c}\~ao multi-plataforma}{15}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Considera\c {c}\~oes Iniciais Sobre a Pesquisa}}{16}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Descri\c {c}\~ao da Proposta}}{17}
-\contentsline {section}{\numberline {4.1}Defini\c {c}\~ao do Problema}{17}
-\contentsline {section}{\numberline {4.2}Justificativa do Trabalho}{17}
-\contentsline {section}{\numberline {4.3}Metodologia e Desenvolvimento}{17}
-\contentsline {subsection}{\numberline {4.3.1}An\'alise}{17}
-\contentsline {subsection}{\numberline {4.3.2}Projeto}{17}
-\contentsline {subsection}{\numberline {4.3.3}Conclus\~ao}{18}
-\contentsline {section}{\numberline {4.4}Estudo de caso}{18}
-\contentsline {subsection}{\numberline {4.4.1}An\'alise Organizacional e de Processos}{18}
-\contentsline {subsubsection}{\numberline {4.4.1.1}Suporte T\'ecnico}{18}
-\contentsline {subsubsection}{\numberline {4.4.1.2}Desenvolvimento}{22}
-\contentsline {subsubsection}{\numberline {4.4.1.3}Financeiro}{22}
-\contentsline {subsubsection}{\numberline {4.4.1.4}Marketing}{23}
-\contentsline {subsection}{\numberline {4.4.2}An\'alise SWOT}{23}
-\contentsline {subsection}{\numberline {4.4.3}Estrat\'egia}{24}
-\contentsline {subsubsection}{\numberline {4.4.3.1}Sele\c {c}\~ao dos objetivos da ISO 29110\xspace }{24}
-\contentsline {subsubsection}{\numberline {4.4.3.2}Sele\c {c}\~ao das atividades dos objetivos da ISO 29110\xspace }{25}
-\contentsline {section}{\numberline {4.5}Conclus\~ao do Cap\'{\i }tulo}{25}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Concluses}}{27}
-\contentsline {section}{\numberline {5.1}Consideraes Finais}{27}
-\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{27}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Casos de Uso}}{28}
-\contentsline {section}{\numberline {A.1}Atendimento}{28}
-\contentsline {subsection}{\numberline {A.1.1}Diagrama de Caso de Uso}{28}
-\contentsline {subsection}{\numberline {A.1.2}Atores}{28}
-\contentsline {subsection}{\numberline {A.1.3}Descritivos dos Casos de Uso}{28}
-\contentsline {subsubsection}{\numberline {A.1.3.1}UC121 Solicitar modifica\c {c}\~ao}{28}
-\contentsline {subsubsection}{\numberline {A.1.3.2}UC122 Relatar problema}{28}
-\contentsline {subsubsection}{\numberline {A.1.3.3}UC123 Solicitar aux\'{\i }lio quanto \`a d\'uvida de opera\c {c}\~ao}{30}
-\contentsline {subsubsection}{\numberline {A.1.3.4}UC124 Registrar atendimento}{30}
-\contentsline {subsubsection}{\numberline {A.1.3.5}UC125 Registrar tarefa}{31}
-\contentsline {subsubsection}{\numberline {A.1.3.6}UC126 Alterar tarefa}{31}
-\contentsline {subsubsection}{\numberline {A.1.3.7}UC127 Alterar atendimento}{32}
-\contentsline {chapter}{\MakeUppercase {Bibliografia}}{33}
+\contentsline {section}{\numberline {1.1}Defini\c {c}\~ao do Problema}{2}
+\contentsline {section}{\numberline {1.2}Delimita\c {c}\~ao do Trabalho}{3}
+\contentsline {section}{\numberline {1.3}Organiza\c {c}\~ao do Trabalho}{4}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {Revis\~ao Bibliogr\'afica}}{5}
+\contentsline {section}{\numberline {2.1}Engenharia de \textit {software}\xspace }{5}
+\contentsline {section}{\numberline {2.2}ISO 29110\xspace }{6}
+\contentsline {subsection}{\numberline {2.2.1}Representatitividade e dificuldades das VSEs}{6}
+\contentsline {subsection}{\numberline {2.2.2}Hist\'oria da ISO 29110\xspace }{8}
+\contentsline {subsection}{\numberline {2.2.3}Benef\'{\i }cios da ISO 29110\xspace }{11}
+\contentsline {subsection}{\numberline {2.2.4}Divis\~ao da ISO 29110\xspace }{12}
+\contentsline {subsection}{\numberline {2.2.5}Ger\^encia de Projetos\xspace }{14}
+\contentsline {subsection}{\numberline {2.2.6}Desenvolvimento de \textit {Software}\xspace }{15}
+\contentsline {section}{\numberline {2.3}Tecnologias Envolvidas}{16}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Descri\c {c}\~ao da Proposta}}{18}
+\contentsline {section}{\numberline {3.1}Defini\c {c}\~ao do Problema}{18}
+\contentsline {section}{\numberline {3.2}Justificativa do Trabalho}{19}
+\contentsline {section}{\numberline {3.3}Metodologia e Desenvolvimento}{19}
+\contentsline {subsection}{\numberline {3.3.1}An\'alise}{19}
+\contentsline {subsection}{\numberline {3.3.2}Projeto}{19}
+\contentsline {subsection}{\numberline {3.3.3}Conclus\~ao}{20}
+\contentsline {section}{\numberline {3.4}Estudo de caso}{20}
+\contentsline {subsection}{\numberline {3.4.1}An\'alise Organizacional e de Processos}{20}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Suporte T\'ecnico}{20}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Desenvolvimento}{24}
+\contentsline {subsubsection}{\numberline {3.4.1.3}Financeiro}{25}
+\contentsline {subsubsection}{\numberline {3.4.1.4}Marketing}{25}
+\contentsline {subsection}{\numberline {3.4.2}An\'alise SWOT}{26}
+\contentsline {subsection}{\numberline {3.4.3}Estrat\'egia}{26}
+\contentsline {subsubsection}{\numberline {3.4.3.1}Sele\c {c}\~ao dos objetivos da ISO 29110\xspace }{27}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Sele\c {c}\~ao das atividades dos objetivos da ISO 29110\xspace }{27}
+\contentsline {section}{\numberline {3.5}Conclus\~ao do Cap\'{\i }tulo}{28}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Concluses}}{29}
+\contentsline {section}{\numberline {4.1}Consideraes Finais}{29}
+\contentsline {section}{\numberline {4.2}Trabalhos Futuros}{29}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Casos de Uso}}{30}
+\contentsline {section}{\numberline {A.1}Atendimento}{30}
+\contentsline {subsection}{\numberline {A.1.1}Diagrama de Caso de Uso}{30}
+\contentsline {subsection}{\numberline {A.1.2}Atores}{30}
+\contentsline {subsection}{\numberline {A.1.3}Descritivos dos Casos de Uso}{30}
+\contentsline {subsubsection}{\numberline {A.1.3.1}UC121 Solicitar modifica\c {c}\~ao}{30}
+\contentsline {subsubsection}{\numberline {A.1.3.2}UC122 Relatar problema}{30}
+\contentsline {subsubsection}{\numberline {A.1.3.3}UC123 Solicitar aux\'{\i }lio quanto \`a d\'uvida de opera\c {c}\~ao}{32}
+\contentsline {subsubsection}{\numberline {A.1.3.4}UC124 Registrar atendimento}{32}
+\contentsline {subsubsection}{\numberline {A.1.3.5}UC125 Registrar tarefa}{33}
+\contentsline {subsubsection}{\numberline {A.1.3.6}UC126 Alterar tarefa}{33}
+\contentsline {subsubsection}{\numberline {A.1.3.7}UC127 Alterar atendimento}{34}
+\contentsline {chapter}{\MakeUppercase {Bibliografia}}{35}

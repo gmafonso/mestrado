@@ -26,23 +26,25 @@ O primeiro passo tomado neste estudo foi formalizar a definição do problema e a 
 
 \section{Justificativa do Trabalho}
 
-Este trabalho tem como justificativa principal a demanda por melhorias já existente na empresa foco. Conforme análise realizada no Capítulo \ref{Sec:analise:org}, é de importância estratégica para a empresa que as melhorias sejam implantadas para suportar o crescimento vigente, minimizando os possíveis riscos de paralisação e abandono do projeto, fatos que já ocorreram no passado 
+Este trabalho tem como justificativa principal a demanda por melhorias já existente na empresa foco. Conforme análise realizada no Capítulo \ref{Sec:analise:org}, é de importância estratégica para a empresa que as melhorias sejam implantadas para suportar o crescimento vigente, minimizando os possíveis riscos de paralisação e abandono do projeto, fatos que já ocorreram no passado.
 
-%    O problema acima definido e as hipóteses formuladas, têm por objetivo avaliar o grau de degradação causado pela concorrência dos recursos quando de seu compartilhamento, por meio da combinação de diversa classes de aplicações, procurando cobrir uma lacuna ainda existente na análise destes ambientes. \\
-
-%    A determinação dos graus de degradação causado pelas diversas combinações aqui avaliadas, considerando classes de aplicações e bibliotecas, possibilitará verificar a viabilidade do uso do conceito de classes de aplicações como forma de introduzir o conceito de \textit{Afinidade} entre estas as classes de aplicações e suas implementações, contribuindo assim para os esforços atualmente em andamento que buscam avaliar o uso e a melhoria no desempenho de ambientes consolidados ou de nuvem, sobretudo no tocante a sua utilização como recursos para execução de aplicações massivamente paralelas e distribuídas.\\
-
-%    Do ponto de vista prático, os resultados deste estudo tem como contribuição o seu uso no desenvolvimento de escalonadores, capazes de utilizar o conceito de afinidade de forma a melhor distribuir os ambientes virtuais requisitados, e por conseguinte a qualidade de serviços nestes ambientes consolidados ou de nuvem.\\
-
-%    A análise do efeito do tipo de biblioteca utilizado na implementação das aplicações também procura contribuir  para a definição de requisitos e para o desenvolvimento de novas aplicações em ambientes compartilhados.\\
+Além da aplicação imediata na empresa foco, a ferramenta de auto diagnóstico criada a partir desta dissertação também servirá de apoio a outras empresas de desenvolvimento de \sw que pretendam implantar a norma \iso ou a empresas e consultores especializados que poderão se beneficiar de uma análise inicial mais focada nos valores das empresas.
 
 \section{Metodologia e Desenvolvimento}
 
 O trabalho foi realizado em três etapas distintas: análise, projeto e conclusão.
 
-\subsection{Análise}
+\subsection{Revisão bibliográfica da \iso}
 
-A análise dos processos de produção de \sw atuais foram realizados a partir do mapeamento e olhar crítico de cada etapa identificada. O autor se utilizou de algumas ferramentas de administração, tais como a análise SWOT, para caracterizar e avaliar cada etapa do processo produtivo.
+O primeiro passo para a construção de um questionário de auto avaliação de implantação da norma \iso, ou de qualquer outro tipo de questionário, é o planejamento das questões que serão aplicadas. \citep{manzato}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.8]{figuras/fluxo_plan_questionario.jpg}
+	\caption{Roteiro para elaboração e aplicação de uma pesquisa\newline (adaptado de \cite{manzato}}
+	\label{Fig:fluxo:plan:quest}
+\end{figure}
+
 
 \subsection{Projeto}
 

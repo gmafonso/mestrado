@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  9 MAY 2015 11:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  15 MAY 2015 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,4 +329,326 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
-(/usr/local/texlive/2013/texmf-dist
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1] [1]
+
+(./dissertacao.toc [1
+
+] [2])
+\tf@toc=\write3
+\openout3 = `dissertacao.toc'.
+
+ [3] (./dissertacao.lof)
+\tf@lof=\write4
+\openout4 = `dissertacao.lof'.
+
+ [4
+
+] (./dissertacao.lot)
+\tf@lot=\write5
+\openout5 = `dissertacao.lot'.
+
+
+[5
+
+] (./resumo.tex) [6
+
+] (./abstract.tex) [7
+
+] (./capitulo1.tex
+Cap\'{\i }tulo 1.
+[1
+
+] [2]
+Overfull \hbox (6.3914pt too wide) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 Nenhum m^^Setodo pre-e-xis-tente e nem mesmo os con-sul-to-re
+s es-pe-ci-a-li-za-dos na im-planta^^Xc~ao
+ []
+
+) (./capitulo2.tex [3] [4]
+Cap\'{\i }tulo 2.
+<figuras/eng_sw_camadas.png, id=54, 367.3725pt x 105.39375pt>
+File: figuras/eng_sw_camadas.png Graphic file (type png)
+
+<use figuras/eng_sw_camadas.png>
+Package pdftex.def Info: figuras/eng_sw_camadas.png used on input line 15.
+(pdftex.def)             Requested size: 367.37158pt x 105.39348pt.
+ [5
+
+ <./figuras/eng_sw_camadas.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+ [6] [7]
+Underfull \hbox (badness 1715) in paragraph at lines 78--78
+[][]\OT1/cmr/m/n/10 ISO/IEC JTC 1/SC 7 \OT1/cmr/m/it/10 Soft-ware and sys-tems 
+en-gi-ne-e-ring \OT1/cmr/m/n/10 - $\OT1/cmtt/m/n/10 http : / / www . iso . org 
+/ iso / iso _
+ []
+
+
+Overfull \hbox (11.71358pt too wide) in paragraph at lines 86--87
+[]\OT1/cmr/m/n/12 Fornecer do-cu-menta^^Xc~oes har-mo-ni-za-das in-te-grando pa
+dr~oes j^^Sa dis-pon^^S^^Pveis como padr~oes
+ []
+
+[8] [9] [10] [11] <figuras/serie_iso.png, id=80, 721.69624pt x 645.41125pt>
+File: figuras/serie_iso.png Graphic file (type png)
+
+<use figuras/serie_iso.png>
+Package pdftex.def Info: figuras/serie_iso.png used on input line 178.
+(pdftex.def)             Requested size: 288.67339pt x 258.15993pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] <figuras/gp_desenv_sw.png, id=85, 919.435pt x 529.98pt>
+File: figuras/gp_desenv_sw.png Graphic file (type png)
+
+<use figuras/gp_desenv_sw.png>
+Package pdftex.def Info: figuras/gp_desenv_sw.png used on input line 215.
+(pdftex.def)             Requested size: 275.83263pt x 158.99521pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./figuras/serie_iso.png>] [14 <./figuras/gp_desenv_sw.png>]
+<figuras/gp_diagr.png, id=94, 550.055pt x 650.43pt>
+File: figuras/gp_diagr.png Graphic file (type png)
+ <use figuras/gp_diagr.png>
+Package pdftex.def Info: figuras/gp_diagr.png used on input line 247.
+(pdftex.def)             Requested size: 275.02682pt x 325.2142pt.
+
+[15 <./figuras/gp_diagr.png>]
+<figuras/dsw_diagr.png, id=100, 576.1525pt x 752.8125pt>
+File: figuras/dsw_diagr.png Graphic file (type png)
+
+<use figuras/dsw_diagr.png>
+Package pdftex.def Info: figuras/dsw_diagr.png used on input line 279.
+(pdftex.def)             Requested size: 288.07553pt x 376.40532pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./capitulo3.tex [16] [17 <./figuras/dsw_diagr.png>]
+Cap\'{\i }tulo 3.
+[18
+
+] [19] <figuras/abordagem_pesquisa.png, id=114, 913.4125pt x 611.28375pt>
+File: figuras/abordagem_pesquisa.png Graphic file (type png)
+
+<use figuras/abordagem_pesquisa.png>
+Package pdftex.def Info: figuras/abordagem_pesquisa.png used on input line 45.
+(pdftex.def)             Requested size: 456.70514pt x 305.64113pt.
+
+Overfull \hbox (1.46106pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20] <figuras/class_valores.png, id=118, 652.4375pt x 199.74625pt>
+File: figuras/class_valores.png Graphic file (type png)
+
+<use figuras/class_valores.png>
+Package pdftex.def Info: figuras/class_valores.png used on input line 69.
+(pdftex.def)             Requested size: 456.70313pt x 139.82141pt.
+
+Overfull \hbox (1.45905pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+[21 <./figuras/abordagem_pesquisa.png>] [22 <./figuras/class_valores.png>]
+<figuras/fluxo_plan_questionario.jpg, id=128, 498.86375pt x 722.7pt>
+File: figuras/fluxo_plan_questionario.jpg Graphic file (type jpg)
+
+<use figuras/fluxo_plan_questionario.jpg>
+Package pdftex.def Info: figuras/fluxo_plan_questionario.jpg used on input line
+ 123.
+(pdftex.def)             Requested size: 399.09154pt x 578.16078pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23] [24 <./figuras/fluxo_plan_questionario.jpg>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 169.
+
+Overfull \hbox (5.57095pt too wide) in paragraph at lines 178--178
+[]\OT1/cmr/m/n/10 Pend^encias| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/jan_contatos_lancamento.jpg, id=135, 593.96906pt x 415.5525pt>
+File: figuras/jan_contatos_lancamento.jpg Graphic file (type jpg)
+
+<use figuras/jan_contatos_lancamento.jpg>
+Package pdftex.def Info: figuras/jan_contatos_lancamento.jpg used on input line
+ 197.
+(pdftex.def)             Requested size: 356.38419pt x 249.33342pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/jan_pendencias_lancamento.jpg, id=136, 594.72188pt x 414.79968pt>
+File: figuras/jan_pendencias_lancamento.jpg Graphic file (type jpg)
+
+<use figuras/jan_pendencias_lancamento.jpg>
+Package pdftex.def Info: figuras/jan_pendencias_lancamento.jpg used on input li
+ne 204.
+(pdftex.def)             Requested size: 356.83588pt x 248.88173pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras/atendimentos_por_tipo.jpg, id=137, 360.59718pt x 214.55156pt>
+File: figuras/atendimentos_por_tipo.jpg Graphic file (type jpg)
+
+<use figuras/atendimentos_por_tipo.jpg>
+Package pdftex.def Info: figuras/atendimentos_por_tipo.jpg used on input line 2
+13.
+(pdftex.def)             Requested size: 180.29814pt x 107.27551pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26] [27 <./figuras/jan_contatos_lancamento.jpg> <./figuras/jan_pendencias
+_lancamento.jpg>] [28 <./figuras/atendimentos_por_tipo.jpg>] [29]
+
+LaTeX Warning: Reference `Tab:SWOT' on page 30 undefined on input line 360.
+
+[30]
+
+LaTeX Warning: Reference `Cap:analise:cenario' on page 31 undefined on input li
+ne 422.
+
+
+LaTeX Warning: Reference `Cap:analise:cenario' on page 31 undefined on input li
+ne 428.
+
+[31]
+Underfull \hbox (badness 3907) in paragraph at lines 448--449
+[]\OT1/cmr/bx/n/10 Problemas re-la-ci-o-na-dos ao pro-cesso
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 463--463
+\OT1/cmr/m/n/10 acer-tado com o cli-ente, que in-clua do-cu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\OT1/cmr/m/n/10 Dura^^Xc~ao es-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+[]\OT1/cmr/m/n/10 Dura^^Xc~ao es-ti-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 509--510
+[]\OT1/cmr/m/n/10 Composi^^Xc~ao da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+[]\OT1/cmr/m/n/10 Cronograma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]\OT1/cmr/m/n/10 Solicita^^Xc~ao de Mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
+[]\OT1/cmr/m/n/10 Solicita^^Xc~ao de Mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+[]\OT1/cmr/m/n/10 Solicita^^Xc~ao de Mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+[]\OT1/cmr/m/n/10 Instru^^Xc~oes de
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./conclusao.tex [32] [33]
+Cap\'{\i }tulo 4.
+) (./casos_uso.tex [34
+
+]
+Ap\^endice A.
+<figuras/UC_atendimento.png, id=172, 773.89125pt x 924.45375pt>
+File: figuras/UC_atendimento.png Graphic file (type png)
+
+<use figuras/UC_atendimento.png>
+Package pdftex.def Info: figuras/UC_atendimento.png used on input line 11.
+(pdftex.def)             Requested size: 464.33833pt x 554.67653pt.
+
+Overfull \hbox (9.09425pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (4.60306pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/bx/n/12 Suporte: \OT1/cmr/m/n/12 pes-soa res-pons^^Savel pelo aten-d
+i-mento do de-par-ta-mento de Su-porte T^^Secnico; 
+ []
+
+[35
+
+] [36 <./figuras/UC_atendimento.png (PNG copy)>] [37] [38])
+(./dissertacao.bbl [39]) [40
+
+] [1] (./dissertacao.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4581 strings out of 493315
+ 65128 string characters out of 6137904
+ 136870 words of memory out of 5000000
+ 7884 multiletter control sequences out of 15000+600000
+ 13071 words of font info for 50 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,10n,38p,1488b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on dissertacao.pdf (51 pages, 936899 bytes).
+PDF statistics:
+ 237 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

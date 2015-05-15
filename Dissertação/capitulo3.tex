@@ -32,11 +32,91 @@ Além da aplicação imediata na empresa foco, a ferramenta de auto diagnóstico cri
 
 \section{Metodologia e Desenvolvimento}
 
-O trabalho foi realizado em três etapas distintas: análise, projeto e conclusão.
+O trabalho foi realizado em três etapas distintas: criação do questionário de auto avaliação, aplicação do questionário e análise dos resultados obtidos.
 
-\subsection{Revisão bibliográfica da \iso}
+\subsection{Criação do questionário de auto avaliação}
 
-O primeiro passo para a construção de um questionário de auto avaliação de implantação da norma \iso, ou de qualquer outro tipo de questionário, é o planejamento das questões que serão aplicadas. \citep{manzato}
+A fim de produzir o questionário de auto avaliação, o autor pesquisou na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas foi obtivemos sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
+
+Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas, que foi adaptada às necessidades desta dissertação e representada na Figura \ref{Fig:abordagem:pesquisa}. A seguir serão analisados os elementos desta abordagem dentro desta dissertação.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.5]{figuras/abordagem_pesquisa.png}
+	\caption{Abordagem estatística na pesquisa quantitativa\newline Fonte: \cite{manzato}}
+	\label{Fig:abordagem:pesquisa}
+\end{figure}
+
+\subsubsection{Problema}
+
+
+O problema foi muito bem delimitado nesta dissertação, conforme a Seção \ref{Sec:intro:problema}.
+
+\subsubsection{Planejamento amostral}
+
+Por se tratar de um questionário individual e o público alvo ser bem estratificado, composto de pequenas empresas de desenvolvimento de \sw, não houve necessidade de planejamento amostral.
+
+\subsubsection{Planejamento do questionário}
+
+Este é o ponto do processo onde esta dissertação se diferencia dos demais trabalhos, pois seria necessário planejar não somente as questões que iriam compor o questionário, mas também de que forma elas seriam impactadas pelo peso de cada valor empresarial. Para atingir este objetivo era necessário planejar a classificação dos valores empresariais antes mesmo das perguntas do questionário.
+
+Outro fator muito importante neste ponto do processo era a necessidade de criar um questionário prático, simples de ser respondido e cujas respostas fossem geradas de forma imediata e sem necessidade de interação com terceiros (especialistas, por exemplo). Para tanto, o autor tomou a decisão de criar um questionário digital que, em um primeiro momento foi confeccionado em uma planilha eletrônica, podendo ser, posteriormente, transposto para um \sw ou página de internet de forma simples e mantendo sua lógica de funcionamento.
+
+O primeiro passo foi a criação da classificação dos valores empresariais, cujo resultado pode ser observado na Figura \ref{Fig:class:valores}. Podemos notar três estruturas principais: os valores empresariais na primeira coluna, as marcações da classificação de importância nas colunas seguintes e o cálculo do peso final na última coluna. Para simplificar a marcação de importância dos valores, foi colocado um guia visual na primeira linha que indica que as marcações aumentam de valor da esquerda para a direita.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figuras/class_valores.png}
+	\caption{Classificação dos valores empresariais}
+	\label{Fig:class:valores}
+\end{figure}
+
+
+
+\subsection{title}
+
+\subsubsection{Definição do problema a ser investigado}
+
+Este passo já havia sido estipulado desde o início desta dissertação, onde foi detectado o problema a ser tratado pela mesma e descrito em \ref{Sec:intro:problema}.
+
+\subsubsection{Definição dos objetivos da pesquisa}
+
+Os objetivos que subsidiam a elaboração do questionário são:
+
+\begin{itemize}
+	
+	\item Coleta de dados sobre a situação atual da empresa em relação aos processos da \iso;
+	
+	\item Categorização dos resultados de acordo com valores empresariais mais relevantes;
+	
+	\item Geração de uma lista de melhorias sugeridas ordenadas pelos valores empresariais.
+	
+\end{itemize}
+
+\subsubsection{Definição do público alvo da pesquisa}
+
+Em um primeiro momento o público alvo da pesquisa era somente a empresa alvo da dissertação. Porém, o questionário foi pensado para atender as organizações do mesmo segmento: pequenas empresas desenvolvedoras de \sw, chamadas de VSE.
+
+\subsubsection{Definição da técnica a ser utilizada}
+
+Por se tratar de um questionário de auto avaliação, a técnica a ser utilizada será a entrevista individual conduzida pelo próprio pesquisado.
+
+\subsubsection{Seleção da amostra}
+
+No primeiro momento somente a empresa alvo da dissertação foi utilizada na pesquisa.
+
+\subsection{Aplicação do questionário}
+
+Ainda seguindo o roteiro de elaboração e aplicação de uma pesquisa adaptado de \cite{manzato}, os passos seguintes foram a realização e transcrição da entrevista individual.
+
+O primeiro passo para a realização da pesquisa era atribuir pesos aos valores empresariais definidos na elaboração do questionário. Por se tratar de uma classificação visual, onde era possível enxergar  os pesos visualmente em uma escala 
+
+O autor preencheu a planilha do questionário, respondendo as questões de forma que refletissem a realidade atual da empresa. O processo, apesar de ser longo pela grande quantidade de perguntas, se mostrou muito fluido e simples.
+
+\subsection{Análise dos resultados obtidos}
+
+
+O primeiro passo para a construção de um questionário de auto avaliação de implantação da norma \iso, ou de qualquer outro tipo de questionário, é o planejamento das questões que serão aplicadas. .
 
 \begin{figure}[!h]
 	\centering
@@ -45,6 +125,8 @@ O primeiro passo para a construção de um questionário de auto avaliação de impla
 	\label{Fig:fluxo:plan:quest}
 \end{figure}
 
+
+\subsection{Revisão bibliográfica da \iso}
 
 \subsection{Projeto}
 

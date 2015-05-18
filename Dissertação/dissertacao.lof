@@ -2,17 +2,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Camadas da engenharia de \textit {software}\xspace \cite [p.17]{pressman}}}{5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces S\'erie ISO 29110\xspace \cite [p\'ag. 7]{iso}}}{13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces S\'erie ISO/IEC 29110\xspace \cite [p\'ag. 7]{iso}}}{13}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Processos b\'asicos \cite [p\'ag. 12]{iso}}}{14}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama do processo de Ger\^encia de Projetos\xspace \cite [p\'ag. 12]{iso}}}{15}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama do processo de Desenvolvimento de \textit {Software}\xspace \cite [p\'ag. 30]{iso}}}{17}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Abordagem estat\'{\i }stica na pesquisa quantitativa\newline Fonte: \cite {manzato}}}{21}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Classifica\c {c}\~ao dos valores empresariais}}{22}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Roteiro para elabora\c {c}\~ao e aplica\c {c}\~ao de uma pesquisa\newline (adaptado de \cite {manzato}}}{24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Janela de lan\c {c}amento dos atendimentos}}{27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Janela de lan\c {c}amento das pendencias}}{27}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Atendimentos por tipo em novembro/2014}}{28}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Pesos dos valores de neg\'ocios das perguntas}}{26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Scores} dos valores de neg\'ocios das perguntas}}{27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Roteiro para elabora\c {c}\~ao e aplica\c {c}\~ao de uma pesquisa\newline (adaptado de \cite {manzato}}}{29}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Janela de lan\c {c}amento dos atendimentos}}{32}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Janela de lan\c {c}amento das pendencias}}{32}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Atendimentos por tipo em novembro/2014}}{33}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Caso de Uso: Atendimento}}{36}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Caso de Uso: Atendimento}}{41}

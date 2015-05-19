@@ -32,13 +32,9 @@ Além da aplicação imediata na empresa foco, a ferramenta de auto diagnóstico cri
 
 \section{Metodologia e Desenvolvimento}
 
-O trabalho foi realizado em três etapas distintas: criação do questionário de auto avaliação, aplicação do questionário e análise dos resultados obtidos.
+A fim de produzir o questionário de auto avaliação, o autor pesquisou na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas  obtivemos sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
 
-\subsection{Criação do questionário de auto avaliação}
-
-A fim de produzir o questionário de auto avaliação, o autor pesquisou na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas foi obtivemos sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
-
-Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas, que foi adaptada às necessidades desta dissertação e representada na Figura \ref{Fig:abordagem:pesquisa}. 
+Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas que foi adaptada às necessidades desta dissertação. Sua representação gráfica pode ser observada na Figura \ref{Fig:abordagem:pesquisa}. 
 
 Os primeiros itens da abordagem citada anteriormente são a definição do problema, que foi tratado e bem delimitado nesta dissertação na Seção \ref{Sec:intro:problema} e o planejamento amostral, que não foi realizado por se tratar de um questionário individual e o público alvo ser bem estratificado, composto de pequenas empresas de desenvolvimento de \sw.
 
@@ -51,7 +47,34 @@ Os primeiros itens da abordagem citada anteriormente são a definição do problema
 
 O passo seguinte, planejamento do questionário, é o ponto do processo onde esta dissertação se diferencia dos demais trabalhos, pois seria necessário planejar não somente as questões que iriam compor o questionário, mas também de que forma elas seriam impactadas pelo peso de cada valor empresarial. Para atingir este objetivo era necessário planejar a classificação dos valores empresariais antes mesmo das perguntas do questionário.
 
-Outro fator muito importante neste ponto do processo era a necessidade de criar um questionário prático, simples de ser respondido e cujas respostas fossem geradas de forma imediata e sem necessidade de interação com terceiros (especialistas, por exemplo). Para tanto, o autor tomou a decisão de criar um questionário digital que, em um primeiro momento foi confeccionado em uma planilha eletrônica, podendo ser, posteriormente, transposto para um \sw ou página de internet de forma simples e mantendo sua lógica de funcionamento.
+Os demais passos, que são a realização de campo, análise estatística e discussão dos resultados também serão abordados em detalhes.
+
+Além da abordagem, \cite{manzato} também determina um roteiro para elaboração e aplicação de uma pesquisa, que foi adaptado para as necessidades desta dissertação e pode ser observado na Figura \ref{Fig:fluxo:plan:quest}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.6]{figuras/fluxo_plan_questionario.jpg}
+	\caption{Roteiro para elaboração e aplicação de uma pesquisa\newline (adaptado de \cite{manzato}}
+	\label{Fig:fluxo:plan:quest}
+\end{figure}
+
+\subsection{Planejamento e redação do questionário}
+
+Um fator muito importante neste ponto do processo era a necessidade de criar um questionário prático, simples de ser respondido e cujas respostas fossem geradas de forma imediata e sem necessidade de interação com terceiros (especialistas, por exemplo). Para tanto, o autor tomou a decisão de criar um questionário digital que, em um primeiro momento foi confeccionado em uma planilha eletrônica, podendo ser, posteriormente, transposto para um \sw ou página de internet de forma simples e mantendo sua lógica de funcionamento.
+
+Para seguir o roteiro definido por \cite{manzato}, os objetivos que subsidiam a elaboração do questionário foram definidos como:
+
+\begin{itemize}
+	
+	\item Coleta de dados sobre a situação atual da empresa em relação aos processos da \iso;
+	
+	\item Categorização dos resultados de acordo com valores empresariais mais relevantes;
+	
+	\item Geração de uma lista de melhorias sugeridas ordenadas pelos valores empresariais.
+	
+\end{itemize}
+
+Além dos objetivos, o público alvo da pesquisa também foi definido como pequenas empresas desenvolvedoras de \sw, chamadas de VSE \citep{iso}. Neste trabalho, somente a empresa alvo da dissertação foi utilizada.
 
 A seguir será analisado como foi realizado o planejamento do questionário.
 
@@ -77,6 +100,7 @@ $$p=n+1-c$$
 Onde \textit{p} é o peso, \textit{n} é a quantidade de valores empresariais disponíveis e utilizados e \textit{c} é a coluna de classificação. Esta última variável possui um domínio de $1$ a $n+1$ para permitir que valores possam ter peso zero caso a coluna $n+1$ seja selecionada.
 
 \subsubsection{Criação das perguntas}
+\label{Sec:criacao:perguntas}
 
 O segundo passo foi a criação das perguntas que iriam compor o questionário. Para tanto, foi necessário revisar a norma \iso e extrair do seu conteúdo o teor do que deveria ser averiguado das empresas candidatas à sua implantação para que o resultado refletisse os pontos fortes e fracos da organização e que estes últimos fossem classificados de forma a fornecer um guia de inicialização da implantação.
 
@@ -134,6 +158,7 @@ O valor de Likert $r$ possui uma escala decrescente, inversa ao que seria intuit
 Como pode ser observado no exemplo da Figura \ref{Fig:perg:score}, os 3 valores que foram classificados com os maiores pesos no exemplo da Figura \ref{Fig:perg:peso} receberam os maiores \textit{scores} porque a resposta à pergunta foi o pior cenário possível.
 
 Apesar de não influenciar no resultado final, que é a listagem ordenada das melhorias sugeridas, outros dois elementos estão presentes no \textit{score} por pergunta: o maior \textit{score} e o \textit{score} total.
+
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.8]{figuras/pergunta_score.png}
@@ -141,291 +166,301 @@ Apesar de não influenciar no resultado final, que é a listagem ordenada das melh
 	\label{Fig:perg:score}
 \end{figure}
 
-\subsection{title}
+\subsection{Realização de campo}
 
-\subsubsection{Definição do problema a ser investigado}
-
-Este passo já havia sido estipulado desde o início desta dissertação, onde foi detectado o problema a ser tratado pela mesma e descrito em \ref{Sec:intro:problema}.
-
-\subsubsection{Definição dos objetivos da pesquisa}
-
-Os objetivos que subsidiam a elaboração do questionário são:
-
-\begin{itemize}
-	
-	\item Coleta de dados sobre a situação atual da empresa em relação aos processos da \iso;
-	
-	\item Categorização dos resultados de acordo com valores empresariais mais relevantes;
-	
-	\item Geração de uma lista de melhorias sugeridas ordenadas pelos valores empresariais.
-	
-\end{itemize}
-
-\subsubsection{Definição do público alvo da pesquisa}
-
-Em um primeiro momento o público alvo da pesquisa era somente a empresa alvo da dissertação. Porém, o questionário foi pensado para atender as organizações do mesmo segmento: pequenas empresas desenvolvedoras de \sw, chamadas de VSE.
-
-\subsubsection{Definição da técnica a ser utilizada}
-
-Por se tratar de um questionário de auto avaliação, a técnica a ser utilizada será a entrevista individual conduzida pelo próprio pesquisado.
-
-\subsubsection{Seleção da amostra}
-
-No primeiro momento somente a empresa alvo da dissertação foi utilizada na pesquisa.
-
-\subsection{Aplicação do questionário}
-
-Ainda seguindo o roteiro de elaboração e aplicação de uma pesquisa adaptado de \cite{manzato}, os passos seguintes foram a realização e transcrição da entrevista individual.
-
-O primeiro passo para a realização da pesquisa era atribuir pesos aos valores empresariais definidos na elaboração do questionário. Por se tratar de uma classificação visual, onde era possível enxergar  os pesos visualmente em uma escala 
-
-O autor preencheu a planilha do questionário, respondendo as questões de forma que refletissem a realidade atual da empresa. O processo, apesar de ser longo pela grande quantidade de perguntas, se mostrou muito fluido e simples.
-
-\subsection{Análise dos resultados obtidos}
+A definição da técnica a ser utilizada, próximo passo do roteiro reproduzido na Figura \ref{Fig:fluxo:plan:quest}, foi limitada pelas características do questionário. Por se tratar de um questionário de auto avaliação, a técnica a ser utilizada foi definida como entrevista individual, a ser conduzida pelo próprio pesquisado.
 
 
-O primeiro passo para a construção de um questionário de auto avaliação de implantação da norma \iso, ou de qualquer outro tipo de questionário, é o planejamento das questões que serão aplicadas. .
+Não houve necessidade de seleção da amostra, visto que o questionário é individual, sendo a empresa alvo da dissertação a única utilizada na pesquisa.
+
+A aplicação do questionário pode ser dividida em duas etapas: revisão e pontuação dos valores empresariais e resposta às perguntas. A seguir essas duas etapas serão descritas em mais detalhes.
+
+\subsubsection{Revisão e pontuação dos valores empresariais}
+\label{Sec:rev:pesos}
+
+O entrevistado deve revisar os valores empresariais sugeridos pelo autor antes de começar o processo de pontuação dos pesos. Caso o entrevistado não considere que os valores sugeridos sejam relevantes para a sua organização, ou caso ele considere que outros valores devam ser adicionados, é importante que a lista de valores empresariais seja editada para refletir a realidade da organização. 
+
+Pela primeira versão do questionário ser uma planilha eletrônica, esse tarefa de edição da lista de valores empresariais pode ser um pouco complexa e trabalhosa, visto que as fórmulas não se ajustarão automaticamente à mais colunas. Esse complicador será resolvido em versões futuras do questionário que passarão a ser construídos a partir de \sws e bancos de dados integrados.
+
+De posse de todos os valores empresariais definidos e revisados, o entrevistado deverá iniciar o processo de atribuir os pesos. Por se tratar de uma classificação visual, como pode ser observado na Figura \ref{Fig:class:valores}, o processo é rápido e bem simples.
+
+\subsubsection{Resposta às perguntas}
+
+A fase final da aplicação do questionário consiste em respondê-lo de acordo com a realidade atual da empresa. Cada pergunta leva a uma lista de cinco possíveis respostas que deverão ser escolhidas de acordo com o texto que mais se aproxima da situação atual da organização.
+
+Como já mencionado no Capítulo \ref{Sec:criacao:perguntas}, não é possível descrever todas as possibilidades de cenário em apenas cinco respostas e a criação de uma amplitude maior de respostas tornaria o trabalho inviável. Portanto, o entrevistado deverá ter consciência que sua escolha deve ser baseada no texto que mais se aproximar da sua realidade.
+
+O processo, apesar de ser longo pela grande quantidade de perguntas, se mostrou muito fluido e simples.
+
+\subsection{Obtenção dos dados, análise e discussão dos resultados}
+
+A avaliação resultante das respostas obtidas no questionário constrói duas listas distintas com sugestões de quais processos deverão ser trabalhados prioritariamente. As primeira lista é composta pelos processos de \gp e a segunda pelos processos de \dsw. Ambas as listas são ordenadas pelo \textit{score} obtido a partir dos pesos dos valores empresariais e pela classificação do processo em relação à sua situação atual da empresa. Podemos observar os cinco primeiros processos de \gp na Figura \ref{Fig:resulado:PM} e os cinco primeiros processos de \dsw na Figura \ref{Fig:resulado:SI}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.8]{figuras/fluxo_plan_questionario.jpg}
-	\caption{Roteiro para elaboração e aplicação de uma pesquisa\newline (adaptado de \cite{manzato}}
-	\label{Fig:fluxo:plan:quest}
-\end{figure}
-
-
-\subsection{Revisão bibliográfica da \iso}
-
-\subsection{Projeto}
-
-O projeto foi a etapa onde as ações necessárias para a melhoria dos processos foram elencadas, priorizadas e devidamente documentadas. Também foram identificados os principais atores (\textit{stakeholders}), o cronograma, os recursos necessários e outros elementos, conforme diretrizes do PMBOK\footnotemark{} criado pelo PMI\footnotemark. Nesta etapa foram desenvolvidas as ferramentas de \sw que buscam facilitar as melhorias através da integração de informações vitais para os processos identificados.
-
-\footnotetext{\textit{Project Management Book Of Knowledge}, guia de boas práticas de gerência de projetos mundialmente reconhecido}
-\footnotetext{\textit{Project Management Institute}, instituição internacional referência em gerência de projetos.}
-
-\subsection{Conclusão}
-
-A conclusão consistiu na coleta dos resultados obtidos após a implantação do projeto de melhoria dos processos e análise da qualidade destes resultados em comparação ao cenário atual da empresa.
-
-\section{Estudo de caso}
-
-\subsection{Análise Organizacional e de Processos}
-\label{Sec:analise:org}
-
-
-\textbf{Diagnóstico:} observou-se que a empresa possui qualidades essenciais para o crescimento contínuo, como por exemplo, o comprometimento dos profissionais, a comunicação, o bom clima organizacional, assim como a cultura de prezar pela excelência e ser reconhecida através da sua confiabilidade e qualidade nos serviços. Porém, para que a empresa suporte o crescimento que tende a acontecer cada vez mais, devido a demanda pelos serviços, torna-se necessário alguns reajustes nos processos.
-
-\subsubsection{Suporte Técnico}
-\label{Sec:suporte}
-
-Este departamento é o único responsável pelo atendimento ao cliente atualmente. Assuntos sobre problemas e dúvidas relacionados aos \sws fornecidos são tratados diretamento com os técnicos do suporte. Para isso o departamento se utiliza de 2 \sws, cujas especificações estão relacionadas na Tabela \ref{Tab:espec:sw:atend} e as janelas principais podem ser observadas nas Figuras \ref{Fig:jan:contatos:lanca} e \ref{Fig:jan:pendencias:lanca}.
-
-\begin{table}[h!]\footnotesize
-	\centering
-	\begin{tabular}
-		{
-			|p{1,5cm}|p{12cm}|
-		}
-		
-		\hline
-		\textbf{Nome}&
-		\textbf{Especificações}\\
-		\hline
-		
-		Contatos&
-		\begin{itemize}
-			\item Registra atendimentos;
-			\item Registra o cliente que está sendo atendido;
-			\item Possui um espaço virtualmente ilimitado para informar o assunto do contato;
-			\item Cronometra automaticamente o atendimento;
-			\item Possui uma data de previsão de retorno;
-			\item Não permite inclusões de novas interações com o cliente durante o andamento do atendimento, que pode se estender por dias (neste caso novos atendimentos deverão ser registrados, sem haver qualquer ligação entre a primeira e as demais chamadas).
-		\end{itemize}\\
-		\hline
-		
-		Pendências&
-		\begin{itemize}
-			\item Registra tarefas;
-			\item Registra o cliente que fez a solicitação (opcional);
-			\item Associa o solicitante e o responsável por sua realização (ambos colaboradores da empresa);
-			\item Permite definir prioridade, data limite para realização e previsão de atendimento;
-			\item Possui um controle de fechamento, onde o responsável indica a data em que aquela tarefa foi realizada;
-			\item Possui um controle de ``ok'', onde o solicitante indica que aquela tarefa já foi liberada para o cliente;
-			\item Diferentemente do Contatos, permite acrescentar novas tarefas ao mesmo registro principal.
-		\end{itemize}\\
-		\hline
-		
-	\end{tabular}
-	\caption {Especificações dos \sws de atendimento}
-	\label{Tab:espec:sw:atend}
-\end{table}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.6]{figuras/jan_contatos_lancamento.jpg}
-	\caption{Janela de lançamento dos atendimentos}
-	\label{Fig:jan:contatos:lanca}
+	\includegraphics[scale=0.7]{figuras/resultado_PM.png}
+	\caption{Resultados do questionário (\gp)}
+	\label{Fig:resulado:PM}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.6]{figuras/jan_pendencias_lancamento.jpg}
-	\caption{Janela de lançamento das pendencias}
-	\label{Fig:jan:pendencias:lanca}
+	\includegraphics[scale=0.7]{figuras/resultado_SI.png}
+	\caption{Resultados do questionário (\dsw)}
+	\label{Fig:resulado:SI}
 \end{figure}
 
-Os atendimentos podem ser realizados através do telefone, acesso remoto via internet, e-mail ou presencial. Como pode ser observado na Figura \ref{Fig:atend11}, somente 3 tipos foram registrados no mês de novembro de 2014, mostrando que as comunicacões via e-mail não são registradas.
+É dado ao entrevistado a opção de ordenar a lista pelo maior \textit{score} ou pelo \textit{score} total. A diferença entre as duas ordenações é que na primeira leva-se em consideração o pior desempenho do processo dentre todos os valores empresariais disponíveis e na segunda leva-se em consideração o desempenho total do processo em todos os valores empresariais disponíveis. O autor optou pela segunda opção de ordenação nas duas listas.
+
+Para cada elemento da lista, o entrevistado deverá se remeter ao texto original da pergunta para avaliar melhor o processo que deverá ser melhorado. No caso do primeiro processo da lista de \gp, conforme a Figura \ref{Fig:resulado:PM}, vamos ter que encontrar a pergunta codificada como ``PM.1.11.Q1''. O sistema de codificação das perguntas foi pensado para facilitar essa procura. O que o entrevistado irá encontrar é o texto que podemos observar na Figura \ref{Fig:perg:PM111Q1}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.5]{figuras/atendimentos_por_tipo.jpg}
-	\caption{Atendimentos por tipo em novembro/2014}
-	\label{Fig:atend11}
+	\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1.png}
+	\caption{Texto da pergunta classificada em primeiro lugar para \gp}
+	\label{Fig:perg:PM111Q1}
 \end{figure}
 
-Outros problemas foram diagnosticados e estão relacionados na Tabela \ref{Tab:probl:atend}, sendo a falta de acompanhamento do andamento das solicitações e retorno ao cliente as mais críticas.
+A partir do texto original, o entrevistado deverá traçar seu plano de ação para implantar melhorias que levem sua organização ao cenário ideal, descrito na primeira opção de resposta, também disponibilizada na Figura \ref{Fig:perg:PM111Q1}. Complementarmente, o entrevistado também pode se referenciar ao guida da \iso para encontrar mais detalhes das melhores práticas para aplicação do processo. Para facilitar esse procedimento, é disponibilizada no texto original da pergunta a nomenclatura do processo, como pode ser observado na Figura \ref{Fig:perg:PM111Q1_ISO}.
 
-\begin{table}[h!]\footnotesize
+\begin{figure}[!h]
 	\centering
-	\begin{tabular}
-		{
-			|p{14cm}|
-		}
-		
-		\hline
-		\textbf{Problema diagnosticado}\\
-		\hline
-		
-		Falta de registro de atendimento (para qualquer tipo)\\
-		\hline
-		
-		Postergação de registro de atendimento (para qualquer tipo), que pode levar ao esquecimento (falta de registro)\\
-		\hline
-		
-		Dados insuficientes sobre o contato\\
-		\hline
-		
-		Falta de acompanhamento do andamento das solicitações (fechamento dos registros de atendimento)\\
-		\hline
-		
-		Falta de retorno da situação das solicitações ao cliente\\
-		\hline
-		
-		Tarefas originadas dos atendimentos, para o próprio departamento de suporte ou para outros departamentos, são registradas em um \sw separado e não há nenhuma rastreabilidade\\
-		\hline
-		
-	\end{tabular}
-	\caption {Problemas diagnosticados no departamento de suporte}
-	\label{Tab:probl:atend}
-\end{table}
+	\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1_ISO.png}
+	\caption{Nomenclatura original do processo dentro do guia da \iso}
+	\label{Fig:perg:PM111Q1_ISO}
+\end{figure}
 
-As seguintes ações devem ser tomadas para contonar os problemas diagnosticados:
+Este processo de procura manual do texto original da pergunta para encontrar o cenário ideal e a referência do processo da \iso pode ser otimizado a partir de um \sw integrado que venha a substituir a planilha eletrônica no futuro.
 
-\begin{itemize}
-	
-	\item Todos os chamados técnicos deverão ser registrados no ato de sua execução (ligação, acesso remoto ou recebimento do e-mail), com exceção do atendimento externo que deve ser registrado no ato do retorno do técnico;
-	
-	\item O máximo de informações possíveis precisa ser registrado no histórico do chamado;
-	
-	\item A fusão entre o Contatos e o Pendências é extremamente necessária, a fim de criar um registro de todas as ações vinculadas naquele chamado, tornando-se obrigatório o registro de todas as ações realizadas por cada técnico que atender o chamado;
-	
-	\item Qualquer nova informação de um chamado deve ser adicionada ao registro já aberto, sem a necessidade de abrir um novo chamado e permitindo a rastreabilidade;
-	
-	\item Um departamento de Serviço de Atendimento ao Cliente (SAC) deverá ser criado e pelo menos uma pessoa deve ser colocada como responsável pelas suas atribuições;
-	
-	\item O SAC realizará o fechamento do chamado junto ao cliente, consultando se realmente o problema foi solucionado e realizando pesquisas de satisfação e gerando indicadores de desempenho e qualidade (tempo médio de conclusão dos chamados, problemas mais ocorridos, cliente mais ativo, técnico mais ativo, etc);
-	
-	\item Os clientes deverão receber um Documento de Abertura e Acompanhamento de Chamados, juntamente com o manual  do \sw, para que saibam exatamente como proceder para abrir e acompanhar um chamado;
-	
-	\item Para uma melhor performance da equipe de suporte, deverá ser feito a gestão do conhecimento, documentando a resolução de cada problema que surja no atendimento do suporte técnico;
-	
-	\item É necessária a elaboração de um fluxograma do atendimento, com as informações chaves de requisitos para abertura de chamados;
-	
-	\item É necessária a elaboração de um fluxograma do atendimento de serviços diferenciados, tais como treinamentos, suportes avulsos, entrada de equipamento para concerto ou manutenção, entre outros, lembrando de acrescentar no fluxo a emissão da Ordem de Serviço;
-	
-	\item Deverá ser realizado o acompanhamento dos clientes que não abrem chamado com o suporte há mais de 3 meses.
-	
-\end{itemize}
+%\subsection{Projeto}
 
-\subsubsection{Desenvolvimento}
-\label{Sec:desenvolvimento}
+%O projeto foi a etapa onde as ações necessárias para a melhoria dos processos foram elencadas, priorizadas e devidamente documentadas. Também foram identificados os principais atores (\textit{stakeholders}), o cronograma, os recursos necessários e outros elementos, conforme diretrizes do PMBOK\footnotemark{} criado pelo PMI\footnotemark. Nesta etapa foram desenvolvidas as ferramentas de \sw que buscam facilitar as melhorias através da integração de informações vitais para os processos identificados.
 
-Este departamento não tem contato direto com os clientes, pois todas as solicitações passam pelo departamento de suporte técnico. Porém, todas as solcitações de mudança ou correção de problemas nos \sws são resolvidas por este departamento e alguns atendimentos são repassados para o setor de desenvolvimento para resolução conjunta quando os técnicos não possuem conhecimento ou capacidade para tratá-los por si mesmos. 
+%\footnotetext{\textit{Project Management Book Of Knowledge}, guia de boas práticas de gerência de projetos mundialmente reconhecido}
+%\footnotetext{\textit{Project Management Institute}, instituição internacional referência em gerência de projetos.}
 
-As tarefas deste departamento são registradas no \sw Pendências mas, como já relatado anteriormente, não possuem relacionamento com os chamados abertos no \sw Contatos. Todos os problemas diagnosticados estão relacionados na Tabela \ref{Tab:probl:desenv}.
+%\subsection{Conclusão}
 
-\begin{table}[h!]\footnotesize
-	\centering
-	\begin{tabular}
-		{
-			|p{14cm}|
-		}
-		
-		\hline
-		\textbf{Problema diagnosticado}\\
-		\hline
-		
-		Falta de posicionamento quanto ao andamento das solicitações\\
-		\hline
-		
-		Falta de previsão de entrega das soluções\\
-		\hline
-		
-		Falta de rastreabilidade entre abertura de chamados e tarefas\\
-		\hline
-		
-	\end{tabular}
-	\caption {Problemas diagnosticados no departamento de desenvolvimento}
-	\label{Tab:probl:desenv}
-\end{table}
+%A conclusão consistiu na coleta dos resultados obtidos após a implantação do projeto de melhoria dos processos e análise da qualidade destes resultados em comparação ao cenário atual da empresa.
 
-Para solucionar os problemas diagnosticados para este setor, além das ações ja citadas em \ref{Sec:suporte}, serão necessárias as seguintes ações:
+%\section{Estudo de caso}
 
-\begin{itemize}
-	
-	\item Criar processos para determinar a previsão de lançamento de versões de \sws;
-	
-	\item Criar processos para determinar em qual versão determinada solicitação será incluída;
-	
-	\item Integrar aos \sws de atendimento as informações de lançamento de versões e, consequentemente, a previsão das solicitacões.
-	
-\end{itemize}
+%\subsection{Análise Organizacional e de Processos}
+%\label{Sec:analise:org}
 
-\subsubsection{Financeiro}
+%\textbf{Diagnóstico:} observou-se que a empresa possui qualidades essenciais para o crescimento contínuo, como por exemplo, o comprometimento dos profissionais, a comunicação, o bom clima organizacional, assim como a cultura de prezar pela excelência e ser reconhecida através da sua confiabilidade e qualidade nos serviços. Porém, para que a empresa suporte o crescimento que tende a acontecer cada vez mais, devido a demanda pelos serviços, torna-se necessário alguns reajustes nos processos.
 
-O departamento financeiro lida com o cliente com uma frequência menor que os departamentos de suporte e desenvolvimento. Porém, os assuntos relacionados a este departamento podem gerar transtornos e prejuízos quando feitos de forma incorreta. Além disso, este departamento também é responsável por bloquear o atendimento aos clientes inadimplentes, portanto representa um papel importante nos processos descritos em \ref{Sec:suporte} e \ref{Sec:desenvolvimento}.
+%\subsubsection{Suporte Técnico}
+%\label{Sec:suporte}
 
-Nenhum atendimento ou tarefa relacionados a este departamento são registrados nos \sws de atendimento. Portanto, as ações necessárias para melhoria dos processos são:
+%Este departamento é o único responsável pelo atendimento ao cliente atualmente. Assuntos sobre problemas e dúvidas relacionados aos \sws fornecidos são tratados diretamento com os técnicos do suporte. Para isso o departamento se utiliza de 2 \sws, cujas especificações estão relacionadas na Tabela \ref{Tab:espec:sw:atend} e as janelas principais podem ser observadas nas Figuras \ref{Fig:jan:contatos:lanca} e \ref{Fig:jan:pendencias:lanca}.
 
-\begin{itemize}
-	
-	\item Registrar todo e qualquer contato com clientes nos \sws de atendimento;
-	
-	\item Integrar as informações financeiras com os \sws de atendimento para que a liberação ou bloqueio seja feito automaticamente no ato da identificação do cliente.
-	
-\end{itemize}
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{1,5cm}|p{12cm}|
+%		}
+%		
+%		\hline
+%		\textbf{Nome}&
+%		\textbf{Especificações}\\
+%		\hline
+%		
+%		Contatos&
+%		\begin{itemize}
+%			\item Registra atendimentos;
+%			\item Registra o cliente que está sendo atendido;
+%			\item Possui um espaço virtualmente ilimitado para informar o assunto do contato;
+%			\item Cronometra automaticamente o atendimento;
+%			\item Possui uma data de previsão de retorno;
+%			\item Não permite inclusões de novas interações com o cliente durante o andamento do atendimento, que pode se estender por dias (neste caso novos atendimentos deverão ser registrados, sem haver qualquer ligação entre a primeira e as demais chamadas).
+%		\end{itemize}\\
+%		\hline
+%		
+%		Pendências&
+%		\begin{itemize}
+%			\item Registra tarefas;
+%			\item Registra o cliente que fez a solicitação (opcional);
+%			\item Associa o solicitante e o responsável por sua realização (ambos colaboradores da empresa);
+%			\item Permite definir prioridade, data limite para realização e previsão de atendimento;
+%			\item Possui um controle de fechamento, onde o responsável indica a data em que aquela tarefa foi realizada;
+%			\item Possui um controle de ``ok'', onde o solicitante indica que aquela tarefa já foi liberada para o cliente;
+%			\item Diferentemente do Contatos, permite acrescentar novas tarefas ao mesmo registro principal.
+%		\end{itemize}\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption {Especificações dos \sws de atendimento}
+%	\label{Tab:espec:sw:atend}
+%\end{table}
+%
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.6]{figuras/jan_contatos_lancamento.jpg}
+%	\caption{Janela de lançamento dos atendimentos}
+%	\label{Fig:jan:contatos:lanca}
+%\end{figure}
+%
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.6]{figuras/jan_pendencias_lancamento.jpg}
+%	\caption{Janela de lançamento das pendencias}
+%	\label{Fig:jan:pendencias:lanca}
+%\end{figure}
 
-\subsubsection{Marketing}
+%Os atendimentos podem ser realizados através do telefone, acesso remoto via internet, e-mail ou presencial. Como pode ser observado na Figura \ref{Fig:atend11}, somente 3 tipos foram registrados no mês de novembro de 2014, mostrando que as comunicacões via e-mail não são registradas.
 
-O departamento de marketing é o responsável, geralmente, pelo primeiro contato com o cliente. Durante as negociações de venda de \sw, é comum haver solicitações de modificações ou acertos sobre configurações, conversões de dados e treinamentos. Porém, nenhuma dessas informações são registradas nos \sws de atendimento. O mesmo ocorre na venda de equipamentos e outros serviços.
-
-Portanto, as ações necessárias para melhoria dos processos são:
-
-\begin{itemize}
-	
-	\item Registrar os primeiros contatos com todos os prospectos, mesmo que não se tornem clientes;
-	
-	\item Registrar toda e qualquer interação com os clientes, novos ou antigos;
-	
-	\item Incluir nos registros as informações sobre negociação, possíveis modificações, conversões e outras condições estabelecidas durante ou após a venda.
-	
-\end{itemize}
-
-
-\subsection{Análise SWOT}
-
-
-A fim de resumir e melhor entender a análise organizacional e de processos realizada em \ref{Sec:analise:org}, foi desenvolvida a Tabela \ref{Tab:SWOT} com a análise SWOT.
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.5]{figuras/atendimentos_por_tipo.jpg}
+%	\caption{Atendimentos por tipo em novembro/2014}
+%	\label{Fig:atend11}
+%\end{figure}
+%
+%Outros problemas foram diagnosticados e estão relacionados na Tabela \ref{Tab:probl:atend}, sendo a falta de acompanhamento do andamento das solicitações e retorno ao cliente as mais críticas.
+%
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{14cm}|
+%		}
+%		
+%		\hline
+%		\textbf{Problema diagnosticado}\\
+%		\hline
+%		
+%		Falta de registro de atendimento (para qualquer tipo)\\
+%		\hline
+%		
+%		Postergação de registro de atendimento (para qualquer tipo), que pode levar ao esquecimento (falta de registro)\\
+%		\hline
+%		
+%		Dados insuficientes sobre o contato\\
+%		\hline
+%		
+%		Falta de acompanhamento do andamento das solicitações (fechamento dos registros de atendimento)\\
+%		\hline
+%		
+%		Falta de retorno da situação das solicitações ao cliente\\
+%		\hline
+%		
+%		Tarefas originadas dos atendimentos, para o próprio departamento de suporte ou para outros departamentos, são registradas em um \sw separado e não há nenhuma rastreabilidade\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption {Problemas diagnosticados no departamento de suporte}
+%	\label{Tab:probl:atend}
+%\end{table}
+%
+%As seguintes ações devem ser tomadas para contonar os problemas diagnosticados:
+%
+%\begin{itemize}
+%	
+%	\item Todos os chamados técnicos deverão ser registrados no ato de sua execução (ligação, acesso remoto ou recebimento do e-mail), com exceção do atendimento externo que deve ser registrado no ato do retorno do técnico;
+%	
+%	\item O máximo de informações possíveis precisa ser registrado no histórico do chamado;
+%	
+%	\item A fusão entre o Contatos e o Pendências é extremamente necessária, a fim de criar um registro de todas as ações vinculadas naquele chamado, tornando-se obrigatório o registro de todas as ações realizadas por cada técnico que atender o chamado;
+%	
+%	\item Qualquer nova informação de um chamado deve ser adicionada ao registro já aberto, sem a necessidade de abrir um novo chamado e permitindo a rastreabilidade;
+%	
+%	\item Um departamento de Serviço de Atendimento ao Cliente (SAC) deverá ser criado e pelo menos uma pessoa deve ser colocada como responsável pelas suas atribuições;
+%	
+%	\item O SAC realizará o fechamento do chamado junto ao cliente, consultando se realmente o problema foi solucionado e realizando pesquisas de satisfação e gerando indicadores de desempenho e qualidade (tempo médio de conclusão dos chamados, problemas mais ocorridos, cliente mais ativo, técnico mais ativo, etc);
+%	
+%	\item Os clientes deverão receber um Documento de Abertura e Acompanhamento de Chamados, juntamente com o manual  do \sw, para que saibam exatamente como proceder para abrir e acompanhar um chamado;
+%	
+%	\item Para uma melhor performance da equipe de suporte, deverá ser feito a gestão do conhecimento, documentando a resolução de cada problema que surja no atendimento do suporte técnico;
+%	
+%	\item É necessária a elaboração de um fluxograma do atendimento, com as informações chaves de requisitos para abertura de chamados;
+%	
+%	\item É necessária a elaboração de um fluxograma do atendimento de serviços diferenciados, tais como treinamentos, suportes avulsos, entrada de equipamento para concerto ou manutenção, entre outros, lembrando de acrescentar no fluxo a emissão da Ordem de Serviço;
+%	
+%	\item Deverá ser realizado o acompanhamento dos clientes que não abrem chamado com o suporte há mais de 3 meses.
+%	
+%\end{itemize}
+%
+%\subsubsection{Desenvolvimento}
+%\label{Sec:desenvolvimento}
+%
+%Este departamento não tem contato direto com os clientes, pois todas as solicitações passam pelo departamento de suporte técnico. Porém, todas as solcitações de mudança ou correção de problemas nos \sws são resolvidas por este departamento e alguns atendimentos são repassados para o setor de desenvolvimento para resolução conjunta quando os técnicos não possuem conhecimento ou capacidade para tratá-los por si mesmos. 
+%
+%As tarefas deste departamento são registradas no \sw Pendências mas, como já relatado anteriormente, não possuem relacionamento com os chamados abertos no \sw Contatos. Todos os problemas diagnosticados estão relacionados na Tabela \ref{Tab:probl:desenv}.
+%
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{14cm}|
+%		}
+%		
+%		\hline
+%		\textbf{Problema diagnosticado}\\
+%		\hline
+%		
+%		Falta de posicionamento quanto ao andamento das solicitações\\
+%		\hline
+%		
+%		Falta de previsão de entrega das soluções\\
+%		\hline
+%		
+%		Falta de rastreabilidade entre abertura de chamados e tarefas\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption {Problemas diagnosticados no departamento de desenvolvimento}
+%	\label{Tab:probl:desenv}
+%\end{table}
+%
+%Para solucionar os problemas diagnosticados para este setor, além das ações ja citadas em \ref{Sec:suporte}, serão necessárias as seguintes ações:
+%
+%\begin{itemize}
+%	
+%	\item Criar processos para determinar a previsão de lançamento de versões de \sws;
+%	
+%	\item Criar processos para determinar em qual versão determinada solicitação será incluída;
+%	
+%	\item Integrar aos \sws de atendimento as informações de lançamento de versões e, consequentemente, a previsão das solicitacões.
+%	
+%\end{itemize}
+%
+%\subsubsection{Financeiro}
+%
+%O departamento financeiro lida com o cliente com uma frequência menor que os departamentos de suporte e desenvolvimento. Porém, os assuntos relacionados a este departamento podem gerar transtornos e prejuízos quando feitos de forma incorreta. Além disso, este departamento também é responsável por bloquear o atendimento aos clientes inadimplentes, portanto representa um papel importante nos processos descritos em \ref{Sec:suporte} e \ref{Sec:desenvolvimento}.
+%
+%Nenhum atendimento ou tarefa relacionados a este departamento são registrados nos \sws de atendimento. Portanto, as ações necessárias para melhoria dos processos são:
+%
+%\begin{itemize}
+%	
+%	\item Registrar todo e qualquer contato com clientes nos \sws de atendimento;
+%	
+%	\item Integrar as informações financeiras com os \sws de atendimento para que a liberação ou bloqueio seja feito automaticamente no ato da identificação do cliente.
+%	
+%\end{itemize}
+%
+%\subsubsection{Marketing}
+%
+%O departamento de marketing é o responsável, geralmente, pelo primeiro contato com o cliente. Durante as negociações de venda de \sw, é comum haver solicitações de modificações ou acertos sobre configurações, conversões de dados e treinamentos. Porém, nenhuma dessas informações são registradas nos \sws de atendimento. O mesmo ocorre na venda de equipamentos e outros serviços.
+%
+%Portanto, as ações necessárias para melhoria dos processos são:
+%
+%\begin{itemize}
+%	
+%	\item Registrar os primeiros contatos com todos os prospectos, mesmo que não se tornem clientes;
+%	
+%	\item Registrar toda e qualquer interação com os clientes, novos ou antigos;
+%	
+%	\item Incluir nos registros as informações sobre negociação, possíveis modificações, conversões e outras condições estabelecidas durante ou após a venda.
+%	
+%\end{itemize}
+%
+%
+%\subsection{Análise SWOT}
+%
+%
+%A fim de resumir e melhor entender a análise organizacional e de processos realizada em \ref{Sec:analise:org}, foi desenvolvida a Tabela \ref{Tab:SWOT} com a análise SWOT.
 
 %\begin{table}[h!]\footnotesize
 %\centering
@@ -481,134 +516,134 @@ A fim de resumir e melhor entender a análise organizacional e de processos reali
 %\end{table}
 
 
-\subsection{Estratégia}
-
-\label{Sec:ec:estrategia}
-
-A implantação de um novo processo, ou de sua melhoria, é uma atividade que possui um custo financeiro, de tempo e de recursos muito alto para qualquer empresa, independente do seu porte. A implantação de processos baseados em normas pode ser ainda mais custoso e complexo, principalmente para uma pequena empresa.
-
-Por conta destes fatores, a empresa objeto de estudo desta dissertação optou por realizar a implantação incremental da \iso, escolhendo as áreas mais deficientes citadas no diagnóstico que se encontra no Capítulo \ref{Cap:analise:cenario}.
-
-Esta dissertação teve como foco o tratamento dos problemas identificados no departamento de \textbf{Desenvolvimento}, descritos na Seção \ref{Sec:desenvolvimento}. Apesar do foco ter sido em somente um departamento, foi observado que as soluções propostas afetariam diretamente os demais departamentos, pois havia uma raiz comum a todos os problemas diagnosticados: a comunicação com o cliente. A criação de processos bem estruturados de registro de atendimentos em conjunto com ferramentas que suportassem estes processos cobririam todos os problemas diagnosticados.
-
-Outro fato de suma importância observado foi a abrangência da solução proposta. Apesar do estudo de caso ter sido feito em uma empresa de desenvolvimento de \sw, outros segmentos podem se beneficiar do processo de integração entre registro de contato com o cliente e controle de tarefas. 
-
-Para se alcançar o objetivo desta dissertação, foi adotada como estratégia inicial a seleção dos objetivos da \iso, descritos nas Seções \ref{Sec:iso:obj:gp} e \ref{Sec:iso:obj:dsw}, que pudessem contribuir para a solução dos problemas identificados na análise realizada no Capítulo \ref{Cap:analise:cenario}.
-
-Após a seleção e análise dos objetivos da \iso, foram relacionadas as atividades mais importantes de cada um destes objetivos que dariam suporte ao alcance dos objetivos deste trabalho.
-
-\subsubsection{Seleção dos objetivos da \iso}
-\label{Sec:estr:obj:iso}
-
-Dentre os objetivos da \iso encontrados em \cite{iso}, foram selecionados 2 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
-
-\begin{table}[h!]\footnotesize
-	\centering
-	\begin{tabular}
-		{
-			|p{7cm}
-			|p{7cm}|
-		}
-		
-		\hline
-		
-		\textbf{Objetivo \iso}&
-		\textbf{Problemas relacionados ao processo atual}\\
-		\hline
-		
-		PM.03 A \muda é abordada através de sua recepção e análise. Mudanças aos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.&
-		Não existe processo formal para recepção, análise e avaliação da \muda.\\
-		\hline
-		
-		%	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
-		%	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
-		%	\hline
-		
-		PM.O6 Uma \vcs de \sw é desenvolvida. Itens da \swcfg são identificados, definidos e incluídos em uma \bline. Modificações e entregas de um item são controladas e disponibilizadas ao cliente e equipe de trabalho. O armazenamento, manuseio e entrega dos itens são controlados.&
-		Entregas de novas versões são realizadas sem nenhum controle de previsão e aviso aos clientes.\\
-		\hline
-		
-		SI.O6 Uma \swcfg, que cumpra com o \req acertado com o cliente, que inclua documentações de usuário, operação e manutenção é integrada, incluída na \bline e armazenada no \rep. Necessidades de mudança na \swcfg são detectadas e os pedidos de mudança relacionados são iniciados.&
-		Não existe processo formal para recepção, análise e avaliação da \muda.\\
-		\hline
-		
-	\end{tabular}
-	\caption{Seleção dos objetivos da \iso}
-	\label{Tab:estrat:obj:iso}
-\end{table}
-
-\subsubsection{Seleção das atividades dos objetivos da \iso}
-
-
-Dentre as atividades que dão suporte aos objetivos da \iso \cite{iso} selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
-
-As atividades iniciadas com a sigla PM são relacionadas à \gp e as iniciadas com a sigla SI ao \dsw.
-
-\begin{table}[h!]\footnotesize
-	\centering
-	\begin{tabular}
-		{
-			|p{7cm}
-			|p{3,5cm}
-			|p{3,5cm}|
-		}
-		
-		\hline
-		
-		\textbf{Atividade \iso}&
-		\textbf{Entradas}&
-		\textbf{Saídas}\\
-		\hline
-		
-		PM.1.2 Definir com o Cliente as \entrega para cada um dos entregáveis especificados na \dt.&
-		\dt (revisada)&
-		\ppj (\entrega)\\
-		\hline
-		
-		PM.1.4 Estabelecer a duração estimada para realizar cada tarefa.&
-		\ppj\par\begin{itemize}\item Tarefas\end{itemize}&
-		\ppj\par\begin{itemize}\item Duração estimada\end{itemize}\\
-		\hline
-		
-		PM.1.7 Atribuir datas estimadas de início e término para cada uma das tarefas a fim de criar o \crono levando em consideração os recursos, sequência e dependências das tarefas.&
-		\ppj\par\begin{itemize}
-			\item Tarefas
-			\item Duração estimada
-			\item Composição da Equipe de Trabalho
-		\end{itemize}&
-		\ppj\par\begin{itemize}
-			\item \crono
-		\end{itemize}\\
-		\hline
-		
-		PM.2.2 Analisar e avaliar a \muda em relação ao custo, cronograma e impacto técnico. A mudança solicitada pode ser iniciada pelo cliente ou pela equipe interna de trabalho. Atualize o \ppj se as mudanças aceitas não afetam acordos com o cliente. Solicitações de mudança que afetem esses acordos devem ser negociadas por ambas as partes.&
-		\muda (iniciada)\par\ppj&
-		\muda (avaliada)\par\ppj (atualizado)\\
-		\hline
-		
-		PM.3.3 Identificar mudanças aos requisitos e/ou \ppj relacionados à desvios significativos, riscos potenciais ou problemas relacionados à realização do plano, documentando-os na \muda e acompanhando-os até sua conclusão.&
-		\prog (avaliado)\par&
-		\muda (iniciada)\\
-		\hline
-		
-		%	PM.3.2 Estabelecer ações para corrigir desvios ou problemas e identificar riscos relacionados à realização do \ppj, conforme necessário, documentando-os no \corre e acompanhando-os até o seu fechamento.&
-		%	\prog (avaliado)\par&
-		%	\corre\\
-		%	\hline
-		
-		SI.6.6 Realizar entregas de acordo com as \entrega.&
-		\ppj\par
-		\begin{itemize}
-			\item \entrega
-		\end{itemize}\par
-		\swcfg&
-		\swcfg (entregue)\\
-		\hline
-		
-	\end{tabular}
-	\caption{Atividades da \iso}
-	\label{Tab:estrat:ativ:iso}
-\end{table}
+%\subsection{Estratégia}
+%
+%\label{Sec:ec:estrategia}
+%
+%A implantação de um novo processo, ou de sua melhoria, é uma atividade que possui um custo financeiro, de tempo e de recursos muito alto para qualquer empresa, independente do seu porte. A implantação de processos baseados em normas pode ser ainda mais custoso e complexo, principalmente para uma pequena empresa.
+%
+%Por conta destes fatores, a empresa objeto de estudo desta dissertação optou por realizar a implantação incremental da \iso, escolhendo as áreas mais deficientes citadas no diagnóstico que se encontra no Capítulo \ref{Cap:analise:cenario}.
+%
+%Esta dissertação teve como foco o tratamento dos problemas identificados no departamento de \textbf{Desenvolvimento}, descritos na Seção \ref{Sec:desenvolvimento}. Apesar do foco ter sido em somente um departamento, foi observado que as soluções propostas afetariam diretamente os demais departamentos, pois havia uma raiz comum a todos os problemas diagnosticados: a comunicação com o cliente. A criação de processos bem estruturados de registro de atendimentos em conjunto com ferramentas que suportassem estes processos cobririam todos os problemas diagnosticados.
+%
+%Outro fato de suma importância observado foi a abrangência da solução proposta. Apesar do estudo de caso ter sido feito em uma empresa de desenvolvimento de \sw, outros segmentos podem se beneficiar do processo de integração entre registro de contato com o cliente e controle de tarefas. 
+%
+%Para se alcançar o objetivo desta dissertação, foi adotada como estratégia inicial a seleção dos objetivos da \iso, descritos nas Seções \ref{Sec:iso:obj:gp} e \ref{Sec:iso:obj:dsw}, que pudessem contribuir para a solução dos problemas identificados na análise realizada no Capítulo \ref{Cap:analise:cenario}.
+%
+%Após a seleção e análise dos objetivos da \iso, foram relacionadas as atividades mais importantes de cada um destes objetivos que dariam suporte ao alcance dos objetivos deste trabalho.
+%
+%\subsubsection{Seleção dos objetivos da \iso}
+%\label{Sec:estr:obj:iso}
+%
+%Dentre os objetivos da \iso encontrados em \cite{iso}, foram selecionados 2 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
+%
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{7cm}
+%			|p{7cm}|
+%		}
+%		
+%		\hline
+%		
+%		\textbf{Objetivo \iso}&
+%		\textbf{Problemas relacionados ao processo atual}\\
+%		\hline
+%		
+%		PM.03 A \muda é abordada através de sua recepção e análise. Mudanças aos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.&
+%		Não existe processo formal para recepção, análise e avaliação da \muda.\\
+%		\hline
+%		
+%		%	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
+%		%	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
+%		%	\hline
+%		
+%		PM.O6 Uma \vcs de \sw é desenvolvida. Itens da \swcfg são identificados, definidos e incluídos em uma \bline. Modificações e entregas de um item são controladas e disponibilizadas ao cliente e equipe de trabalho. O armazenamento, manuseio e entrega dos itens são controlados.&
+%		Entregas de novas versões são realizadas sem nenhum controle de previsão e aviso aos clientes.\\
+%		\hline
+%		
+%		SI.O6 Uma \swcfg, que cumpra com o \req acertado com o cliente, que inclua documentações de usuário, operação e manutenção é integrada, incluída na \bline e armazenada no \rep. Necessidades de mudança na \swcfg são detectadas e os pedidos de mudança relacionados são iniciados.&
+%		Não existe processo formal para recepção, análise e avaliação da \muda.\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption{Seleção dos objetivos da \iso}
+%	\label{Tab:estrat:obj:iso}
+%\end{table}
+%
+%\subsubsection{Seleção das atividades dos objetivos da \iso}
+%
+%
+%Dentre as atividades que dão suporte aos objetivos da \iso \cite{iso} selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
+%
+%As atividades iniciadas com a sigla PM são relacionadas à \gp e as iniciadas com a sigla SI ao \dsw.
+%
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{7cm}
+%			|p{3,5cm}
+%			|p{3,5cm}|
+%		}
+%		
+%		\hline
+%		
+%		\textbf{Atividade \iso}&
+%		\textbf{Entradas}&
+%		\textbf{Saídas}\\
+%		\hline
+%		
+%		PM.1.2 Definir com o Cliente as \entrega para cada um dos entregáveis especificados na \dt.&
+%		\dt (revisada)&
+%		\ppj (\entrega)\\
+%		\hline
+%		
+%		PM.1.4 Estabelecer a duração estimada para realizar cada tarefa.&
+%		\ppj\par\begin{itemize}\item Tarefas\end{itemize}&
+%		\ppj\par\begin{itemize}\item Duração estimada\end{itemize}\\
+%		\hline
+%		
+%		PM.1.7 Atribuir datas estimadas de início e término para cada uma das tarefas a fim de criar o \crono levando em consideração os recursos, sequência e dependências das tarefas.&
+%		\ppj\par\begin{itemize}
+%			\item Tarefas
+%			\item Duração estimada
+%			\item Composição da Equipe de Trabalho
+%		\end{itemize}&
+%		\ppj\par\begin{itemize}
+%			\item \crono
+%		\end{itemize}\\
+%		\hline
+%		
+%		PM.2.2 Analisar e avaliar a \muda em relação ao custo, cronograma e impacto técnico. A mudança solicitada pode ser iniciada pelo cliente ou pela equipe interna de trabalho. Atualize o \ppj se as mudanças aceitas não afetam acordos com o cliente. Solicitações de mudança que afetem esses acordos devem ser negociadas por ambas as partes.&
+%		\muda (iniciada)\par\ppj&
+%		\muda (avaliada)\par\ppj (atualizado)\\
+%		\hline
+%		
+%		PM.3.3 Identificar mudanças aos requisitos e/ou \ppj relacionados à desvios significativos, riscos potenciais ou problemas relacionados à realização do plano, documentando-os na \muda e acompanhando-os até sua conclusão.&
+%		\prog (avaliado)\par&
+%		\muda (iniciada)\\
+%		\hline
+%		
+%		%	PM.3.2 Estabelecer ações para corrigir desvios ou problemas e identificar riscos relacionados à realização do \ppj, conforme necessário, documentando-os no \corre e acompanhando-os até o seu fechamento.&
+%		%	\prog (avaliado)\par&
+%		%	\corre\\
+%		%	\hline
+%		
+%		SI.6.6 Realizar entregas de acordo com as \entrega.&
+%		\ppj\par
+%		\begin{itemize}
+%			\item \entrega
+%		\end{itemize}\par
+%		\swcfg&
+%		\swcfg (entregue)\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption{Atividades da \iso}
+%	\label{Tab:estrat:ativ:iso}
+%\end{table}
 
 
 %	Nesta seção será apresentada a metodologia utilizada para a verificação das hipóteses apresentadas na Seção \ref{hipoteses}.\\
@@ -788,6 +823,6 @@ As atividades iniciadas com a sigla PM são relacionadas à \gp e as iniciadas com
 
 %	O uso da abordagem de normalização definida aqui será melhor apresentada nos resultados da Seção \ref{testesHeterogeneos}.
 
-\section{Conclusão do Capítulo}
+%\section{Conclusão do Capítulo}
 %	Este capítulo apresentou as metodologias utilizadas, bem como os testes efetuados afim de propor o conceito de afinidade e a avaliação dos critérios de coexistência de tipos de aplicações. No próximo capítulo serão apresentados os testes e os resultados obtidos à partir destas metodologias.
 

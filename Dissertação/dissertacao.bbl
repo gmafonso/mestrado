@@ -52,15 +52,33 @@ Laporte, C.~Y., Alexandre, S., e Renault, A. (2008).
 \newblock Developing international standardsfor very small enterprises.
 \newblock {\em IEEE Computer}.
 
+\bibitem[Liker, 2004]{toyota}
+Liker, J.~K. (2004).
+\newblock {\em The Toyota Way - 14 Management Principles from the World's
+  Greatest Manufacturer}.
+\newblock McGraw-Hill.
+
 \bibitem[Manzato e Santos, 2012]{manzato}
 Manzato, A.~J. e Santos, A.~B. (2012).
 \newblock A elabora{\c c}{\~a}o de question{\'a}rios na pesquisa quantitativa.
 \newblock {\em Departamento de Ci{\^e}ncia de Computa{\c c}{\~a}o e
   Estat{\'\i}stica -- IBILCE -- UNESP}.
 
+\bibitem[Prado et~al., 2013]{metodos}
+Prado, P. P.~L., ao~Bosco~Gon\c{c}alves, J., e Marcelino, M.~A. (2013).
+\newblock {\em M\'etodos Experimentais em Engenharia - Introdu{\c{c}}{\~a}o aos
+  M\'etodos Cient\'ificos}.
+\newblock Ci\^encia Moderna, Rio de Janeiro.
+
 \bibitem[Pressman, 2006]{pressman}
 Pressman, R. (2006).
 \newblock {\em Engenharia de Software}.
 \newblock McGraw Hill Brasil, 6 edition.
+
+\bibitem[SEBRAE, 2013]{normas}
+SEBRAE (2013).
+\newblock {\em Normas e Certifica{\c{c}}{\~o}es em Software - qual serve melhor
+  para mim?}
+\newblock Serviço Brasileiro de Apoio \`as Micro e Pequenas Empresas - SEBRAE.
 
 \end{thebibliography}

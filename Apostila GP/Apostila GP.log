@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  23 APR 2015 17:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  21 MAY 2015 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -602,21 +602,22 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 ) (./Apostila GP.aux
-(./integracao.aux) (./escopo.aux) (./tempo.aux) (./project.aux))
+(./fundamentos.aux) (./integracao.aux) (./escopo.aux) (./tempo.aux)
+(./project.aux))
 \openout1 = `"Apostila GP.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -709,32 +710,55 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\openout2 = `fundamentos.aux'.
+
+
+(./fundamentos.tex
+Cap\'{\i }tulo 1.
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 5.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 5.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 5.
+
+) [1
+
+
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `integracao.aux'.
 
 
 (./integracao.tex
-Cap\'{\i }tulo 1.
-<Figuras/gerenciamento_integracao.png, id=1, 416.757pt x 296.307pt>
+Cap\'{\i }tulo 2.
+<Figuras/gerenciamento_integracao.png, id=10, 416.757pt x 296.307pt>
 File: Figuras/gerenciamento_integracao.png Graphic file (type png)
 
 <use Figuras/gerenciamento_integracao.png>
 Package pdftex.def Info: Figuras/gerenciamento_integracao.png used on input lin
 e 7.
 (pdftex.def)             Requested size: 312.56699pt x 222.2297pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [1
+ [2
 
 
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
-as/gerenciamento_integracao.png>]
-<Figuras/plano_planejamento.png, id=13, 799.98875pt x 420.57124pt>
+ <./Figuras/gerenciamento_integracao.png>] <Figuras/plano_planejamento.png, id=
+18, 799.98875pt x 420.57124pt>
 File: Figuras/plano_planejamento.png Graphic file (type png)
 
 <use Figuras/plano_planejamento.png>
@@ -745,8 +769,8 @@ Package pdftex.def Info: Figuras/plano_planejamento.png used on input line 36.
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 41.
 
-[2 <./Figuras/plano_planejamento.png>]
-<Figuras/proc_integracao_1.png, id=20, 420.1296pt x 243.309pt>
+[3 <./Figuras/plano_planejamento.png>]
+<Figuras/proc_integracao_1.png, id=24, 420.1296pt x 243.309pt>
 File: Figuras/proc_integracao_1.png Graphic file (type png)
 
 <use Figuras/proc_integracao_1.png>
@@ -762,23 +786,23 @@ Overfull \hbox (5.75514pt too wide) in paragraph at lines 85--86
  m^^Setodos pr^^Se-definidos, in-forma^^Xc~oes
  []
 
-[3] [4 <./Figuras/proc_integracao_1.png>]) [5]
+[4] [5 <./Figuras/proc_integracao_1.png>]) [6]
 \openout2 = `escopo.aux'.
 
  (./escopo.tex
-Cap\'{\i }tulo 2.
-<Figuras/escopo_proj_prod.png, id=33, 357.335pt x 299.1175pt>
+Cap\'{\i }tulo 3.
+<Figuras/escopo_proj_prod.png, id=37, 357.335pt x 299.1175pt>
 File: Figuras/escopo_proj_prod.png Graphic file (type png)
 
 <use Figuras/escopo_proj_prod.png>
 Package pdftex.def Info: Figuras/escopo_proj_prod.png used on input line 14.
 (pdftex.def)             Requested size: 178.66705pt x 149.55838pt.
- [6
+ [7
 
 
 
  <./Figuras/escopo_proj_prod.png>]
-<Figuras/ciclo_vida.png, id=38, 983.675pt x 451.6875pt>
+<Figuras/ciclo_vida.png, id=43, 983.675pt x 451.6875pt>
 File: Figuras/ciclo_vida.png Graphic file (type png)
 
 <use Figuras/ciclo_vida.png>
@@ -792,18 +816,18 @@ Overfull \hbox (73.58263pt too wide) in paragraph at lines 61--62
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7]) [8 <./Figuras/ciclo_vida.png>]
+[8]) [9 <./Figuras/ciclo_vida.png>]
 \openout2 = `tempo.aux'.
 
  (./tempo.tex
-Cap\'{\i }tulo 3.
+Cap\'{\i }tulo 4.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
-[9
+[10
 
 
 
-] <Figuras/ativ_exemplo.png, id=53, 934.49126pt x 268.00125pt>
+] <Figuras/ativ_exemplo.png, id=57, 934.49126pt x 268.00125pt>
 File: Figuras/ativ_exemplo.png Graphic file (type png)
 
 <use Figuras/ativ_exemplo.png>
@@ -814,19 +838,19 @@ Overfull \hbox (2.2635pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-) [10 <./Figuras/ativ_exemplo.png>]
+) [11 <./Figuras/ativ_exemplo.png>]
 \openout2 = `project.aux'.
 
  (./project.tex
-Cap\'{\i }tulo 4.
-<Figuras/project_inicio1.png, id=58, 608.2725pt x 142.5325pt>
+Cap\'{\i }tulo 5.
+<Figuras/project_inicio1.png, id=62, 608.2725pt x 142.5325pt>
 File: Figuras/project_inicio1.png Graphic file (type png)
 
 <use Figuras/project_inicio1.png>
 Package pdftex.def Info: Figuras/project_inicio1.png used on input line 15.
 (pdftex.def)             Requested size: 273.7201pt x 64.13902pt.
 
-<Figuras/project_inicio2.png, id=59, 941.5175pt x 182.6825pt>
+<Figuras/project_inicio2.png, id=63, 941.5175pt x 182.6825pt>
 File: Figuras/project_inicio2.png Graphic file (type png)
 
 <use Figuras/project_inicio2.png>
@@ -840,7 +864,7 @@ Overfull \hbox (5.4253pt too wide) in paragraph at lines 22--23
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figuras/project_inicio3.png, id=60, 146.5475pt x 519.9425pt>
+<Figuras/project_inicio3.png, id=64, 146.5475pt x 519.9425pt>
 File: Figuras/project_inicio3.png Graphic file (type png)
 
 <use Figuras/project_inicio3.png>
@@ -850,40 +874,42 @@ Package pdftex.def Info: Figuras/project_inicio3.png used on input line 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [11
+) [12
 
 
 
- <./Figuras/project_inicio1.png>] [12 <./Figuras/project_inicio2.png> <./Figura
-s/project_inicio3.png>] (./Apostila GP.bbl) [13
+ <./Figuras/project_inicio1.png>] [13 <./Figuras/project_inicio2.png> <./Figura
+s/project_inicio3.png>] (./Apostila GP.bbl) [14
 
 
 ] (./Apostila GP.aux
-(./integracao.aux) (./escopo.aux) (./tempo.aux) (./project.aux)) ) 
+(./fundamentos.aux) (./integracao.aux) (./escopo.aux) (./tempo.aux)
+(./project.aux)) ) 
 Here is how much of TeX's memory you used:
- 5483 strings out of 493315
- 73498 string characters out of 6137904
- 161159 words of memory out of 5000000
- 8768 multiletter control sequences out of 15000+600000
- 13494 words of font info for 47 fonts, out of 8000000 for 9000
+ 5506 strings out of 493315
+ 73793 string characters out of 6137904
+ 161528 words of memory out of 5000000
+ 8780 multiletter control sequences out of 15000+600000
+ 15439 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,43p,498b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Apostila GP.pdf" (13 pages, 501449 bytes).
+ 38i,12n,43p,662b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbxti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+s12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
+12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb>
+Output written on "Apostila GP.pdf" (14 pages, 510198 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

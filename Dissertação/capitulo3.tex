@@ -2,16 +2,24 @@
 \chapter{Descrição da Proposta}
 \label{proposta}
 
-Como visto no Capítulo \ref{Sec:intro:problema}, era necessário encontrar uma solução que tornasse viável a implantação da norma \iso em uma pequena empresa de desenvolvimento de \sw com o menor risco possível de paralisação e abandono nas suas fases iniciais.
+\iftoggle{full}
+{
 
-Muitas empresas e especialistas em implantação da norma \iso se utilizam de questionários para realizar a avaliação inicial do estado atual das empresas de \sw e determinar o caminho que deverá ser percorrido, através da implantação dos processos da norma, para se alcançar o estado desejado. Porém, estes questionários não são disponibilizados para um auto diagnóstico e é necessário arcar com o alto custo da consultoria inicial para conseguir os resultados que podem demorar a ser divulgados. Ademais, os questionários de avaliação colocam todas as atividades e tarefas da \iso em um mesmo patamar de importância, sem levar em consideração os valores das empresas alvo. 
+	Como visto no Capítulo \ref{Sec:intro:problema}, era necessário encontrar uma solução que tornasse viável a implantação da norma \iso em uma pequena empresa de desenvolvimento de \sw com o menor risco possível de paralisação e abandono nas suas fases iniciais.
+
+	Muitas empresas e especialistas em implantação da norma \iso se utilizam de questionários para realizar a avaliação inicial do estado atual das empresas de \sw e determinar o caminho que deverá ser percorrido, através da implantação dos processos da norma, para se alcançar o estado desejado. Porém, estes questionários não são disponibilizados para um auto diagnóstico e é necessário arcar com o alto custo da consultoria inicial para conseguir os resultados que podem demorar a ser divulgados. Ademais, os questionários de avaliação colocam todas as atividades e tarefas da \iso em um mesmo patamar de importância, sem levar em consideração os valores das empresas alvo. 
+	
+}
 
 A proposta desta dissertação é a criação de um questionário de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação.
 
 \section{Definição do Problema}
 \label{sec:def:prob}
 
-O primeiro passo tomado neste estudo foi formalizar a definição do problema e a sua delimitação. Foi constatado que nenhum método preexistente era capaz de auxiliar as empresas conforme a proposta colocada anteriormente. Para então procurar cobrir essa lacuna o seguinte problema para estudo foi definido:
+\iftoggle{full}
+{
+	O primeiro passo tomado neste estudo foi formalizar a definição do problema e a sua delimitação. Foi constatado que nenhum método preexistente era capaz de auxiliar as empresas conforme a proposta colocada anteriormente. Para então procurar cobrir essa lacuna o seguinte problema para estudo foi definido:
+}
 
 \begin{itemize}
 
@@ -26,7 +34,7 @@ O primeiro passo tomado neste estudo foi formalizar a definição do problema e a 
 
 \section{Justificativa do Trabalho}
 
-Este trabalho tem como justificativa principal a demanda por melhorias já existente na empresa foco. Conforme análise realizada no Capítulo \ref{Sec:analise:org}, é de importância estratégica para a empresa que as melhorias sejam implantadas para suportar o crescimento vigente, minimizando os possíveis riscos de paralisação e abandono do projeto, fatos que já ocorreram no passado.
+Este trabalho tem como justificativa principal a demanda por melhorias já existente na empresa foco. \iftoggle{full}{Conforme análise realizada no Capítulo \ref{Sec:analise:org}, é de importância estratégica para a empresa que as melhorias sejam implantadas para suportar o crescimento vigente, minimizando os possíveis riscos de paralisação e abandono do projeto, fatos que já ocorreram no passado.}
 
 Além da aplicação imediata na empresa foco, a ferramenta de auto diagnóstico criada a partir desta dissertação também servirá de apoio a outras empresas de desenvolvimento de \sw que pretendam implantar a norma \iso ou a empresas e consultores especializados que poderão se beneficiar de uma análise inicial mais focada nos valores das empresas.
 
@@ -35,45 +43,53 @@ Além da aplicação imediata na empresa foco, a ferramenta de auto diagnóstico cri
 
 Esta dissertação foi construída através da pesquisa bibliográfica e da pesquisa aplicada, ou tecnológica, onde o autor procurou resolver um problema real buscando soluções através do método científico \citep{metodos}.
 
-A metodologia deste trabalho passou pelas 4 fases do método científico: problema, teoria, prática e divulgação. Estas fases estão representadas na Figura \ref{Fig:metodo:cientifico}. A fase do problema foi descrita em detalhes no Capítulo \ref{sec:def:prob}. As demais fases serão cobertas a seguir neste Capítulo.
+\iftoggle{full}
+{
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.5]{figuras/metodo_cientifico.png}
-	\caption{Fases do método científico\newline Fonte: \cite[p. 10]{metodos}}
-	\label{Fig:metodo:cientifico}
-\end{figure}
+	A metodologia deste trabalho passou pelas 4 fases do método científico: problema, teoria, prática e divulgação. Estas fases estão representadas na Figura \ref{Fig:metodo:cientifico}. A fase do problema foi descrita em detalhes no Capítulo \ref{sec:def:prob}. As demais fases serão cobertas a seguir neste Capítulo.
 
-Levando em consideração o objetivo desta dissertação:
-\begin{quote}
-``Criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação'' (Capítulo \ref{Sec:delim:trab})
-\end{quote} o autor levantou a hipótese de que uma das melhores soluções era a implantação de um questionário de auto avaliação. 
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.5]{figuras/metodo_cientifico.png}
+		\caption{Fases do método científico\newline Fonte: \cite[p. 10]{metodos}}
+		\label{Fig:metodo:cientifico}
+	\end{figure}
+
+	Levando em consideração o objetivo desta dissertação:
+	\begin{quote}
+	``Criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação'' (Capítulo \ref{Sec:delim:trab})
+	\end{quote} o autor levantou a hipótese de que uma das melhores soluções era a implantação de um questionário de auto avaliação. 
+}
 
 A fim de produzir este questionário, o autor pesquisou na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas  obtivemos sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
 
-Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas que foi adaptada às necessidades desta dissertação. Sua representação gráfica pode ser observada na Figura \ref{Fig:abordagem:pesquisa}. 
+\iftoggle{full}
+{
+	
+	Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas que foi adaptada às necessidades desta dissertação. Sua representação gráfica pode ser observada na Figura \ref{Fig:abordagem:pesquisa}. 
 
-Os primeiros itens da abordagem citada anteriormente são a definição do problema, que foi tratado e bem delimitado nesta dissertação na Seção \ref{Sec:intro:problema} e o planejamento amostral, que não foi realizado por se tratar de um questionário individual e o público alvo ser bem estratificado, composto de pequenas empresas de desenvolvimento de \sw.
+	Os primeiros itens da abordagem citada anteriormente são a definição do problema, que foi tratado e bem delimitado nesta dissertação na Seção \ref{Sec:intro:problema} e o planejamento amostral, que não foi realizado por se tratar de um questionário individual e o público alvo ser bem estratificado, composto de pequenas empresas de desenvolvimento de \sw.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.5]{figuras/abordagem_pesquisa.png}
-	\caption{Abordagem estatística na pesquisa quantitativa\newline Fonte: \cite{manzato}}
-	\label{Fig:abordagem:pesquisa}
-\end{figure}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.5]{figuras/abordagem_pesquisa.png}
+		\caption{Abordagem estatística na pesquisa quantitativa\newline Fonte: \cite{manzato}}
+		\label{Fig:abordagem:pesquisa}
+	\end{figure}
 
-O passo seguinte, planejamento do questionário, é o ponto do processo onde esta dissertação se diferencia dos demais trabalhos, pois seria necessário planejar não somente as questões que iriam compor o questionário, mas também de que forma elas seriam impactadas pelo peso de cada valor empresarial. Para atingir este objetivo era necessário planejar a classificação dos valores empresariais antes mesmo das perguntas do questionário.
+	O passo seguinte, planejamento do questionário, é o ponto do processo onde esta dissertação se diferencia dos demais trabalhos, pois seria necessário planejar não somente as questões que iriam compor o questionário, mas também de que forma elas seriam impactadas pelo peso de cada valor empresarial. Para atingir este objetivo era necessário planejar a classificação dos valores empresariais antes mesmo das perguntas do questionário.
 
-Os demais passos, que são a realização de campo, análise estatística e discussão dos resultados também serão abordados em detalhes.
+	Os demais passos, que são a realização de campo, análise estatística e discussão dos resultados também serão abordados em detalhes.
 
-Além da abordagem, \cite{manzato} também determina um roteiro para elaboração e aplicação de uma pesquisa, que foi adaptado para as necessidades desta dissertação e pode ser observado na Figura \ref{Fig:fluxo:plan:quest}.
+	Além da abordagem, \cite{manzato} também determina um roteiro para elaboração e aplicação de uma pesquisa, que foi adaptado para as necessidades desta dissertação e pode ser observado na Figura \ref{Fig:fluxo:plan:quest}.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.6]{figuras/fluxo_plan_questionario.jpg}
-	\caption{Roteiro para elaboração e aplicação de uma pesquisa\newline (adaptado de \cite{manzato}}
-	\label{Fig:fluxo:plan:quest}
-\end{figure}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.6]{figuras/fluxo_plan_questionario.jpg}
+		\caption{Roteiro para elaboração e aplicação de uma pesquisa\newline (adaptado de 	\cite{manzato}}
+		\label{Fig:fluxo:plan:quest}
+	\end{figure}
+}
 
 \subsection{Planejamento e redação do questionário}
 
@@ -91,17 +107,26 @@ Para seguir o roteiro definido por \cite{manzato}, os objetivos que subsidiam a 
 	
 \end{itemize}
 
-Além dos objetivos, o público alvo da pesquisa também foi definido como pequenas empresas desenvolvedoras de \sw, chamadas de VSE \citep{iso}. Neste trabalho, somente a empresa alvo da dissertação foi utilizada.
+\iftoggle{full}
+{
 
-A seguir será analisado como foi realizado o planejamento do questionário.
+	Além dos objetivos, o público alvo da pesquisa também foi definido como pequenas empresas desenvolvedoras de \sw, chamadas de VSE \citep{iso}. Neste trabalho, somente a empresa alvo da dissertação foi utilizada.
+
+	A seguir será analisado como foi realizado o planejamento do questionário.
+}
 
 \subsubsection{Classificação dos valores empresariais}
 
 O primeiro passo foi a criação da classificação dos valores empresariais, cujo resultado pode ser observado na Figura \ref{Fig:class:valores}. Podemos notar três estruturas principais: os valores empresariais na primeira coluna, as marcações da classificação de importância nas colunas seguintes e o cálculo do peso final na última coluna. Para simplificar a marcação de importância dos valores, foi colocado um guia visual na primeira linha que indica que as marcações aumentam de valor da esquerda para a direita.
 
-O espaço disponível para as marcações da classificação de importância pode ser classificado como uma escala ordinária. Uma escala ordinária é composta por dados ordinários, ou seja, dados que podem ser ordenados \citep{garson}. No caso dos valores empresariais, a ordenação é feita da esquerda para a direita, iniciando do mais importante para o menos importante. 
+\iftoggle{full}
+{
+	
+	O espaço disponível para as marcações da classificação de importância pode ser classificado como uma escala ordinária. Uma escala ordinária é composta por dados ordinários, ou seja, dados que podem ser ordenados \citep{garson}. No caso dos valores empresariais, a ordenação é feita da esquerda para a direita, iniciando do mais importante para o menos importante. 
 
-O peso para cada valor empresarial é calculado de acordo com a marcação de importância e a quantidade de valores empresariais disponibilizados na pesquisa. No exemplo da Figura \ref{Fig:class:valores} nós podemos observar 12 valores empresariais, sendo ``Comunicação com o cliente'' o melhor classificado e, consequentemente, com o maior peso calculado e os valores ``Manutenção e rastreabilidade entre artefatos'', ``Gerência sobre o projeto como um todo'' e ``Gerência de riscos'' os piores classificados e, consequentemente, com os menores pesos calculados.
+	O peso para cada valor empresarial é calculado de acordo com a marcação de importância e a quantidade de valores empresariais disponibilizados na pesquisa. No exemplo da Figura \ref{Fig:class:valores} nós podemos observar 12 valores empresariais, sendo ``Comunicação com o cliente'' o melhor classificado e, consequentemente, com o maior peso calculado e os valores ``Manutenção e rastreabilidade entre artefatos'', ``Gerência sobre o projeto como um todo'' e ``Gerência de riscos'' os piores classificados e, consequentemente, com os menores pesos calculados.
+
+}
 
 \begin{figure}[!h]
 	\centering
@@ -119,19 +144,29 @@ Onde \textit{p} é o peso, \textit{n} é a quantidade de valores empresariais disp
 \subsubsection{Criação das perguntas}
 \label{Sec:criacao:perguntas}
 
-O segundo passo foi a criação das perguntas que iriam compor o questionário. Para tanto, foi necessário revisar a norma \iso e extrair do seu conteúdo o teor do que deveria ser averiguado das empresas candidatas à sua implantação para que o resultado refletisse os pontos fortes e fracos da organização e que estes últimos fossem classificados de forma a fornecer um guia de inicialização da implantação.
+\iftoggle{full}
+{
 
-A norma é dividida em duas áreas de conhecimento: \gp e \dsw. Cada área de conhecimento possui objetivos e processos que foram compilados a fim de estabelecer boas práticas de desenvolvimento de \sw. Mais detalhes sobre as áreas de conhecimento, objetivos e processos se encontram no Capítulo \ref{Sec:iso}.
+	O segundo passo foi a criação das perguntas que iriam compor o questionário. Para tanto, foi necessário revisar a norma \iso e extrair do seu conteúdo o teor do que deveria ser averiguado das empresas candidatas à sua implantação para que o resultado refletisse os pontos fortes e fracos da organização e que estes últimos fossem classificados de forma a fornecer um guia de inicialização da implantação.
 
-A estratégia de criação das perguntas seguida foi a leitura e interpretação de cada um dos processos. Ao se determinar a motivação e os objetivos de cada um dos processos, era necessário criar uma ou mais perguntas que avaliassem se a organização pesquisada aplicava o processo e de que forma. Para uma avaliação mais precisa, não era suficiente saber se a organização possuía e aplicava o processo e sim qual o nível de maturidade dela naquele processo específico. Muitas vezes uma empresa poderia possuir um processo de distriuição de tarefas, por exemplo, mas não possuir um plano de projeto e papéis baseados neste plano para que essas tarefas fossem distruídas de acordo. Encontrar o nível de maturidade envolveria elaborar uma pergunta e distribuir as possíveis respostas em uma escala que apontasse os diversos níveis de maturidade implícitos no processo.
+	A norma é dividida em duas áreas de conhecimento: \gp e \dsw. Cada área de conhecimento possui objetivos e processos que foram compilados a fim de estabelecer boas práticas de desenvolvimento de \sw. Mais detalhes sobre as áreas de conhecimento, objetivos e processos se encontram no Capítulo \ref{Sec:iso}.
+	
+	A estratégia de criação das perguntas seguida foi a leitura e interpretação de cada um dos processos da \iso. Ao se determinar a motivação e os objetivos de cada um dos processos, era necessário criar uma ou mais perguntas que avaliassem se a organização pesquisada aplicava o processo e de que forma. Para uma avaliação mais precisa, não era suficiente saber se a organização possuía e aplicava o processo e sim qual o nível de maturidade dela naquele processo específico. Muitas vezes uma empresa poderia possuir um processo de distriuição de tarefas, por exemplo, mas não possuir um plano de projeto e papéis baseados neste plano para que essas tarefas fossem distruídas de acordo. Encontrar o nível de maturidade envolveria elaborar uma pergunta e distribuir as possíveis respostas em uma escala que apontasse os diversos níveis de maturidade implícitos no processo.
 
-As perguntas foram elaboradas de forma fechada e com o objetivo de levar o pesquisado a refletir, buscar informações e avaliar sua organização. As respostas, por sua vez, não conseguiriam abranger todas as possibilidades de maturidade e aplicação do processo em questão. Uma forma de delimitar as possibilidades era utilizar uma escala de ranqueamento, que atribui valores de 1 a um dado valor máximo, geralmente 10, cujos limites são associados à percepção do entrevistado em relação à pergunta, como ``concordo plenamente'' e ``discordo plenamente'' \citep{garson}. O problema com a escala de ranqueamento para este trabalho era como medir o nível de maturidade simplesmente informando dois extremos e possuindo um número relativamente grande de subdivisões entre eles. Essas subdivisões, que representariam diferentes níveis de percepção da situação atual, poderiam levar o entrevistado a uma resposta ``preguiçosa'', onde ele não seria capaz ou não teria a disposição de raciocionar sobre sua situação atual. Ainda era possível que o ranqueamento levasse a uma tendência central de respostas visto que o entrevistado tenderia a achar que a média representaria melhor sua situação sem levar em consideração pequenos fatores que desviariam a resposta para cima ou para baixo.
+	As perguntas foram elaboradas de forma fechada e com o objetivo de levar o pesquisado a refletir, buscar informações e avaliar sua organização. As respostas, por sua vez, não conseguiriam abranger todas as possibilidades de maturidade e aplicação do processo em questão. Uma forma de delimitar as possibilidades era utilizar uma escala de ranqueamento, que atribui valores de 1 a um dado valor máximo, geralmente 10, cujos limites são associados à percepção do entrevistado em relação à pergunta, como ``concordo plenamente'' e ``discordo plenamente'' \citep{garson}. O problema com a escala de ranqueamento para este trabalho era como medir o nível de maturidade simplesmente informando dois extremos e possuindo um número relativamente grande de subdivisões entre eles. Essas subdivisões, que representariam diferentes níveis de percepção da situação atual, poderiam levar o entrevistado a uma resposta ``preguiçosa'', onde ele não seria capaz ou não teria a disposição de raciocionar sobre sua situação atual. Ainda era possível que o ranqueamento levasse a uma tendência central de respostas visto que o entrevistado tenderia a achar que a média representaria melhor sua situação sem levar em consideração pequenos fatores que desviariam a resposta para cima ou para baixo.
 
-A solução foi a escolha da escala de Likert, que utiliza itens de Likert como ``concordo plenamente'', ``concordo'', ``neutro'', ``discordo'' e ``discordo plenamente'', que também possuem valores associados como na escala de ranqueamento \citep{garson}. Porém, se fôssemos utilizar a escala de Likert tradicional, os mesmos problemas da escala de ranqueamento acabariam por incindir nas respostas. Para melhores resultados, esses itens de Likert foram adaptados conforme as necessidades desta dissertação: ao invés de itens genéricos, cada item descreveria o nível de maturidade dentro de sua escala, ou seja, cada pergunta possuiria cinco itens\footnotemark{} de Likert personalizados.
+	A solução foi a escolha da escala de Likert, que utiliza itens de Likert como ``concordo plenamente'', ``concordo'', ``neutro'', ``discordo'' e ``discordo plenamente'', que também possuem valores associados como na escala de ranqueamento \citep{garson}. Porém, se fôssemos utilizar a escala de Likert tradicional, os mesmos problemas da escala de ranqueamento acabariam por incindir nas respostas. Para melhores resultados, esses itens de Likert foram adaptados conforme as necessidades desta dissertação: ao invés de itens genéricos, cada item descreveria o nível de maturidade dentro de sua escala, ou seja, cada pergunta possuiria cinco itens\footnotemark{} de Likert personalizados.
 
-\footnotetext{As escalas de Likert possuem, em geral, 4 ou 5 itens de Likert, sendo possível encontrar um número menor ou maior em situações específicas.}
+	\footnotetext{As escalas de Likert possuem, em geral, 4 ou 5 itens de Likert, sendo possível encontrar um número menor ou maior em situações específicas.}
+}
 
-A criação de cada item de Likert personalizado obedeceu ao seguinte processo:
+\iftoggle{full}
+{
+	A criação de cada item de Likert personalizado obedeceu ao seguinte processo:
+}
+{
+	A criação das respostas obedeceu ao seguinte processo:
+}
 
 \begin{itemize}
 
@@ -143,9 +178,14 @@ A criação de cada item de Likert personalizado obedeceu ao seguinte processo:
 	
 \end{itemize}	
 
-As respostas deveriam fazer com que o entrevistado pudesse encontrar uma situação na qual sua organização melhor se encaixaria. Essa forma de criação das respostas levará, em alguns momentos, o entrevistado a escolher entre duas opções que não representam a sua realidade. Cabe a ele compreender que o juízo deve ser feito em termos relativos, escolhendo a resposta que mais se aproxima ao estado atual daquele processo.
+\iftoggle{full}
+{
 
-Esta forma de personalização dos itens de Likert servem de solução para um problema identificado na revisão bibliográfica: ``As categorias de resposta nas escalas de Likert tem uma ordem de ranqueamento, mas os intervalos entre os valores não podem ser assumidos como iguais'' \citep{jamieson2004likert}. No artigo o autor diz que existem muitos níveis entre um ``concordo plenamente'' e ``discordo plenamente'' que não podem ser quantificados em escalas equidistantes. Ao personalizar os itens trazendo mais significado para cada elemento, as distâncias das percepções não são mais necessariamente iguais e a descrição personalizada de cada elemento traz em si o nível de percepção de valor que o pesquisador imaginou.
+	As respostas deveriam fazer com que o entrevistado pudesse encontrar uma situação na qual sua organização melhor se encaixaria. Essa forma de criação das respostas levará, em alguns momentos, o entrevistado a escolher entre duas opções que não representam a sua realidade. Cabe a ele compreender que o juízo deve ser feito em termos relativos, escolhendo a resposta que mais se aproxima ao estado atual daquele processo.
+
+	Esta forma de personalização dos itens de Likert servem de solução para um problema identificado na revisão bibliográfica: ``As categorias de resposta nas escalas de Likert tem uma ordem de ranqueamento, mas os intervalos entre os valores não podem ser assumidos como iguais'' \citep{jamieson2004likert}. No artigo o autor diz que existem muitos níveis entre um ``concordo plenamente'' e ``discordo plenamente'' que não podem ser quantificados em escalas equidistantes. Ao personalizar os itens trazendo mais significado para cada elemento, as distâncias das percepções não são mais necessariamente iguais e a descrição personalizada de cada elemento traz em si o nível de percepção de valor que o pesquisador imaginou.
+	
+}
 
 \subsubsection{Peso e \textit{score} da pergunta}
 
@@ -160,9 +200,14 @@ Para tanto, o trabalho de construção de cada pergunta é finalizado com a atribui
 	\label{Fig:perg:peso}
 \end{figure}
 
-A escala de valor que pode ser atribuída ao peso da pergunta, diferentemente do peso dos valores que foram atribuídos no início do processo, pode assumir qualquer intervalo, pode ser discreta ou contínua e pode ser ajustada de acordo com a necessidade do entrevistado. Ela precisa obedecer somente a uma regra: deve ser escolhida com a mesma direção dos pesos dos valores de negócio, ou seja, se a ordenação que se quer fazer é crescente, os valores devem ser crescentes. Na empresa alvo desta dissertação escolhemos uma escala crescente de 0 a 5.
+\iftoggle{full}
+{
 
-Assim como na elaboração das respostas, o autor desta dissertação precisou avaliar cada processo e cada pergunta em função dos valores empresariais, realizando o ranqueamento de acordo com essa análise. Um outro avaliador poderá personalizar esses pesos de acordo com sua análise pessoal, tornando o resultado do questionário mais condizente com sua realidade.
+	A escala de valor que pode ser atribuída ao peso da pergunta, diferentemente do peso dos valores que foram atribuídos no início do processo, pode assumir qualquer intervalo, pode ser discreta ou contínua e pode ser ajustada de acordo com a necessidade do entrevistado. Ela precisa obedecer somente a uma regra: deve ser escolhida com a mesma direção dos pesos dos valores de negócio, ou seja, se a ordenação que se quer fazer é crescente, os valores devem ser crescentes. Na empresa alvo desta dissertação escolhemos uma escala crescente de 0 a 5.
+
+	Assim como na elaboração das respostas, o autor desta dissertação precisou avaliar cada processo e cada pergunta em função dos valores empresariais, realizando o ranqueamento de acordo com essa análise. Um outro avaliador poderá personalizar esses pesos de acordo com sua análise pessoal, tornando o resultado do questionário mais condizente com sua realidade.
+
+}
 
 o \textit{score} final da pergunta será calculado de acordo com a seguinte fórmula:
 
@@ -170,34 +215,45 @@ $$s_i=r \times v_i$$
 
 Onde $s$ é o \textit{score} do valor empresarial $i$, $r$ é o valor de Likert para a resposta selecionada e $v$ é o peso do valor empresarial $i$ associado aquela pergunta. O índice $i$ indica qual valor empresarial está sendo calculado e varia de 1 ao número total de valores.
 
-O valor de Likert $r$ possui uma escala decrescente, inversa ao que seria intuitivo se imaginar. Isso se deve ao fato da primeira resposta representar o cenário ideal e, portanto, não precisar entrar na lista de melhorias que será sugerida como resultado final do questionário. Isso signifca que \textit{scores} grandes representam processos que devem ser melhorados. Consequentemente o inverso é verdadeiro: \textit{scores} pequenos ou zerados são processos que já se encontram no nível ideal dentro da norma \iso.
+\iftoggle{full}
+{
 
-Como pode ser observado no exemplo da Figura \ref{Fig:perg:score}, os 3 valores que foram classificados com os maiores pesos no exemplo da Figura \ref{Fig:perg:peso} receberam os maiores \textit{scores} porque a resposta à pergunta foi o pior cenário possível.
+	O valor de Likert $r$ possui uma escala decrescente, inversa ao que seria intuitivo se imaginar. Isso se deve ao fato da primeira resposta representar o cenário ideal e, portanto, não precisar entrar na lista de melhorias que será sugerida como resultado final do questionário. Isso signifca que \textit{scores} grandes representam processos que devem ser melhorados. Consequentemente o inverso é verdadeiro: \textit{scores} pequenos ou zerados são processos que já se encontram no nível ideal dentro da norma \iso.
 
-Apesar de não influenciar no resultado final, que é a listagem ordenada das melhorias sugeridas, outros dois elementos estão presentes no \textit{score} por pergunta: o maior \textit{score} e o \textit{score} total.
+	Como pode ser observado no exemplo da Figura \ref{Fig:perg:score}, os 3 valores que foram classificados com os maiores pesos no exemplo da Figura \ref{Fig:perg:peso} receberam os maiores \textit{scores} porque a resposta à pergunta foi o pior cenário possível.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.8]{figuras/pergunta_score.png}
-	\caption{\textit{Scores} dos valores de negócios das perguntas}
-	\label{Fig:perg:score}
-\end{figure}
+	Apesar de não influenciar no resultado final, que é a listagem ordenada das melhorias sugeridas, outros dois elementos estão presentes no \textit{score} por pergunta: o maior \textit{score} e o \textit{score} total.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.8]{figuras/pergunta_score.png}
+		\caption{\textit{Scores} dos valores de negócios das perguntas}
+		\label{Fig:perg:score}
+	\end{figure}
+	
+}
 
 \subsection{Realização de campo}
 
-A definição da técnica a ser utilizada, próximo passo do roteiro reproduzido na Figura \ref{Fig:fluxo:plan:quest}, foi limitada pelas características do questionário. Por se tratar de um questionário de auto avaliação, a técnica a ser utilizada foi definida como entrevista individual, a ser conduzida pelo próprio pesquisado.
+\iftoggle{full}
+{
+	A definição da técnica a ser utilizada, próximo passo do roteiro reproduzido na Figura \ref{Fig:fluxo:plan:quest}, foi limitada pelas características do questionário. Por se tratar de um questionário de auto avaliação, a técnica a ser utilizada foi definida como entrevista individual, a ser conduzida pelo próprio pesquisado.
 
-
-Não houve necessidade de seleção da amostra, visto que o questionário é individual, sendo a empresa alvo da dissertação a única utilizada na pesquisa.
+	Não houve necessidade de seleção da amostra, visto que o questionário é individual, sendo a empresa alvo da dissertação a única utilizada na pesquisa.
+}
 
 A aplicação do questionário pode ser dividida em duas etapas: revisão e pontuação dos valores empresariais e resposta às perguntas. A seguir essas duas etapas serão descritas em mais detalhes.
 
 \subsubsection{Revisão e pontuação dos valores empresariais}
 \label{Sec:rev:pesos}
 
-O entrevistado deve revisar os valores empresariais sugeridos pelo autor antes de começar o processo de pontuação dos pesos. Caso o entrevistado não considere que os valores sugeridos sejam relevantes para a sua organização, ou caso ele considere que outros valores devam ser adicionados, é importante que a lista de valores empresariais seja editada para refletir a realidade da organização. 
+\iftoggle{full}
+{
 
-Pela primeira versão do questionário ser uma planilha eletrônica, esse tarefa de edição da lista de valores empresariais pode ser um pouco complexa e trabalhosa, visto que as fórmulas não se ajustarão automaticamente à mais colunas. Esse complicador será resolvido em versões futuras do questionário que passarão a ser construídos a partir de \sws e bancos de dados integrados.
+	O entrevistado deve revisar os valores empresariais sugeridos pelo autor antes de começar o processo de pontuação dos pesos. Caso o entrevistado não considere que os valores sugeridos sejam relevantes para a sua organização, ou caso ele considere que outros valores devam ser adicionados, é importante que a lista de valores empresariais seja editada para refletir a realidade da organização. 
+
+	Pela primeira versão do questionário ser uma planilha eletrônica, esse tarefa de edição da lista de valores empresariais pode ser um pouco complexa e trabalhosa, visto que as fórmulas não se ajustarão automaticamente à mais colunas. Esse complicador será resolvido em versões futuras do questionário que passarão a ser construídos a partir de \sws e bancos de dados integrados.
+}
 
 De posse de todos os valores empresariais definidos e revisados, o entrevistado deverá iniciar o processo de atribuir os pesos. Por se tratar de uma classificação visual, como pode ser observado na Figura \ref{Fig:class:valores}, o processo é rápido e bem simples.
 
@@ -205,9 +261,12 @@ De posse de todos os valores empresariais definidos e revisados, o entrevistado 
 
 A fase final da aplicação do questionário consiste em respondê-lo de acordo com a realidade atual da empresa. Cada pergunta leva a uma lista de cinco possíveis respostas que deverão ser escolhidas de acordo com o texto que mais se aproxima da situação atual da organização.
 
-Como já mencionado no Capítulo \ref{Sec:criacao:perguntas}, não é possível descrever todas as possibilidades de cenário em apenas cinco respostas e a criação de uma amplitude maior de respostas tornaria o trabalho inviável. Portanto, o entrevistado deverá ter consciência que sua escolha deve ser baseada no texto que mais se aproximar da sua realidade.
+\iftoggle{full}
+{
+	Como já mencionado no Capítulo \ref{Sec:criacao:perguntas}, não é possível descrever todas as possibilidades de cenário em apenas cinco respostas e a criação de uma amplitude maior de respostas tornaria o trabalho inviável. Portanto, o entrevistado deverá ter consciência que sua escolha deve ser baseada no texto que mais se aproximar da sua realidade.
 
-O processo, apesar de ser longo pela grande quantidade de perguntas, se mostrou muito fluido e simples.
+	O processo, apesar de ser longo pela grande quantidade de perguntas, se mostrou muito fluido e simples.
+}
 
 \subsection{Obtenção dos dados, análise e discussão dos resultados}
 \label{Sec:resultados}
@@ -228,28 +287,41 @@ A avaliação resultante das respostas obtidas no questionário constrói duas lista
 	\label{Fig:resulado:SI}
 \end{figure}
 
-É dado ao entrevistado a opção de ordenar a lista pelo maior \textit{score} ou pelo \textit{score} total. A diferença entre as duas ordenações é que na primeira leva-se em consideração o pior desempenho do processo dentre todos os valores empresariais disponíveis e na segunda leva-se em consideração o desempenho total do processo em todos os valores empresariais disponíveis. O autor optou pela segunda opção de ordenação nas duas listas.
+\iftoggle{full}
+{
+	É dado ao entrevistado a opção de ordenar a lista pelo maior \textit{score} ou pelo \textit{score} total. A diferença entre as duas ordenações é que na primeira leva-se em consideração o pior desempenho do processo dentre todos os valores empresariais disponíveis e na segunda leva-se em consideração o desempenho total do processo em todos os valores empresariais disponíveis. O autor optou pela segunda opção de ordenação nas duas listas.
 
-Para cada elemento da lista, o entrevistado deverá se remeter ao texto original da pergunta para avaliar melhor o processo que deverá ser melhorado. No caso do primeiro processo da lista de \gp, conforme a Figura \ref{Fig:resulado:PM}, vamos ter que encontrar a pergunta codificada como ``PM.1.11.Q1''. O sistema de codificação das perguntas foi pensado para facilitar essa procura. O que o entrevistado irá encontrar é o texto que podemos observar na Figura \ref{Fig:perg:PM111Q1}.
+	Para cada elemento da lista, o entrevistado deverá se remeter ao texto original da pergunta para avaliar melhor o processo que deverá ser melhorado. No caso do primeiro processo da lista de \gp, conforme a Figura \ref{Fig:resulado:PM}, vamos ter que encontrar a pergunta codificada como ``PM.1.11.Q1''. O sistema de codificação das perguntas foi pensado para facilitar essa procura. O que o entrevistado irá encontrar é o texto que podemos observar na Figura \ref{Fig:perg:PM111Q1}.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1.png}
-	\caption{Texto da pergunta classificada em primeiro lugar para \gp}
-	\label{Fig:perg:PM111Q1}
-\end{figure}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1.png}
+		\caption{Texto da pergunta classificada em primeiro lugar para \gp}
+		\label{Fig:perg:PM111Q1}
+	\end{figure}
+	
+}
 
-A partir do texto original, o entrevistado deverá traçar seu plano de ação para implantar melhorias que levem sua organização ao cenário ideal, descrito na primeira opção de resposta, também disponibilizada na Figura \ref{Fig:perg:PM111Q1}. Complementarmente, o entrevistado também pode se referenciar ao guida da \iso para encontrar mais detalhes das melhores práticas para aplicação do processo. Para facilitar esse procedimento, é disponibilizada no texto original da pergunta a nomenclatura do processo, como pode ser observado na Figura \ref{Fig:perg:PM111Q1_ISO}.
+\iftoggle{full}
+{
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1_ISO.png}
-	\caption{Nomenclatura original do processo dentro do guia da \iso}
-	\label{Fig:perg:PM111Q1_ISO}
-\end{figure}
+	A partir do texto original, o entrevistado deverá traçar seu plano de ação para implantar melhorias que levem sua organização ao cenário ideal, descrito na primeira opção de resposta, também disponibilizada na Figura \ref{Fig:perg:PM111Q1}. Complementarmente, o entrevistado também pode se referenciar ao guida da \iso para encontrar mais detalhes das melhores práticas para aplicação do processo. Para facilitar esse procedimento, é disponibilizada no texto original da pergunta a nomenclatura do processo, como pode ser observado na Figura \ref{Fig:perg:PM111Q1_ISO}.
 
-Este processo de procura manual do texto original da pergunta para encontrar o cenário ideal e a referência do processo da \iso pode ser otimizado a partir de um \sw integrado que venha a substituir a planilha eletrônica no futuro.
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1_ISO.png}
+		\caption{Nomenclatura original do processo dentro do guia da \iso}
+		\label{Fig:perg:PM111Q1_ISO}
+	\end{figure}
+	
+}
+{
+}
 
+\iftoggle{full}
+{
+	Este processo de procura manual do texto original da pergunta para encontrar o cenário ideal e a referência do processo da \iso pode ser otimizado a partir de um \sw integrado que venha a substituir a planilha eletrônica no futuro.
+}
 %\subsection{Projeto}
 
 %O projeto foi a etapa onde as ações necessárias para a melhoria dos processos foram elencadas, priorizadas e devidamente documentadas. Também foram identificados os principais atores (\textit{stakeholders}), o cronograma, os recursos necessários e outros elementos, conforme diretrizes do PMBOK\footnotemark{} criado pelo PMI\footnotemark. Nesta etapa foram desenvolvidas as ferramentas de \sw que buscam facilitar as melhorias através da integração de informações vitais para os processos identificados.

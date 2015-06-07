@@ -1,11 +1,11 @@
 \select@language {brazil}
-\contentsline {chapter}{\MakeUppercase {Lista de Figuras}}{iii}
-\contentsline {chapter}{\MakeUppercase {Lista de Tabelas}}{iv}
-\contentsline {chapter}{\MakeUppercase {Resumo}}{v}
-\contentsline {chapter}{\MakeUppercase {Abstract}}{vi}
+\contentsline {chapter}{\MakeUppercase {Lista de Figuras}}{iv}
+\contentsline {chapter}{\MakeUppercase {Lista de Tabelas}}{v}
+\contentsline {chapter}{\MakeUppercase {Resumo}}{vi}
+\contentsline {chapter}{\MakeUppercase {Abstract}}{vii}
 \contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c {c}\~ao}}{1}
-\contentsline {section}{\numberline {1.1}Defini\c {c}\~ao do Problema}{2}
-\contentsline {section}{\numberline {1.2}Delimita\c {c}\~ao do Trabalho}{3}
+\contentsline {section}{\numberline {1.1}Defini\c {c}\~ao do Problema}{3}
+\contentsline {section}{\numberline {1.2}Delimita\c {c}\~ao do Trabalho}{4}
 \contentsline {section}{\numberline {1.3}Organiza\c {c}\~ao do Trabalho}{4}
 \contentsline {chapter}{\numberline {2}\MakeUppercase {Revis\~ao Bibliogr\'afica}}{5}
 \contentsline {section}{\numberline {2.1}M\'etodo cient\'{\i }fico}{5}
@@ -23,20 +23,21 @@
 \contentsline {section}{\numberline {3.3}Metodologia e Desenvolvimento}{20}
 \contentsline {subsection}{\numberline {3.3.1}Planejamento e reda\c {c}\~ao do question\'ario}{23}
 \contentsline {subsubsection}{\numberline {3.3.1.1}Classifica\c {c}\~ao dos valores empresariais}{23}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Cria\c {c}\~ao das perguntas}{25}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Cria\c {c}\~ao das perguntas}{24}
 \contentsline {subsubsection}{\numberline {3.3.1.3}Peso e \textit {score} da pergunta}{27}
 \contentsline {subsection}{\numberline {3.3.2}Realiza\c {c}\~ao de campo}{29}
 \contentsline {subsubsection}{\numberline {3.3.2.1}Revis\~ao e pontua\c {c}\~ao dos valores empresariais}{29}
 \contentsline {subsubsection}{\numberline {3.3.2.2}Resposta \`as perguntas}{30}
 \contentsline {subsection}{\numberline {3.3.3}Obten\c {c}\~ao dos dados, an\'alise e discuss\~ao dos resultados}{30}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Conclus\~oes}}{33}
-\contentsline {section}{\numberline {4.1}Considera\c {c}\~oes Finais}{33}
-\contentsline {section}{\numberline {4.2}Trabalhos Futuros}{34}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Diagn\'ostico da empresa}}{36}
-\contentsline {subsection}{\numberline {A.0.1}An\'alise Organizacional e de Processos}{36}
-\contentsline {subsubsection}{\numberline {A.0.1.1}Suporte T\'ecnico}{36}
-\contentsline {subsubsection}{\numberline {A.0.1.2}Desenvolvimento}{37}
-\contentsline {subsubsection}{\numberline {A.0.1.3}Financeiro}{37}
-\contentsline {subsubsection}{\numberline {A.0.1.4}Marketing}{38}
-\contentsline {subsection}{\numberline {A.0.2}An\'alise SWOT}{38}
-\contentsline {chapter}{\MakeUppercase {Bibliografia}}{40}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {An\'alise dos resultados}}{33}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\~oes}}{34}
+\contentsline {section}{\numberline {5.1}Considera\c {c}\~oes Finais}{34}
+\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{35}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Diagn\'ostico da empresa}}{37}
+\contentsline {subsection}{\numberline {A.0.1}An\'alise Organizacional e de Processos}{37}
+\contentsline {subsubsection}{\numberline {A.0.1.1}Suporte T\'ecnico}{37}
+\contentsline {subsubsection}{\numberline {A.0.1.2}Desenvolvimento}{38}
+\contentsline {subsubsection}{\numberline {A.0.1.3}Financeiro}{38}
+\contentsline {subsubsection}{\numberline {A.0.1.4}Marketing}{39}
+\contentsline {subsection}{\numberline {A.0.2}An\'alise SWOT}{39}
+\contentsline {chapter}{\MakeUppercase {Bibliografia}}{41}

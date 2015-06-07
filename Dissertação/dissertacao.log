@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  3 JUN 2015 11:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  7 JUN 2015 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,7 +260,29 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip54
 \backup@length=\skip55
 )
-(./dissertacao.aux)
+(./dissertacao.aux
+
+LaTeX Warning: Label `sec:def:prob' multiply defined.
+
+
+LaTeX Warning: Label `Sec:analise:org' multiply defined.
+
+
+LaTeX Warning: Label `Sec:suporte' multiply defined.
+
+
+LaTeX Warning: Label `Fig:atend11' multiply defined.
+
+
+LaTeX Warning: Label `Tab:probl:atend' multiply defined.
+
+
+LaTeX Warning: Label `Sec:desenvolvimento' multiply defined.
+
+
+LaTeX Warning: Label `Tab:probl:desenv' multiply defined.
+
+)
 \openout1 = `dissertacao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -275,8 +297,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
-
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen141
@@ -354,40 +375,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 (./dissertacao.toc [1
 
-])
+] [2])
 \tf@toc=\write3
 \openout3 = `dissertacao.toc'.
 
- [2] (./dissertacao.lof)
+ [3] (./dissertacao.lof)
 \tf@lof=\write4
 \openout4 = `dissertacao.lof'.
 
- [3
+ [4
 
 ] (./dissertacao.lot)
 \tf@lot=\write5
 \openout5 = `dissertacao.lot'.
 
 
-[4
+[5
 
-] (./resumo.tex) [5
+] (./resumo.tex) [6
 
-] (./abstract.tex) [6
+] (./abstract.tex) [7
 
 ] (./capitulo1.tex
 Cap\'{\i }tulo 1.
 [1
 
 ] [2]
-Overfull \hbox (6.3914pt too wide) in paragraph at lines 48--48
+Overfull \hbox (6.3914pt too wide) in paragraph at lines 37--38
 []\OT1/cmr/m/n/12 Nenhum m^^Setodo pre-e-xis-tente e nem mesmo os con-sul-to-re
 s es-pe-ci-a-li-za-dos na im-planta^^Xc~ao
  []
 
 [3]) (./capitulo2.tex [4]
 Cap\'{\i }tulo 2.
-<figuras/eng_sw_camadas.png, id=51, 367.3725pt x 105.39375pt>
+<figuras/eng_sw_camadas.png, id=54, 367.3725pt x 105.39375pt>
 File: figuras/eng_sw_camadas.png Graphic file (type png)
 
 <use figuras/eng_sw_camadas.png>
@@ -416,21 +437,21 @@ Overfull \hbox (11.71358pt too wide) in paragraph at lines 94--95
 dr~oes j^^Sa dis-pon^^S^^Pveis como padr~oes
  []
 
-[9] [10] [11] [12] <figuras/serie_iso.png, id=80, 721.69624pt x 645.41125pt>
+[9] [10] [11] [12] <figuras/serie_iso.png, id=83, 721.69624pt x 645.41125pt>
 File: figuras/serie_iso.png Graphic file (type png)
 
 <use figuras/serie_iso.png>
 Package pdftex.def Info: figuras/serie_iso.png used on input line 186.
 (pdftex.def)             Requested size: 288.67339pt x 258.15993pt.
  [13 <./figuras/serie_iso.png>]
-<figuras/gp_desenv_sw.png, id=86, 919.435pt x 529.98pt>
+<figuras/gp_desenv_sw.png, id=89, 919.435pt x 529.98pt>
 File: figuras/gp_desenv_sw.png Graphic file (type png)
 
 <use figuras/gp_desenv_sw.png>
 Package pdftex.def Info: figuras/gp_desenv_sw.png used on input line 223.
 (pdftex.def)             Requested size: 275.83263pt x 158.99521pt.
  [14 <./figuras/gp_desenv_sw.png>]
-<figuras/gp_diagr.png, id=91, 550.055pt x 650.43pt>
+<figuras/gp_diagr.png, id=94, 550.055pt x 650.43pt>
 File: figuras/gp_diagr.png Graphic file (type png)
  <use figuras/gp_diagr.png>
 Package pdftex.def Info: figuras/gp_diagr.png used on input line 255.
@@ -440,7 +461,7 @@ Package pdftex.def Info: figuras/gp_diagr.png used on input line 255.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15] [16 <./figuras/gp_diagr.png>]
-<figuras/dsw_diagr.png, id=100, 576.1525pt x 752.8125pt>
+<figuras/dsw_diagr.png, id=103, 576.1525pt x 752.8125pt>
 File: figuras/dsw_diagr.png Graphic file (type png)
 
 <use figuras/dsw_diagr.png>
@@ -450,111 +471,118 @@ Package pdftex.def Info: figuras/dsw_diagr.png used on input line 287.
 Cap\'{\i }tulo 3.
 [18
 
-] [19] <figuras/metodo_cientifico.png, id=111, 776.14969pt x 368.1253pt>
+] [19] <figuras/metodo_cientifico.png, id=114, 776.14969pt x 368.1253pt>
 File: figuras/metodo_cientifico.png Graphic file (type png)
 
 <use figuras/metodo_cientifico.png>
-Package pdftex.def Info: figuras/metodo_cientifico.png used on input line 63.
+Package pdftex.def Info: figuras/metodo_cientifico.png used on input line 42.
 (pdftex.def)             Requested size: 388.0739pt x 184.0622pt.
  [20 <./figuras/metodo_cientifico.png>]
-<figuras/abordagem_pesquisa.png, id=116, 913.4125pt x 611.28375pt>
+<figuras/abordagem_pesquisa.png, id=119, 913.4125pt x 611.28375pt>
 File: figuras/abordagem_pesquisa.png Graphic file (type png)
 
 <use figuras/abordagem_pesquisa.png>
-Package pdftex.def Info: figuras/abordagem_pesquisa.png used on input line 93.
+Package pdftex.def Info: figuras/abordagem_pesquisa.png used on input line 82.
 (pdftex.def)             Requested size: 456.70514pt x 305.64113pt.
 
-Overfull \hbox (1.46106pt too wide) in paragraph at lines 93--93
+Overfull \hbox (1.46106pt too wide) in paragraph at lines 82--82
  [][] 
  []
 
 [21 <./figuras/abordagem_pesquisa.png>]
-<figuras/fluxo_plan_questionario.jpg, id=121, 498.86375pt x 722.7pt>
+<figuras/fluxo_plan_questionario.jpg, id=125, 498.86375pt x 722.7pt>
 File: figuras/fluxo_plan_questionario.jpg Graphic file (type jpg)
 
 <use figuras/fluxo_plan_questionario.jpg>
 Package pdftex.def Info: figuras/fluxo_plan_questionario.jpg used on input line
- 93.
+ 82.
 (pdftex.def)             Requested size: 299.32056pt x 433.62334pt.
  [22 <./figuras/fluxo_plan_questionario.jpg>] [23] <figuras/class_valores.png, 
-id=129, 652.4375pt x 199.74625pt>
+id=132, 652.4375pt x 199.74625pt>
 File: figuras/class_valores.png Graphic file (type png)
 
 <use figuras/class_valores.png>
-Package pdftex.def Info: figuras/class_valores.png used on input line 133.
+Package pdftex.def Info: figuras/class_valores.png used on input line 122.
 (pdftex.def)             Requested size: 456.70313pt x 139.82141pt.
 
-Overfull \hbox (1.45905pt too wide) in paragraph at lines 133--134
+Overfull \hbox (1.45905pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
 [24 <./figuras/class_valores.png>] [25] [26]
-<figuras/pergunta_valor.png, id=141, 534.99875pt x 156.585pt>
+<figuras/pergunta_valor.png, id=144, 534.99875pt x 156.585pt>
 File: figuras/pergunta_valor.png Graphic file (type png)
 
 <use figuras/pergunta_valor.png>
-Package pdftex.def Info: figuras/pergunta_valor.png used on input line 198.
+Package pdftex.def Info: figuras/pergunta_valor.png used on input line 187.
 (pdftex.def)             Requested size: 427.99957pt x 125.26816pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27] [28 <./figuras/pergunta_valor.png>]
-<figuras/pergunta_score.png, id=151, 621.32124pt x 159.59625pt>
+<figuras/pergunta_score.png, id=154, 621.32124pt x 159.59625pt>
 File: figuras/pergunta_score.png Graphic file (type png)
 
 <use figuras/pergunta_score.png>
-Package pdftex.def Info: figuras/pergunta_score.png used on input line 235.
+Package pdftex.def Info: figuras/pergunta_score.png used on input line 224.
 (pdftex.def)             Requested size: 497.05768pt x 127.67715pt.
 
-Overfull \hbox (41.8136pt too wide) in paragraph at lines 235--235
+Overfull \hbox (41.8136pt too wide) in paragraph at lines 224--224
  [][] 
  []
 
-[29 <./figuras/pergunta_score.png>] [30]
+[29 <./figuras/pergunta_score.png>]
 <figuras/resultado_PM.png, id=159, 675.27281pt x 91.09032pt>
 File: figuras/resultado_PM.png Graphic file (type png)
 
 <use figuras/resultado_PM.png>
-Package pdftex.def Info: figuras/resultado_PM.png used on input line 278.
+Package pdftex.def Info: figuras/resultado_PM.png used on input line 267.
 (pdftex.def)             Requested size: 472.68774pt x 63.76277pt.
 
-Overfull \hbox (17.44366pt too wide) in paragraph at lines 278--279
+Overfull \hbox (17.44366pt too wide) in paragraph at lines 267--268
  [][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figuras/resultado_SI.png, id=160, 640.64343pt x 90.3375pt>
 File: figuras/resultado_SI.png Graphic file (type png)
 
 <use figuras/resultado_SI.png>
-Package pdftex.def Info: figuras/resultado_SI.png used on input line 285.
+Package pdftex.def Info: figuras/resultado_SI.png used on input line 274.
 (pdftex.def)             Requested size: 448.44734pt x 63.23581pt.
-
-<figuras/pergunta_PM111Q1.png, id=161, 378.66469pt x 215.30438pt>
-File: figuras/pergunta_PM111Q1.png Graphic file (type png)
-
-<use figuras/pergunta_PM111Q1.png>
-Package pdftex.def Info: figuras/pergunta_PM111Q1.png used on input line 304.
-(pdftex.def)             Requested size: 265.06346pt x 150.71204pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuras/pergunta_PM111Q1_ISO.png, id=162, 129.48375pt x 214.55156pt>
+[30] <figuras/pergunta_PM111Q1.png, id=164, 378.66469pt x 215.30438pt>
+File: figuras/pergunta_PM111Q1.png Graphic file (type png)
+
+<use figuras/pergunta_PM111Q1.png>
+Package pdftex.def Info: figuras/pergunta_PM111Q1.png used on input line 293.
+(pdftex.def)             Requested size: 265.06346pt x 150.71204pt.
+ [31 <./figuras/resultado_PM.png> <./figuras/resultado_SI.png> <./figuras/pergu
+nta_PM111Q1.png>]
+<figuras/pergunta_PM111Q1_ISO.png, id=171, 129.48375pt x 214.55156pt>
 File: figuras/pergunta_PM111Q1_ISO.png Graphic file (type png)
 
 <use figuras/pergunta_PM111Q1_ISO.png>
-Package pdftex.def Info: figuras/pergunta_PM111Q1_ISO.png used on input line 31
-9.
+Package pdftex.def Info: figuras/pergunta_PM111Q1_ISO.png used on input line 30
+8.
 (pdftex.def)             Requested size: 90.63799pt x 150.18506pt.
- [31 <./figuras/resultado_PM.png> <./figuras/resultado_SI.png>]) (./conclusao.t
-ex [32 <./figuras/pergunta_PM111Q1.png> <./figuras/pergunta_PM111Q1_ISO.png>]
+) (./capitulo4.tex [32 <./figuras/pergunta_PM111Q1_ISO.png>]
 Cap\'{\i }tulo 4.
-[33
+) (./conclusao.tex [33
 
-] [34]) (./anexo.tex [35]
+]
+Cap\'{\i }tulo 5.
+[34
+
+] [35]) (./anexo.tex [36]
 Ap\^endice A.
-<figuras/atendimentos_por_tipo.jpg, id=183, 360.59718pt x 214.55156pt>
+<figuras/atendimentos_por_tipo.jpg, id=189, 360.59718pt x 214.55156pt>
 File: figuras/atendimentos_por_tipo.jpg Graphic file (type jpg)
 
 <use figuras/atendimentos_por_tipo.jpg>
@@ -565,9 +593,9 @@ Package pdftex.def Info: figuras/atendimentos_por_tipo.jpg used on input line 7
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36
+[37
 
- <./figuras/atendimentos_por_tipo.jpg>] [37]
+ <./figuras/atendimentos_por_tipo.jpg>] [38]
 Overfull \hbox (6.30954pt too wide) in paragraph at lines 240--245
  []|[]| 
  []
@@ -587,35 +615,38 @@ Overfull \hbox (6.30954pt too wide) in paragraph at lines 266--272
  []|[]| 
  []
 
-) (./dissertacao.bbl [38] [39
+) (./dissertacao.bbl [39] [40
 
-]) [40] [1] (./dissertacao.aux) ) 
+]) [41] [1] (./dissertacao.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5002 strings out of 493315
- 70368 string characters out of 6137904
- 138061 words of memory out of 5000000
- 8292 multiletter control sequences out of 15000+600000
+ 5016 strings out of 493315
+ 70644 string characters out of 6137904
+ 138219 words of memory out of 5000000
+ 8303 multiletter control sequences out of 15000+600000
  12776 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,18n,38p,1488b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb>
-Output written on dissertacao.pdf (50 pages, 846075 bytes).
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on dissertacao.pdf (52 pages, 848551 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
+ 255 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

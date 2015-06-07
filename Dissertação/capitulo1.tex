@@ -2,70 +2,51 @@
 \chapter{Introdução}
 \label{Introducao}
 
-Com o intuito de alinhar os conhecimentos adquiridos durante o curso de mestrado com sua vida profissional, o autor desta dissertação decidiu recorrer à problemas preexistentes na empresa de desenvolvimento de \sw da qual faz parte do quadro societário, que será melhor detalhada no Capítulo \ref{sec:def:prob}. Dentre os problemas, um foi elencado para que pudesse servir de elemento de estudo desta dissertação.
 
-\iftoggle{full}
-{
-	Para uma melhor análise e escolha do problema a ser abordado, foi realizado um diagnóstico empresarial, melhor detalhado no Capítulo \ref{Sec:analise:org}. Este diagnóstico, produzido por um consultor externo e validado pelo autor, gerou uma matriz SWOT\footnotemark{} que apontou os pontos positivos e negativos da empresa e permitiu à sua diretoria enxergar quais os melhores rumos que deveriam ser tomados à época.
+Esta dissertação decidiu recorrer à problemas reais que ocorrem com grande frequência em empresas de pequeno e médio porte no segmento de desenvolvimento de \sw. A fim de ratificar os resultados, foi selecionada uma empresa real onde a pesquisa foi realizada.
 
-	\footnotetext{Avaliação das forças, fraquezas, oportunidades e ameaças, dos termos em inglês \textit{strengths, weaknesses, opportunities e threats} \citep{kotler}}
+A engenharia de \sw é um conjunto de processos com o intuito de gerar um produto final (aplicativou ou \sw) que atenda a determinada necessidade de negócio ou resolva determinado problema do mundo real. Sua importância crece a cada dia, visto que computadores e aplicativos não são mais privilégios únicos de organizações ou de pessoas que se encaixem em classes sociais mais altas. Atualmente, aplicativos populam cada vez mais dispositivos móveis, que por sua vez estão cada vez mais presentes nas vidas das pessoas. Ademais, aplicativos podem ser invisíveis, presentes em dispositivos que controlam eletrodomésticos, automóveis entre outras máquinas e equipamentos. É possível afirmar que a engenharia de \sw permeia, de alguma forma, todas as atividades do mundo em que vivemos.
 
-	Um dos pontos críticos observados no diagnóstico foi que a empresa está em franca ascensão em termos de quantidade de novos clientes, mas os processos internos não estão bem formalizados para suportar este crescimento. A falta de processos formais e bem definidos se mostrou mais impactante em uma das áreas-chave do negócio: a comunicação com o cliente. Por muitas vezes os clientes não são posicionados sobre o andamento de solicitações, prazos e custos. Também não há rastreabilidade entre contatos realizados, pendências geradas e tarefas agendadas. Como cita \cite{pressman}, a construção de \sw dentro de prazos estabelecidos e com qualidade ainda é um problema que atinge grande parte das empresas desenvolvedoras. Para que se pudesse manter a empresa competitiva era necessário atacar este problema e realizar algumas melhorias nos seus processos operacionais.
-}{}
-
+Gerenciar projetos de desenvolvimento de \sw pode se tornar uma tarefa árdua e com diversas armadilhas caso não se forneça a devida atenção aos seus pontos críticos. Como cita \cite{pressman}, a construção de \sw dentro de prazos estabelecidos e com qualidade ainda é um problema que atinge grande parte das empresas desenvolvedoras. Este problema tem como principal origem a falta de processos formais em alguns dos pontos críticos do desenvolvimento de \sw, tais como: levantamento de requisitos, gerenciamento das mudanças e gerenciamento das entregas \citep{martinsgerenciando}.
+ 
+A falta de processos formais e bem definidos se mostrou mais impactante em uma das áreas-chave do negócio de uma empresa de desenvolvimento de \sw: a comunicação com o cliente. Por muitas vezes os clientes não são posicionados sobre o andamento de solicitações, prazos e custos. Também não há rastreabilidade entre contatos realizados, pendências geradas e tarefas agendadas. Para que se possa manter uma empresa competitiva é necessário atacar este problema e realizar diversas melhorias nos seus processos operacionais.
+ 
 Um projeto de melhoria dos processos que tivesse como foco a comunicação com o cliente iria impactar não somente o setor de desenvolvimento de \sw, mas todos os demais setores, disseminando a valorização do cliente com um dos principais valores da empresa. Para tanto, seria necessário padronizar os processos dentro da organização.
 
-\iftoggle{full}
-{
-	A escolha de padronizar os processos poderia não ser a única solução para os problemas encontrados, mas com certeza seria o primeiro e talvez mais portante passo para se alcançar a melhoria desejada. Conforme afirma \cite{toyota}, é impossível melhorar qualquer processo até que ele tenha sido padronizado.
-}{}
+A escolha de padronizar os processos poderia não ser a única solução para os problemas encontrados, mas com certeza seria o primeiro e talvez mais portante passo para se alcançar a melhoria desejada. Conforme afirma \cite{toyota}, é impossível melhorar qualquer processo até que ele tenha sido padronizado.
 
-A melhor forma de padronizar processos dentro de uma organização é a adoção de boas práticas já consagradas no mercado. O autor decidiu aplicar na empresa alvo um conjunto de normas técnicas, que são um conjunto de documentos que estabelecem requisitos de qualidade, requisitos de desempenho, requisitos de segurança, processos, procedimentos, formas, dimensões, classificações ou terminologias e glossários \citep{normas}.
+A melhor forma de padronizar processos dentro de uma organização é a adoção de boas práticas já consagradas no mercado. Decidiu-se pela aplicação de um conjunto de normas técnicas, que são um conjunto de documentos que estabelecem requisitos de qualidade, requisitos de desempenho, requisitos de segurança, processos, procedimentos, formas, dimensões, classificações ou terminologias e glossários \citep{normas}.
 
-A norma escolhida, chamadao de \iso, se mostrou mais próxima da realidade de uma pequena empresa de \sw. Esta norma, que será melhor detalhada 
-\iftoggle{full}
-{
-	no Capítulo \ref{Sec:iso}
-}{
-	na revisão bibliográfica
-}, foi desenvolvida especificamente para pequenas empresas ou pequenas equipes de desenvolvimento de \sw, chamadas em inglês de \textit{Very Small Entities} (VSE). 
+A norma escolhida, chamada de \iso, se mostrou mais próxima da realidade de uma pequena empresa de \sw. Esta norma, que será melhor detalhada no Capítulo \ref{Sec:iso}, foi desenvolvida especificamente para pequenas empresas ou pequenas equipes de desenvolvimento de \sw, chamadas em inglês de \textit{Very Small Entities} (VSE). 
 
-Como seus processos se adequam às necessidades da empresa foco, algumas tentativas de implantação desta norma foram realizadas no passado utilizando o auxílio de consultores especializados. Infelizmente todas as tentativas foram infrutíferas e causaram grande frustração em todos os membros da equipe envolvidos no processo. O maior complicador que impedia a execução das melhorias ainda era o mesmo: por onde começar o trabalho necessário para colocar a empresa no rumo correto, visto que o volume e complexidade das atividades que compunham o projeto de melhoria era muito grande, principalmente para uma empresa pequena e com recursos limitados como a objeto de estudo desta dissertação.
+A empresa alvo desta dissertação, onde a pesquisa foi desenvolvida e aplicada e que será melhor detalhada no Capítulo \ref{sec:def:prob}, apresentou os problemas citados anteriormente. A empresa passou por um diagnóstico empresarial, melhor detalhado no Capítulo \ref{Sec:analise:org}, que gerou uma matriz SWOT\footnotemark{} que apontou que ela está em franca ascensão em termos de quantidade de novos clientes, mas os processos internos, inclusive os de desenvolvimento de \sw, não estão bem formalizados para suportar este crescimento. 
+
+\footnotetext{Avaliação das forças, fraquezas, oportunidades e ameaças, dos termos em inglês \textit{strengths, weaknesses, opportunities e threats} \citep{kotler}}
+
+%Um dos pontos críticos observados no diagnóstico foi que A falta de processos formais e bem definidos se mostrou mais impactante em uma das áreas-chave do negócio: a comunicação com o cliente. Por muitas vezes os clientes não são posicionados sobre o andamento de solicitações, prazos e custos. Também não há rastreabilidade entre contatos realizados, pendências geradas e tarefas agendadas. Como cita \cite{pressman}, a construção de \sw dentro de prazos estabelecidos e com qualidade ainda é um problema que atinge grande parte das empresas desenvolvedoras. Para que se pudesse manter a empresa competitiva era necessário atacar este problema e realizar algumas melhorias nos seus processos operacionais.
+
+Este problema foi endereçado anteriormente através da norma \iso, visto que seus processos se adequam às necessidades da empresa foco. Algumas tentativas de implantação desta norma foram realizadas utilizando o auxílio de consultores especializados mas, infelizmente, todas as tentativas foram infrutíferas e causaram grande frustração em todos os membros da equipe envolvidos no processo. O maior complicador que impedia a execução das melhorias era por onde começar o trabalho necessário para colocar a empresa no rumo correto, visto que o volume e complexidade das atividades que compunham o projeto de melhoria era muito grande, principalmente para uma empresa pequena e com recursos limitados.
 
 \section{Definição do Problema}
 \label{Sec:intro:problema}
 
-\iftoggle{full}{Os motivos que levaram à p}{P}aralisação e posterior abandono da implantação da \iso \iftoggle{full}{foram a}{por conta da} grande quantidade de processos novos que deveriam ser criados ou processos antigos que deveriam ser revisados. O esforço necessário para levar a empresa da situação atual para a situação desejada era muito grande. Os custos financeiros, operacionais e de recursos, principalmente para se iniciar o projeto de melhorias, contrastava com os riscos eminentes de qualquer projeto dessa magnitude: fracasso e perda dos investimentos.
+Os motivos que levaram à paralisação e posterior abandono da implantação da \iso foram a grande quantidade de processos novos que deveriam ser criados ou processos antigos que deveriam ser revisados. O esforço necessário para levar a empresa da situação atual para a situação desejada era muito grande. Os custos financeiros, operacionais e de recursos, principalmente para se iniciar o projeto de melhorias, contrastava com os riscos eminentes de qualquer projeto dessa magnitude: fracasso e perda dos investimentos.
 
-\iftoggle{full}
-{
-	Seria necessário diminuir as probabilidades destes riscos ocorrerem para que o projeto de melhoria se tornasse mais atrativo para a empresa, apesar da ciência da alta diretoria e dos demais membros da equipe da importância estratégica de um conjunto de processos bem definidos e alinhados com os valores da empresa.
+Seria necessário diminuir as probabilidades destes riscos ocorrerem para que o projeto de melhoria se tornasse mais atrativo para a empresa, apesar da ciência da alta diretoria e dos demais membros da equipe da importância estratégica de um conjunto de processos bem definidos e alinhados com os valores da empresa.
 
-	Nenhum método preexistente e nem mesmo os consultores especializados na implantação da \iso conseguiram suplantar essa dificuldade encontrada pela empresa. Para suprir esta lacuna, esta dissertação objetiva a criação de um método que contemple ferramentas capazes de auxiliar uma empresa na implantação da \iso, permitindo que esta possa selecionar a melhor forma de iniciar o projeto e, com isso, aumentar a motivação da equipe e diminuir os riscos de paralisação e abandono do projeto. 
+Nenhum método preexistente e nem mesmo os consultores especializados na implantação da \iso conseguiram suplantar essa dificuldade encontrada pela empresa. Para suprir esta lacuna, esta dissertação objetiva a criação de um método que contemple ferramentas capazes de auxiliar uma empresa na implantação da \iso, permitindo que esta possa selecionar a melhor forma de iniciar o projeto e, com isso, aumentar a motivação da equipe e diminuir os riscos de paralisação e abandono do projeto. 
 
-	Os resultados aqui alcançados deverão ser amplos o suficiente para auxiliar outras empresas com os mesmos problemas e até mesmo consultores e especialistas na norma \iso, que poderão utilizas as ferramentas desenvolvidas nos seus diagnósticos.
-}
+Os resultados aqui alcançados deverão ser amplos o suficiente para auxiliar outras empresas com os mesmos problemas e até mesmo consultores e especialistas na norma \iso, que poderão utilizas as ferramentas desenvolvidas nos seus diagnósticos.
 
 \section{Delimitação do Trabalho}
 \label{Sec:delim:trab}
 
-\iftoggle{full}
-{
+Para possibilitar uma implantação gradativa e que traga resultados mais relevantes em suas primeiras etapas, a proposta desta dissertação é criar um método de auto diagnóstico que leve em consideração os valores individuais de cada empresa e que permita classificar as etapas iniciais de implantação da \iso de acordo com esses valores. Um dos principais benefícios esperados deste método é que a equipe se mantenha motivada ao perceber as vantagens da utilização da \iso nos estágios iniciais, impedindo o abandono prematuro da implantação das melhorias e o consequente abandono do projeto. 
+
+Este trabalho, porém, não contempla a análise do projeto de implantação das melhorias. Somente serão analisados qualitativamente os resultados do método de auto diagnóstico.
+
+Portanto, este trabalho de dissertação tem como objetivo \textbf{criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação}.
 	
-	Para possibilitar uma implantação gradativa e que traga resultados mais relevantes em suas primeiras etapas, a proposta desta dissertação é criar um método de auto diagnóstico que leve em consideração os valores individuais de cada empresa e que permita classificar as etapas iniciais de implantação da \iso de acordo com esses valores. Um dos principais benefícios esperados deste método é que a equipe se mantenha motivada ao perceber as vantagens da utilização da \iso nos estágios iniciais, impedindo o abandono prematuro da implantação das melhorias e o consequente abandono do projeto. 
-
-	Este trabalho, porém, não contempla a análise do projeto de implantação das melhorias. Somente serão analisados qualitativamente os resultados do método de auto diagnóstico.
-
-}
-
-\iftoggle{full}
-{
-Portanto, e}
-{E}ste trabalho de dissertação tem como objetivo \textbf{criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação}.
-	
-\iftoggle{full}
-{
 \section{Organização do Trabalho}
 
-Este trabalho está organizado da seguinte forma: No Capítulo 1 é apresentada uma breve introdução; no Capítulo 2 são apresentadas as revisões bibliográficas, as tecnologias envolvidas, os trabalhos relacionados e os conceitos básicos necessários ao entendimento dos capítulos seguintes; No Capítulo 3 é apresentada a descrição da proposta e a metodologia utilizada para a obtenção dos resultados; No Capítulo 4 são apresentados os resultados obtidos e no Capítulo 5 as conclusões e os trabalhos futuros.
-}{}
+Este trabalho está organizado da seguinte forma: No Capítulo 1 é apresentada uma breve introdução; no Capítulo 2 são apresentadas as revisões bibliográficas, as tecnologias envolvidas, os trabalhos relacionados e os conceitos básicos necessários ao entendimento dos capítulos seguintes; no Capítulo 3 é apresentada a descrição da proposta e a metodologia utilizada para a obtenção dos resultados; no Capítulo 4 são apresentados os resultados obtidos; no Capítulo 5 são analisados os resultados obtidos e no Capítulo 6 são apresentadas as conclusões e os trabalhos futuros.

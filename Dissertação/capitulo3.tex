@@ -2,11 +2,11 @@
 \chapter{Descrição da Proposta}
 \label{proposta}
 
-Como visto no Capítulo \ref{Sec:intro:problema}, era necessário encontrar uma solução que tornasse viável a implantação da norma \iso em uma pequena empresa de desenvolvimento de \sw com o menor risco possível de paralisação e abandono nas suas fases iniciais.
+Como visto no Capítulo \ref{Introducao}, era necessário encontrar uma solução que tornasse viável a implantação da norma \iso em uma pequena empresa de desenvolvimento de \sw com o menor risco possível de paralisação e abandono nas suas fases iniciais.
 
 Muitas empresas e especialistas em implantação da norma \iso se utilizam de questionários para realizar a avaliação inicial do estado atual das empresas de \sw e determinar o caminho que deverá ser percorrido, através da implantação dos processos da norma, para se alcançar o estado desejado. Porém, estes questionários não são disponibilizados para um auto diagnóstico e é necessário arcar com o alto custo da consultoria inicial para conseguir os resultados que podem demorar a ser divulgados. Ademais, os questionários de avaliação colocam todas as atividades e tarefas da \iso em um mesmo patamar de importância, sem levar em consideração os valores das empresas alvo. 
 	
-A proposta desta dissertação é a criação de um questionário de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação.
+A proposta desta dissertação é auxiliar a análise e a posterior criação de um questionário de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação.
 
 \section{Definição do Problema}
 \label{sec:def:prob}
@@ -26,7 +26,7 @@ O primeiro passo tomado neste estudo foi formalizar a definição do problema e a 
 
 \section{Justificativa do Trabalho}
 
-Este trabalho tem como justificativa principal a demanda por melhorias no processo de desenvolvimento de \sw para empresas de pequeno e médio porte, focando no diagnóstico da empresa alvo realizado no Capítulo \ref{Sec:analise:org}.
+Este trabalho tem como justificativa principal a demanda por melhorias no processo de desenvolvimento de \sw para empresas de pequeno e médio porte, focando no diagnóstico da empresa alvo realizado no Apêndice \ref{Sec:analise:org}. 
 
 Além da aplicação imediata na empresa alvo, a ferramenta de auto diagnóstico criada a partir desta dissertação também servirá de apoio a outras empresas de desenvolvimento de \sw que pretendam implantar a norma \iso ou a empresas e consultores especializados que poderão se beneficiar de uma análise inicial mais focada nos valores das empresas.
 
@@ -35,7 +35,7 @@ Além da aplicação imediata na empresa alvo, a ferramenta de auto diagnóstico cri
 
 Esta dissertação foi construída através da pesquisa bibliográfica e da pesquisa aplicada, ou tecnológica, onde se procurou resolver um problema real buscando soluções através do método científico \citep{metodos}.
 
-A metodologia deste trabalho passou pelas 4 fases do método científico: problema, teoria, prática e divulgação. Estas fases estão representadas na Figura \ref{Fig:metodo:cientifico}. A fase do problema foi descrita em detalhes no Capítulo \ref{sec:def:prob}. As demais fases serão cobertas a seguir neste Capítulo.
+A metodologia deste trabalho passou pelas 4 fases do método científico: problema, teoria, prática e divulgação. Estas fases estão representadas na Figura \ref{Fig:metodo:cientifico}. A fase do problema foi descrita em detalhes no Capítulo \ref{Introducao}. As demais fases serão cobertas a seguir neste Capítulo.
 
 	\begin{figure}[!h]
 		\centering
@@ -47,7 +47,7 @@ A metodologia deste trabalho passou pelas 4 fases do método científico: problema
 Levando em consideração o objetivo desta dissertação:
 
 \begin{quote}
-	``Criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação'' (Capítulo \ref{Sec:delim:trab})
+	``Criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação'' (Seção \ref{Sec:delim:trab}) 
 \end{quote} levantou-se como hipótese básica que uma das melhores soluções era a implantação de um questionário de auto avaliação. 
 
 A fim de produzir este questionário, foi pesquisado na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas  obtivemos sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
@@ -276,11 +276,9 @@ A avaliação resultante das respostas obtidas no questionário constrói duas lista
 	\label{Fig:resulado:SI}
 \end{figure}
 
-\iftoggle{full}
-{
-	É dado ao entrevistado a opção de ordenar a lista pelo maior \textit{score} ou pelo \textit{score} total. A diferença entre as duas ordenações é que na primeira leva-se em consideração o pior desempenho do processo dentre todos os valores empresariais disponíveis e na segunda leva-se em consideração o desempenho total do processo em todos os valores empresariais disponíveis. Optou-se pela segunda opção de ordenação nas duas listas.
+É dado ao entrevistado a opção de ordenar a lista pelo maior \textit{score} ou pelo \textit{score} total. A diferença entre as duas ordenações é que na primeira leva-se em consideração o pior desempenho do processo dentre todos os valores empresariais disponíveis e na segunda leva-se em consideração o desempenho total do processo em todos os valores empresariais disponíveis. Optou-se pela segunda opção de ordenação nas duas listas.
 
-	Para cada elemento da lista, o entrevistado deverá se remeter ao texto original da pergunta para avaliar melhor o processo que deverá ser melhorado. No caso do primeiro processo da lista de \gp, conforme a Figura \ref{Fig:resulado:PM}, vamos ter que encontrar a pergunta codificada como ``PM.1.11.Q1''. O sistema de codificação das perguntas foi pensado para facilitar essa procura. O que o entrevistado irá encontrar é o texto que podemos observar na Figura \ref{Fig:perg:PM111Q1}.
+Para cada elemento da lista, o entrevistado deverá se remeter ao texto original da pergunta para avaliar melhor o processo que deverá ser melhorado. No caso do primeiro processo da lista de \gp, conforme a Figura \ref{Fig:resulado:PM}, vamos ter que encontrar a pergunta codificada como ``PM.1.11.Q1''. O sistema de codificação das perguntas foi pensado para facilitar essa procura. O que o entrevistado irá encontrar é o texto que podemos observar na Figura \ref{Fig:perg:PM111Q1}.
 
 	\begin{figure}[!h]
 		\centering
@@ -289,12 +287,7 @@ A avaliação resultante das respostas obtidas no questionário constrói duas lista
 		\label{Fig:perg:PM111Q1}
 	\end{figure}
 	
-}
-
-\iftoggle{full}
-{
-
-	A partir do texto original, o entrevistado deverá traçar seu plano de ação para implantar melhorias que levem sua organização ao cenário ideal, descrito na primeira opção de resposta, também disponibilizada na Figura \ref{Fig:perg:PM111Q1}. Complementarmente, o entrevistado também pode se referenciar ao guida da \iso para encontrar mais detalhes das melhores práticas para aplicação do processo. Para facilitar esse procedimento, é disponibilizada no texto original da pergunta a nomenclatura do processo, como pode ser observado na Figura \ref{Fig:perg:PM111Q1_ISO}.
+A partir do texto original, o entrevistado deverá traçar seu plano de ação para implantar melhorias que levem sua organização ao cenário ideal, descrito na primeira opção de resposta, também disponibilizada na Figura \ref{Fig:perg:PM111Q1}. Complementarmente, o entrevistado também pode se referenciar ao guida da \iso para encontrar mais detalhes das melhores práticas para aplicação do processo. Para facilitar esse procedimento, é disponibilizada no texto original da pergunta a nomenclatura do processo, como pode ser observado na Figura \ref{Fig:perg:PM111Q1_ISO}.
 
 	\begin{figure}[!h]
 		\centering
@@ -303,14 +296,8 @@ A avaliação resultante das respostas obtidas no questionário constrói duas lista
 		\label{Fig:perg:PM111Q1_ISO}
 	\end{figure}
 	
-}
-{
-}
+Este processo de procura manual do texto original da pergunta para encontrar o cenário ideal e a referência do processo da \iso pode ser otimizado a partir de um \sw integrado que venha a substituir a planilha eletrônica no futuro.
 
-\iftoggle{full}
-{
-	Este processo de procura manual do texto original da pergunta para encontrar o cenário ideal e a referência do processo da \iso pode ser otimizado a partir de um \sw integrado que venha a substituir a planilha eletrônica no futuro.
-}
 %\subsection{Projeto}
 
 %O projeto foi a etapa onde as ações necessárias para a melhoria dos processos foram elencadas, priorizadas e devidamente documentadas. Também foram identificados os principais atores (\textit{stakeholders}), o cronograma, os recursos necessários e outros elementos, conforme diretrizes do PMBOK\footnotemark{} criado pelo PMI\footnotemark. Nesta etapa foram desenvolvidas as ferramentas de \sw que buscam facilitar as melhorias através da integração de informações vitais para os processos identificados.

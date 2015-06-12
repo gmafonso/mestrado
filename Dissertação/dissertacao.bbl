@@ -1,0 +1,90 @@
+\begin{thebibliography}{}
+
+\bibitem[ABNT e SEBRAE, 2012]{guia.sebrae}
+ABNT e SEBRAE (2012).
+\newblock Guia de implementa{\c c}\~ao desenvolvimento de softwares para
+  pequenas organiza{\c c}\~oes.
+\newblock http://portalmpe.abnt.org.br/bibliotecadearquivos/, Rio de Janeiro.
+
+\bibitem[Calvo-Manzano et~al., 2008]{reicis}
+Calvo-Manzano, J.~A., Garz{\'a}s, J., Piattini, M., Pino, F.~J., Salillas, J.,
+  e S{\'a}nchez, J.~L. (2008).
+\newblock Perfiles del ciclo de vida del software para peque{\~n}as empresas:
+  los informes t{\'e}cnicos {ISO/IEC} 29110.
+\newblock {\em Revista Espa{\~n}ola de Innovaci{\'o}n, Calidad e
+  Ingenier{\'\i}a del Software}, 4(2).
+
+\bibitem[Fayad et~al., 2000]{fayad}
+Fayad, M.~E., Laitinen, M., e Ward, R.~P. (2000).
+\newblock Software engineering in the small.
+\newblock {\em Communications of the {ACM}}, 43(3):115--118.
+
+\bibitem[Garson, 2013]{garson}
+Garson, G.~D. (2013).
+\newblock {\em Scales \& Measures}.
+\newblock Statistical Publishing Associates, 6 edition.
+
+\bibitem[H\'ebert et~al., 2014]{swicetrip}
+H\'ebert, C., Laporte, C.~Y., e Mineau, C. (2014).
+\newblock Development of a social network website using the new {ISO/IEC} 29110
+  standard developed specifically for very small entities.
+\newblock {\em SQP}, 16(4).
+
+\bibitem[ISO, 2011]{iso}
+ISO (2011).
+\newblock Software engineering --- lifecycle profiles for very small entities
+  (vses) - part 5-1-2: Management and engineering guide: Generic profile group:
+  Basic profile.
+\newblock Technical report, SO/IEC.
+
+\bibitem[Jamieson et~al., 2004]{jamieson2004likert}
+Jamieson, S. et~al. (2004).
+\newblock Likert scales: how to (ab) use them.
+\newblock {\em Medical education}, 38(12):1217--1218.
+
+\bibitem[Kotler e Keller, 2012]{kotler}
+Kotler, P. e Keller, K. (2012).
+\newblock {\em Administra{\c{c}}{\~a}o de marketing}.
+\newblock Administra{\c{c}}{\~a}o/Marketing. Pearson Prentice Hall.
+
+\bibitem[Laporte et~al., 2008]{ieee_comp}
+Laporte, C.~Y., Alexandre, S., e Renault, A. (2008).
+\newblock Developing international standardsfor very small enterprises.
+\newblock {\em IEEE Computer}.
+
+\bibitem[Liker, 2004]{toyota}
+Liker, J.~K. (2004).
+\newblock {\em The Toyota Way - 14 Management Principles from the World's
+  Greatest Manufacturer}.
+\newblock McGraw-Hill.
+
+\bibitem[Manzato e Santos, 2012]{manzato}
+Manzato, A.~J. e Santos, A.~B. (2012).
+\newblock A elabora{\c c}{\~a}o de question{\'a}rios na pesquisa quantitativa.
+\newblock {\em Departamento de Ci{\^e}ncia de Computa{\c c}{\~a}o e
+  Estat{\'\i}stica -- IBILCE -- UNESP}.
+
+\bibitem[Martins, 2010]{martinsgerenciando}
+Martins, J. (2010).
+\newblock {\em Gerenciando Projetos de Desenvolvimento de Software com PMI, RUP
+  e UML}.
+\newblock BRASPORT.
+
+\bibitem[Prado et~al., 2013]{metodos}
+Prado, P. P.~L., ao~Bosco~Gon\c{c}alves, J., e Marcelino, M.~A. (2013).
+\newblock {\em M\'etodos Experimentais em Engenharia - Introdu{\c{c}}{\~a}o aos
+  M\'etodos Cient\'ificos}.
+\newblock Ci\^encia Moderna, Rio de Janeiro.
+
+\bibitem[Pressman, 2006]{pressman}
+Pressman, R. (2006).
+\newblock {\em Engenharia de Software}.
+\newblock McGraw Hill Brasil, 6 edition.
+
+\bibitem[SEBRAE, 2013]{normas}
+SEBRAE (2013).
+\newblock {\em Normas e Certifica{\c{c}}{\~o}es em Software - qual serve melhor
+  para mim?}
+\newblock Serviço Brasileiro de Apoio \`as Micro e Pequenas Empresas - SEBRAE.
+
+\end{thebibliography}

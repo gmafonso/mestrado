@@ -2,13 +2,13 @@
 \chapter{Revisão Bibliográfica}
 \label{tecnologias}
 
-Este captíulo apresenta ao leitor as principais tecnologias envolvidas no trabalho, os conceitos e definições dos termos utilizados na dissertação.
+Este Captíulo apresenta ao leitor as principais tecnologias envolvidas no trabalho, os conceitos e definições dos termos utilizados na dissertação.
 
 \section{Método científico}
 
-O livro de \cite{metodos} traz de forma bem simples e acessível como o método científico pode ser aplicado à pesquisas e trabalhos como esta dissertação. O conceito da divisão em fases distintas (problema, teoria, prática e divulgação) tornou mais clara a forma de organização deste trabalho.
+O livro de \cite{metodos} traz de forma bem simples e acessível como o método científico pode ser aplicado às pesquisas e trabalhos como esta dissertação. O conceito da divisão em fases distintas (problema, teoria, prática e divulgação) tornou mais clara a forma de organização deste trabalho.
 
-Pelo motivo deste trabalho ter sido aplicado somente na empresa alvo, não houve uma quantidade suficiente de dados para se realizar uma validação estatística de hipótese e a contribuição desta obra para a dissertação se limitou, neste primeiro momento, à organização do processo científico. 
+Pelo motivo deste trabalho ter sido aplicado somente na empresa alvo, não houve uma quantidade suficiente de dados para se realizar uma validação estatística de hipótese, e a contribuição desta obra para a dissertação se limitou, neste primeiro momento, à organização do processo científico. 
 
 A partir do momento em que mais empresas venham a aplicar este modelo em uma escala maior, será possível validar de forma mais precisa seus resultados. 
 
@@ -21,12 +21,12 @@ De acordo com \cite{pressman}, a engenharia de \sw é uma tecnologia em camadas e
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=1]{figuras/eng_sw_camadas.png}
-\caption{Camadas da engenharia de \sw \cite[p.17]{pressman}}
-%http://www.devmedia.com.br/principios-da-engenharia-de-software/29630
+\caption{Camadas da engenharia de \sw}
+\figsource{\citealp[p. 17]{pressman}}
 \label{fig:sw.camadas}
 \end{figure}
 
-As próxima camada, \textbf{processo}, define regras e padrões que permitem o controle e gerência dos projetos de desenvolvimento, além de estabelecer o contexto no qual as próximas camadas irão atuar. Os \textbf{métodos} oferecem técnicas de construção dos \sws (como fazer) e as \textbf{ferramentas} fornecem apoio para as primeiras camadas e podem ser automatizadas ou semi-automatizadas, integradas ou não, gratuitas ou pagas, etc.
+Após a qualidade, a próxima camada, \textbf{processo}, define regras e padrões que permitem o controle e gerência dos projetos de desenvolvimento, além de estabelecer o contexto no qual as próximas camadas irão atuar. Os \textbf{métodos} oferecem técnicas de construção dos \sws (como fazer) e as \textbf{ferramentas} fornecem apoio para as primeiras camadas e podem ser automatizadas ou semi-automatizadas, integradas ou não, gratuitas ou pagas, etc.
 
 Alguns problemas antigos da engenharia de \sw, que teve seu início na década de 50, ainda convivem com as empresas desenvolvedores nos dias atuais: precariedade  nas  previsões  e  planejamentos, baixa qualidade de processos e produtos, requisitos  mal  definidos e o alto custo para manutenção. Tais problemas podem ser atribuídos à gestão ineficiente ou inadequada dos projetos e consomem recursos importantes (humanos e financeiros, principalmente) por conta do retrabalho.
 
@@ -35,9 +35,9 @@ Alguns problemas antigos da engenharia de \sw, que teve seu início na década de 
 
 \subsection{Representatitividade e dificuldades das VSEs}
 
-A indústria de \sw representa 8\% do PIB e 6\% dos postos de trabalho na Europa e pequenas e médias empresas de desenvolvimento respondem por 90\% dos negócios formais que geram entre 40\% e 50\% do total de empregos \cite{reicis}. Empresas com 10 ou menos funcionários representam 85\% do total na Europa e 50\% em Montreal, Canadá, considerando somente empresas de TI e 93\% na Europa e 50\% nos Estados Unidos, considerando qualquer tipo de empresa \cite{ieee_comp}. 
+A indústria de \sw representa 8\% do PIB e 6\% dos postos de trabalho na Europa e pequenas e médias empresas de desenvolvimento respondem por 90\% dos negócios formais que geram entre 40\% e 50\% do total de empregos \citep{reicis}. Empresas com 10 ou menos funcionários representam 85\% do total na Europa e 50\% em Montreal, Canadá, considerando somente empresas de TI e 93\% na Europa e 50\% nos Estados Unidos, considerando qualquer tipo de empresa \citep{ieee_comp}. 
 
-O Brasil, que em 2011 passou a ocupar a 10\textsuperscript{a} posição no \textit{ranking} mundial de \sw e serviços com um faturamento de cerca de US\$ 21 bilhões de dólares, possui 97,3\% das quase 70 mil empresas do setor classificadas como Micro e Pequeno Empresas (MPE) com até 19 pessoas \cite{guia.sebrae}.
+O Brasil, que em 2011 passou a ocupar a 10\textsuperscript{a} posição no \textit{ranking} mundial de \sw e serviços com um faturamento de cerca de US\$ 21 bilhões de dólares, possui 97,3\% das quase 70 mil empresas do setor classificadas como Micro e Pequenas Empresas (MPE) com até 19 pessoas \citep{guia.sebrae}.
 
 Apesar de representativas, estudos apontam que estas pequenas e médias empresas de \sw não são atendidas por normas e padrões que se encaixem em suas realidades. Padrões internacionais, como ISO e IEEE, apresentam diversas barreiras econômicas e operacionais que tornam virtualmente impossível a sua implementação por uma VSE.
 
@@ -51,15 +51,15 @@ De acordo com \cite{fayad}, existem quatro questões que não são tratadas de form
 
 \item \textbf{Velocidade de desenvolvimento}: competitividade acirrada e demanda de entregas rápidas pelo mercado frutificaram em novas estratégias rápidas de desenvolvimento.
  
-\item \textbf{Tamanho de desenvolvimento}: hoje o número de linhas de código dos \sws considerados pequenos supera o número de linhas dos \sws considerados grandes no passado. Isso incorre no fato que pequenas empresas começam a necessitar de metodologias de \sw desenvolvidas para projetos de larga escala que, infelizmente, não se apadtam bem aos projetos de pequena escala.
+\item \textbf{Tamanho de desenvolvimento}: hoje o número de linhas de código dos \sws considerados pequenos supera o número de linhas dos \sws considerados grandes no passado. Isso incorre no fato que pequenas empresas começam a necessitar de metodologias de \sw desenvolvidas para projetos de larga escala que, infelizmente, não se adaptam bem aos projetos de pequena escala.
  
 \end{itemize}
 
-Como tentativa de contornar as principais barreiras e tratar de melhor forma as questões citadas acima, algumas propostas de melhoria dos processos de desenvolvimento de \sw foram adotados ao redor do mundo, sendos os principais:
+Como tentativa de contornar as principais barreiras e tratar da melhor forma as questões citadas acima, algumas propostas de melhoria dos processos de desenvolvimento de \sw foram adotados ao redor do mundo, sendos os principais:
 
 \begin{itemize}
 
-\item \textbf{SPIRE\footnotemark e TOPS\footnotemark} promovidos pela União Europeia através do \textit{European Software and System Initiative} (ESSI);
+\item \textbf{SPIRE\footnotemark \footnotetext{\url{http://www.cse.dcu.ie/spire/}}e TOPS\footnotemark} promovidos pela União Europeia através do \textit{European Software and System Initiative} (ESSI);
 
 \item \textbf{MoProSoft} adotado pelo México para a indústria de \sw, baseado na ISO 12207, CMM e ISO 9001;
 
@@ -75,7 +75,7 @@ Como tentativa de contornar as principais barreiras e tratar de melhor forma as 
 
 \end{itemize}
 
-\footnotetext[1]{\url{http://www.cse.dcu.ie/spire/}} 
+ 
 
 \footnotetext{\url{http://cordis.europa.eu/esprit/src/27977.htm}} 
 
@@ -97,7 +97,7 @@ Em 2004, durante a reunião plenária do SC7\footnotemark{} na Austrália, delegado
 
 \end{itemize}
 
-Em 2005, na reunião plenária do SC7 na Finlândia, a Tailândia propôs a criação de um grupo de trabalhos para atingir estes objetivos, que foi aprovada por doze países e estabeleceu o \textit{Working Group} 24 (WG24) com os seguintes países membros: Bélgica, Canadá, República Tcheca, Irlanda, Itália, Japão, Coréia, Luxemburgo, África do Sul, Tailândia, Reino Unido e os Estados Unidos.
+Em 2005, na reunião plenária do SC7 na Finlândia, a Tailândia propôs a criação de um grupo de trabalho para atingir estes objetivos, que foi aprovada por doze países e estabeleceu o \textit{Working Group} 24 (WG24) com os seguintes países membros: Bélgica, Canadá, República Tcheca, Irlanda, Itália, Japão, Coréia, Luxemburgo, África do Sul, Tailândia, Reino Unido e os Estados Unidos.
 
 Uma pesquisa foi conduzida pelo WG24 para refinar os requisitos das VSEs e estas foram questionadas sobre a sua utilização dos padrões ISO/SC7 e também sobre problemas e possíveis soluções que poderiam ajudar na aplicação de padrões e torná-las mais competitivas. O Brasil foi o país com o segundo maior número de respostas, totalizando 68, perdendo somente para a Colômbia, com 88. O objetivo desta pesquisa foi validar algumas hipóteses, incluindo:
 
@@ -109,7 +109,7 @@ Uma pesquisa foi conduzida pelo WG24 para refinar os requisitos das VSEs e estas
 
 \item Existem diferenças significantes em termos de recursos e infraestrutura disponíveis entre uma VSE que emprega de 1 a 10 pessoas e um departamento de TI do mesmo tamanho em uma empresa grande;
 
-\item As VSEs são limitadas em tempo e recursos, o que leva a uma falta de entendimento sobre como os uso dos padrões podem beneficiá-las;
+\item As VSEs são limitadas em tempo e recursos, o que leva a uma falta de entendimento sobre como o uso dos padrões podem beneficiá-las;
 
 \item Os benefícios para VSEs podem incluir reconhecimento através de avaliacões ou auditorias realizadas por um órgão acreditado.
 
@@ -127,7 +127,7 @@ A pesquisa incluiu propositalmente questionamentos sobre o porquê da pouca adoçã
 
 \end{itemize}
 
-Apesar disso, uma maioria de três quartos achavam importante serem avaliadas ou certificadas em um padrão, sendo a certificação ISO mencionada por 40\% dos entrevistados. A procura por reconhecimento oficial de mercado foi citada por 28\% das empresas e, destas, somente 4\% estavam interessadas em uma certificação nacional. Os principais benefícios que uma certificação poderia trazer incluíam:
+Apesar disso, uma maioria de três quartos achava importante serem avaliadas ou certificadas em um padrão, sendo a certificação ISO mencionada por 40\% dos entrevistados. A procura por reconhecimento oficial de mercado foi citada por 28\% das empresas e, destas, somente 4\% estavam interessadas em uma certificação nacional. Os principais benefícios que uma certificação poderia trazer incluíam:
 
 \begin{itemize}
 
@@ -151,31 +151,31 @@ A pesquisa tambem apontou que as VSEs requerem assistência, guias com exemplos e
 
 A abordagem do WG24 foi utilizar o conceito de perfis da ISO, ou \textit{International Standardized Profile} (ISP), para desenvolver os novos padrões para VSEs. Os perfis são formados por um conjunto de padrões e/ou ISPs, básicos ou modificados, necessários para se atingir uma função particular. As modificações podem se dar na forma da escolha de classes, subconjuntos conformes, opções e parâmetros dos perfis e ISPs básicos.
 
-Inicialmente o WG24 procurou por padrões existentes para customizar de acordo com as necessidades das VSEs, sendo o padrão mexicano para desenvolvimento de \sw (Moprosoft) o primeiro selecionado. Este padrão tem a ISO/IEC 12207 como base e pega emprestado práticas principalmente da ISO9001, CMMI e PMBOK. Posteriormente identificou-se que este padrão atendia empresas maiores que as VSEs alvo e algumas modificações foram feitas para adequá-lo ao número de funcionários, em duas fases distintas: 1) menos de 10 funcionários e 2) 10 a 25 funcionários.
+Inicialmente, o WG24 procurou por padrões existentes para customizar de acordo com as necessidades das VSEs, sendo o padrão mexicano para desenvolvimento de \sw (Moprosoft) o primeiro selecionado. Este padrão tem a ISO/IEC 12207 como base e pega emprestado práticas principalmente da ISO9001, CMMI e PMBOK. Posteriormente, identificou-se que este padrão atendia empresas maiores que as VSEs alvo e algumas modificações foram feitas para adequá-lo ao número de funcionários, em duas fases distintas: 1) menos de 10 funcionários; e 2) 10 a 25 funcionários.
 
-Os primeiros perfis continham basicamente tarefas vindas da gerência de projetos e processos de desenvolvimento de \sw, atividades consideradas como chave para uma VSE. Posteriormente foram definidos guias explicando em mais detalhes os processos definidos no perfil, publicados em relatórios técnicos que deveriam ser disponibilizados gratuitamente para as VSEs. Os guias contém uma série de pacotes de implantacão (\textit{deployment packages}) contendo um conjunto de artefatos desenvolvidos para facilitar e acelerar a implementação de uma série de práticas. Cada pacote de implantação inclui, tipicamente, a descrição do processo (tarefas, entradas, saídas e papéis), guia, modelo, checklist, exemplo, material de apresentação, mapeamento para padrões e modelos, e uma lista de ferramentas para auxiliar VSEs a implementar o processo.
+Os primeiros perfis continham basicamente tarefas vindas da gerência de projetos e processos de desenvolvimento de \sw, atividades consideradas como chave para uma VSE. Posteriormente foram definidos guias explicando em mais detalhes os processos definidos no perfil, publicados em relatórios técnicos que deveriam ser disponibilizados gratuitamente para as VSEs. Os guias contêm uma série de pacotes de implantacão (\textit{deployment packages}), contendo um conjunto de artefatos desenvolvidos para facilitar e acelerar a implementação de uma série de práticas. Cada pacote de implantação inclui, tipicamente, a descrição do processo (tarefas, entradas, saídas e papéis), guia, modelo, checklist, exemplo, material de apresentação, mapeamento para padrões e modelos, e uma lista de ferramentas para auxiliar VSEs a implementar o processo.
 
 \subsection{Benefícios da \iso}
 
-A utilização da \iso pode beneficiar empreendimentos cujo tamanho levaria ao descarte imediato de padrões e metodologias, por serem considerados burocráticos, caros e impraticáveis para pequenas empresas. O artigo de \cite{swicetrip} mostra que é possivel aplicar o padrão e obter resultados excelentes para um empreendimento composto de somente duas pessoas.
+A utilização da \iso pode beneficiar empreendimentos cujo tamanho levaria ao descarte imediato de padrões e metodologias, por serem considerados burocráticos, caros e impraticáveis para pequenas empresas. O artigo de \cite{swicetrip} mostra que é possivel aplicar o padrão e obter resultados excelentes para um empreendimento composto por somente duas pessoas.
 
 Ao aplicar os conceitos e ferramentas disponibilizadas pela \iso, uma empresa poderá ter controle sobre:
 
 \begin{itemize}
 
-\item  \textbf{Escopo:} saber o que está sendo feito e por quê, além de determinar se  o \sw faz o que deveria fazer tecnicamente e atende aos requisitos do cliente;
+\item  \textbf{Escopo:} saber o que está sendo feito e por quê, além de determinar se  o \sw faz o que deveria fazer tecnicamente e se atende aos requisitos do cliente;
 
 \item  \textbf{Prazo e orçamento:} variações são controladas e a empresa é capaz de determinar quando o projeto acaba e se inicia a fase de manutenção;
 
-\item  \textbf{Integração:} todos da equipe tem o mesmo entendimento sobre o projeto e a empresa consegue integrar o que duas ou mais pessoas estão produzindo;
+\item  \textbf{Integração:} todos da equipe têm o mesmo entendimento sobre o projeto e a empresa consegue integrar o que duas ou mais pessoas estão produzindo;
 
-\item  \textbf{Mudanças:} todos estão cientes que ela vai ocorrer e estão preparados para conhecer seus impactos e incorporá-las ao trabalhao de forma adequada;
+\item  \textbf{Mudanças:} todos estão cientes que ela vai ocorrer e estão preparados para conhecer seus impactos e incorporá-las ao trabalho de forma adequada;
 
 \item  \textbf{Demanda:} a empresa estará pronta para o seu aumento, tanto de clientes como de produtos.
 
 \end{itemize}
 
-Como consequência direta dos itens citados anteriormente, a empresa de \sw passa a ter maior credibilidade no mercado. Sua capacidade de produzir mais rápido e reagir melhor às mudanças se refletem na melhora da qualidade e aumento da competitividade. Caso opte pela certificação, ainda poderá contar com o todo o reconhecimento internacional que a instituição ISO oferece e ter sua entrada no mercado internacional facilitada.
+Como consequência direta dos itens citados anteriormente, a empresa de \sw passa a ter maior credibilidade no mercado. Sua capacidade de produzir mais rápido e reagir melhor às mudanças se refletem na melhora da qualidade e aumento da competitividade. Caso opte pela certificação, ainda poderá contar com todo o reconhecimento internacional que a instituição ISO oferece e ter sua entrada no mercado internacional facilitada.
 
 \subsection{Divisão da \iso}
 
@@ -184,7 +184,8 @@ A \iso é dividida em cinco partes, sendo uma visão global, dois perfis (\textit{
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{figuras/serie_iso.png}
-\caption{Série \iso \cite[pág. 7]{iso}}
+\caption{Série \iso}
+\figsource{\citealp[p. 7]{iso}}
 \label{fig:serie:iso}
 \end{figure}
 
@@ -196,7 +197,7 @@ O guia de gestão e engenharia oferece às VSE processos de \gp e \dsw que, de aco
 
 \item Um processo disciplinado de gestão que oferece visibilidade do projeto e ações corretivas para problemas e desvios de projeto é realizado;
 
-\item Um processo sistemático e disciplinado de desenvolvimento de \sw que satisfaça as necessidades do cliente e assegure a qualidade do produto é seguido.
+\item Um processo sistemático e disciplinado de desenvolvimento de \sw que satisfaça às necessidades do cliente e assegure que a qualidade do produto é seguida.
 
 \end{itemize}
 
@@ -221,7 +222,8 @@ A \gp está ligada ao estabelecimento e controle das tarefas para se alcançar os 
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.3]{figuras/gp_desenv_sw.png}
-\caption{Processos básicos \cite[pág. 12]{iso}}
+\caption{Processos básicos}
+\figsource{\citealp[p. 12]{iso}}
 \label{fig:gp:dsw}
 \end{figure}
 
@@ -236,7 +238,7 @@ De acordo com \cite{iso}, os objetivos deste processo são:
 
 \item[PM.02] O progresso do projeto é monitorado em relação ao \ppj e registrado no \prog. Correções para remediar problemas e desvios do plano são tomadas quando os objetivos do projeto não são alcançados. O fechamento do projeto é realizado para se conseguir o aceite do cliente documentado no \aceite.
 
-\item[PM.03] A \muda é abordada através de sua recepção e análise. Mudanças aos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.
+\item[PM.03] A \muda é abordada através de sua recepção e análise. Mudanças nos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.
 
 \item[PM.O4] Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.
 
@@ -253,7 +255,8 @@ Cada um destes objetivos pode ser alcançado através de uma série de processos qu
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.5]{figuras/gp_diagr.png}
-\caption{Diagrama do processo de \gp \cite[pág. 12]{iso}}
+\caption{Diagrama do processo de \gp}
+\figsource{\citealp[p. 12]{iso}}
 \label{fig:gp:diagr}
 \end{figure}
 
@@ -285,7 +288,8 @@ Cada um destes objetivos pode ser alcançado através de uma série de processos qu
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.5]{figuras/dsw_diagr.png}
-\caption{Diagrama do processo de \dsw \cite[pág. 30]{iso}}
+\caption{Diagrama do processo de \dsw}
+\figsource{\citealp[p. 30]{iso}}
 \label{fig:dsw:diagr}
 \end{figure}
 

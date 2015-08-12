@@ -155,7 +155,7 @@
       
       \hfill{\parbox{8cm}{Disserta{\c    c}{\~a}o de Mestrado
           apresentada  ao Programa   de P{\'o}s-Gradua{\c c}{\~a}o  em
-          Gest{\~a}o de Sistemas de Engenharia, Setor de Engenharia,
+          Gest{\~a}o de Sistemas de Engenharia, Centro de Engenharia e Computa{\c c}{\~a}o,
           Universidade Cat{\'o}lica de Petr{\'o}polis.\\
           \@advisortitle: \@advisorname}}\par \null\vfill
       \MakeUppercase\@city\\
@@ -179,7 +179,7 @@
       \hfill{\parbox{8cm}{Disserta{\c    c}{\~a}o apresentada   como
           requisito  parcial  {\`a} obten{\c  c}{\~a}o  do  grau  de
           Mestre.    Programa  de     P{\'o}s-Gradua{\c    c}{\~a}o  em
-          Gest{\~a}o de Sistemas de Engenharia, Setor de Engenharia,
+          Gest{\~a}o de Sistemas de Engenharia, Centro de Engenharia e Computa{\c c}{\~a}o,
           Universidade Cat{\'o}lica de Petr{\'o}polis.\\
           \@advisortitle: \@advisorname}}\par  \null\vfill
       \MakeUppercase\@city\\
@@ -208,7 +208,7 @@
         Disserta{\c    c}{\~a}o  aprovada   como
         requisito  parcial  {\`a} obten{\c  c}{\~a}o  do  grau  de
         Mestre no Programa  de     P{\'o}s-Gradua{\c    c}{\~a}o  em
-          Gest{\~a}o de Sistemas de Engenharia, Setor de Engenharia,
+          Gest{\~a}o de Sistemas de Engenharia, Centro de Engenharia e Computa{\c c}{\~a}o,
           Universidade Cat{\'o}lica de Petr{\'o}polis, pela
         Comissão formada pelos professores:\\
       \end{center}

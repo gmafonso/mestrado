@@ -5,15 +5,15 @@ The style file: Bibliografia/apalike-pt.bst
 Database file #1: research.bib
 You've used 16 entries,
             1935 wiz_defined-function locations,
-            557 strings with 6095 characters,
-and the built_in function-call counts, 5195 in all, are:
-= -- 493
-> -- 206
+            557 strings with 6084 characters,
+and the built_in function-call counts, 5159 in all, are:
+= -- 489
+> -- 200
 < -- 11
-+ -- 70
-- -- 66
-* -- 399
-:= -- 963
++ -- 68
+- -- 64
+* -- 395
+:= -- 957
 add.period$ -- 49
 call.type$ -- 16
 change.case$ -- 108
@@ -21,8 +21,8 @@ chr.to.int$ -- 16
 cite$ -- 16
 duplicate$ -- 214
 empty$ -- 363
-format.name$ -- 89
-if$ -- 996
+format.name$ -- 86
+if$ -- 988
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 22
@@ -32,7 +32,7 @@ pop$ -- 108
 preamble$ -- 1
 purify$ -- 112
 quote$ -- 0
-skip$ -- 163
+skip$ -- 162
 stack$ -- 0
 substring$ -- 248
 swap$ -- 14

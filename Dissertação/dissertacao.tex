@@ -11,9 +11,6 @@
 \usepackage{url}
 \usepackage{etoolbox}
 
-%\usepackage{auto-pst-pdf}
-
-
 \usepackage{isolatin1}
 \usepackage{amssymb}
 \usepackage{subfigure}
@@ -24,6 +21,8 @@
 % \usepackage{psfig}
 \usepackage{natbib} % support the \includegraphics command and options
 \usepackage{array}
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
 
 \setcounter{secnumdepth}{3}    % n - numero de niveis de subsubsection numeradas
 \setcounter{tocdepth}{3}       % coloca ate o nivel n no sumario
@@ -55,6 +54,8 @@
 \newcommand{\corre}{Registro de Corre\c{c}\~aes\xspace}
 \newcommand{\entrega}{Instru\c{c}\~oes de Entrega\xspace}
 \newcommand{\crono}{Cronograma das Tarefas do Projeto\xspace}
+
+\newcommand{\figsource}[1]{\floatfoot{Fonte: #1}}
 
 \title{M\'etodo de auto diagn\'ostico para implanta\c{c}\~ao da \iso}
 \author{Gladistone Moreira Afonso}

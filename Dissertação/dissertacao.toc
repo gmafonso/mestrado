@@ -49,17 +49,18 @@
 \contentsline {section}{\numberline {5.1}Contribui\c {c}\~oes}{52}
 \contentsline {subsection}{\numberline {5.1.1}M\'etodo}{52}
 \contentsline {subsection}{\numberline {5.1.2}F\'ormulas}{52}
+\contentsline {subsection}{\numberline {5.1.3}Personaliza\c {c}\~ao dos itens de Likert}{53}
 \contentsline {section}{\numberline {5.2}Trabalhos Futuros}{53}
-\contentsline {chapter}{\numberline {A}\MakeUppercase {Diagn\'ostico da empresa}}{54}
-\contentsline {section}{\numberline {A.1}An\'alise Organizacional e de Processos}{54}
-\contentsline {subsection}{\numberline {A.1.1}Suporte T\'ecnico}{54}
-\contentsline {subsection}{\numberline {A.1.2}Desenvolvimento}{55}
-\contentsline {subsection}{\numberline {A.1.3}Financeiro}{55}
-\contentsline {subsection}{\numberline {A.1.4}Marketing}{56}
-\contentsline {chapter}{\numberline {B}\MakeUppercase {An\'alise SWOT}}{57}
-\contentsline {section}{\numberline {B.1}An\'alise do ambiente externo}{57}
-\contentsline {section}{\numberline {B.2}An\'alise do ambiente interno}{58}
-\contentsline {section}{\numberline {B.3}An\'alise global}{59}
-\contentsline {chapter}{\numberline {C}\MakeUppercase {Exemplo de question\'ario para Ger\^encia de Projetos\xspace }}{60}
-\contentsline {chapter}{\numberline {D}\MakeUppercase {Exemplo de question\'ario para Desenvolvimento de \textit {Software}\xspace }}{70}
-\contentsline {chapter}{\MakeUppercase {Bibliografia}}{74}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Diagn\'ostico da empresa}}{55}
+\contentsline {section}{\numberline {A.1}An\'alise Organizacional e de Processos}{55}
+\contentsline {subsection}{\numberline {A.1.1}Suporte T\'ecnico}{55}
+\contentsline {subsection}{\numberline {A.1.2}Desenvolvimento}{56}
+\contentsline {subsection}{\numberline {A.1.3}Financeiro}{56}
+\contentsline {subsection}{\numberline {A.1.4}Marketing}{57}
+\contentsline {chapter}{\numberline {B}\MakeUppercase {An\'alise SWOT}}{58}
+\contentsline {section}{\numberline {B.1}An\'alise do ambiente externo}{58}
+\contentsline {section}{\numberline {B.2}An\'alise do ambiente interno}{59}
+\contentsline {section}{\numberline {B.3}An\'alise global}{60}
+\contentsline {chapter}{\numberline {C}\MakeUppercase {Exemplo de question\'ario para Ger\^encia de Projetos\xspace }}{61}
+\contentsline {chapter}{\numberline {D}\MakeUppercase {Exemplo de question\'ario para Desenvolvimento de \textit {Software}\xspace }}{71}
+\contentsline {chapter}{\MakeUppercase {Bibliografia}}{75}

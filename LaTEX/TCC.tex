@@ -1,0 +1,67 @@
+\documentclass[12pt,a4paper]{fase}
+\usepackage[portuges,brazil]{babel}
+% \usepackage[portuguese,brazil]{babel}
+
+%\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{url}
+\usepackage{etoolbox}
+
+\usepackage{isolatin1}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{caption2}
+\usepackage{setspace}
+\usepackage{ps-macros}
+% \usepackage{psfig}
+\usepackage{natbib} % support the \includegraphics command and options
+\usepackage{array}
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\usepackage{soul}
+\setcounter{secnumdepth}{3}    % n - numero de niveis de subsubsection numeradas
+\setcounter{tocdepth}{3}       % coloca ate o nivel n no sumario
+
+\include{comandos}
+\include{id}
+
+\begin{document}
+
+\include{capa}
+
+\input{dedicatoria.tex}
+\input{agradecimentos.tex}
+\input{epigrafe.tex}
+
+\input{resumo.tex}
+
+\input{abstract.tex}
+
+\tableofcontents
+
+\include{listas}
+
+\pagenumbering{arabic}
+
+\input{capitulo1.tex}
+\input{capitulo2.tex}
+\input{capitulo3.tex}
+%\input{capitulo4.tex}
+\input{resultados.tex}
+\input{conclusao.tex}
+
+%\input{anexo.tex}
+
+%\bibliographystyle{brazil}
+\bibliography{research}
+\bibliographystyle{Bibliografia/apalike-pt}
+\addcontentsline{toc}{chapter}{\MakeUppercase{Bibliografia}}
+
+\singlespacing
+
+\end{document}

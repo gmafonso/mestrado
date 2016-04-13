@@ -1,0 +1,599 @@
+% !TEX root = dissertacao.tex
+
+\appendix
+\chapter{Diagnóstico da empresa}
+
+\section{Análise Organizacional e de Processos}
+\label{Sec:analise:org}
+
+\textbf{Diagnóstico:} observou-se que a empresa possui qualidades essenciais para o crescimento contínuo, como por exemplo, o comprometimento dos profissionais, a comunicação, o bom clima organizacional, assim como a cultura de prezar pela excelência e ser reconhecida através da sua confiabilidade e qualidade nos serviços. Porém, para que a empresa suporte o crescimento que tende a acontecer cada vez mais, devido a demanda pelos serviços, tornam-se necessários alguns ajustes nos processos.
+
+\subsection{Suporte Técnico}
+\label{Sec:suporte}
+
+Este departamento é o único responsável pelo atendimento ao cliente atualmente. Os atendimentos podem ser realizados através do telefone, acesso remoto via internet, e-mail ou presencial. Como pode ser observado na Figura \ref{Fig:atend11}, somente 3 tipos foram registrados no mês de novembro de 2014, mostrando que as comunicacões via e-mail não são registradas.
+%Assuntos sobre problemas e dúvidas relacionados aos \sws fornecidos são tratados diretamente com os técnicos do suporte. Para isso o departamento se utiliza de 2 \sws, cujas especificações estão relacionadas na Tabela \ref{Tab:espec:sw:atend} e as janelas principais podem ser observadas nas Figuras \ref{Fig:jan:contatos:lanca} e \ref{Fig:jan:pendencias:lanca}.
+
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{1,5cm}|p{12cm}|
+%		}
+%		
+%		\hline
+%		\textbf{Nome}&
+%		\textbf{Especificações}\\
+%		\hline
+%		
+%		Contatos&
+%		\begin{itemize}
+%			\item Registra atendimentos;
+%			\item Registra o cliente que está sendo atendido;
+%			\item Possui um espaço virtualmente ilimitado para informar o assunto do contato;
+%			\item Cronometra automaticamente o atendimento;
+%			\item Possui uma data de previsão de retorno;
+%			\item Não permite inclusões de novas interações com o cliente durante o andamento do atendimento, que pode se estender por dias (neste caso novos atendimentos deverão ser registrados, sem haver qualquer ligação entre a primeira e as demais chamadas).
+%		\end{itemize}\\
+%		\hline
+%		
+%		Pendências&
+%		\begin{itemize}
+%			\item Registra tarefas;
+%			\item Registra o cliente que fez a solicitação (opcional);
+%			\item Associa o solicitante e o responsável por sua realização (ambos colaboradores da empresa);
+%			\item Permite definir prioridade, data limite para realização e previsão de atendimento;
+%			\item Possui um controle de fechamento, onde o responsável indica a data em que aquela tarefa foi realizada;
+%			\item Possui um controle de ``ok'', onde o solicitante indica que aquela tarefa já foi liberada para o cliente;
+%			\item Diferentemente do Contatos, permite acrescentar novas tarefas ao mesmo registro principal.
+%		\end{itemize}\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption {Especificações dos \sws de atendimento}
+%	\label{Tab:espec:sw:atend}
+%\end{table}
+
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.6]{figuras/jan_contatos_lancamento.jpg}
+%	\caption{Janela de lançamento dos atendimentos}
+%	\label{Fig:jan:contatos:lanca}
+%\end{figure}
+
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.6]{figuras/jan_pendencias_lancamento.jpg}
+%	\caption{Janela de lançamento das pendencias}
+%	\label{Fig:jan:pendencias:lanca}
+%\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.5]{figuras/atendimentos_por_tipo.jpg}
+	\caption{Atendimentos por tipo em novembro/2014}
+	\label{Fig:atend11}
+\end{figure}
+
+Outros problemas foram diagnosticados e estão relacionados na Tabela \ref{Tab:probl:atend}, sendo a falta de acompanhamento do andamento das solicitações e retorno ao cliente as mais críticas.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{14cm}|
+		}
+		
+		\hline
+		\textbf{Problema diagnosticado}\\
+		\hline
+		
+		Falta de registro de atendimento (para qualquer tipo)\\
+		\hline
+		
+		Postergação de registro de atendimento (para qualquer tipo), que pode levar ao esquecimento (falta de registro)\\
+		\hline
+		
+		Dados insuficientes sobre o contato\\
+		\hline
+		
+		Falta de acompanhamento do andamento das solicitações (fechamento dos registros de atendimento)\\
+		\hline
+		
+		Falta de retorno da situação das solicitações ao cliente\\
+		\hline
+		
+		Tarefas originadas dos atendimentos, para o próprio departamento de suporte ou para outros departamentos, são registradas em um \sw separado e não há nenhuma rastreabilidade\\
+		\hline
+		
+	\end{tabular}
+	\caption {Problemas diagnosticados no departamento de suporte}
+	\label{Tab:probl:atend}
+\end{table}
+
+%As seguintes ações devem ser tomadas para contonar os problemas diagnosticados:
+%
+%\begin{itemize}
+%	
+%	\item Todos os chamados técnicos deverão ser registrados no ato de sua execução (ligação, acesso remoto ou recebimento do e-mail), com exceção do atendimento externo que deve ser registrado no ato do retorno do técnico;
+%	
+%	\item O máximo de informações possíveis precisa ser registrado no histórico do chamado;
+%	
+%	\item A fusão entre o Contatos e o Pendências é extremamente necessária, a fim de criar um registro de todas as ações vinculadas naquele chamado, tornando-se obrigatório o registro de todas as ações realizadas por cada técnico que atender o chamado;
+%	
+%	\item Qualquer nova informação de um chamado deve ser adicionada ao registro já aberto, sem a necessidade de abrir um novo chamado e permitindo a rastreabilidade;
+%	
+%	\item Um departamento de Serviço de Atendimento ao Cliente (SAC) deverá ser criado e pelo menos uma pessoa deve ser colocada como responsável pelas suas atribuições;
+%	
+%	\item O SAC realizará o fechamento do chamado junto ao cliente, consultando se realmente o problema foi solucionado e realizando pesquisas de satisfação e gerando indicadores de desempenho e qualidade (tempo médio de conclusão dos chamados, problemas mais ocorridos, cliente mais ativo, técnico mais ativo, etc);
+%	
+%	\item Os clientes deverão receber um Documento de Abertura e Acompanhamento de Chamados, juntamente com o manual  do \sw, para que saibam exatamente como proceder para abrir e acompanhar um chamado;
+%	
+%	\item Para uma melhor performance da equipe de suporte, deverá ser feito a gestão do conhecimento, documentando a resolução de cada problema que surja no atendimento do suporte técnico;
+%	
+%	\item É necessária a elaboração de um fluxograma do atendimento, com as informações chaves de requisitos para abertura de chamados;
+%	
+%	\item É necessária a elaboração de um fluxograma do atendimento de serviços diferenciados, tais como treinamentos, suportes avulsos, entrada de equipamento para concerto ou manutenção, entre outros, lembrando de acrescentar no fluxo a emissão da Ordem de Serviço;
+%	
+%	\item Deverá ser realizado o acompanhamento dos clientes que não abrem chamado com o suporte há mais de 3 meses.
+%	
+%\end{itemize}
+
+\subsection{Desenvolvimento}
+\label{Sec:desenvolvimento}
+
+Este departamento não tem contato direto com os clientes, pois todas as solicitações passam pelo departamento de suporte técnico. Porém, todas as solcitações de mudança ou correção de problemas nos \sws são resolvidas por este departamento e alguns atendimentos são repassados para o setor de desenvolvimento para resolução conjunta quando os técnicos não possuem conhecimento ou capacidade para tratá-los por si mesmos.
+
+Os problemas diagnosticados para este departamento estão relacionados na Tabela \ref{Tab:probl:desenv}.
+
+%As tarefas deste departamento são registradas no \sw Pendências mas, como já relatado anteriormente, não possuem relacionamento com os chamados abertos no \sw Contatos. 
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			|p{14cm}|
+		}
+		
+		\hline
+		\textbf{Problema diagnosticado}\\
+		\hline
+		
+		Falta de posicionamento quanto ao andamento das solicitações\\
+		\hline
+		
+		Falta de previsão de entrega das soluções\\
+		\hline
+		
+		Falta de rastreabilidade entre abertura de chamados e tarefas\\
+		\hline
+		
+	\end{tabular}
+	\caption {Problemas diagnosticados no departamento de desenvolvimento}
+	\label{Tab:probl:desenv}
+\end{table}
+
+%Para solucionar os problemas diagnosticados para este setor, além das ações ja citadas em \ref{Sec:suporte}, serão necessárias as seguintes ações:
+%
+%\begin{itemize}
+%	
+%	\item Criar processos para determinar a previsão de lançamento de versões de \sws;
+%	
+%	\item Criar processos para determinar em qual versão determinada solicitação será incluída;
+%	
+%	\item Integrar aos \sws de atendimento as informações de lançamento de versões e, consequentemente, a previsão das solicitacões.
+%	
+%\end{itemize}
+
+\subsection{Financeiro}
+
+O departamento financeiro lida com o cliente com uma frequência menor que o departamento de suporte. Porém, os assuntos relacionados a este departamento podem gerar transtornos e prejuízos quando feitos de forma incorreta. Além disso, este departamento também é responsável por bloquear o atendimento aos clientes inadimplentes, portanto representa um papel importante nos processos descritos em \ref{Sec:suporte} e \ref{Sec:desenvolvimento}.
+
+O principal problema detectado neste departamento foi a falta de registro dos contatos realizados com o cliente.
+
+%Nenhum atendimento ou tarefa relacionados a este departamento são registrados nos \sws de atendimento. Portanto, as ações necessárias para melhoria dos processos são:
+
+%\begin{itemize}
+%	
+%	\item Registrar todo e qualquer contato com clientes nos \sws de atendimento;
+%	
+%	\item Integrar as informações financeiras com os \sws de atendimento para que a liberação ou bloqueio seja feito automaticamente no ato da identificação do cliente.
+%	
+%\end{itemize}
+
+\subsection{Marketing}
+
+O departamento de marketing é o responsável, geralmente, pelo primeiro contato com o cliente. Durante as negociações de venda de \sw, é comum haver solicitações de modificações ou acertos sobre configurações, conversões de dados e treinamentos. %Porém, nenhuma dessas informações são registradas nos \sws de atendimento. O mesmo ocorre na venda de equipamentos e outros serviços.
+
+O principal problema detectado neste departamento foi a falta de registro dos contatos realizados com o cliente.
+
+%Portanto, as ações necessárias para melhoria dos processos são:
+%
+%\begin{itemize}
+%	
+%	\item Registrar os primeiros contatos com todos os prospectos, mesmo que não se tornem clientes;
+%	
+%	\item Registrar toda e qualquer interação com os clientes, novos ou antigos;
+%	
+%	\item Incluir nos registros as informações sobre negociação, possíveis modificações, conversões e outras condições estabelecidas durante ou após a venda.
+%	 
+%\end{itemize}
+
+\chapter{Análise SWOT}
+\label{Sec:SWOT}
+
+A fim de resumir e melhor entender a análise organizacional e de processos realizada em \ref{Sec:analise:org}, foi desenvolvida a Tabela \ref{Tab:SWOT} com o resultado da análise do cenário interno e externo da empresa. Esta análise de ambiente é conhecida como análise SWOT e realiza uma avaliação das forças, fraquezas, oportunidades e ameaças, dos termos em inglês \textit{strengths, weaknesses, opportunities and threats} \citep{kotler}.
+
+\begin{table}[h!]\footnotesize
+\centering
+\begin{tabular}
+{
+	| >{\centering\arraybackslash}p{7cm}
+	| >{\centering\arraybackslash}p{7cm}|
+}
+\hline
+
+	Forças&
+	Fraquezas\\
+	\hline
+
+	%Forças
+	\begin{tabular}{p{6,8cm}}
+	Comprometimento dos profissionais;\\
+	Bom clima organizacional;\\
+	Cultura de prezar pela excelência;\\
+	Ser reconhecida através da sua confiabilidade e qualidade nos serviços.\\
+	\end{tabular}&
+
+	%Fraquezas
+	\begin{tabular}{p{6,8cm}}
+	Falta de informações no acompanhamento de solicitações;\\
+	Ineficiência na comunicação com o cliente.\\
+	\end{tabular}\\
+	\hline
+
+	Oportunidades&
+	Ameaças\\
+	\hline
+
+	% Oportunidades
+	\begin{tabular}{p{6,8cm}}
+	Taxa de crescimento elevada nos últimos meses;\\
+	Aumento no faturamento;\\
+	Alta divulgação da marca, dentro e fora da sua própria cidade.\\
+	\end{tabular}&
+
+	% Ameaças
+	\begin{tabular}{p{6,8cm}}
+	Perder a confiabilidade dos clientes;\\
+	Manchar a reputação;\\
+	Sofrer queda nas vendas pela perda de indicações de clientes e parceiros insatisfeitos;\\
+	Sofrer perda de clientes já estabelecidos por não prestar um bom atendimento.\\
+	\end{tabular}\\
+	\hline
+
+\end{tabular}
+\caption {Análise SWOT dos processos}
+\label{Tab:SWOT}
+\end{table}
+
+Ao se realizar uma avaliação crítica dos resultados encontrados na análise SWOT, é possível encontrar subsídios que justificam o investimento de recursos em um projeto de melhoria de processos com base na Norma \iso para a empresa analisada.
+
+A seguir serão analisados em mais detalhes os resultados da análise dos ambientes externo e interno.
+
+\section{Análise do ambiente externo}
+
+A análise SWOT separa o ambiente externo em dois segmentos: oportunidades e ameaças. Ambos estão fora do controle direto da organização e só podem ser influenciados a partir de ações estratégicas para aumentar a probabilidade de ocorrência dos eventos positivos (oportunidades) e tentar evitar a ocorrência dos eventos negativos (ameaças).
+
+As oportundidades resultantes da análise de cenário apontam um caminho de crescimento em quantidade de clientes e em valores de faturamento. Tal resultado pode ser considerado como cenário ideal e deve ser perseguido pela empresa.
+
+As ameaças resultantes da análise de cenário mostram, em contrapartida ao cenário ideal apresentado pelas oportunidades, um cenário de perdas financeiras e de credibilidade. Tal resultado deve ser evitado e os fatores que podem levar a essas ameaças devem ser monitorados constantemente.
+
+É possível relacionar as oportunidades e ameaças, projetando uma deteriorização do cenário ideal traçado nas oportunidades, que é afetado pelo crescimento desordenado e sem processos formalizados que o possam suportar, fazendo com que diversos problemas aflorem e invertam o cenário de crescimento, levando a empresa ao cenário descrito nas ameaças. Esta análise foi citada no Capítulo \ref{Introducao} como um dos principais motivadores da criação deste projeto.
+
+\section{Análise do ambiente interno}
+
+A análise SWOT separa o ambiente interno em dois segmentos: forças e fraquezas. Diferentemente do ambiente externo, este dois segmentos estão dentro do controle direto da organização e são fontes das ações estratégicas que serão traçadas para se alcançar as oportunidades e evitar as ameaças.
+
+As forças resultantes da análise de cenário apontam um ambiente fértil para o crescimento, onde clima, cultura e comprometimento são apontados como pontos fortes da organização.
+
+As fraquezas resultantes da análise de cenário mostram como a falta de processos formalizados afetam o principal ativo da empresa: os clientes.
+
+Um dos pontos positivos da análise SWOT é a constatação de que o caminho para eliminar as fraquezas é potencializado pelas características internas apontadas nas forças. Qualquer processo de melhoria empresarial depende crucialmente do engajamento da equipe de trabalho e, como mencionado anteriormente, o ambiente interno da organização oferece um terreno fértil para esse fim.
+
+\section{Análise global}
+
+A análise do sistema organzacional completo (ambientes externo e interno), em conjunto com as análises realizadas na Seção \ref{Sec:analise:org}, mostram que as atitudes em relação às fraquezas determinarão quais dos dois possíveis caminhos a empresa irá trilhar: agarrar as oportunidades e alcançar o cenário ideal, ou ser abatida pelas ameaças e inverter o cenário de crescimento.
+
+Como o objetivo da empresa é o crescimento e a eliminação das ameaças, se tornou claro que era necessário um ajuste nos processos internos. Como já citado no Capítulo \ref{Introducao}, a solução escolhida foi a implantação da Norma \iso.
+
+O processo de implantação da Norma contempla duas etapas principais: um diagnóstico mais detalhado do cenário atual dos processos de desenvolvimento de \sw; e a criação de um projeto de implantação da Norma. Esta dissertação contribuiu para a primeira etapa através do auto diagnóstico do cenário atual.
+
+\chapter{Exemplo de questionário para \gp}
+
+\begin{table}[h!]\footnotesize
+\begin{tabular}
+	{
+		| >{\centering\arraybackslash}p{1,8cm}
+		| >{\centering\arraybackslash}p{1,8cm}
+		| >{\centering\arraybackslash}p{1,8cm}
+		| >{\centering\arraybackslash}p{1,8cm}
+		| >{\centering\arraybackslash}p{1,8cm}
+		| >{\centering\arraybackslash}p{1,8cm}
+		| >{\centering\arraybackslash}p{1,8cm}|
+	}	
+	\hline
+	PM.1.1.Q1 & O levantamento de requisitos é feito? & Sim e são registrados em formulários ou ferramentas padronizadas, para todos os projetos de SW & Sim, para todos os projetos de SW, mas os registros não são padronizados & Sim e são registrados em formulários ou ferramentas padronizadas, mas somente para projetos mais complexos ou valiosos & Sim, mas somente para projetos mais complexos ou valiosos, mas os registros não são padronizados & Não \\ \hline
+	&  &  &  &  & x &  \\ \hline
+	PM.1.1.Q2 & Critérios de aceitação dos requisitos são discriminados? & Sim, em conjunto com o cliente & Sim, somente pelo cliente & Sim, somente pelo GP/LE & Sim, somente pela equipe do projeto & Não/Não são levantados os requisitos \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.1.Q3 & A empresa possui um documento de abertura de projeto (Declaração de Trabalho, Termo de Abertura do Projeto, etc.?) & Sim e utliza para todos os projetos de SW & Sim mas utiliza somente para os projetos de SW mais complexos ou mais valiosos & Sim mas utiliza somente para alguns projetos de SW ou somente algumas pessoas utilizam & Não há nada formalizado mas algum tipo de documentação é gerada no início do projeto, variando em forma e conteúdo a cada projeto e conforme a pessoa que o produz & Não \\ \hline
+	&  &  & x &  &  &  \\ \hline
+	\end{tabular}
+	\caption{Exemplo de questionário para \gp}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.1.Q4 & O documento de abertura do projeto de SW é revisado antes do início do projeto? & Sim, pelo GP/LE, equipe e cliente & Sim, pelo GP/LE e equipe & Sim, somente pelo GP/LE ou pela equipe e cliente & Somente para projetos mais complexos ou mais valiosos & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.1.Q5 & O projeto de SW é decomposto em itens que serão entregues (ENTREGÁVEIS) ao cliente? Exemplos: backlog, pacotes de trabalho, itens de trabalho (work items), etc. & Sim, o projeto é decomposto em componentes de SW (sistemas, bibliotecas, sites, etc.), documentações (manual, help, instruções, etc.), itens do projeto (planos, relatórios, etc.) entre outros & Sim, o projeto é decomposto em componentes de SW (sistemas, bibliotecas, sites, etc.) e documentações (manual, help, instruções, etc.) & Sim, o projeto é decomposto em componentes de SW (sistemas, bibliotecas, sites, etc.) & Alguns entregáveis são especificados somente em projetos mais complexos ou valiosos ou somente algumas pessoas fazem isso & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.2.Q1 & São definidas instruções de entrega para os entregáveis? & Sim, para todos os entregáveis, definidas em conjunto com o cliente & Sim, para alguns dos entregáveis, definidas em conjunto com o cliente & Sim, para todos os entregáveis, definidas somente pelo GP/LE ou equipe & Sim, para alguns dos entregáveis, definidas somente pelo GP/LE ou equipe & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.3.Q1 & É gerada uma lista de atividades para desenvolver o SW e prodzir outros entregáveis do projeto? Exemplos: tarefas (tasks), pendências, etc. & Sim, cada entregável possui uma ou mais atividades associadas e elas são levantadas na fase de planejamento & Sim, cada entregável possui uma ou mais atividades associadas e elas são levantadas na fase de execução & Sim mas somente para alguns projetos de SW mais complexos ou mais valiosos, durante a fase de planejamento & Sim mas somente para alguns projetos de SW mais complexos ou mais valiosos, durante a fase de execução & Não \\ \hline
+	&  &  & x &  &  &  \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.3.Q2 & O processo de desenvolvimento de SW prevê atividades de verificação, validação e revisão para garantir a qualidade do produto & Sim, unindo a equipe, GP/LE e cliente & Sim, somente entre GP/LE e cliente & Sim, somente para a equipe & Somente em casos de impedimentos/urgência & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.3.Q3 & Atividades necessárias para executar as instruções de entrega são identificadas? & Sim, durante o planejamento & Sim, durante o desenvolvimento & Sim, durante as validações & Sim, somente quando necessário, próximo à entrega & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.4.Q1 & A duração ou o esforço para realizar cada tarefa é estimado & Sim, durante o planejamento inicial, em conjunto com toda a equipe & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.), em conjunto com toda a equipe & Sim, durante o planejamento inicial, individualmente ou pelo GP/LE & Sim, durante o planejamento de cada etapa (sprint, ciclo, etc.), individualmente ou pelo GP/LE & Não \\ \hline
+	&  &  &  & x &  &  \\ \hline
+	PM.1.5.Q1 & As pessoas necessárias para executar o projeto são identificadas? & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, a designação é sob demanda, no início de cada atividade & Não, a equipe é muito pequena e todos trabalham no projeto ao mesmo tempo, executando as atividades sob demanda & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.5.Q2 & Os recursos necessários para executar o projeto são identificadas? Exemplo: equipamentos, salas para treinamentos, servidores, ferramentas, etc. & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, os recursos são obtidos sob demanda, no início de cada atividade & Não, a estrutura é muito pequena e todos trabalham no projeto ao mesmo tempo, obtendo os recursos sob demanda & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.5.Q3 & Os padrões necessários para executar o projeto são identificadas? Exemplo: procedimentos padrões de desenvolvimento, normas internas, manuais de melhores práticas, etc. & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, mas todos da equipe receberam instruções prévias, escritas ou orais, de como executar o projeto & Não, mas todos da equipe receberam algum tipo de treinamento ao entrar na empresa de como executar projetos de SW & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.5.Q4 & Quando necessário, os treinamentos da equipe essenciais para a execução do projeto são identificados? & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, treinamentos são executados sob demanda mas são considerados parte do projeto & Não, treinamentos não são considerados parte do projeto e são executados sob demanda & Treinamentos não são fornecidos para a equipe \\ \hline
+	&  &  &  &  & x &  \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.5.Q5 & As datas em que as pessoas serão requisitadas para o projeto são inseridas no cronograma? & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, a designação é sob demanda, no início de cada atividade & Não, a equipe é muito pequena e todos trabalham no projeto ao mesmo tempo, executando as atividades sob demanda & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.5.Q6 & As datas dos treinamentos necessários para o projeto são inseridas no cronograma? & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, treinamentos são executados sob demanda mas são considerados parte do projeto & Não, treinamentos não são considerados parte do projeto e são executados sob demanda & Treinamentos não são fornecidos para a equipe \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.6.Q1 & A montagem da equipe do projeto é planejada? & Sim, na fase de planejamento do projeto, de acordo com os recursos disponíveis & Sim, na fase de planejamento do projeto, mas sem levar em consideração os recursos disponíveis & Sim, na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, ela é montada sob demanda, no início de cada atividade & Não, a equipe é muito pequena e todos trabalham no projeto ao mesmo tempo, executando as atividades sob demanda \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.6.Q2 & As responsabilidades e papéis de cada membro da equipe são planejadas? & Sim, na fase de planejamento do projeto, de acordo com os recursos disponíveis & Sim, na fase de planejamento do projeto, mas sem levar em consideração os recursos disponíveis & Sim, na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não, responsabilidades e papéis são atribuídos sob demanda & Não há atribuição clara de responsabilidades e papéis \\ \hline
+	&  &  &  & x &  &  \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.7.Q1 & As datas de início e término das atividades são estimadas? & Sim, na fase de planejamento do projeto, utilizando as estimativas de tempo/es\-forço & Sim, na fase de planejamento, sem utilizar estimativas anteriores de tempo e esforço & Sim, na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.), utilizando as estimativas de tempo/es\-forço & Sim, na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.), sem utilizar estimativas anteriores de tempo/es\-forço & Não \\ \hline
+	&  &  &  & x &  &  \\ \hline
+	PM.1.7.Q2 & A disponibilidade dos recursos humanos e materiais é levada em consideração quando as estimativas de cronograma são efetuadas? Exemplo: feriados, férias, parada para manutenção & Sim, durante a fase de planejamento do projeto todos os eventos que afetam os recursos, humanos ou materiais, são inseridos no cronograma & Sim, durante a fase de planejamento do projeto, mas somente os eventos que afetam os recursos humanos são considerados & Sim, na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.) todos os eventos que afetam os recursos, humanos ou materiais, são inseridos no cronograma & Sim, na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.), mas somente os eventos que afetam os recursos humanos são considerados & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.7.Q3 & A relação entre as atividades é considerada na hora de montar o cronograma? & Sim, a sequência e a dependência entre as atividades são analisadas e consideradas na fase de planejamento do projeto & Sim, a sequência e a dependência entre as atividades são analisadas e consideradas na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Sim, mas somente a sequência entre as atividades é analisada e considerada na fase de planejamento do projeto & Sim, mas somente a sequência entre as atividades é analisada e considerada na fase de planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.8.Q1 & O esforço total requerido para terminar o projeto é calculado? & Sim, na fase de planejamento do projeto, utilizando as atividades e recursos levantados & Não, somente para cada etapa (sprint, ciclo, iteração, etc.) utilizando atividades e recursos & Sim, utilizando estimativas levantadas pela equipe & Sim, utilizando estimativas levantadas pelo GP/LE & Não \\ \hline
+	&  &  &  & x &  &  \\ \hline
+	PM.1.8.Q2 & O custo total requerido para terminar o projeto é calculado? & Sim, na fase de planejamento do projeto, utilizando as atividades e recursos levantados & Não, somente para cada etapa (sprint, ciclo, iteração, etc.) utilizando atividades e recursos & Sim, utilizando estimativas levantadas pela equipe & Sim, utilizando estimativas levantadas pelo GP/LE & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.9.Q1 & Riscos são identificados e documentados? & Sim, durante o planejamento do projeto & Sim, durante o planejamento de cada etapa (sprint, ciclo, iteração, etc.) & Sim, durante a execução do projeto & Sim, durante a execução do projeto, mas não são documentados & Não, riscos não são considerados no projeto \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.10.Q1 & Existe uma estratégia de controle de versionamento? & Sim, para todos os artefatos do projeto e é documentada na fase de planejamento do projeto & Sim, somente para os artefatos de SW do projeto e é documentada na fase de planejamento do projeto & Sim, para todos os artefatos do projeto mas não faz parte da documentação do projeto & Sim, somente para os artefatos de SW do projeto mas não faz parte da documentação do projeto & Não \\ \hline
+	&  &  &  &  & x &  \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.11.Q1 & É gerado algum plano de projeto? & Sim, integrando todos os elementos do projeto (termo de abertura, instruções de entrega, atividades, cronograma, composição da equipe, custos, riscos e estratégia de controle de versão) & Sim, integrando somente os principais elementos do projeto & Sim, mas com informações não integradas & Não, mas todos ou os principais elementos do projeto são disponibilizados para a equipe & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.12.Q1 & A descrição do produto é criada? & Sim, e após ser documentada é integrada ao plano do projeto & Sim, mas apesar de documentada, não é integrada ao plano do projeto & Sim, mas sem documentação formal, e disponibilizada para toda a equipe & Sim, mas sem documentação formal, e disponibilizada somente para o GP/LE & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.12.Q2 & O escopo do projeto é criado? & Sim, e após ser documentado é integrado ao plano do projeto & Sim, mas apesar de documentado, não é integrado ao plano do projeto & Sim, mas sem documentação formal, e disponibilizado para toda a equipe & Sim, mas sem documentação formal, e disponibilizado somente para o GP/LE & Não \\ \hline
+	&  &  &  &  & x &  \\ \hline
+	PM.1.12.Q3 & Os objetivos do projeto são levantados? & Sim, e após serem documentados são integrados ao plano do projeto & Sim, mas apesar de documentados, não são integrados ao plano do projeto & Sim, mas sem documentação formal, e disponibilizados para toda a equipe & Sim, mas sem documentação formal, e disponibilizados somente para o GP/LE & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.12.Q4 & Os entregáveis do projeto são identificados? & Sim, e após serem documentados são integrados ao plano do projeto & Sim, mas apesar de documentados, não são integrados ao plano do projeto & Sim, mas sem documentação formal, e disponibilizados para toda a equipe & Sim, mas sem documentação formal, e disponibilizados somente para o GP/LE & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.13.Q1 & É realizada uma análise de viabilidade do projeto? & Sim, todos os elementos do projeto são verificados quanto à viabilidade e consistência, sendo os resultados documentados & Sim, todos os elementos do projeto são verificados quanto à viabilidade e consistência, mas os resultados não são documentados & Sim, mas somente alguns elementos do projeto são verificados quanto à viabilidade e consistência, sendo os resultados documentados & Sim, mas somente alguns elementos do projeto são verificados quanto à viabilidade e consistência, mas os resultados não são documentados & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.13.Q2 & Como são tratados os problemas e inconsistências encontrados na análise de viabilidade do projeto? & São documentados e corrigidos, gerando alterações nos demais documentos e planos do projeto afetados & São documentados e corrigidos, mas os documentos e planos do projeto afetados permanecem inalterados & São corrigidos, mas não são documentados & Não são corrigidos & Não é feita a análise de viabilidade do projeto \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.13.Q3 & O plano de projeto é validado? & Sim, existe um procedimento formal de validação do plano de projeto pelo GP/LE antes do início do projeto & Sim, formalmente pelo GP/LE, mas não existe um procedimento padrão e a validação pode ocorrer até mesmo com o projeto em andamento & Sim, informalmente pelo GP/LE, antes do início do projeto & Sim, informalmente pelo GP/LE, a qualquer momento durante o projeto & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+	PM.1.15.Q1 & O plano de projeto é revisado? & Sim, existe um procedimento formal de revisão e aprovação do plano de projeto pelo cliente antes do início do projeto, confrontando com os elementos do documento de abertura do projeto & Sim, existe um procedimento formal de revisão e aprovação do plano de projeto somente pelo GP/LE antes do início do projeto, confrontando com os elementos do documento de abertura do projeto & Sim, informalmente pelo cliente, antes do início do projeto & Sim, informalmente pelo GP/LE, a qualquer momento durante o projeto & Não \\ \hline
+	&  &  &  &  &  & x \\ \hline
+	PM.1.16.Q1 & Existe um repositório do projeto? & Sim, definido no planejamento do projeto, documentado e mantido pela estratégia de controle de versão & Sim, definido no planejamento do projeto mas sem controle de versão & Sim, um repositório padrão para todos os projetos da empresa e mantido pela estratégia de controle de versão & Sim, um repositório padrão para todos os projetos da empresa mas sem controle de versão & Não \\ \hline
+	&  &  &  & x &  &  \\ \hline
+	\end{tabular}
+\end{table}
+
+\chapter{Exemplo de questionário para \dsw}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+		SI.2.1.Q1 & Como as tarefas são distribuídas pela equipe? & De acordo com os papéis dos membros da equipe, baseado no plano de projeto & De acordo com o plano de projeto, mas não existem papéis definidos & De acordo com os papéis dos membros da equipe, mas não existe um plano de projeto & O GP/LE distribui as tarefas conforme a demanda e os papéis definidos & O GP/LE distribui as tarefas conforme a demanda mas os papéis não foram definidos \\ \hline
+		&  &  &  &  & x &  \\ \hline
+		SI.2.2.Q1 & Como os requisitos são levantados? & Identificando e consultando clientes, usuários, sistemas anteriores, documentos, etc. & Identificando e consultando somente clientes, usuários e documentos & Identificando e consultando somente clientes e usuários & Identificando e consultando somente sistemas anteriores e/ou documentos & Não são levantados os requisitos \\ \hline
+		&  & x &  &  &  &  \\ \hline
+		SI.2.2.Q2 & Como são analisados os requisitos? & São analisados para se determinar o escopo e viabilidade do projeto & São analisados para se determinar somente o escopo do projeto & São analisados para se determinar somente a viabilidade do projeto & São levantados mas não são analiados & Não são levantados os requisitos \\ \hline
+		&  &  &  & x &  &  \\ \hline
+		SI.2.2.Q3 & Como são documentados os requisitos? & Em um documento de especificação de requisitos, integrado ao plano de projeto & Em um documento de especificação de requisitos, mas que não é integrado ao plano de projeto & Espalhados em diversos documentos (e-mails, relatórios, entrevistas, etc.) disponibilizados à equipe & Espalhados em diversos documentos (e-mails, relatórios, entrevistas, etc.) disponíveis somente ao GP/LE & Não são levantados os requisitos \\ \hline
+		&  &  &  & x &  &  \\ \hline
+	\end{tabular}
+	\caption{Exemplo de questionário para \dsw}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+		SI.2.3.Q1 & Como são verificados os requisitos? & Os requisitos são verificados pelo analista em termos de corretude e testabilidade e quanto a sua consistência com a descrição do produto. São verificados para que estejam completos e não sejam ambíguos ou contraditórios & Os requisitos são verificados pelo analista em termos de corretude e testabilidade, mas não quanto a sua consistência com a descrição do produto. São verificados para que estejam completos e não sejam ambíguos ou contraditórios & Os requisitos são verificados pelo analista esporadicamente ou sem um processo formal & Os requisitos não são validados & Não são levantados os requisitos \\ \hline
+		&  &  &  &  & x &  \\ \hline
+		SI.2.3.Q2 & Como são registrados os resultados da análise e verificação dos requisitos? & Resultados positivos são registrados em documento de resultado de validação e as correções necessárias são feitas até a verificação dos requisitos. Caso mudanças significativas sejam necessárias, uma requisição de mudanças é criada. & Correções necessárias são feitas até a verificação dos requisitos. Caso mudanças significativas sejam necessárias, uma requisição de mudanças é criada. & Correções necessárias são feitas até a verificação dos requisitos & Os requisitos não são verificados & Não são levantados os requisitos \\ \hline
+		&  &  &  &  & x &  \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]\footnotesize
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}
+			| >{\centering\arraybackslash}p{1,8cm}|
+		}	
+		\hline
+		SI.2.4.Q1 & Como são validados os requisitos? & Os requisitos são validados pelo cliente levando-se em consideração acordos firmados e suas necessidades e expectativas, incluindo usabilidade da interface com o usuário & Os requisitos são validados pelo cliente levando-se em consideração somente acordos firmados & Os requisitos são validados pelo GP/LE & Os requisitos não são validados & Não são levantados os requisitos \\ \hline
+		&  &  &  &  & x &  \\ \hline
+		SI.2.4.Q2 & Como são registrados os resultados da análise e validação dos requisitos? & Resultados positivos são registrados em um documento de resultado de validação e as correções necessárias são feitas até a validação dos requisitos & Correções necessárias são feitas até a validação dos requisitos & Correções necessárias são feitas e a validação dos requisitos é postergarda até mesmo para durante o desenvolvimento & Os requisitos não são validados & Não são levantados os requisitos \\ \hline
+		&  &  &  &  & x &  \\ \hline
+		SI.2.7.Q1 & Onde e como é armazenada a especificação de requisitos? & Como um item de configuração de software em uma baseline no repositório do projeto & Como um item de configuração de software em uma baseline, mas não existe um repositório do projeto & Em uma baseline no repositório do projeto & Não existe um processo ou local específico para armazenar os requisitos & Não são levantados os requisitos \\ \hline
+		&  &  &  &  & x &  \\ \hline
+	\end{tabular}
+\end{table}

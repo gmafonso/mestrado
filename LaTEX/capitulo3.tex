@@ -1,0 +1,770 @@
+% !TEX root = dissertacao.tex
+\chapter{Manual LaTEX}
+\label{cap.3}
+
+\section{Comandos básicos e caracteres especiais}
+
+O LaTEX funciona através de comandos, que são escritos no formato \comando ou \comandob, onde:
+
+\begin{description}
+	\item[comando:] é uma palavra que indica que ação será realizada; e
+	\item[texto:] é o que será formatado de acordo com o comando.
+\end{description}
+
+Alguns caracteres são considerados como \textbf{especiais}, porque são utilizados em comandos ou ambientes (matemático, por exemplo):
+
+\begin{verbatim}
+# $ % & ~ _ ^ \ { }
+\end{verbatim}
+
+Para escrever esses caracteres especiais, você precisa colocar a barra de comando antes do caracter. A única exceção é a própria barra, conforme podemos verificar na Tabela \ref{tab:car:esp}.
+
+\begin{table}[!h]
+	
+	\caption{Exemplos de comandos para caracteres especiais}
+	\label{tab:car:esp}
+	
+	\begin{tabular}{|l|l|}
+		\hline \textbf{Caracter especial} & \textbf{Comando} \\ 
+		\hline \# & $\backslash$\# \\ 
+		\hline \$ & $\backslash$\$ \\ 
+		\hline \% & $\backslash$\% \\ 
+		\hline \& & $\backslash$\& \\ 
+%		\hline \~ & $\backslash$\~ \\ 
+		\hline \_ & $\backslash$\_ \\ 
+%		\hline \^ & $\backslash$\^ \\ 
+%		\hline \{ & $\backslash$\{ \\ 
+		\hline \} & $\backslash$\} \\ 
+		\hline $\backslash$ & \$$\backslash$backslash\$ \\ 
+		\hline 
+	\end{tabular} 
+	
+\end{table}
+
+\section{Formatação}
+
+A formatação dos parágrafos é feita de acordo com as configurações do documento. Por isso, não é preciso se preocupar com margens, identação, numerações de capítulos, etc.
+
+Para formatar a fonte, seguimos o modelo de comando básico do LaTEX (\comando ou \comandob).
+
+\begin{table}[!h]
+	
+	\caption{Exemplos de comandos para formatar fontes}
+	\label{tab:form:fonte}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline \textbf{Formato} & \textbf{Comando} & \textbf{Resultado} \\ 
+		\hline Sublinhado & $\backslash$ul\{Texto\} & \ul{Texto} \\ 
+		\hline Negrito & $\backslash$textbf\{Texto\} & \textbf{Texto} \\
+		\hline Itálico & $\backslash$textit\{Texto\} & \textit{Texto} \\
+		\hline Muito pequeno & \{$\backslash$tiny Texto\} & {\tiny Texto} \\
+		\hline Pequeno & \{$\backslash$small Texto\} & {\small Texto} \\
+		\hline Grande & \{$\backslash$large Texto\} & {\large Texto} \\
+		\hline Muito grande & \{$\backslash$LARGE Texto\} & {\LARGE Texto} \\
+		\hline Enorme & \{$\backslash$huge Texto\} & {\huge Texto} \\
+		\hline Muito enorme & \{$\backslash$Huge Texto\} & {\Huge Texto} \\
+		\hline 
+	\end{tabular} 
+	
+\end{table}
+
+\section{Definição do Problema}
+\label{sec:def:prob}
+
+O primeiro passo tomado neste estudo foi formalizar a definição do problema e a sua delimitação. Foi constatado que nenhum método preexistente era capaz de auxiliar as empresas conforme a proposta colocada anteriormente. Para então procurar cobrir essa lacuna o seguinte problema para estudo foi definido:
+
+\begin{itemize}
+
+\item Pequenas empresas de \sw geralmente possuem grandes limitações de recursos financeiros, humanos e materiais para executar projetos de melhorias de processos, principalmente os que representam custos maiores como Normas ISO. Mesmo cientes dos benefícios que podem representar, muitos empresários se mostram receosos em implantar essas soluções por conta dos altos riscos de insucesso provenientes da desmotivação que se abate nos estágios iniciais onde o trabalho é muito dispendioso e os benefícios observáveis são pequenos ou nulos.
+
+\item A análise inicial, que determina o estado atual da empresa desenvolvedora de \sw, é realizado através de uma empresa ou consultor especializado, cujo custo pode ser muito alto, a metodologia não é acessível e os resultados podem demorar a chegar nas mãos dos clientes.
+
+\item As ações de correção e melhoria sugeridas a partir da análise inicial não levam em consideração os valores da empresa e colocam no mesmo patamar todas as atividades e tarefas. Ao implantar uma ação que não traga um benefício relevante, os membros da equipe podem se sentir desmotivados e o projeto fica mais sujeito a paralisações e um possível abandono.
+
+\end{itemize}
+
+\section{Justificativa do Trabalho}
+
+Este trabalho tem como justificativa principal a demanda por melhorias no processo de desenvolvimento de \sw para empresas de pequeno e médio porte, focando no diagnóstico da empresa alvo realizado no Apêndice \ref{Sec:analise:org}. 
+
+Além da aplicação imediata na empresa alvo, a ferramenta de auto diagnóstico criada a partir desta dissertação também servirá de apoio a outras empresas de desenvolvimento de \sw que pretendam implantar a Norma \iso ou a empresas e consultores especializados que poderão se beneficiar de uma análise inicial mais focada nos valores das empresas.
+
+\section{Descrição da empresa alvo}
+\label{Sec:empresa}
+
+A DataSerra Locação de Programas de Computador Ltda ME foi escolhida como empresa objeto de estudo por ter em seu quadro societário o autor desta dissertação.
+
+A empresa foi fundada no ano de 1997, está situada na cidade de Petrópolis, estado do Rio de Janeiro, mas possui alcance nacional, atendendo clientes em diversos outros estados. Seu segmento de atuação é no ramo de Tecnologia da Informação, produzindo \sws, prestando suporte, consultoria e treinamentos, além de fornecer equipamentos de automação comercial.
+
+A DataSerra possui 6 colaboradores, além dos seus dois sócios, e seu organograma está representado na Figura \ref{Fig:organograma}. O porte da empresa se encaixa perfeitamente na classificação de VSE determinada pela Norma \iso, mais detalhada na Seção \ref{Sec:iso}.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.6]{figuras/organograma.png}
+		\caption{Organograma da DataSerra}
+		\label{Fig:organograma}
+	\end{figure}
+	
+
+\section{Metodologia e Desenvolvimento}
+\label{Sec:metodologia}
+
+Esta dissertação foi construída através da pesquisa bibliográfica e da pesquisa aplicada, ou tecnológica, onde se procurou resolver um problema real buscando soluções através do método científico \citep{metodos}.
+
+A metodologia deste trabalho passou pelas 4 fases do método científico: problema, teoria, prática e divulgação. Estas fases estão representadas na Figura \ref{Fig:metodo:cientifico}. A fase do problema foi descrita em detalhes no Capítulo \ref{Introducao}. As demais fases serão cobertas a seguir neste Capítulo.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.5]{figuras/metodo_cientifico.png}
+		\caption{Fases do método científico}
+		\figsource{\citealp[p. 10]{metodos}}
+		\label{Fig:metodo:cientifico}
+	\end{figure}
+
+Levando em consideração o objetivo desta dissertação:
+
+\begin{quote}
+	``Criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação'' (Seção \ref{Sec:objetivo}) 
+\end{quote} levantou-se como hipótese básica que uma das melhores soluções era a implantação de um questionário de auto avaliação. A fim de produzir este questionário, foram pesquisados na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas  foi obtido sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
+
+\iftoggle{full}
+{
+	
+	Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas que foi adaptada às necessidades desta dissertação. Sua representação gráfica pode ser observada na Figura \ref{Fig:abordagem:pesquisa}. 
+
+	Os primeiros itens da abordagem citada anteriormente são a definição do problema, que foi tratado e bem delimitado nesta dissertação na Seção \ref{Sec:intro:problema}, e o planejamento amostral, que não foi realizado por se tratar de um questionário individual e o público alvo ser bem estratificado, composto de pequenas empresas de desenvolvimento de \sw.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.5]{figuras/abordagem_pesquisa.png}
+		\caption{Abordagem estatística na pesquisa quantitativa}
+		\figsource{\citealp{manzato}}
+		\label{Fig:abordagem:pesquisa}
+	\end{figure}
+
+	O passo seguinte, planejamento do questionário, é o ponto do processo onde esta dissertação se diferencia dos demais trabalhos, pois seria necessário planejar não somente as questões que iriam compor o questionário, mas também de que forma elas seriam impactadas pelo peso de cada valor empresarial. Para atingir este objetivo era necessário planejar a classificação dos valores empresariais antes mesmo das perguntas do questionário.
+
+	Os demais passos, que são a realização de campo, análise estatística e discussão dos resultados também serão abordados em detalhes.
+
+	Além da abordagem, \cite{manzato} também determinam um roteiro para elaboração e aplicação de uma pesquisa, que foi adaptado para as necessidades desta dissertação e pode ser observado na Figura \ref{Fig:fluxo:plan:quest}.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.6]{figuras/fluxo_plan_questionario.jpg}
+		\caption{Roteiro para elaboração e aplicação de uma pesquisa}
+		\figsource{adaptado de 	\cite{manzato}}
+		\label{Fig:fluxo:plan:quest}
+	\end{figure}
+}
+
+\subsection{Planejamento e redação do questionário}
+
+Um fator muito importante neste ponto do processo era a necessidade de criar um questionário prático, simples de ser respondido e cujas respostas fossem geradas de forma imediata e sem necessidade de interação com terceiros (especialistas, por exemplo). Para tanto, decidiu-se por criar um questionário digital que, em um primeiro momento foi confeccionado em uma planilha eletrônica, podendo ser, posteriormente, transposto para um \sw ou página de internet de forma simples e mantendo sua lógica de funcionamento.
+
+Para seguir o roteiro definido por \cite{manzato}, os objetivos que subsidiam a elaboração do questionário foram definidos como:
+
+\begin{itemize}
+	
+	\item Coleta de dados sobre a situação atual da empresa em relação aos processos da \iso;
+	
+	\item Categorização dos resultados de acordo com valores empresariais mais relevantes;
+	
+	\item Geração de uma lista de melhorias sugeridas ordenadas pelos valores empresariais.
+	
+\end{itemize}
+
+\iftoggle{full}
+{
+
+	Além dos objetivos, o público alvo da pesquisa também foi definido como pequenas empresas desenvolvedoras de \sw, chamadas de VSE \citep{iso}. Neste trabalho, somente a empresa alvo da dissertação foi utilizada.
+
+	A seguir será analisado como foi realizado o planejamento do questionário.
+}
+
+\subsubsection{Classificação dos valores empresariais}
+
+O primeiro passo foi a criação da classificação dos valores empresariais, cujo resultado pode ser observado na Figura \ref{Fig:class:valores}. Podemos notar três estruturas principais: os valores empresariais na primeira coluna, as marcações da classificação de importância nas colunas seguintes e o cálculo do peso final na última coluna. Para simplificar a marcação de importância dos valores, foi colocado um guia visual na primeira linha que indica que as marcações aumentam de valor da esquerda para a direita.
+
+\iftoggle{full}
+{
+	
+	O espaço disponível para as marcações da classificação de importância pode ser classificado como uma escala ordinária. Uma escala ordinária é composta por dados ordinários, ou seja, dados que podem ser ordenados \citep{garson}. No caso dos valores empresariais, a ordenação é feita da esquerda para a direita, iniciando do mais importante para o menos importante. 
+
+	O peso para cada valor empresarial é calculado de acordo com a marcação de importância e a quantidade de valores empresariais disponibilizados na pesquisa. No exemplo da Figura \ref{Fig:class:valores} é possível observar 12 valores empresariais, sendo ``Comunicação com o cliente'' o melhor classificado e, consequentemente, com o maior peso calculado e os valores ``Manutenção e rastreabilidade entre artefatos'', ``Gerência sobre o projeto como um todo'' e ``Gerência de riscos'' os piores classificados e, consequentemente, com os menores pesos calculados.
+
+}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figuras/class_valores.png}
+	\caption{Classificação dos valores empresariais}
+	\label{Fig:class:valores}
+\end{figure}
+
+A fórmula para cálculo do peso do valor empresarial, proposta por esta dissertação, e o significado de seus termos estão descritos na Tabela \ref{Tab:form:peso:valor}.
+
+%$$p=n+1-c$$
+
+%Onde \textit{p} é o peso, \textit{n} é a quantidade de valores empresariais disponíveis e utilizados e \textit{c} é a coluna de classificação. Esta última variável possui um domínio de $1$ a $n+1$ para permitir que valores possam ter peso zero caso a coluna $n+1$ seja selecionada.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{3cm}
+			| >{\centering\arraybackslash}p{10cm}|
+		}
+		\hline
+		
+		\multicolumn{2}{|c|}{}\\
+		\multicolumn{2}{|c|}{\large{$p=n+1-c$}}\\
+		\multicolumn{2}{|c|}{}\\
+		
+		\hline
+		
+		\textbf{Variável}&
+		\textbf{Descrição}\\
+		\hline
+		
+		$p$&
+		Peso do valor empresarial.\\
+		
+		\hline
+		
+		$n$&
+		Quantidade de valores empresariais disponíveis e utilizados.\\
+		
+		\hline
+		
+		$c$&
+		Coluna de classificação. Possui um domínio de $1$ a $n+1$ para permitir que valores possam ter peso zero caso a coluna $n+1$ seja selecionada.\\
+		
+		\hline
+		
+	\end{tabular}
+	\caption {Fórmula proposta para cálculo do valor do peso empresarial}
+	\label{Tab:form:peso:valor}
+\end{table}
+
+
+\subsubsection{Criação das perguntas}
+\label{Sec:criacao:perguntas}
+
+\iftoggle{full}
+{
+
+	O segundo passo foi a criação das perguntas que iriam compor o questionário. Para tanto, foi necessário revisar a Norma \iso e extrair do seu conteúdo o teor do que deveria ser averiguado das empresas candidatas à sua implantação para que o resultado refletisse os pontos fortes e fracos da organização e que estes últimos fossem classificados de forma a fornecer um guia de inicialização da implantação.
+
+	A Norma é dividida em duas áreas de conhecimento: \gp e \dsw. Cada área de conhecimento possui objetivos e processos que foram compilados a fim de estabelecer boas práticas de desenvolvimento de \sw. Mais detalhes sobre as áreas de conhecimento, objetivos e processos se encontram na Seção \ref{Sec:iso}.
+	
+	A estratégia de criação das perguntas seguida foi a leitura e interpretação de cada um dos processos da \iso. Ao se determinar a motivação e os objetivos de cada um dos processos, era necessário criar uma ou mais perguntas que avaliassem se a organização pesquisada aplicava o processo e de que forma. Para uma avaliação mais precisa, não era suficiente saber se a organização possuía e aplicava o processo e sim qual o nível de maturidade dela naquele processo específico. Muitas vezes uma empresa poderia possuir um processo de distribuição de tarefas, por exemplo, mas não possuir um plano de projeto e papéis baseados neste plano para que essas tarefas fossem distruídas de acordo. Encontrar o nível de maturidade envolveria elaborar uma pergunta e distribuir as possíveis respostas em uma escala que apontasse os diversos níveis de maturidade implícitos no processo.
+
+	As perguntas foram elaboradas de forma fechada e com o objetivo de levar o pesquisado a refletir, buscar informações e avaliar sua organização. As respostas, por sua vez, não conseguiriam abranger todas as possibilidades de maturidade e aplicação do processo em questão. Uma forma de delimitar as possibilidades era utilizar uma escala de ranqueamento, que atribui valores de 1 a um dado valor máximo, geralmente 10, cujos limites são associados à percepção do entrevistado em relação à pergunta, como ``concordo plenamente'' e ``discordo plenamente'' \citep{garson}. O problema com a escala de ranqueamento para este trabalho era como medir o nível de maturidade simplesmente informando dois extremos e possuindo um número relativamente grande de subdivisões entre eles. Essas subdivisões, que representariam diferentes níveis de percepção da situação atual, poderiam levar o entrevistado a uma resposta ``preguiçosa'', onde ele não seria capaz ou não teria a disposição de raciocionar sobre sua situação atual. Ainda era possível que o ranqueamento levasse a uma tendência central de respostas, visto que o entrevistado tenderia a achar que a média representaria melhor sua situação sem levar em consideração pequenos fatores que desviariam a resposta para cima ou para baixo.
+
+	A solução foi a escolha de uma escala de Likert adaptada, cuja forma tradicional utiliza itens de Likert como ``concordo plenamente'', ``concordo'', ``neutro'', ``discordo'' e ``discordo plenamente'', que também possuem valores associados como na escala de ranqueamento \citep{garson}. Porém, caso se utilize a escala de Likert tradicional, os mesmos problemas da escala de ranqueamento acabariam por incindir nas respostas. Para melhores resultados, esses itens de Likert foram adaptados conforme as necessidades desta dissertação: ao invés de itens genéricos, cada item descreveria o nível de maturidade dentro de sua escala, ou seja, cada pergunta possuiria cinco itens\footnotemark{} de Likert personalizados.
+
+	\footnotetext{As escalas de Likert possuem, em geral, 4 ou 5 itens de Likert, sendo possível encontrar um número menor ou maior em situações específicas.}
+}
+
+\iftoggle{full}
+{
+	A criação de cada item de Likert personalizado obedeceu ao seguinte processo:
+}
+{
+	A criação das respostas obedeceu ao seguinte processo:
+}
+
+\begin{itemize}
+
+	\item \textbf{Criação do item com maior valor na escala:} corresponderia a uma resposta que seria a transcrição da definição do processo da Norma avaliado na pergunta, ou seja, o maior nível de maturidade de acordo com a Norma;
+	
+	\item \textbf{Criação do item com menor valor na escala:} a resposta que indicaria a contrapartida do item anterior, ou seja, o pior nível de maturidade, envolveria avaliar o cenário ideal e criar um cenário oposto ou conflitante com o primeiro e transcrevê-lo em forma de resposta à pergunta original;
+	
+	\item \textbf{Criação dos demais itens:} o processo anterior foi aproveitado para as demais respostas, incluindo elementos e situações que elevassem gradualmente o nível de maturidade do item de menor valor até chegar próximo ao item que representava o cenário ideal.
+	
+\end{itemize}	
+
+\iftoggle{full}
+{
+
+	As respostas deveriam fazer com que o entrevistado pudesse encontrar uma situação na qual sua organização melhor se encaixasse. Essa forma de criação das respostas levará, em alguns momentos, o entrevistado a escolher entre duas opções que não representam a sua realidade. Cabe a ele compreender que o juízo deve ser feito em termos relativos, escolhendo a resposta que mais se aproxima ao estado atual daquele processo.
+
+	Esta forma de personalização dos itens de Likert são propostas por esta  dissertação como solução para um problema identificado na revisão bibliográfica: ``As categorias de resposta nas escalas de Likert tem uma ordem de ranqueamento, mas os intervalos entre os valores não podem ser assumidos como iguais'' \citep{jamieson2004likert}. No artigo o autor diz que existem muitos níveis entre um ``concordo plenamente'' e ``discordo plenamente'' que não podem ser quantificados em escalas equidistantes. Ao personalizar os itens trazendo mais significado para cada elemento, as distâncias das percepções não são mais necessariamente iguais e a descrição personalizada de cada elemento traz em si o nível de percepção de valor que o pesquisador imaginou.
+	
+}
+
+\subsubsection{Peso e \textit{score} da pergunta}
+
+Aqui se encontra o cerne do processo, onde uma simples resposta com um valor em uma escala de Likert personalizada se transforma em um \textit{score} (pontuação) dentro dos valores empresariais da empresa entrevistada.
+
+Para tanto, o trabalho de construção de cada pergunta é finalizado com a atribuição dos pesos relativos a cada valor empresarial identificado no início do processo, conforme pode ser observado na Figura \ref{Fig:perg:peso}. Esses pesos quantificam o quanto aquele processo da \iso impacta ou é aderente ao valor empresarial. Na figura citada anteriormente, três valores empresariais receberam os maiores pesos, o que significa que o processo avaliado tem fortíssimo impacto sobre esses três valores. Em contrapartida, 6 valores receberam peso zero, significando que não têm influência alguma sobre o processo avaliado.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.8]{figuras/pergunta_valor.png}
+	\caption{Pesos dos valores de negócios das perguntas}
+	\label{Fig:perg:peso}
+\end{figure}
+
+\iftoggle{full}
+{
+
+	A escala de valor que pode ser atribuída ao peso da pergunta, diferentemente do peso dos valores que foram atribuídos no início do processo, pode assumir qualquer intervalo, pode ser discreta ou contínua e pode ser ajustada de acordo com a necessidade do entrevistado. Ela precisa obedecer somente a uma regra: deve ser escolhida com a mesma direção dos pesos dos valores de negócio, ou seja, se a ordenação que se quer fazer é crescente, os valores devem ser crescentes. Na empresa alvo desta dissertação foi escolhida uma escala crescente de 0 a 5.
+
+	Assim como na elaboração das respostas, foi necessário avaliar cada processo e cada pergunta em função dos valores empresariais, realizando o ranqueamento de acordo com essa análise. Um outro avaliador poderá personalizar esses pesos de acordo com sua análise pessoal, tornando o resultado do questionário mais condizente com sua realidade.
+
+}
+
+A fórmula para cálculo do \textit{score} final da pergunta, proposta por esta dissertação, e o significado de seus termos estão descritos na Tabela \ref{Tab:form:score}.
+
+\begin{table}[h!]\footnotesize
+	\centering
+	\begin{tabular}
+		{
+			| >{\centering\arraybackslash}p{3cm}
+			| >{\centering\arraybackslash}p{10cm}|
+		}
+		\hline
+		
+		\multicolumn{2}{|c|}{}\\
+		\multicolumn{2}{|c|}{\large{$s_i=r \times v_i$}}\\
+		\multicolumn{2}{|c|}{}\\
+		
+		\hline
+		
+		\textbf{Variável}&
+		\textbf{Descrição}\\
+		\hline
+		
+		$s$&
+		\textit{Score} do valor empresarial.\\
+		
+		\hline
+		
+		$i$&
+		Indica qual valor empresarial está sendo calculado e varia de 1 ao número total de valores.\\
+		
+		\hline
+		
+		$r$&
+		Valor de Likert para a resposta selecionada.\\
+		
+		\hline
+		
+		$v$&
+		Peso do valor empresarial $i$ associado aquela pergunta.\\
+		
+		\hline
+		
+	\end{tabular}
+	\caption {Fórmula proposta para cálculo do \textit{score} final da pergunta}
+	\label{Tab:form:score}
+\end{table}
+
+%o \textit{score} final da pergunta será calculado de acordo com a seguinte fórmula:
+
+%$$s_i=r \times v_i$$
+
+%Onde $s$ é o \textit{score} do valor empresarial $i$, $r$ é o valor de Likert para a resposta selecionada e $v$ é o peso do valor empresarial $i$ associado aquela pergunta. O índice $i$ indica qual valor empresarial está sendo calculado e varia de 1 ao número total de valores.
+
+\iftoggle{full}
+{
+
+	O valor de Likert $r$ possui uma escala decrescente, inversa ao que seria intuitivo se imaginar. Isso se deve ao fato da primeira resposta representar o cenário ideal e, portanto, não precisar entrar na lista de melhorias que será sugerida como resultado final do questionário. Isso signifca que \textit{scores} grandes representam processos que devem ser melhorados. Consequentemente, o inverso é verdadeiro: \textit{scores} pequenos ou zerados são processos que já se encontram no nível ideal dentro da Norma \iso.
+
+	Como pode ser observado no exemplo da Figura \ref{Fig:perg:score}, os três valores que foram classificados com os maiores pesos no exemplo da Figura \ref{Fig:perg:peso} receberam os maiores \textit{scores} porque a resposta à pergunta foi o pior cenário possível.
+
+	Os últimos dois elementos presentes no \textit{score} por pergunta são: o maior \textit{score} e o \textit{score} total. Eles representam o resultado da avaliação da pergunta e influenciam diretamente no objetivo final, que é a listagem ordenada das melhorias sugeridas.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.8]{figuras/pergunta_score.png}
+		\caption{\textit{Scores} dos valores de negócios das perguntas}
+		\label{Fig:perg:score}
+	\end{figure}
+	
+}
+
+\subsection{Realização de campo}
+
+\iftoggle{full}
+{
+	A definição da técnica a ser utilizada, próximo passo do roteiro reproduzido na Figura \ref{Fig:fluxo:plan:quest}, foi limitada pelas características do questionário. Por se tratar de um questionário de auto avaliação, a técnica a ser utilizada foi definida como entrevista individual, a ser conduzida pelo próprio pesquisado.
+
+	Não houve necessidade de seleção da amostra, visto que o questionário é individual, sendo a empresa alvo da dissertação a única utilizada na pesquisa.
+}
+
+A aplicação do questionário pode ser dividida em duas etapas: revisão e pontuação dos valores empresariais e resposta às perguntas. A seguir essas duas etapas serão descritas em mais detalhes.
+
+\subsubsection{Revisão e pontuação dos valores empresariais}
+\label{Sec:rev:pesos}
+
+\iftoggle{full}
+{
+
+	O entrevistado deve revisar os valores empresariais sugeridos antes de começar o processo de pontuação dos pesos. Caso o entrevistado não considere que os valores sugeridos sejam relevantes para a sua organização, ou caso ele considere que outros valores devam ser adicionados, é importante que a lista de valores empresariais seja editada para refletir a realidade da organização. 
+
+	Pela primeira versão do questionário ser uma planilha eletrônica, esse tarefa de edição da lista de valores empresariais pode ser um pouco complexa e trabalhosa, visto que as fórmulas não se ajustarão automaticamente a mais colunas. Esse complicador será resolvido em versões futuras do questionário que passarão a ser construídos a partir de \sws e bancos de dados integrados.
+}
+
+De posse de todos os valores empresariais definidos e revisados, o entrevistado deverá iniciar o processo de atribuir os pesos. Por se tratar de uma classificação visual, como pode ser observado na Figura \ref{Fig:class:valores}, o processo é rápido e bem simples.
+
+\subsubsection{Resposta às perguntas}
+
+A fase final da aplicação do questionário consiste em respondê-lo de acordo com a realidade atual da empresa. Cada pergunta leva a uma lista de cinco possíveis respostas que deverão ser escolhidas de acordo com o texto que mais se aproxima da situação atual da organização.
+
+\iftoggle{full}
+{
+	Como já mencionado na Seção \ref{Sec:criacao:perguntas}, não é possível descrever todas as possibilidades de cenário em apenas cinco respostas e a criação de uma amplitude maior de respostas tornaria o trabalho inviável. Portanto, o entrevistado deverá ter consciência que sua escolha deve ser baseada no texto que mais se aproxima da sua realidade.
+
+	O processo, apesar de ser longo pela grande quantidade de perguntas, se mostrou muito fluido e simples.
+}
+
+\subsection{Obtenção dos dados, análise e discussão dos resultados}
+\label{Sec:resultados}
+
+A avaliação resultante das respostas obtidas no questionário constrói duas listas distintas com sugestões de quais processos deverão ser trabalhados prioritariamente. A primeira lista é composta pelos processos de \gp e a segunda pelos processos de \dsw. Ambas as listas são ordenadas pelo \textit{score} obtido a partir dos pesos dos valores empresariais e pela classificação do processo em relação à situação atual da empresa. É possível observar os cinco primeiros processos de \gp na Figura \ref{Fig:resulado:PM} e os cinco primeiros processos de \dsw na Figura \ref{Fig:resulado:SI}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figuras/resultado_PM.png}
+	\caption{Resultados do questionário (\gp)}
+	\label{Fig:resulado:PM}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figuras/resultado_SI.png}
+	\caption{Resultados do questionário (\dsw)}
+	\label{Fig:resulado:SI}
+\end{figure}
+
+É dado ao entrevistado a opção de ordenar a lista pelo maior \textit{score} ou pelo \textit{score} total. A diferença entre as duas ordenações é que na primeira leva-se em consideração o pior desempenho do processo dentre todos os valores empresariais disponíveis e na segunda leva-se em consideração o desempenho total do processo em todos os valores empresariais disponíveis. Foi escolhida a segunda opção de ordenação nas duas listas.
+
+Para cada elemento da lista, o entrevistado deverá se remeter ao texto original da pergunta para avaliar melhor o processo que deverá ser melhorado. No caso do primeiro processo da lista de \gp, conforme a Figura \ref{Fig:resulado:PM}, é necessário encontrar a pergunta codificada como ``PM.1.11.Q1''. O sistema de codificação das perguntas foi pensado para facilitar essa procura. O que o entrevistado irá encontrar é o texto que pode ser observado na Figura \ref{Fig:perg:PM111Q1}.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1.png}
+		\caption{Texto da pergunta classificada em primeiro lugar para \gp}
+		\label{Fig:perg:PM111Q1}
+	\end{figure}
+	
+A partir do texto original, o entrevistado deverá traçar seu plano de ação para implantar melhorias que levem sua organização ao cenário ideal, descrito na primeira opção de resposta, também disponibilizada na Figura \ref{Fig:perg:PM111Q1}. Complementarmente, o entrevistado também pode se referenciar ao guia da \iso para encontrar mais detalhes das melhores práticas para aplicação do processo. Para facilitar esse procedimento, é disponibilizada no texto original da pergunta a nomenclatura do processo, como pode ser observado na Figura \ref{Fig:perg:PM111Q1_ISO}.
+
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.7]{figuras/pergunta_PM111Q1_ISO.png}
+		\caption{Nomenclatura original do processo dentro do guia da \iso}
+		\label{Fig:perg:PM111Q1_ISO}
+	\end{figure}
+	
+Este processo de procura manual do texto original da pergunta para encontrar o cenário ideal e a referência do processo da \iso pode ser otimizado a partir de um \sw integrado que venha a substituir a planilha eletrônica no futuro.
+
+%\subsection{Projeto}
+
+%O projeto foi a etapa onde as ações necessárias para a melhoria dos processos foram elencadas, priorizadas e devidamente documentadas. Também foram identificados os principais atores (\textit{stakeholders}), o cronograma, os recursos necessários e outros elementos, conforme diretrizes do PMBOK\footnotemark{} criado pelo PMI\footnotemark. Nesta etapa foram desenvolvidas as ferramentas de \sw que buscam facilitar as melhorias através da integração de informações vitais para os processos identificados.
+
+%\footnotetext{\textit{Project Management Book Of Knowledge}, guia de boas práticas de gerência de projetos mundialmente reconhecido}
+%\footnotetext{\textit{Project Management Institute}, instituição internacional referência em gerência de projetos.}
+
+%\subsection{Conclusão}
+
+%A conclusão consistiu na coleta dos resultados obtidos após a implantação do projeto de melhoria dos processos e análise da qualidade destes resultados em comparação ao cenário atual da empresa.
+
+%\section{Estudo de caso}
+
+%\subsubsection{Seleção dos objetivos da \iso}
+%\label{Sec:estr:obj:iso}
+%
+%Dentre os objetivos da \iso encontrados em \cite{iso}, foram selecionados 2 referentes à \gp e 1 referente ao \dsw. Podemos observar na Tabela \ref{Tab:estrat:obj:iso} a descrição destes objetivos e a justificativa do porquê foram selecionados.
+%
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{7cm}
+%			|p{7cm}|
+%		}
+%		
+%		\hline
+%		
+%		\textbf{Objetivo \iso}&
+%		\textbf{Problemas relacionados ao processo atual}\\
+%		\hline
+%		
+%		PM.03 A \muda é abordada através de sua recepção e análise. Mudanças aos requisitos de \sw são avaliadas em custo, cronograma e impacto técnico.&
+%		Não existe processo formal para recepção, análise e avaliação da \muda.\\
+%		\hline
+%		
+%		%	PM.O4 Reuniões de revisão são realizadas com a equipe de trabalho e o cliente. Acertos são registrados e rastreados.&
+%		%	Reuniões com o cliente não são registradas e os acertos são cadastrados no \sw Pendências.\\
+%		%	\hline
+%		
+%		PM.O6 Uma \vcs de \sw é desenvolvida. Itens da \swcfg são identificados, definidos e incluídos em uma \bline. Modificações e entregas de um item são controladas e disponibilizadas ao cliente e equipe de trabalho. O armazenamento, manuseio e entrega dos itens são controlados.&
+%		Entregas de novas versões são realizadas sem nenhum controle de previsão e aviso aos clientes.\\
+%		\hline
+%		
+%		SI.O6 Uma \swcfg, que cumpra com o \req acertado com o cliente, que inclua documentações de usuário, operação e manutenção é integrada, incluída na \bline e armazenada no \rep. Necessidades de mudança na \swcfg são detectadas e os pedidos de mudança relacionados são iniciados.&
+%		Não existe processo formal para recepção, análise e avaliação da \muda.\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption{Seleção dos objetivos da \iso}
+%	\label{Tab:estrat:obj:iso}
+%\end{table}
+%
+%\subsubsection{Seleção das atividades dos objetivos da \iso}
+%
+%
+%Dentre as atividades que dão suporte aos objetivos da \iso \cite{iso} selecionados em \ref{Sec:estr:obj:iso}, foram selecionadas as mais importantes e exequíveis nesta primeira etapa de implantação dos processos na empresa objeto deste trabalho. As atividades selecionadas se encontram na Tabela \ref{Tab:estrat:ativ:iso}.
+%
+%As atividades iniciadas com a sigla PM são relacionadas à \gp e as iniciadas com a sigla SI ao \dsw.
+%
+%\begin{table}[h!]\footnotesize
+%	\centering
+%	\begin{tabular}
+%		{
+%			|p{7cm}
+%			|p{3,5cm}
+%			|p{3,5cm}|
+%		}
+%		
+%		\hline
+%		
+%		\textbf{Atividade \iso}&
+%		\textbf{Entradas}&
+%		\textbf{Saídas}\\
+%		\hline
+%		
+%		PM.1.2 Definir com o Cliente as \entrega para cada um dos entregáveis especificados na \dt.&
+%		\dt (revisada)&
+%		\ppj (\entrega)\\
+%		\hline
+%		
+%		PM.1.4 Estabelecer a duração estimada para realizar cada tarefa.&
+%		\ppj\par\begin{itemize}\item Tarefas\end{itemize}&
+%		\ppj\par\begin{itemize}\item Duração estimada\end{itemize}\\
+%		\hline
+%		
+%		PM.1.7 Atribuir datas estimadas de início e término para cada uma das tarefas a fim de criar o \crono levando em consideração os recursos, sequência e dependências das tarefas.&
+%		\ppj\par\begin{itemize}
+%			\item Tarefas
+%			\item Duração estimada
+%			\item Composição da Equipe de Trabalho
+%		\end{itemize}&
+%		\ppj\par\begin{itemize}
+%			\item \crono
+%		\end{itemize}\\
+%		\hline
+%		
+%		PM.2.2 Analisar e avaliar a \muda em relação ao custo, cronograma e impacto técnico. A mudança solicitada pode ser iniciada pelo cliente ou pela equipe interna de trabalho. Atualize o \ppj se as mudanças aceitas não afetam acordos com o cliente. Solicitações de mudança que afetem esses acordos devem ser negociadas por ambas as partes.&
+%		\muda (iniciada)\par\ppj&
+%		\muda (avaliada)\par\ppj (atualizado)\\
+%		\hline
+%		
+%		PM.3.3 Identificar mudanças aos requisitos e/ou \ppj relacionados à desvios significativos, riscos potenciais ou problemas relacionados à realização do plano, documentando-os na \muda e acompanhando-os até sua conclusão.&
+%		\prog (avaliado)\par&
+%		\muda (iniciada)\\
+%		\hline
+%		
+%		%	PM.3.2 Estabelecer ações para corrigir desvios ou problemas e identificar riscos relacionados à realização do \ppj, conforme necessário, documentando-os no \corre e acompanhando-os até o seu fechamento.&
+%		%	\prog (avaliado)\par&
+%		%	\corre\\
+%		%	\hline
+%		
+%		SI.6.6 Realizar entregas de acordo com as \entrega.&
+%		\ppj\par
+%		\begin{itemize}
+%			\item \entrega
+%		\end{itemize}\par
+%		\swcfg&
+%		\swcfg (entregue)\\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption{Atividades da \iso}
+%	\label{Tab:estrat:ativ:iso}
+%\end{table}
+
+
+%	Nesta seção será apresentada a metodologia utilizada para a verificação das hipóteses apresentadas na Seção \ref{hipoteses}.\\
+
+%\subsection{Infraestrutura (Ambiente Real)}
+%	Para execução dos testes foram criados e configurados 3 servidores com as seguintes especificações:
+%	\begin{enumerate}
+%		\item Processador Intel(R) Xeon(R) CPU X5650 2.67GHz (12 núcleos)
+%		\item 24 Gb de memória RAM.
+%		\item Disco Rígido SATA de 500 Gb.
+%		\item Sistema Operacional Ubuntu Server 12.04.
+%	\end{enumerate}
+%	
+%\subsection{Infraestrutura (Ambiente Virtual)}	
+%	Em cada servidor real foram criados 3 servidores virtuais que foram instanciados simultaneamente para os testes. Estes servidores foram configurados da seguinte maneira:
+%	\begin{enumerate}
+%		\item QEMU Virtual CPU version 1.0 (Processador Intel(R) Xeon(R) CPU X5650 2.67GHz (12 núcleos))
+%		\item 4 Gb de memória RAM.
+%		\item Disco Rígido SATA de 10 Gb.
+%		\item Sistema Operacional Ubuntu Server 12.04.
+%	\end{enumerate}
+%
+%\subsection{Tipos de Testes de Concorrência Executados}	
+%	Todos os servidores compartilharam os recursos de processamento em seus 12 núcleos para verificar a concorrência das aplicações. Os testes foram executados com as seguintes combinações de ambientes:
+%	
+%	\begin{enumerate}
+%		\item Ambiente Real;
+%		\item Ambiente Virtual;
+%		\item Ambiente Real X Ambiente Virtual;
+%		\item Ambiente Virtual X Ambiente Real;
+%		\item Ambiente Real X Ambiente Real;
+%		\item Ambiente Virtual X Ambiente Virtual.
+%	\end{enumerate}
+%	
+%	Para cada uma das combinações acima foram executados 20 testes com os 4 algoritmos citados na Seção \ref{dwarfs}, sendo computados os tempos de execução (individualmente e concorrentemente) e comparados os seus desempenhos. Os tempos de execução individuais foram utilizados como linha de base para a comparação com os demais testes.\\
+%
+
+%\section{Abordagem do Problema}
+%\label{abordagemDoProblema}
+%	Para o planejamento dos testes tomou-se por base as conclusões dos trabalhos apresentados na Seção \ref{trabalhosrelacionados}. Entretanto como já citado, estes trabalhos nos conduzem para a necessidade de obter informações sobre o efeito da concorrência em ambientes compartilhados. Em toda a pesquisa realizada até o momento, muito foi feito para avaliar o impacto de ambientes virtuais em servidores reais, mas nenhum destes estudos dedicou-se ao efeito da concorrência causada pelas aplicações executadas nestes ambientes, e a contribuição do tipo de bibliotecas utilizadas na implementação destas aplicações. \\
+%	%quando é necessário o uso da concorrência entre aplicações. E até o momento do encerramento do trabalho, não houve nenhuma abordagem que propusesse o uso do conceito de tipos de aplicações para tratar este problema.
+%	
+%	E neste sentido, para que fosse possível avaliar o efeito do compartilhamento foram testadas quatro tipos de aplicações desenvolvidas com dois tipos de bibliotecas de programação paralela, OpenCL e OpenMP. As duas bibliotecas foram utilizadas por apresentarem boa documentação e por permitir testes de desempenho em diversas CPUs. Outro ponto importante é que esta abordagem permitiu o uso do Rodínia, \textit{Benchmark} utilizado nos testes, que é apresentado na Seção \ref{rodinia} e que possui implementação em OpenCL apresentado na Seção \ref{opencl} e em OpenMP apresentado na Seção \ref{openmp}.\\
+%	
+%	Os testes com as duas bibliotecas (OpenCL e OpenMP) se mostraram necessários devido às diferenças encontradas nos tempos de execução quando usadas em um mesmo algoritmo.\\
+%	
+%	Para os testes foram utilizados quatro \textit{Benchmarks} do Rodínia que correspondem à três tipos de classes. As classes de Dwarfs que foram escolhidas neste trabalho são: Álgebra Linear Densa (DLA), Grade Estruturada (SG) e Grafo Transversal (GT). A escolha por essas três classes foi porque há um grande número de aplicações científicas em diversas áreas, como foi apresentado na Figura \ref{fig:dwarfs-areas} e em destaque na Figura \ref{fig:dwarfs-areas-destaque}. Além disso, o trabalho se concentra nestas três classes porque abrangem o maior conjunto de tipos de aplicações catalogadas pela abordagem dos Dwarfs.\\
+%	
+%	\begin{figure}
+%		\centering\includegraphics[width=150mm]{Figuras/areasDwarfsDestaque.png}
+%		\caption{Destaque das classes de Dwarfs usadas neste trabalho.}
+%		\label{fig:dwarfs-areas-destaque}
+%	\end{figure}
+%
+%\subsection{Classes e Algoritmos Escolhidos}
+%	As seguintes classes de algoritmos foram escolhidos para testes de concorrência:
+%\begin{enumerate}
+%	\item Álgebra Linear Densa é uma classe de Dwarf que envolve um conjunto de operadores matemáticos realizados em valores escalares, vetores ou matrizes, quando a maioria dos elementos da matriz ou vetor são diferentes de zeros. Densa neste Dwarf refere-se à estrutura de dados aceita durante a computação. A intensidade aritmética do cálculo operando os dados são de operadores de baixa intensidade (escalar por vetores, vetor-vetor, matriz-vetor , matriz-matriz, redução do vetor, vetor de digitalização e produto escalar) que carregam um número constante de operações aritméticas por elemento de dados. Tem uma razão elevada de operações matemáticas para carga e um elevado grau de interdependência entre segmentos de dados. Eles são a base de solucionadores mais sofisticados, como LU de decomposição (LUD) ou Cholesky e apresentam alta intensidade aritmética \cite{Kaiser:2010}. Aplicações classificados como DLA são relevantes através de uma variedade de domínios. Por exemplo, em ciência dos materiais para a física molecular e ciência em nanoescala; em garantia de energia para a combustão, fusão e energia nuclear; na ciência fundamental como astrofísica e física nuclear; no projeto de engenharia aerodinâmica. Algoritmos representativos desta classe são LUD, matriz transposta, matriz triangular, algoritmos de agrupamento, como K-means e Fluxo de cluster, e muitos outros. Os experimentos desta tese utilizou algoritmos LUD e Kmeans.\\
+%	\begin{enumerate}
+%		\item LUD é um algoritmo para calcular as soluções de um conjunto de equações lineares que decompõe a matriz como o produto de uma matriz triangular inferior e uma matriz triangular superior para conseguir uma forma triangular, que pode ser utilizada para resolver um sistema de equações lineares facilmente. A matriz $A \in$ $\mathbb{R}^{n \times n}$ tem uma fatoração LU \emph{iff} todos os seus valores principais são não-zeros, ou seja, $det(A[1:k, 1:k]) \neq 0$ for $k = 1 : n-1$.\\
+%		
+%		\item Kmeans é um algoritmo de agrupamento amplamente utilizado na mineração de dados, é um método que particiona $n$ pontos que estão em espaço $d-$dimensional em $k$ aglomerados. O algoritmo semea $k$ aglomerados inicialmente no centro e determina para cada ponto de dados o seu centro mais próximo, e então recalcula os novos centros como o meio de seus pontos atribuídos. Este processo de atribuição de pontos de dados e reajustar centros é repetido até que ele se estabilize.\\
+%	\end{enumerate}
+%	\item Grafo Transversal é um tipo de Dwarf que deve atravessar um número de objetos em um gráfico e examinar as características desses objetos. Um gráfico ou uma rede são abstrações intuitivas e úteis para a análise de dados relacionais, onde as entidades singulares são representadas como vértices, e as interações entre elas são retratadas como bordas. Aos vértices e às bordas podem ser adicionalmente atribuídos atributos com base na informação que encapsulam. Tais algoritmos normalmente envolvem uma quantidade significativa de memória de acesso aleatório para pesquisas indiretas e pouca computação \cite{Kaiser:2010}. Domínios científicos que incluem aplicações importantes nesta classe são as de bioinformática (MUMmer), gráficos e pesquisa (BFS e B+Tree).\\
+%	\begin{enumerate}
+%		\item B+Tree é uma árvore $n-$ária muitas vezes com grande número de filhos por nó. B+Tree consiste em uma raiz, nós internos e folhas. A raiz pode ser uma folha ou um nó com dois ou mais filhos. O valor principal de uma B+Tree é no armazenamento de dados para recuperação eficiente em um contexto de armazenamento orientados para o bloco. Isto se dá porque B+Tree tem alta ``fanout" (número de apontadores para nós filhos em um nó, tipicamente na ordem de 100 ou mais), o que reduz o número de operações de E/S necessárias para obter um elemento da árvore. A ordem, ou fator de ramificação, b de uma B+Tree mede a capacidade de nós (ou seja, o número de nós filhos) para nós internos da árvore. O número real de filhos para um nó, referido aqui como m, é limitada para nós internos de modo que $[b/2] \leq m \leq b$. Nós folha não tem filhos, mas são limitados, de modo que o número de chaves deve ser de pelo menos $[b/2]$ e no máximo $b-1$. Na situação em que a B+Tree está quase vazia, ela contém apenas um nó, que é um nó folha. A raiz é também a única folha, neste caso. A este nó é permitido ter uma chave, se necessário, e, no máximo, $b$ \\
+%	\end{enumerate}
+%	\item Grade Estruturada são algoritmos que servem para organizar dados em uma grade multidimensional regular, onde a computação se dá como uma série de atualizações desta grade. Para cada atualização da grade, todos os pontos são atualizados com valores a partir de uma pequena vizinhança em torno de cada ponto. A vizinhança está normalmente implícita nos dados e determinada pelo algoritmo. Devido ao seu paralelismo inerente e calculo de natureza intensa, aplicações de grade estruturados são geralmente uma boa opção para as arquiteturas multi-core como GPU. Algoritmos de grade estruturada aparecem em muitos domínios científicos que são citados a seguir com respectivo exemplo de aplicação: imagens médicas (leucócitos, Parede Coração e filtro de partículas), simulações de física (\textit{HotSpot}), processamento de imagem (\textit{Speckle Reducing Anisotropic Diffusion}) e simulações biológicas (miócitos) \cite{Springer:2011}.\\
+%	\begin{enumerate}
+%		\item Speckle Reducing Anisotropic Diffusion (SRAD) é uma aplicação de processamento de imagem para imagens de ultrassom e de radar. Ele reduz o ruído de uma imagem dada, mantendo suas características importantes. Além disso, cada elemento da grade estruturada representa um pixel da imagem.\\
+%	\end{enumerate}
+%\end{enumerate}
+%
+%	
+%\subsection{Ambiente de Testes}
+%
+%	O ambiente de testes necessita ser preciso afim de evitar que as avaliações sejam prejudicadas. Para conseguir uma base funcional é necessário que o sistema seja ajustado seguindo algumas métricas de testes, tanto de hardware quanto de software e desta forma criou-se uma estrutura livre de testes tendenciosos.\\
+%	
+%	Para a análise de desempenho nos testes realizados foram colhidas 20 amostras, que se mostraram suficientes para gerar uma base de dados confiável. Este número foi conseguido após avaliar-se o intervalo de confiança\footnote{Cálculo que apresenta o grau de confiança de amostras estatísticas.} das amostras. Neste caso foi avaliado que, desconsiderando aquelas com tempos constantes, as que mostravam variações de tempo de execução nas mesmas comparações não eram significativas e ficavam em um intervalo próximo com 10 execuções. Assim, para se evitar conclusões incertas, optou-se por testar 20 vezes cada combinação de algoritmos, mesmo aquelas que possuíam tempos de execução constantes.\\
+%	
+%	Foram executados 4 tipos de algoritmos (B+Tree, Kmeans, LUD e SRAD) com combinações de 2 tipos de bibliotecas (OpenMP e OpenCL) em ambientes reais e virtuais. Inicialmente foram testados os algoritmos em um ambiente livre de concorrência para verificar os tempos de execução, afim de ter uma base de tempos para comparar a perda causada pela concorrência em relação à não concorrência. Comparou-se então a concorrência com todos os 4 algoritmos implementados usando a biblioteca OpenMP em ambientes reais e virtuais, seguido de todos os 4 algoritmos implementados em OpenCL em ambientes reais e virtuais (considerou-se estes testes como homogêneos) e por fim testou-se a concorrência entre algoritmos implementados com as duas bibliotecas também executando a concorrência em ambientes reais e virtuais (considerou-se estes testes como heterogêneos).\\
+%	
+%	Com todas as combinações possíveis e desconsiderando os testes iniciais de cada implementação, buscando a adequação dos testes, foram feitos 7120 testes, o que gerou uma base de conhecimento abrangente e confiável. Os resultados de todos estes testes são apresentados no Capítulo \ref{resultados}.\\
+%%	Inicialmente foi feita uma análise gerencial de um ambiente na nuvem composto por recursos distintos em ambientes remotos, a fim de conseguir uma base de dados que possa ser utilizada pela Inteligência Computacional (IC). Uma vez disponível tal base, será possível prever problemas em ambientes reais, já que se poderá analisar que o evento que ocorreu anteriormente e que houve um problema associado a ele, ou mesmo que um conjunto de servidores/aplicações não devem ser usados em conjunto, pois podem degradar o serviço. De posse dessa análise, é possível prever a ...
+
+%\subsection{Definições e Metas dos Testes}
+
+%		Este trabalho tem o foco principal no teste de desempenho, mediante avaliação de tempo de execução quando há concorrência entre aplicações para o mesmo recurso físico. Qualquer variação dos requisitos estipulados pelos testes deve ser tomada como uma não-conformidade e deve ser tratada desta forma. Este é o motivo desta seção e fazem-se necessárias as seguintes definições sobre testes:
+%	
+%	\begin{itemize}
+%		\item Capacidade - É a carga de trabalho total que um sistema pode manipular sem violar os critérios de aceitação.
+
+%		\item Investigação - Busca o recolhimento de informações relacionadas com a velocidade, escalabilidade e/ou características de estabilidade do sistema. A avaliação é frequentemente utilizada para provar ou refutar hipóteses sobre a causa de um ou mais problemas de desempenho observado.
+%		
+%		\item Latência - É uma medida da capacidade de resposta que representa o tempo que leva para completar a execução de um determinado processo. Pode-se também representar a soma de todas as latências de vários processos.
+%		
+%		\item Métricas - São obtidas pela execução de testes de desempenho. As métricas normalmente são obtidos através de testes de desempenho, que incluem a utilização do processador ou memória ao longo de um determinado tempo.
+%		
+%		\item Desempenho - Refere-se a informações relativas ao tempo de resposta de uma aplicação e/ou os níveis de utilização de recursos.
+%		
+%		\item Teste de Desempenho - É uma ``investigação" feita para determinar e/ou validar a velocidade, escalabilidade e/ou características de estabilidade do sistema. Este teste é o superconjunto que contém todas as outras subcategorias de testes de desempenho.
+
+
+%		\item Teste de Unidade - É qualquer teste que visa as características de desempenho.
+%		
+%		\item Utilização - É a porcentagem de tempo que um recurso está ocupado. O percentual restante do tempo é considerado o tempo ocioso.
+
+%	\end{itemize}
+
+%\section{Normalização dos Dados}
+%\label{normal}
+%	
+%	A necessidade de normalizar os resultados se deu devido a análise dos tempos observados, que se mostraram, apesar de mesma grandeza (da ordem de segundos, ou no máximo minutos), serem diferentes quanto ao tempo de execução total, podendo um algoritmo executar em 50 segundos e outro em 8 minutos. Neste caso, houve a necessidade de executar o mesmo algoritmo (menor tempo de execução) diversas vezes para que houvesse concorrência durante toda a execução do teste (algoritmo com execução mais longa). Com isso foi possível extrair o percentual de aumento na execução concorrente do algoritmo de tempo mais longo e do algoritmo de tempo mais curto. Mas isto não foi suficiente para comparar individualmente cada algoritmo, sendo necessário criar um mecanismo que ``colocasse" todos os valores obtidos em uma mesma escala, e neste sentido optou-se pelo uso da normalização de valores. Essa normalização tem importância para fornecer valores em uma escala pré-definida que pode ser utilizada por escalonadores de tarefas para predizer o melhor recurso para executar determinado tipo de algoritmo, quando for necessária a existência de concorrência.\\
+%	
+%	Para exemplificar melhor a normalização de dados publicada por estes autores em \cite{licht:2013}, optou-se por apresentar recursos coletados de ordem de grandeza variadas em um nível onde os valores poderão ser comparados mais facilmente, usou-se a Fórmula \ref{normalizacao}.\\
+%\begin{equation}
+%\label{normalizacao}
+%	R = \frac{C - M2}{M1 - M2} (N1 - N2) + N2
+%\end{equation}
+%	Onde: \\
+%	R : é o valor normalizado de cada entrada. \\
+%	C : é o valor bruto coletado, sem tratamento. \\
+%	M1 : é o maior valor encontrado em todos os valores lidos. \\
+%	M2 : é o menor valor encontrado em todos os valores lidos. \\
+%	N1 : é o maior valor da escala que se deseja trabalhar. \\
+%	N2 : é o menor valor da escala que se deseja trabalhar. \\
+%	
+%	A maior vantagem do uso da Fórmula \ref{normalizacao} é poder elevar ou reduzir a pontuação de tempos de acordo com a necessidade em cada medição e desta forma, já que existe a comparação entre todos os valores, a que tiver a maior pontuação, é consequentemente a que tem a maior perda. Repara-se que o valor tratado de cada recurso poderá ser somado, já que após o uso da fórmula, estarão na mesma ordem de grandeza. Nesse exemplo, considera-se que os valores terão escala entre 0 e 9, sendo 0 para a menor perda de desempenho e 9 para a maior perda de desempenho.\\
+
+%\begin{table}[h]
+%\label{realnormal}
+%\centering
+%\caption{Tabela de Dados Reais Versus Dados Normalizados} % igual ao ambiente figura 
+%\small
+%\scriptsize
+%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+%\hline
+%\textbf{Algoritmo}  & \multicolumn{12}{c|}{\textbf{Tempo (segundos)}}                                 & \textbf{Média} \\ \hline
+%Real B+Tree         & 14  & 14    & 14    & 14   & 14   & 14   & 14  & 14  & 14   & 14  & 14  & 14    & 14,05          \\ \hline
+%V. B+Tree x V. SRAD & 221 & 218   & 220   & 223  & 219  & 219  & 221 & 225 & 223  & 217 & 221 & 218   & 220,6          \\ \hline
+%R. B+Tree x V. LUD  & 21  & 21    & 22    & 20   & 20   & 21   & 21  & 22  & 21   & 21  & 21  & 21    & 21             \\ \hline
+%V. B+Tree x R. SRAD & 211 & 214   & 212   & 216  & 212  & 213  & 215 & 211 & 213  & 214 & 211 & 214   & 213,1          \\ \hline
+%\multicolumn{14}{|c|}{}                                                                                                \\ \hline
+%\textbf{Algoritmo}  & \multicolumn{12}{c|}{\textbf{Tempo Normalizado}}                                & \textbf{Média} \\ \hline
+%Real B+Tree         & 0   & 0     & 0     & 0    & 0    & 0    & 0   & 0   & 0    & 9   & 0   & 0     & 2,25           \\ \hline
+%V. B+Tree x V. SRAD & 4,5 & 7,875 & 5,625 & 2,25 & 6,75 & 6,75 & 4,5 & 0   & 2,25 & 9   & 4,5 & 7,875 & 4,95           \\ \hline
+%R. B+Tree x V. LUD  & 4,5 & 4,5   & 0     & 9    & 9    & 4,5  & 4,5 & 0   & 4,5  & 4,5 & 4,5 & 4,5   & 4,5            \\ \hline
+%V. B+Tree x R. SRAD & 9   & 3,6   & 7,2   & 0    & 7,2  & 5,4  & 1,8 & 9   & 5,4  & 3,6 & 9   & 3,6   & 5,22           \\ \hline
+%\end{tabular}
+%\end{table}
+%
+%\begin{equation}
+%\label{somatorio}
+%	P = \frac{\sum _{k=1}^{r} x_{k}}{r} 
+%\end{equation}
+%	Onde: \\
+%	P é a pontuação obtida. \\
+%	r é a quantidade de valores. \\
+%	$x_{k}$ é cada recurso já normalizado.\\
+%	
+%	Para verificar a aplicação das fórmulas foram tomadas 4 amostras de tempos de execução e a média gerada por estes. É possível comparar na Tabela 3.1 as 4 primeiras linhas os valores (em segundos) da execução de alguns algoritmos. Percebe-se, por exemplo, que a média obtida por ``Real B+Tree" (14,05) tem uma ordem da valor bem menor que ``V. B+Tree x V. SRAD" (220,6), não podendo ser comparados diretamente, entretanto, após normalizados, os valores aparecem como 2,25 e 4,95 respectivamente. Esta normalização permite atribuir valores de forma que um escalonador poderia definir as melhores combinações mediante uma escala de valores dentro de um intervalo pré-definido, gerados pela Fórmula \ref{somatorio}.\\
+
+%	Pode-se ainda, através da Fórmula \ref{somatorioComPesos} definir pesos para cada pontuação afim de dar prioridade para determinadas combinações, por exemplo, quando há implementações com OpenMP e OpenCL (maior ou menor peso de acordo com o tipo de implementação).\\
+
+%	As Fórmulas \ref{normalizacao}, \ref{somatorio} e \ref{somatorioComPesos} podem ainda ser utilizadas para outros tipos de dados, que referenciariam, capacidade de memória, disco, cpu, ou qualquer outro tipo de valor de grandezas diferentes, por exemplo, para uma aplicação que demanda maior quantidade de memória, poder-se-ia atribuir um peso maior para servidores com mais memória, esta entretanto é uma possibilidade a ser investigada em um novo projeto, não sendo contemplada por esta pesquisa.\\
+
+%	\begin{equation}
+%	\label{somatorioComPesos}
+%		P = \frac{\sum _{k=1}^{r} x_{k} x p}{\sum_{k=1}^{r} p}
+%	\end{equation}
+%		Onde: \\
+%		P é a pontuação obtida por cada análise com os pesos de cada. \\
+%		r é a quantidade de valores obtidos. \\
+%		$x_{k}$ é cada valor já normalizado.\\
+%		p é o peso dado a cada item. \\
+
+
+%	O uso da abordagem de normalização definida aqui será melhor apresentada nos resultados da Seção \ref{testesHeterogeneos}.
+
+%\section{Conclusão do Capítulo}
+%	Este capítulo apresentou as metodologias utilizadas, bem como os testes efetuados afim de propor o conceito de afinidade e a avaliação dos critérios de coexistência de tipos de aplicações. No próximo capítulo serão apresentados os testes e os resultados obtidos à partir destas metodologias.
+

@@ -1,0 +1,66 @@
+\select@language {brazil}
+\contentsline {chapter}{\MakeUppercase {Lista de Figuras}}{v}
+\contentsline {chapter}{\MakeUppercase {Lista de Tabelas}}{vi}
+\contentsline {chapter}{\MakeUppercase {Resumo}}{vii}
+\contentsline {chapter}{\MakeUppercase {Abstract}}{viii}
+\contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c {c}\~ao}}{1}
+\contentsline {section}{\numberline {1.1}Defini\c {c}\~ao do Problema}{3}
+\contentsline {section}{\numberline {1.2}Delimita\c {c}\~ao do Trabalho}{4}
+\contentsline {section}{\numberline {1.3}Objetivos}{4}
+\contentsline {section}{\numberline {1.4}Organiza\c {c}\~ao do Trabalho}{4}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {Revis\~ao Bibliogr\'afica}}{6}
+\contentsline {section}{\numberline {2.1}M\'etodo cient\'{\i }fico}{6}
+\contentsline {section}{\numberline {2.2}Engenharia de \textit {software}\xspace }{6}
+\contentsline {section}{\numberline {2.3}ISO/IEC 29110\xspace }{7}
+\contentsline {subsection}{\numberline {2.3.1}Representatitividade e dificuldades das VSEs}{7}
+\contentsline {subsection}{\numberline {2.3.2}Hist\'oria da ISO/IEC 29110\xspace }{10}
+\contentsline {subsection}{\numberline {2.3.3}Benef\'{\i }cios da ISO/IEC 29110\xspace }{13}
+\contentsline {subsection}{\numberline {2.3.4}Divis\~ao da ISO/IEC 29110\xspace }{14}
+\contentsline {subsection}{\numberline {2.3.5}Ger\^encia de Projetos\xspace }{15}
+\contentsline {subsection}{\numberline {2.3.6}Desenvolvimento de \textit {Software}\xspace }{16}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Descri\c {c}\~ao da Proposta}}{20}
+\contentsline {section}{\numberline {3.1}Defini\c {c}\~ao do Problema}{20}
+\contentsline {section}{\numberline {3.2}Justificativa do Trabalho}{21}
+\contentsline {section}{\numberline {3.3}Descri\c {c}\~ao da empresa alvo}{22}
+\contentsline {section}{\numberline {3.4}Metodologia e Desenvolvimento}{22}
+\contentsline {subsection}{\numberline {3.4.1}Planejamento e reda\c {c}\~ao do question\'ario}{25}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Classifica\c {c}\~ao dos valores empresariais}{26}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Cria\c {c}\~ao das perguntas}{27}
+\contentsline {subsubsection}{\numberline {3.4.1.3}Peso e \textit {score} da pergunta}{30}
+\contentsline {subsection}{\numberline {3.4.2}Realiza\c {c}\~ao de campo}{31}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Revis\~ao e pontua\c {c}\~ao dos valores empresariais}{32}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Resposta \`as perguntas}{33}
+\contentsline {subsection}{\numberline {3.4.3}Obten\c {c}\~ao dos dados, an\'alise e discuss\~ao dos resultados}{33}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {An\'alise dos resultados}}{36}
+\contentsline {section}{\numberline {4.1}Itens priorizados de Ger\^encia de Projetos\xspace }{37}
+\contentsline {subsection}{\numberline {4.1.1}PM.1.11}{37}
+\contentsline {subsection}{\numberline {4.1.2}PM.1.3}{38}
+\contentsline {subsection}{\numberline {4.1.3}PM 2.2}{39}
+\contentsline {subsection}{\numberline {4.1.4}PM 2.3}{40}
+\contentsline {subsection}{\numberline {4.1.5}PM 2.4}{41}
+\contentsline {section}{\numberline {4.2}Itens priorizados de Desenvolvimento de \textit {Software}\xspace }{43}
+\contentsline {subsection}{\numberline {4.2.1}SI.6.6}{43}
+\contentsline {subsection}{\numberline {4.2.2}SI.3.4}{44}
+\contentsline {subsection}{\numberline {4.2.3}SI.6.3}{45}
+\contentsline {subsection}{\numberline {4.2.4}SI.3.3}{46}
+\contentsline {subsection}{\numberline {4.2.5}SI.5.3}{48}
+\contentsline {section}{\numberline {4.3}Resumo}{49}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\~oes}}{50}
+\contentsline {section}{\numberline {5.1}Contribui\c {c}\~oes}{52}
+\contentsline {subsection}{\numberline {5.1.1}M\'etodo}{52}
+\contentsline {subsection}{\numberline {5.1.2}F\'ormulas}{52}
+\contentsline {subsection}{\numberline {5.1.3}Personaliza\c {c}\~ao dos itens de Likert}{53}
+\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{53}
+\contentsline {chapter}{\numberline {A}\MakeUppercase {Diagn\'ostico da empresa}}{55}
+\contentsline {section}{\numberline {A.1}An\'alise Organizacional e de Processos}{55}
+\contentsline {subsection}{\numberline {A.1.1}Suporte T\'ecnico}{55}
+\contentsline {subsection}{\numberline {A.1.2}Desenvolvimento}{56}
+\contentsline {subsection}{\numberline {A.1.3}Financeiro}{56}
+\contentsline {subsection}{\numberline {A.1.4}Marketing}{57}
+\contentsline {chapter}{\numberline {B}\MakeUppercase {An\'alise SWOT}}{58}
+\contentsline {section}{\numberline {B.1}An\'alise do ambiente externo}{58}
+\contentsline {section}{\numberline {B.2}An\'alise do ambiente interno}{59}
+\contentsline {section}{\numberline {B.3}An\'alise global}{60}
+\contentsline {chapter}{\numberline {C}\MakeUppercase {Exemplo de question\'ario para Ger\^encia de Projetos\xspace }}{61}
+\contentsline {chapter}{\numberline {D}\MakeUppercase {Exemplo de question\'ario para Desenvolvimento de \textit {Software}\xspace }}{71}
+\contentsline {chapter}{\MakeUppercase {Bibliografia}}{71}

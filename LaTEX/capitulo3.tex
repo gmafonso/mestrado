@@ -2,6 +2,10 @@
 \chapter{Manual LaTEX}
 \label{cap.3}
 
+O LaTEX foi desenvolvido na década de 80, por Leslie Lamport\footnote{\url{https://pt.wikipedia.org/wiki/LaTeX}} e é utilizado amplamente na produção de textos matemáticos e científicos, devido a sua alta qualidade tipográfica.
+
+O site oficial do projeto LaTEX se encontra no endereço \url{https://www.latex-project.org/}.
+
 \section{Comandos básicos e caracteres especiais}
 
 O LaTEX funciona através de comandos, que são escritos no formato \comando ou \comandob, onde:
@@ -46,6 +50,35 @@ Para escrever esses caracteres especiais, você precisa colocar a barra de comand
 A formatação dos parágrafos é feita de acordo com as configurações do documento. Por isso, não é preciso se preocupar com margens, identação, numerações de capítulos, etc.
 
 Para formatar a fonte, seguimos o modelo de comando básico do LaTEX (\comando ou \comandob).
+
+\subsection{Tamanho da fonte}
+
+Além do tamanho padrão, definido pelas configurações do documento, podemo utilizar diversos outros tamanhos para a fonte, conforme a Tabela \ref{tab:form:fonte}.
+
+\begin{table}[!h]
+	
+	\caption{Exemplos de comandos para formatar fontes}
+	\label{tab:form:fonte}
+	
+	\begin{tabular}{|l|l|l|}
+		\hline \textbf{Formato} & \textbf{Comando} & \textbf{Resultado} \\ 
+		\hline Sublinhado & $\backslash$ul\{Texto\} & \ul{Texto} \\ 
+		\hline Negrito & $\backslash$textbf\{Texto\} & \textbf{Texto} \\
+		\hline Itálico & $\backslash$textit\{Texto\} & \textit{Texto} \\
+		\hline Muito pequeno & \{$\backslash$tiny Texto\} & {\tiny Texto} \\
+		\hline Pequeno & \{$\backslash$small Texto\} & {\small Texto} \\
+		\hline Grande & \{$\backslash$large Texto\} & {\large Texto} \\
+		\hline Muito grande & \{$\backslash$LARGE Texto\} & {\LARGE Texto} \\
+		\hline Enorme & \{$\backslash$huge Texto\} & {\huge Texto} \\
+		\hline Muito enorme & \{$\backslash$Huge Texto\} & {\Huge Texto} \\
+		\hline 
+	\end{tabular} 
+	
+\end{table}
+
+\subsection{Efeito da fonte}
+
+Além do tamanho padrão, definido pelas configurações do documento, podemo utilizar diversos outros tamanhos para a fonte, conforme a Tabela \ref{tab:form:fonte}.
 
 \begin{table}[!h]
 	

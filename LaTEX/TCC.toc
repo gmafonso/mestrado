@@ -14,18 +14,20 @@
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Manual LaTEX}}{6}
 \contentsline {section}{\numberline {3.1}Comandos b\'asicos e caracteres especiais}{6}
 \contentsline {section}{\numberline {3.2}Formata\c {c}\~ao}{6}
-\contentsline {section}{\numberline {3.3}Defini\c {c}\~ao do Problema}{7}
-\contentsline {section}{\numberline {3.4}Justificativa do Trabalho}{8}
-\contentsline {section}{\numberline {3.5}Descri\c {c}\~ao da empresa alvo}{8}
+\contentsline {subsection}{\numberline {3.2.1}Tamanho da fonte}{7}
+\contentsline {subsection}{\numberline {3.2.2}Efeito da fonte}{7}
+\contentsline {section}{\numberline {3.3}Defini\c {c}\~ao do Problema}{8}
+\contentsline {section}{\numberline {3.4}Justificativa do Trabalho}{9}
+\contentsline {section}{\numberline {3.5}Descri\c {c}\~ao da empresa alvo}{9}
 \contentsline {section}{\numberline {3.6}Metodologia e Desenvolvimento}{9}
-\contentsline {subsection}{\numberline {3.6.1}Planejamento e reda\c {c}\~ao do question\'ario}{11}
-\contentsline {subsubsection}{\numberline {3.6.1.1}Classifica\c {c}\~ao dos valores empresariais}{13}
-\contentsline {subsubsection}{\numberline {3.6.1.2}Cria\c {c}\~ao das perguntas}{14}
-\contentsline {subsubsection}{\numberline {3.6.1.3}Peso e \textit {score} da pergunta}{16}
-\contentsline {subsection}{\numberline {3.6.2}Realiza\c {c}\~ao de campo}{18}
-\contentsline {subsubsection}{\numberline {3.6.2.1}Revis\~ao e pontua\c {c}\~ao dos valores empresariais}{19}
-\contentsline {subsubsection}{\numberline {3.6.2.2}Resposta \`as perguntas}{19}
-\contentsline {subsection}{\numberline {3.6.3}Obten\c {c}\~ao dos dados, an\'alise e discuss\~ao dos resultados}{20}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {APRESENTA\c {C}\~AO E DISCUSS\~AO DOS RESULTADOS}}{22}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\~oes}}{23}
-\contentsline {chapter}{\MakeUppercase {Bibliografia}}{23}
+\contentsline {subsection}{\numberline {3.6.1}Planejamento e reda\c {c}\~ao do question\'ario}{12}
+\contentsline {subsubsection}{\numberline {3.6.1.1}Classifica\c {c}\~ao dos valores empresariais}{14}
+\contentsline {subsubsection}{\numberline {3.6.1.2}Cria\c {c}\~ao das perguntas}{15}
+\contentsline {subsubsection}{\numberline {3.6.1.3}Peso e \textit {score} da pergunta}{17}
+\contentsline {subsection}{\numberline {3.6.2}Realiza\c {c}\~ao de campo}{19}
+\contentsline {subsubsection}{\numberline {3.6.2.1}Revis\~ao e pontua\c {c}\~ao dos valores empresariais}{20}
+\contentsline {subsubsection}{\numberline {3.6.2.2}Resposta \`as perguntas}{20}
+\contentsline {subsection}{\numberline {3.6.3}Obten\c {c}\~ao dos dados, an\'alise e discuss\~ao dos resultados}{21}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {APRESENTA\c {C}\~AO E DISCUSS\~AO DOS RESULTADOS}}{23}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\~oes}}{24}
+\contentsline {chapter}{\MakeUppercase {Bibliografia}}{25}

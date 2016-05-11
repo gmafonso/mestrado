@@ -1,0 +1,154 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Gladistone Afonso at 2015-05-09 10:46:44 -0300 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{manzato,
+	Author = {Antonio Jos{\'e} Manzato and Adriana Barbosa Santos},
+	Date-Added = {2015-05-09 13:44:11 +0000},
+	Date-Modified = {2015-05-09 13:46:39 +0000},
+	Journal = {Departamento de Ci{\^e}ncia de Computa{\c c}{\~a}o e Estat{\'\i}stica -- IBILCE -- UNESP},
+	Title = {A Elabora{\c c}{\~a}o de Question{\'a}rios na Pesquisa Quantitativa},
+	Year = {2012}}
+
+@techreport{iso,
+	Author = {ISO},
+	Date-Added = {2014-12-09 12:43:42 +0000},
+	Date-Modified = {2014-12-09 12:59:06 +0000},
+	Institution = {SO/IEC},
+	Title = {Software engineering --- Lifecycle profiles for Very Small Entities (VSEs) - Part 5-1-2: Management and engineering guide: Generic profile group: Basic profile},
+	Year = {2011}}
+
+@booklet{guia.sebrae,
+	Address = {Rio de Janeiro},
+	Author = {ABNT and SEBRAE},
+	Howpublished = {http://portalmpe.abnt.org.br/bibliotecadearquivos/},
+	Owner = {Glads},
+	Timestamp = {2014.09.19},
+	Title = {GUIA DE IMPLEMENTA{\c c}\~AO DESENVOLVIMENTO DE SOFTWARES PARA PEQUENAS ORGANIZA{\c c}\~OES},
+	Url = {http://portalmpe.abnt.org.br/bibliotecadearquivos/},
+	Year = {2012},
+	Bdsk-Url-1 = {http://portalmpe.abnt.org.br/bibliotecadearquivos/}}
+
+@article{reicis,
+	Author = {Jos{\'e} A. Calvo-Manzano and Javier Garz{\'a}s and Mario Piattini and Francisco J. Pino and Jes{\'u}s Salillas and Jos{\'e} Luis S{\'a}nchez},
+	Journal = {Revista Espa{\~n}ola de Innovaci{\'o}n, Calidad e Ingenier{\'\i}a del Software},
+	Language = {Espanhol},
+	Month = {Setembro},
+	Number = {2},
+	Owner = {Glads},
+	Timestamp = {2014.08.29},
+	Title = {Perfiles del ciclo de vida del software para peque{\~n}as empresas: los informes t{\'e}cnicos {ISO/IEC} 29110},
+	Url = {http://ns1.ati.es/IMG/pdf/Num2Vol4Sep08.pdf.pdf#page=96},
+	Volume = {4},
+	Year = {2008},
+	Bdsk-Url-1 = {http://ns1.ati.es/IMG/pdf/Num2Vol4Sep08.pdf.pdf#page=96}}
+
+@article{fayad,
+	Author = {Mohamed E. Fayad and Mauri Laitinen and Robert P. Ward},
+	Journal = {Communications of the {ACM}},
+	Number = {3},
+	Owner = {Glads},
+	Pages = {115-118},
+	Timestamp = {2014.09.05},
+	Title = {Software Engineering in the Small},
+	Url = {http://www.engr.sjsu.edu/fayad/column/CACM/ACMPub/ps115-fayad.pdf},
+	Volume = {43},
+	Year = {2000},
+	Bdsk-Url-1 = {http://www.engr.sjsu.edu/fayad/column/CACM/ACMPub/ps115-fayad.pdf}}
+
+@article{swicetrip,
+	Author = {Charles H\'ebert and Claude Y Laporte and Christian Mineau},
+	Journal = {SQP},
+	Number = {4},
+	Owner = {Glads},
+	Timestamp = {2014.09.19},
+	Title = {Development of a Social Network Website Using the New {ISO/IEC} 29110 Standard Developed Specifically for Very Small Entities},
+	Url = {http://asq.org/software-quality/2014/09/development-of-a-social-network-website-using-the-new-iso-iec-29110-standard-developed-specifically-for-very-small-entities.pdf},
+	Volume = {16},
+	Year = {2014},
+	Bdsk-Url-1 = {http://asq.org/software-quality/2014/09/development-of-a-social-network-website-using-the-new-iso-iec-29110-standard-developed-specifically-for-very-small-entities.pdf}}
+
+@book{kotler,
+	Author = {Kotler, P. and Keller, K.L.},
+	Isbn = {9788576050018},
+	Publisher = {Pearson Prentice Hall},
+	Series = {Administra{\c{c}}{\~a}o/Marketing},
+	Title = {Administra{\c{c}}{\~a}o de marketing},
+	Year = {2012}}
+
+@article{ieee_comp,
+	Author = {Claude Y. Laporte and Simon Alexandre and Alain Renault},
+	Journal = {IEEE Computer},
+	Owner = {Glads},
+	Timestamp = {2014.09.12},
+	Title = {Developing International Standardsfor Very Small Enterprises},
+	Url = {http://www.etsmtl.ca/Professeurs/claporte/documents/publications/Developing-International-Standards_IEEE_Comp_March.pdf},
+	Year = {2008},
+	Bdsk-Url-1 = {http://www.etsmtl.ca/Professeurs/claporte/documents/publications/Developing-International-Standards_IEEE_Comp_March.pdf}}
+
+@book{pressman,
+	Author = {Pressman, R.S.},
+	Edition = {6},
+	Isbn = {9788580550443},
+	Publisher = {McGraw Hill Brasil},
+	Title = {Engenharia de Software},
+	Year = {2006}}
+
+@article{jamieson2004likert,
+	title={Likert scales: how to (ab) use them},
+	author={Jamieson, Susan},
+	journal={Medical education},
+	volume={38},
+	number={12},
+	pages={1217--1218},
+	year={2004}
+}
+
+@book{garson,
+	Author = {Garson, G. David},
+	Edition = {6},
+	Publisher = {Statistical Publishing Associates},
+	Title = {Scales \& Measures},
+	Year = {2013}}
+
+@book{metodos,
+	Author = {Pedro Paulo Leite Prado and Jo\~ao Bosco Gon\c{c}alves and Marcio Abud Marcelino},
+	Publisher = {Ci\^encia Moderna},
+	Title = {M\'etodos Experimentais em Engenharia - Introdu{\c{c}}{\~a}o aos M\'etodos Cient\'ificos},
+	address = {Rio de Janeiro},
+	Year = {2013}}
+
+@book{toyota,
+	Author = {Jeffrey K. Liker},
+	Publisher = {McGraw-Hill},
+	Title = {The Toyota Way - 14 Management Principles from the World's Greatest Manufacturer},
+	Year = {2004}}
+
+@book{normas,
+	Author = {SEBRAE},
+	Publisher = {Serviço Brasileiro de Apoio \`as Micro e Pequenas Empresas - SEBRAE},
+	Title = {Normas e Certifica{\c{c}}{\~o}es em Software - qual serve melhor para mim?},
+	Year = {2013}}
+
+@book{martinsgerenciando,
+	title={Gerenciando Projetos de Desenvolvimento de Software com PMI, RUP e UML},
+	author={Martins, J.C.C.},
+	isbn={9788574523187},
+	url={https://books.google.com.br/books?id=5pNgi2Xs4YkC},
+	Year={2010},
+	publisher={BRASPORT}
+}
+
+@book{pmbok,
+	Author = {PMI},
+	Edition = {5},
+	Publisher = {PMI},
+	Title = {Project Management Book Of Knowledge},
+	Year = {2013}}

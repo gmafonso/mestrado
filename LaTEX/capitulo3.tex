@@ -116,28 +116,11 @@ O primeiro passo tomado neste estudo foi formalizar a definição do problema e a 
 
 \end{itemize}
 
-\section{Justificativa do Trabalho}
+\chapter{Exemplos - Justificativa do Trabalho}
 
 Este trabalho tem como justificativa principal a demanda por melhorias no processo de desenvolvimento de \sw para empresas de pequeno e médio porte, focando no diagnóstico da empresa alvo realizado no Apêndice \ref{Sec:analise:org}. 
 
 Além da aplicação imediata na empresa alvo, a ferramenta de auto diagnóstico criada a partir desta dissertação também servirá de apoio a outras empresas de desenvolvimento de \sw que pretendam implantar a Norma \iso ou a empresas e consultores especializados que poderão se beneficiar de uma análise inicial mais focada nos valores das empresas.
-
-\section{Descrição da empresa alvo}
-\label{Sec:empresa}
-
-A DataSerra Locação de Programas de Computador Ltda ME foi escolhida como empresa objeto de estudo por ter em seu quadro societário o autor desta dissertação.
-
-A empresa foi fundada no ano de 1997, está situada na cidade de Petrópolis, estado do Rio de Janeiro, mas possui alcance nacional, atendendo clientes em diversos outros estados. Seu segmento de atuação é no ramo de Tecnologia da Informação, produzindo \sws, prestando suporte, consultoria e treinamentos, além de fornecer equipamentos de automação comercial.
-
-A DataSerra possui 6 colaboradores, além dos seus dois sócios, e seu organograma está representado na Figura \ref{Fig:organograma}. O porte da empresa se encaixa perfeitamente na classificação de VSE determinada pela Norma \iso, mais detalhada na Seção \ref{Sec:iso}.
-
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[scale=0.6]{figuras/organograma.png}
-		\caption{Organograma da DataSerra}
-		\label{Fig:organograma}
-	\end{figure}
-	
 
 \section{Metodologia e Desenvolvimento}
 \label{Sec:metodologia}
@@ -160,36 +143,6 @@ Levando em consideração o objetivo desta dissertação:
 	``Criar um método de auto diagnóstico para implantação da \iso que priorize processos com maior aderência aos valores individuais de cada empresa e que tragam benefícios relevantes observáveis nas etapas iniciais da implantação'' (Seção \ref{Sec:objetivo}) 
 \end{quote} levantou-se como hipótese básica que uma das melhores soluções era a implantação de um questionário de auto avaliação. A fim de produzir este questionário, foram pesquisados na literatura outros autores que houvessem passado por um problema semelhante e tivessem produzido uma ferramenta com as mesmas características. Não foi possível encontrar trabalhos com a mesma finalidade, mas  foi obtido sucesso em coletar algumas informações sobre métodos de criação de pesquisas de mercado, que se utilizam de questionários como ferramenta principal de aplicação.
 
-\iftoggle{full}
-{
-	
-	Dentre os trabalhos encontrados, o artigo de \cite{manzato} define uma abordagem estatística para pesquisas qualitativas que foi adaptada às necessidades desta dissertação. Sua representação gráfica pode ser observada na Figura \ref{Fig:abordagem:pesquisa}. 
-
-	Os primeiros itens da abordagem citada anteriormente são a definição do problema, que foi tratado e bem delimitado nesta dissertação na Seção \ref{Sec:intro:problema}, e o planejamento amostral, que não foi realizado por se tratar de um questionário individual e o público alvo ser bem estratificado, composto de pequenas empresas de desenvolvimento de \sw.
-
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[scale=0.5]{figuras/abordagem_pesquisa.png}
-		\caption{Abordagem estatística na pesquisa quantitativa}
-		\figsource{\citealp{manzato}}
-		\label{Fig:abordagem:pesquisa}
-	\end{figure}
-
-	O passo seguinte, planejamento do questionário, é o ponto do processo onde esta dissertação se diferencia dos demais trabalhos, pois seria necessário planejar não somente as questões que iriam compor o questionário, mas também de que forma elas seriam impactadas pelo peso de cada valor empresarial. Para atingir este objetivo era necessário planejar a classificação dos valores empresariais antes mesmo das perguntas do questionário.
-
-	Os demais passos, que são a realização de campo, análise estatística e discussão dos resultados também serão abordados em detalhes.
-
-	Além da abordagem, \cite{manzato} também determinam um roteiro para elaboração e aplicação de uma pesquisa, que foi adaptado para as necessidades desta dissertação e pode ser observado na Figura \ref{Fig:fluxo:plan:quest}.
-
-	\begin{figure}[!h]
-		\centering
-		\includegraphics[scale=0.6]{figuras/fluxo_plan_questionario.jpg}
-		\caption{Roteiro para elaboração e aplicação de uma pesquisa}
-		\figsource{adaptado de 	\cite{manzato}}
-		\label{Fig:fluxo:plan:quest}
-	\end{figure}
-}
-
 \subsection{Planejamento e redação do questionário}
 
 Um fator muito importante neste ponto do processo era a necessidade de criar um questionário prático, simples de ser respondido e cujas respostas fossem geradas de forma imediata e sem necessidade de interação com terceiros (especialistas, por exemplo). Para tanto, decidiu-se por criar um questionário digital que, em um primeiro momento foi confeccionado em uma planilha eletrônica, podendo ser, posteriormente, transposto para um \sw ou página de internet de forma simples e mantendo sua lógica de funcionamento.
@@ -206,26 +159,13 @@ Para seguir o roteiro definido por \cite{manzato}, os objetivos que subsidiam a 
 	
 \end{itemize}
 
-\iftoggle{full}
-{
-
-	Além dos objetivos, o público alvo da pesquisa também foi definido como pequenas empresas desenvolvedoras de \sw, chamadas de VSE \citep{iso}. Neste trabalho, somente a empresa alvo da dissertação foi utilizada.
-
-	A seguir será analisado como foi realizado o planejamento do questionário.
-}
-
 \subsubsection{Classificação dos valores empresariais}
 
 O primeiro passo foi a criação da classificação dos valores empresariais, cujo resultado pode ser observado na Figura \ref{Fig:class:valores}. Podemos notar três estruturas principais: os valores empresariais na primeira coluna, as marcações da classificação de importância nas colunas seguintes e o cálculo do peso final na última coluna. Para simplificar a marcação de importância dos valores, foi colocado um guia visual na primeira linha que indica que as marcações aumentam de valor da esquerda para a direita.
 
-\iftoggle{full}
-{
-	
 	O espaço disponível para as marcações da classificação de importância pode ser classificado como uma escala ordinária. Uma escala ordinária é composta por dados ordinários, ou seja, dados que podem ser ordenados \citep{garson}. No caso dos valores empresariais, a ordenação é feita da esquerda para a direita, iniciando do mais importante para o menos importante. 
 
 	O peso para cada valor empresarial é calculado de acordo com a marcação de importância e a quantidade de valores empresariais disponibilizados na pesquisa. No exemplo da Figura \ref{Fig:class:valores} é possível observar 12 valores empresariais, sendo ``Comunicação com o cliente'' o melhor classificado e, consequentemente, com o maior peso calculado e os valores ``Manutenção e rastreabilidade entre artefatos'', ``Gerência sobre o projeto como um todo'' e ``Gerência de riscos'' os piores classificados e, consequentemente, com os menores pesos calculados.
-
-}
 
 \begin{figure}[!h]
 	\centering

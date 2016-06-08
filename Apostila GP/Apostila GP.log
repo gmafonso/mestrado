@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.21)  21 MAY 2015 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.4)  5 JUN 2016 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Apostila GP.tex"
 (./Apostila GP.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -24,20 +24,20 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -186,8 +186,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -217,8 +217,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -241,22 +241,22 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -272,24 +272,24 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen111
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen112
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count91
@@ -330,7 +330,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen120
 \lightrulewidth=\dimen121
@@ -350,27 +350,27 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count106
 \@thisrulewidth=\dimen132
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count107
@@ -378,17 +378,17 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen133
 \Gin@req@width=\dimen134
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count108
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -402,11 +402,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen135
 \extrarowheight=\dimen136
 \NC@list=\toks23
@@ -416,8 +416,8 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \everycr=\toks24
 \minrowclearance=\skip50
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \c@tracingmulticols=\count109
 \mult@box=\box28
 \multicol@leftmargin=\dimen137
@@ -434,6 +434,7 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \multicolbaselineskip=\skip52
 \partial@page=\box29
 \last@line=\box30
+\maxbalancingoverflow=\dimen142
 \mult@rightbox=\box31
 \mult@grightbox=\box32
 \mult@gfirstbox=\box33
@@ -457,34 +458,34 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box51
 \c@columnbadness=\count115
 \c@finalcolumnbadness=\count116
-\last@try=\dimen142
-\multicolovershoot=\dimen143
-\multicolundershoot=\dimen144
+\last@try=\dimen143
+\multicolovershoot=\dimen144
+\multicolundershoot=\dimen145
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
-\multicol@sort@counter=\count117
+\mc@col@check@num=\count117
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2013/06/09 v2.4 Extended list environments
 \pltopsep=\skip53
 \plpartopsep=\skip54
 \plitemsep=\skip55
 \plparsep=\skip56
 \pl@lab=\toks25
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
 \verbatim@in@stream=\read1
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip57
 \subfigcapskip=\skip58
-\subfigcaptopadj=\dimen145
+\subfigcaptopadj=\dimen146
 \subfigbottomskip=\skip59
-\subfigcapmargin=\dimen146
+\subfigcapmargin=\dimen147
 \subfiglabelskip=\skip60
 \c@subfigure=\count118
 \c@lofdepth=\count119
@@ -494,11 +495,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2013/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip61
 \subfig@bottom=\skip62
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip63
 \f@ncyO@elh=\skip64
 \f@ncyO@erh=\skip65
@@ -509,18 +510,18 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \f@ncyO@olf=\skip70
 \f@ncyO@orf=\skip71
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/sectsty/sectsty.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/tocloft/tocloft.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
 \cftparskip=\skip72
@@ -564,60 +565,61 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftsubtabindent=\skip110
 \cftsubtabnumwidth=\skip111
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/titling/titling.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip112
 \thanksmargin=\skip113
 \droptitle=\skip114
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count122
-\U@D=\dimen147
+\U@D=\dimen148
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/framed/framed.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip115
-\fb@frw=\dimen148
-\fb@frh=\dimen149
-\FrameRule=\dimen150
-\FrameSep=\dimen151
+\fb@frw=\dimen149
+\fb@frh=\dimen150
+\FrameRule=\dimen151
+\FrameSep=\dimen152
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./Apostila GP.aux
-(./fundamentos.aux) (./integracao.aux) (./escopo.aux) (./tempo.aux)
-(./project.aux))
+(./termos.aux) (./comandos.aux) (./capa_gp.aux) (./fundamentos.aux)
+(./integracao.aux) (./escopo.aux) (./tempo.aux) (./custos.aux) (./qualidade.aux
+) (./rh.aux) (./comunicacoes.aux) (./riscos.aux) (./stakeholders.aux))
 \openout1 = `"Apostila GP.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -653,24 +655,24 @@ LaTeX Font Info:    ... okay on input line 107.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
-\scratchdimen=\dimen152
+\scratchdimen=\dimen153
 \scratchbox=\box54
 \nofMPsegments=\count124
 \nofMParguments=\count125
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count126
-\MPscratchDim=\dimen153
+\MPscratchDim=\dimen154
 \MPnumerator=\count127
 \makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks29
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -679,22 +681,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -706,10 +708,60 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\openout2 = `termos.aux'.
+
+
+(./termos.tex)
+\openout2 = `comandos.aux'.
+
+ (./comandos.tex)
+\openout2 = `capa_gp.aux'.
+
+ (./capa_gp.tex)
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 81.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 81.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 81.
+
+[1
+
+
+
+
+
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `fundamentos.aux'.
 
 
@@ -724,110 +776,292 @@ LaTeX Warning: Command \textregistered invalid in math mode on input line 5.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 5.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 5.
 
-) [1
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 9.
 
 
+LaTeX Warning: Command \textregistered invalid in math mode on input line 9.
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 9.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+) [2
+
+
+] [3]
 \openout2 = `integracao.aux'.
 
-
-(./integracao.tex
+ (./integracao.tex
 Cap\'{\i }tulo 2.
-<Figuras/gerenciamento_integracao.png, id=10, 416.757pt x 296.307pt>
+
+Overfull \hbox (18.08086pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/10.95 : do-cu-men-tar as a^^Xc~oes ne-cess^^Sarias
+ []
+
+[4
+
+
+
+] <Figuras/gerenciamento_integracao.png, id=25, 416.757pt x 296.307pt>
 File: Figuras/gerenciamento_integracao.png Graphic file (type png)
 
 <use Figuras/gerenciamento_integracao.png>
 Package pdftex.def Info: Figuras/gerenciamento_integracao.png used on input lin
-e 7.
+e 38.
 (pdftex.def)             Requested size: 312.56699pt x 222.2297pt.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [2
+ [5 <./Figuras/gerenciamento_integracao.png>] <Figuras/TAP_efts.png, id=31, 437
+.4744pt x 252.945pt>
+File: Figuras/TAP_efts.png Graphic file (type png)
 
+<use Figuras/TAP_efts.png>
+Package pdftex.def Info: Figuras/TAP_efts.png used on input line 71.
+(pdftex.def)             Requested size: 328.10498pt x 189.70828pt.
+ [6 <./Figuras/TAP_efts.png>] [7]
+<Figuras/plano_ger_projeto_etfs.png, id=41, 437.4744pt x 252.945pt>
+File: Figuras/plano_ger_projeto_etfs.png Graphic file (type png)
 
-
- <./Figuras/gerenciamento_integracao.png>] <Figuras/plano_planejamento.png, id=
-18, 799.98875pt x 420.57124pt>
-File: Figuras/plano_planejamento.png Graphic file (type png)
-
-<use Figuras/plano_planejamento.png>
-Package pdftex.def Info: Figuras/plano_planejamento.png used on input line 36.
-(pdftex.def)             Requested size: 399.9934pt x 210.28511pt.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 41.
-
-[3 <./Figuras/plano_planejamento.png>]
-<Figuras/proc_integracao_1.png, id=24, 420.1296pt x 243.309pt>
-File: Figuras/proc_integracao_1.png Graphic file (type png)
-
-<use Figuras/proc_integracao_1.png>
-Package pdftex.def Info: Figuras/proc_integracao_1.png used on input line 72.
-(pdftex.def)             Requested size: 315.09642pt x 182.48131pt.
+<use Figuras/plano_ger_projeto_etfs.png>
+Package pdftex.def Info: Figuras/plano_ger_projeto_etfs.png used on input line 
+155.
+(pdftex.def)             Requested size: 328.10498pt x 189.70828pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (5.75514pt too wide) in paragraph at lines 85--86
-[]\OT1/cmr/m/n/10.95 Ativos de Pro-ces-sos Or-ga-ni-za-ci-o-nais: pro-ces-sos e
- m^^Setodos pr^^Se-definidos, in-forma^^Xc~oes
+Overfull \hbox (1.81453pt too wide) in paragraph at lines 166--167
+[]\OT1/cmr/m/n/10.95 : to-dos os de-mais pro-ces-sos de pla-ne-ja-mento
  []
 
-[4] [5 <./Figuras/proc_integracao_1.png>]) [6]
+[8] [9 <./Figuras/plano_ger_projeto_etfs.png>]
+<Figuras/ori_ger_exec_proj_efts.png, id=49, 437.4744pt x 252.945pt>
+File: Figuras/ori_ger_exec_proj_efts.png Graphic file (type png)
+
+<use Figuras/ori_ger_exec_proj_efts.png>
+Package pdftex.def Info: Figuras/ori_ger_exec_proj_efts.png used on input line 
+224.
+(pdftex.def)             Requested size: 328.10498pt x 189.70828pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] [11 <./Figuras/ori_ger_exec_proj_efts.png>]
+Overfull \hbox (4.6247pt too wide) in paragraph at lines 261--262
+[]\OT1/cmr/m/n/10.95 : indicadores-chave de de-sem-pe-nho,
+ []
+
+<Figuras/mon_cont_trab_efts.png, id=57, 437.4744pt x 252.945pt>
+File: Figuras/mon_cont_trab_efts.png Graphic file (type png)
+
+<use Figuras/mon_cont_trab_efts.png>
+Package pdftex.def Info: Figuras/mon_cont_trab_efts.png used on input line 277.
+
+(pdftex.def)             Requested size: 328.10498pt x 189.70828pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+Overfull \hbox (3.77803pt too wide) in paragraph at lines 298--299
+\OT1/cmr/m/n/10.95 pro-ce-di-men-tos de con-tro-les fi-nan-cei-ros, pro-ce-di-m
+en-tos de ge-ren-ci-a-mento de quest~oes
+ []
+
+[13 <./Figuras/mon_cont_trab_efts.png>]
+<Figuras/cont_int_mudanca_efts.png, id=66, 437.4744pt x 252.945pt>
+File: Figuras/cont_int_mudanca_efts.png Graphic file (type png)
+
+<use Figuras/cont_int_mudanca_efts.png>
+Package pdftex.def Info: Figuras/cont_int_mudanca_efts.png used on input line 3
+37.
+(pdftex.def)             Requested size: 328.10498pt x 189.70828pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15 <./Figuras/cont_int_mudanca_efts.png>]
+<Figuras/encerrar_efts.png, id=74, 437.4744pt x 252.945pt>
+File: Figuras/encerrar_efts.png Graphic file (type png)
+
+<use Figuras/encerrar_efts.png>
+Package pdftex.def Info: Figuras/encerrar_efts.png used on input line 393.
+(pdftex.def)             Requested size: 328.10498pt x 189.70828pt.
+ [16 <./Figuras/encerrar_efts.png>]
+Overfull \hbox (11.21745pt too wide) in paragraph at lines 427--428
+[]\OT1/cmr/m/n/10.95 : transi^^Xc~ao de um pro-duto, servi^^Xco
+ []
+
+) [17]
 \openout2 = `escopo.aux'.
 
  (./escopo.tex
 Cap\'{\i }tulo 3.
-<Figuras/escopo_proj_prod.png, id=37, 357.335pt x 299.1175pt>
-File: Figuras/escopo_proj_prod.png Graphic file (type png)
+<Figuras/gerenciamento_escopo.png, id=82, 438.9198pt x 125.7498pt>
+File: Figuras/gerenciamento_escopo.png Graphic file (type png)
 
-<use Figuras/escopo_proj_prod.png>
-Package pdftex.def Info: Figuras/escopo_proj_prod.png used on input line 14.
-(pdftex.def)             Requested size: 178.66705pt x 149.55838pt.
- [7
+<use Figuras/gerenciamento_escopo.png>
+Package pdftex.def Info: Figuras/gerenciamento_escopo.png used on input line 27
+.
+(pdftex.def)             Requested size: 329.18903pt x 94.3121pt.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- <./Figuras/escopo_proj_prod.png>]
-<Figuras/ciclo_vida.png, id=43, 983.675pt x 451.6875pt>
+<Figuras/ciclo_vida.png, id=83, 983.675pt x 451.6875pt>
 File: Figuras/ciclo_vida.png Graphic file (type png)
 
 <use Figuras/ciclo_vida.png>
-Package pdftex.def Info: Figuras/ciclo_vida.png used on input line 61.
+Package pdftex.def Info: Figuras/ciclo_vida.png used on input line 36.
 (pdftex.def)             Requested size: 491.8363pt x 225.84319pt.
 
-Overfull \hbox (73.58263pt too wide) in paragraph at lines 61--62
+Overfull \hbox (73.58263pt too wide) in paragraph at lines 36--37
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]) [9 <./Figuras/ciclo_vida.png>]
+[18
+
+
+
+] <Figuras/escopo_proj_prod.png, id=87, 357.335pt x 299.1175pt>
+File: Figuras/escopo_proj_prod.png Graphic file (type png)
+
+<use Figuras/escopo_proj_prod.png>
+Package pdftex.def Info: Figuras/escopo_proj_prod.png used on input line 55.
+(pdftex.def)             Requested size: 178.66705pt x 149.55838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./Figuras/gerenciamento_escopo.png> <./Figuras/ciclo_vida.png>]
+<Figuras/escopo_efts_planejar.png, id=94, 437.4744pt x 252.945pt>
+File: Figuras/escopo_efts_planejar.png Graphic file (type png)
+
+<use Figuras/escopo_efts_planejar.png>
+Package pdftex.def Info: Figuras/escopo_efts_planejar.png used on input line 80
+.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [20 <./Figuras/escopo_proj_prod.png> <./Figuras/escopo_efts_planejar.png>]
+Overfull \hbox (6.78014pt too wide) in paragraph at lines 95--96
+[]\OT1/cmr/m/n/10.95 pol^^S^^Pticas e pro-ce-di-men-tos in-ter-nos, in-forma^^X
+c~oes
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 123.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 123.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 123.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 123.
+
+[21] <Figuras/escopo_efts_requisitos.png, id=103, 437.4744pt x 252.945pt>
+File: Figuras/escopo_efts_requisitos.png Graphic file (type png)
+
+<use Figuras/escopo_efts_requisitos.png>
+Package pdftex.def Info: Figuras/escopo_efts_requisitos.png used on input line 
+152.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [22 <./Figuras/escopo_efts_requisitos.png>]
+Overfull \hbox (5.1474pt too wide) in paragraph at lines 179--180
+[]\OT1/cmr/m/n/10.95 servem para jun-tar as par-tes in-te-res-sa-das e es-pe-ci
+-a-lis-tas, tamb^^Sem
+ []
+
+[23] <Figuras/escopo_efts_definir.png, id=111, 437.4744pt x 252.945pt>
+File: Figuras/escopo_efts_definir.png Graphic file (type png)
+
+<use Figuras/escopo_efts_definir.png>
+Package pdftex.def Info: Figuras/escopo_efts_definir.png used on input line 227
+.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [24 <./Figuras/escopo_efts_definir.png>]
+Overfull \hbox (8.75722pt too wide) in paragraph at lines 242--243
+[]\OT1/cmr/m/n/10.95 pol^^S^^Pticas, pro-ce-di-men-tos, mo-de-los, li^^Xc~oes a
+pren-
+ []
+
+
+Overfull \hbox (15.49126pt too wide) in paragraph at lines 266--267
+[]\OT1/cmr/m/n/10.95 alguns do-cu-men-tos po-dem so-frer al-tera^^Xc~oes
+ []
+
+[25] <Figuras/escopo_efts_EAP.png, id=120, 437.4744pt x 252.945pt>
+File: Figuras/escopo_efts_EAP.png Graphic file (type png)
+
+<use Figuras/escopo_efts_EAP.png>
+Package pdftex.def Info: Figuras/escopo_efts_EAP.png used on input line 278.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (8.75722pt too wide) in paragraph at lines 295--296
+[]\OT1/cmr/m/n/10.95 pol^^S^^Pticas, pro-ce-di-men-tos, mo-de-los, li^^Xc~oes a
+pren-
+ []
+
+[26 <./Figuras/escopo_efts_EAP.png>]
+Overfull \hbox (15.49126pt too wide) in paragraph at lines 315--316
+[]\OT1/cmr/m/n/10.95 alguns do-cu-men-tos po-dem so-frer al-tera^^Xc~oes
+ []
+
+<Figuras/escopo_efts_verificar.png, id=125, 437.4744pt x 252.945pt>
+File: Figuras/escopo_efts_verificar.png Graphic file (type png)
+
+<use Figuras/escopo_efts_verificar.png>
+Package pdftex.def Info: Figuras/escopo_efts_verificar.png used on input line 3
+27.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [27 <./Figuras/escopo_efts_verificar.png>]
+Overfull \hbox (2.53368pt too wide) in paragraph at lines 354--355
+[]\OT1/cmr/m/n/10.95 utilizadas quando as va-lida^^Xc~oes s~ao fei-
+ []
+
+<Figuras/escopo_efts_controlar.png, id=130, 437.4744pt x 252.945pt>
+File: Figuras/escopo_efts_controlar.png Graphic file (type png)
+
+<use Figuras/escopo_efts_controlar.png>
+Package pdftex.def Info: Figuras/escopo_efts_controlar.png used on input line 3
+81.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28]
+Overfull \hbox (3.86429pt too wide) in paragraph at lines 396--397
+[]\OT1/cmr/m/n/10.95 n^^Sumero de so-li-cita^^Xc~oes de mu-dan^^Xca
+ []
+
+
+Overfull \hbox (3.59055pt too wide) in paragraph at lines 414--415
+[]\OT1/cmr/m/n/10.95 informa^^Xc~oes de como o pro-jeto est^^Sa
+ []
+
+[29 <./Figuras/escopo_efts_controlar.png>]) [30]
 \openout2 = `tempo.aux'.
 
  (./tempo.tex
 Cap\'{\i }tulo 4.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
-[10
+[31
 
 
 
-] <Figuras/ativ_exemplo.png, id=57, 934.49126pt x 268.00125pt>
+] <Figuras/ativ_exemplo.png, id=147, 934.49126pt x 268.00125pt>
 File: Figuras/ativ_exemplo.png Graphic file (type png)
 
 <use Figuras/ativ_exemplo.png>
@@ -838,78 +1072,632 @@ Overfull \hbox (2.2635pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-) [11 <./Figuras/ativ_exemplo.png>]
-\openout2 = `project.aux'.
+) [32 <./Figuras/ativ_exemplo.png>]
+\openout2 = `custos.aux'.
 
- (./project.tex
+ (./custos.tex
 Cap\'{\i }tulo 5.
-<Figuras/project_inicio1.png, id=62, 608.2725pt x 142.5325pt>
-File: Figuras/project_inicio1.png Graphic file (type png)
 
-<use Figuras/project_inicio1.png>
-Package pdftex.def Info: Figuras/project_inicio1.png used on input line 15.
-(pdftex.def)             Requested size: 273.7201pt x 64.13902pt.
+Overfull \hbox (0.12573pt too wide) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/10.95 : de-sen-vol-ver uma apro-xima^^Xc~ao dos re-cur-sos mo-ne
+t^^Sarios ne-cess^^Sarios
+ []
 
-<Figuras/project_inicio2.png, id=63, 941.5175pt x 182.6825pt>
-File: Figuras/project_inicio2.png Graphic file (type png)
+<Figuras/gerenciamento_custos.png, id=152, 433.62pt x 127.677pt>
+File: Figuras/gerenciamento_custos.png Graphic file (type png)
 
-<use Figuras/project_inicio2.png>
-Package pdftex.def Info: Figuras/project_inicio2.png used on input line 22.
-(pdftex.def)             Requested size: 423.67897pt x 82.20634pt.
+<use Figuras/gerenciamento_custos.png>
+Package pdftex.def Info: Figuras/gerenciamento_custos.png used on input line 27
+.
+(pdftex.def)             Requested size: 325.2142pt x 95.7575pt.
 
-Overfull \hbox (5.4253pt too wide) in paragraph at lines 22--23
- [][] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33
+
+
+
+] <Figuras/custos_efts_planejar.png, id=156, 437.4744pt x 252.945pt>
+File: Figuras/custos_efts_planejar.png Graphic file (type png)
+
+<use Figuras/custos_efts_planejar.png>
+Package pdftex.def Info: Figuras/custos_efts_planejar.png used on input line 40
+.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (18.59422pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/10.95 cultura, in-fra-es-tru-tura, condi^^Xc~oes de mer-cado, co
+ta^^Xc~oes
  []
 
 
+Overfull \hbox (6.78014pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/10.95 pol^^S^^Pticas e pro-ce-di-men-tos in-ter-nos, in-forma^^X
+c~oes
+ []
+
+[34 <./Figuras/gerenciamento_custos.png> <./Figuras/custos_efts_planejar.png>]
+<Figuras/custos_efts_estimar.png, id=162, 437.4744pt x 252.945pt>
+File: Figuras/custos_efts_estimar.png Graphic file (type png)
+
+<use Figuras/custos_efts_estimar.png>
+Package pdftex.def Info: Figuras/custos_efts_estimar.png used on input line 87.
+
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (0.71657pt too wide) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10.95 define co-mos os cus-tos ser~ao ge-ren-ci-a-dos e con-
+ []
+
+[35 <./Figuras/custos_efts_estimar.png>]
+Overfull \hbox (3.3106pt too wide) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/10.95 oferece va-lo-res re-fe-ren-tes aos re-
+ []
+
+
+Overfull \hbox (7.48178pt too wide) in paragraph at lines 120--121
+[]\OT1/cmr/m/n/10.95 utiliza re-la-ci-o-na-mento es-tat^^S^^Pstico en-tre in-fo
+rma^^Xc~oes hist^^Soricas
+ []
+
+[36]
+Overfull \hbox (10.76215pt too wide) in paragraph at lines 144--145
+[]\OT1/cmr/m/n/10.95 aplicativos, pla-ni-lhas,
+ []
+
+
+Overfull \hbox (8.68434pt too wide) in paragraph at lines 146--147
+[]\OT1/cmr/m/n/10.95 as es-ti-ma-ti-vas po-dem ser fei-tas atrav^^Ses da an^^Sa
+lise
+ []
+
+[37] <Figuras/custos_efts_orcamento.png, id=176, 437.4744pt x 252.945pt>
+File: Figuras/custos_efts_orcamento.png Graphic file (type png)
+
+<use Figuras/custos_efts_orcamento.png>
+Package pdftex.def Info: Figuras/custos_efts_orcamento.png used on input line 1
+73.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [38 <./Figuras/custos_efts_orcamento.png>] [39] <Figuras/custos_efts_controlar
+.png, id=184, 437.4744pt x 252.945pt>
+File: Figuras/custos_efts_controlar.png Graphic file (type png)
+
+<use Figuras/custos_efts_controlar.png>
+Package pdftex.def Info: Figuras/custos_efts_controlar.png used on input line 2
+40.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [40 <./Figuras/custos_efts_controlar.png>]
+Overfull \hbox (0.91959pt too wide) in paragraph at lines 291--292
+[]\OT1/cmr/m/n/10.95 causas de va-ria^^Xc~oes, a^^Xc~oes
+ []
+
+) [41]
+\openout2 = `qualidade.aux'.
+
+ (./qualidade.tex
+Cap\'{\i }tulo 6.
+<Figuras/gerenciamento_qualidade.png, id=192, 433.62pt x 127.677pt>
+File: Figuras/gerenciamento_qualidade.png Graphic file (type png)
+
+<use Figuras/gerenciamento_qualidade.png>
+Package pdftex.def Info: Figuras/gerenciamento_qualidade.png used on input line
+ 23.
+(pdftex.def)             Requested size: 325.2142pt x 95.7575pt.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figuras/project_inicio3.png, id=64, 146.5475pt x 519.9425pt>
-File: Figuras/project_inicio3.png Graphic file (type png)
+[42
 
-<use Figuras/project_inicio3.png>
-Package pdftex.def Info: Figuras/project_inicio3.png used on input line 31.
-(pdftex.def)             Requested size: 80.60135pt x 285.96925pt.
+
+
+] <Figuras/qualidade_efts_planejar.png, id=196, 437.4744pt x 252.945pt>
+File: Figuras/qualidade_efts_planejar.png Graphic file (type png)
+
+<use Figuras/qualidade_efts_planejar.png>
+Package pdftex.def Info: Figuras/qualidade_efts_planejar.png used on input line
+ 36.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [43 <./Figuras/gerenciamento_qualidade.png> <./Figuras/qualidade_efts_planejar
+.png>] [44]
+Overfull \hbox (2.97554pt too wide) in paragraph at lines 147--148
+[]\OT1/cmr/m/n/10.95 tem como ob-je-tivo fa-zer ge-ne-ra-liza^^Xc~oes so-bre um
+a po-pula^^Xc~ao
+ []
+
+[45] <Figuras/qualidade_efts_realizar.png, id=209, 437.4744pt x 252.945pt>
+File: Figuras/qualidade_efts_realizar.png Graphic file (type png)
+
+<use Figuras/qualidade_efts_realizar.png>
+Package pdftex.def Info: Figuras/qualidade_efts_realizar.png used on input line
+ 191.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [46 <./Figuras/qualidade_efts_realizar.png>] [47]
+Overfull \hbox (3.3895pt too wide) in paragraph at lines 247--248
+[]\OT1/cmr/m/n/10.95 planos de ge-ren-ci-a-mento da
+ []
+
+
+Overfull \hbox (5.43852pt too wide) in paragraph at lines 249--250
+[]\OT1/cmr/m/n/10.95 relat^^Sorios de au-di-to-ria da qua-li-dade, pla-
+ []
+
+
+Overfull \hbox (0.25041pt too wide) in paragraph at lines 251--252
+[]\OT1/cmr/m/n/10.95 padr~oes de qua-li-dade, sis-
+ []
+
+<Figuras/qualidade_efts_controlar.png, id=217, 437.4744pt x 252.945pt>
+File: Figuras/qualidade_efts_controlar.png Graphic file (type png)
+
+<use Figuras/qualidade_efts_controlar.png>
+Package pdftex.def Info: Figuras/qualidade_efts_controlar.png used on input lin
+e 263.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [48 <./Figuras/qualidade_efts_controlar.png>]
+Overfull \hbox (9.12222pt too wide) in paragraph at lines 286--287
+[]\OT1/cmr/m/n/10.95 pol^^S^^Pticas e padr~oes de qua-li-dade da or-ga-niza^^Xc
+~ao,
+ []
+
+
+Overfull \hbox (2.97554pt too wide) in paragraph at lines 306--307
+[]\OT1/cmr/m/n/10.95 tem como ob-je-tivo fa-zer ge-ne-ra-liza^^Xc~oes so-bre um
+a po-pula^^Xc~ao
+ []
+
+
+Overfull \hbox (2.00418pt too wide) in paragraph at lines 310--311
+[]\OT1/cmr/m/n/10.95 todas as so-li-cita^^Xc~oes de mu-dan^^Xca
+ []
+
+
+Overfull \hbox (5.49663pt too wide) in paragraph at lines 318--319
+[]\OT1/cmr/m/n/10.95 resultados do-cu-men-ta-dos das ati-vi-da-des de con-
+ []
+
+[49]
+Overfull \hbox (5.83392pt too wide) in paragraph at lines 330--331
+[]\OT1/cmr/m/n/10.95 padr~oes de qua-li-dade, acor-dos, re-lat^^Sorios
+ []
+
+) [50]
+\openout2 = `rh.aux'.
+
+ (./rh.tex
+Cap\'{\i }tulo 7.
+
+Overfull \hbox (16.92969pt too wide) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10.95 identificar e do-cu-men-tar os pap^^Seis,
+ []
+
+<Figuras/gerenciamento_rh.png, id=230, 433.62pt x 127.677pt>
+File: Figuras/gerenciamento_rh.png Graphic file (type png)
+
+<use Figuras/gerenciamento_rh.png>
+Package pdftex.def Info: Figuras/gerenciamento_rh.png used on input line 25.
+(pdftex.def)             Requested size: 325.2142pt x 95.7575pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [12
+[51
 
 
 
- <./Figuras/project_inicio1.png>] [13 <./Figuras/project_inicio2.png> <./Figura
-s/project_inicio3.png>] (./Apostila GP.bbl) [14
+] <Figuras/rh_efts_planejar.png, id=234, 437.4744pt x 252.945pt>
+File: Figuras/rh_efts_planejar.png Graphic file (type png)
+
+<use Figuras/rh_efts_planejar.png>
+Package pdftex.def Info: Figuras/rh_efts_planejar.png used on input line 38.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [52 <./Figuras/gerenciamento_rh.png> <./Figuras/rh_efts_planejar.png>] [53]
+<Figuras/rh_efts_mobilizar.png, id=243, 437.4744pt x 252.945pt>
+File: Figuras/rh_efts_mobilizar.png Graphic file (type png)
+
+<use Figuras/rh_efts_mobilizar.png>
+Package pdftex.def Info: Figuras/rh_efts_mobilizar.png used on input line 91.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (2.62541pt too wide) in paragraph at lines 102--103
+[]\OT1/cmr/m/n/10.95 informa^^Xc~oes exis-ten-tes so-bre re-cur-sos hu-ma-nos (
+dis-
+ []
+
+[54 <./Figuras/rh_efts_mobilizar.png>]
+Overfull \hbox (1.50368pt too wide) in paragraph at lines 132--133
+[]\OT1/cmr/m/n/10.95 principalmente no plano de
+ []
+
+<Figuras/rh_efts_desenvolver.png, id=248, 437.4744pt x 252.945pt>
+File: Figuras/rh_efts_desenvolver.png Graphic file (type png)
+
+<use Figuras/rh_efts_desenvolver.png>
+Package pdftex.def Info: Figuras/rh_efts_desenvolver.png used on input line 144
+.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
 
 
-] (./Apostila GP.aux
-(./fundamentos.aux) (./integracao.aux) (./escopo.aux) (./tempo.aux)
-(./project.aux)) ) 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55] [56 <./Figuras/rh_efts_desenvolver.png>]
+<Figuras/rh_efts_gerenciar.png, id=257, 437.4744pt x 254.8722pt>
+File: Figuras/rh_efts_gerenciar.png Graphic file (type png)
+
+<use Figuras/rh_efts_gerenciar.png>
+Package pdftex.def Info: Figuras/rh_efts_gerenciar.png used on input line 200.
+(pdftex.def)             Requested size: 218.73665pt x 127.43578pt.
+ [57 <./Figuras/rh_efts_gerenciar.png>]
+Overfull \hbox (1.50368pt too wide) in paragraph at lines 243--244
+[]\OT1/cmr/m/n/10.95 principalmente no plano de
+ []
+
+
+Overfull \hbox (2.41205pt too wide) in paragraph at lines 245--246
+[]\OT1/cmr/m/n/10.95 registro de quest~oes, des-cri^^Xc~ao de pap^^Seis,
+ []
+
+
+Overfull \hbox (16.15837pt too wide) in paragraph at lines 249--250
+[]\OT1/cmr/m/n/10.95 informa^^Xc~oes hist^^Soricas, li^^Xc~oes
+ []
+
+[58]) [59]
+\openout2 = `comunicacoes.aux'.
+
+ (./comunicacoes.tex
+Cap\'{\i }tulo 8.
+
+Overfull \hbox (2.80588pt too wide) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10.95 : de-sen-vol-ver uma apro-xima^^Xc~ao apro-
+ []
+
+<Figuras/gerenciamento_comunicacoes.png, id=268, 433.62pt x 127.677pt>
+File: Figuras/gerenciamento_comunicacoes.png Graphic file (type png)
+
+<use Figuras/gerenciamento_comunicacoes.png>
+Package pdftex.def Info: Figuras/gerenciamento_comunicacoes.png used on input l
+ine 23.
+(pdftex.def)             Requested size: 325.2142pt x 95.7575pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[60
+
+
+
+] <Figuras/comunicacoes_efts_planejar.png, id=272, 437.4744pt x 252.945pt>
+File: Figuras/comunicacoes_efts_planejar.png Graphic file (type png)
+
+<use Figuras/comunicacoes_efts_planejar.png>
+Package pdftex.def Info: Figuras/comunicacoes_efts_planejar.png used on input l
+ine 36.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [61 <./Figuras/gerenciamento_comunicacoes.png> <./Figuras/comunicacoes_efts_pl
+anejar.png>]
+Overfull \hbox (3.42102pt too wide) in paragraph at lines 71--72
+[]\OT1/cmr/m/n/10.95 encaminhada para des-ti-nat^^Sarios es-pec^^S^^Pficos que 
+pre-
+ []
+
+
+Overfull \hbox (1.97011pt too wide) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/10.95 usada para vo-lu-mes muito gran-des de in-forma^^Xc~oes
+ []
+
+[62]
+Overfull \hbox (11.63437pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/m/n/10.95 componente do Plano de Ge-ren-ci-a-mento
+ []
+
+
+Overfull \hbox (0.94933pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10.95 Processo de criar, co-le-tar, dis-tri-buir, ar-ma-ze-nar, re
+-cu-pe-rar e dis-po-ni-bi-li-zar as in-forma^^Xc~oes
+ []
+
+<Figuras/comunicacoes_efts_gerenciar.png, id=282, 437.4744pt x 252.945pt>
+File: Figuras/comunicacoes_efts_gerenciar.png Graphic file (type png)
+
+<use Figuras/comunicacoes_efts_gerenciar.png>
+Package pdftex.def Info: Figuras/comunicacoes_efts_gerenciar.png used on input 
+line 99.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (4.92744pt too wide) in paragraph at lines 108--109
+[]\OT1/cmr/m/n/10.95 descreve como as co-mu-nica^^Xc~oes do pro-
+ []
+
+[63 <./Figuras/comunicacoes_efts_gerenciar.png>]
+Overfull \hbox (0.692pt too wide) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/10.95 ferramentas para ge-ren-ciar e dis-tri-buir
+ []
+
+[64] <Figuras/comunicacoes_efts_controlar.png, id=290, 437.4744pt x 252.945pt>
+File: Figuras/comunicacoes_efts_controlar.png Graphic file (type png)
+
+<use Figuras/comunicacoes_efts_controlar.png>
+Package pdftex.def Info: Figuras/comunicacoes_efts_controlar.png used on input 
+line 159.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (0.10278pt too wide) in paragraph at lines 172--173
+[]\OT1/cmr/m/n/10.95 utilizado para do-cu-men-tar e mo-ni-to-rar a solu^^Xc~ao 
+das quest~oes. 
+ []
+
+
+Overfull \hbox (1.88306pt too wide) in paragraph at lines 176--177
+[]\OT1/cmr/m/n/10.95 modelos de re-lat^^Sorios, pol^^S^^Pticas, padr~oes e pro-
+
+ []
+
+
+Overfull \hbox (1.83136pt too wide) in paragraph at lines 176--177
+\OT1/cmr/m/n/10.95 ce-di-men-tos que de-fi-nem as co-mu-nica^^Xc~oes, tec-no-lo
+-gias dis-pon^^S^^Pveis para co-mu-nica^^Xc~ao,
+ []
+
+[65 <./Figuras/comunicacoes_efts_controlar.png>]
+Overfull \hbox (7.70866pt too wide) in paragraph at lines 202--203
+[]\OT1/cmr/m/n/10.95 planos de ge-ren-ci-a-mento das
+ []
+
+) [66]
+\openout2 = `riscos.aux'.
+
+ (./riscos.tex
+Cap\'{\i }tulo 9.
+<Figuras/gerenciamento_riscos.png, id=298, 435.5472pt x 125.7498pt>
+File: Figuras/gerenciamento_riscos.png Graphic file (type png)
+
+<use Figuras/gerenciamento_riscos.png>
+Package pdftex.def Info: Figuras/gerenciamento_riscos.png used on input line 29
+.
+(pdftex.def)             Requested size: 326.65958pt x 94.3121pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67
+
+
+
+] <Figuras/riscos_efts_planejar.png, id=303, 437.4744pt x 252.945pt>
+File: Figuras/riscos_efts_planejar.png Graphic file (type png)
+
+<use Figuras/riscos_efts_planejar.png>
+Package pdftex.def Info: Figuras/riscos_efts_planejar.png used on input line 42
+.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [68 <./Figuras/gerenciamento_riscos.png> <./Figuras/riscos_efts_planejar.png>]
+
+<Figuras/riscos_efts_identificar.png, id=309, 435.0654pt x 252.945pt>
+File: Figuras/riscos_efts_identificar.png Graphic file (type png)
+
+<use Figuras/riscos_efts_identificar.png>
+Package pdftex.def Info: Figuras/riscos_efts_identificar.png used on input line
+ 91.
+(pdftex.def)             Requested size: 217.53215pt x 126.47218pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69] [70 <./Figuras/riscos_efts_identificar.png>]
+Overfull \hbox (16.85448pt too wide) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10.95 utiliza essa vis~ao
+ []
+
+<Figuras/riscos_efts_analise_qual.png, id=317, 437.4744pt x 252.945pt>
+File: Figuras/riscos_efts_analise_qual.png Graphic file (type png)
+
+<use Figuras/riscos_efts_analise_qual.png>
+Package pdftex.def Info: Figuras/riscos_efts_analise_qual.png used on input lin
+e 164.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[71]
+Overfull \hbox (9.71176pt too wide) in paragraph at lines 187--188
+[]\OT1/cmr/m/n/10.95 investiga a pro-ba-bi-li-dade de cada
+ []
+
+
+Overfull \hbox (10.08044pt too wide) in paragraph at lines 189--190
+[]\OT1/cmr/m/n/10.95 avalia^^Xc~ao da im-port^ancia e pri-o-ri-dade de aten^^Xc
+~ao
+ []
+
+
+Overfull \hbox (0.4378pt too wide) in paragraph at lines 191--192
+[]\OT1/cmr/m/n/10.95 avalia^^Xc~ao do grau de uti-li-dade dos
+ []
+
+[72 <./Figuras/riscos_efts_analise_qual.png>]
+<Figuras/riscos_efts_analise_quant.png, id=325, 437.4744pt x 252.945pt>
+File: Figuras/riscos_efts_analise_quant.png Graphic file (type png)
+
+<use Figuras/riscos_efts_analise_quant.png>
+Package pdftex.def Info: Figuras/riscos_efts_analise_quant.png used on input li
+ne 217.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [73 <./Figuras/riscos_efts_analise_quant.png>]
+Overfull \hbox (6.07816pt too wide) in paragraph at lines 246--247
+[]\OT1/cmr/m/n/10.95 an^^Salise de sen-si-bi-li-dade,
+ []
+
+<Figuras/riscos_efts_resp.png, id=331, 437.4744pt x 252.945pt>
+File: Figuras/riscos_efts_resp.png Graphic file (type png)
+
+<use Figuras/riscos_efts_resp.png>
+Package pdftex.def Info: Figuras/riscos_efts_resp.png used on input line 269.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[74]
+Overfull \hbox (2.40253pt too wide) in paragraph at lines 290--291
+[]\OT1/cmr/m/n/10.95 explorar, au-men-tar, com-par-
+ []
+
+
+Overfull \hbox (3.3895pt too wide) in paragraph at lines 302--303
+[]\OT1/cmr/m/n/10.95 planos de ge-ren-ci-a-mento do
+ []
+
+[75 <./Figuras/riscos_efts_resp.png>]
+<Figuras/riscos_efts_controlar.png, id=339, 437.4744pt x 252.945pt>
+File: Figuras/riscos_efts_controlar.png Graphic file (type png)
+
+<use Figuras/riscos_efts_controlar.png>
+Package pdftex.def Info: Figuras/riscos_efts_controlar.png used on input line 3
+17.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [76 <./Figuras/riscos_efts_controlar.png>]
+Overfull \hbox (0.48802pt too wide) in paragraph at lines 358--359
+[]\OT1/cmr/m/n/10.95 oferece um me-ca-nismo para co-mu-
+ []
+
+
+Overfull \hbox (3.3895pt too wide) in paragraph at lines 362--363
+[]\OT1/cmr/m/n/10.95 planos de ge-ren-ci-a-mento do
+ []
+
+) [77]
+\openout2 = `stakeholders.aux'.
+
+ (./stakeholders.tex
+Cap\'{\i }tulo 10.
+
+Overfull \hbox (11.95801pt too wide) in paragraph at lines 15--16
+[]\OT1/cmr/m/n/10.95 desenvolver es-trat^^Segias para efe-
+ []
+
+[78
+
+
+
+] <Figuras/gerenciamento_stakeholders.png, id=350, 433.62pt x 127.677pt>
+File: Figuras/gerenciamento_stakeholders.png Graphic file (type png)
+
+<use Figuras/gerenciamento_stakeholders.png>
+Package pdftex.def Info: Figuras/gerenciamento_stakeholders.png used on input l
+ine 25.
+(pdftex.def)             Requested size: 325.2142pt x 95.7575pt.
+
+<Figuras/stakeholders_efts_identificar.png, id=351, 437.4744pt x 252.945pt>
+File: Figuras/stakeholders_efts_identificar.png Graphic file (type png)
+
+<use Figuras/stakeholders_efts_identificar.png>
+Package pdftex.def Info: Figuras/stakeholders_efts_identificar.png used on inpu
+t line 38.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [79 <./Figuras/gerenciamento_stakeholders.png> <./Figuras/stakeholders_efts_id
+entificar.png>]
+<Figuras/stakeholders_efts_gerenciar.png, id=358, 437.4744pt x 252.945pt>
+File: Figuras/stakeholders_efts_gerenciar.png Graphic file (type png)
+
+<use Figuras/stakeholders_efts_gerenciar.png>
+Package pdftex.def Info: Figuras/stakeholders_efts_gerenciar.png used on input 
+line 85.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80]
+Overfull \hbox (16.42172pt too wide) in paragraph at lines 120--121
+[]\OT1/cmr/m/n/10.95 identifica as es-trat^^Segias ne-cess^^Sarias
+ []
+
+[81 <./Figuras/stakeholders_efts_gerenciar.png>]
+<Figuras/stakeholders_efts_ger_engaja.png, id=366, 437.4744pt x 252.945pt>
+File: Figuras/stakeholders_efts_ger_engaja.png Graphic file (type png)
+
+<use Figuras/stakeholders_efts_ger_engaja.png>
+Package pdftex.def Info: Figuras/stakeholders_efts_ger_engaja.png used on input
+ line 133.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+
+Overfull \hbox (3.3126pt too wide) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10.95 requisitos de co-mu-nica^^Xc~ao or-ga-ni-za-ci-o-nal, pro-
+
+ []
+
+[82 <./Figuras/stakeholders_efts_ger_engaja.png>]
+Overfull \hbox (4.32599pt too wide) in paragraph at lines 171--172
+[]\OT1/cmr/m/n/10.95 gerenciar as par-tes in-te-res-sa-das pode re-sul-tar em m
+u-dan^^Xcas. 
+ []
+
+
+Overfull \hbox (0.9196pt too wide) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/10.95 notifica^^Xc~oes das par-tes in-
+ []
+
+<Figuras/stakeholders_efts_cont_engaja.png, id=371, 437.4744pt x 252.945pt>
+File: Figuras/stakeholders_efts_cont_engaja.png Graphic file (type png)
+
+<use Figuras/stakeholders_efts_cont_engaja.png>
+Package pdftex.def Info: Figuras/stakeholders_efts_cont_engaja.png used on inpu
+t line 189.
+(pdftex.def)             Requested size: 218.73665pt x 126.47218pt.
+ [83]
+Overfull \hbox (23.31363pt too wide) in paragraph at lines 204--205
+[]\OT1/cmr/m/n/10.95 cronograma, re-gis-tro de par-tes in-te-res-sa-das, re-gis
+-tro de quest~oes,
+ []
+
+
+Overfull \hbox (3.18619pt too wide) in paragraph at lines 212--213
+[]\OT1/cmr/m/n/10.95 capturam, ar-ma-ze-nam e dis-tri-buem in-
+ []
+
+[84 <./Figuras/stakeholders_efts_cont_engaja.png>]
+Overfull \hbox (0.9196pt too wide) in paragraph at lines 232--233
+[]\OT1/cmr/m/n/10.95 notifica^^Xc~oes das par-tes in-
+ []
+
+) [85] (./Apostila GP.bbl) [86
+
+
+] (./Apostila GP.aux (./termos.aux)
+(./comandos.aux) (./capa_gp.aux) (./fundamentos.aux) (./integracao.aux)
+(./escopo.aux) (./tempo.aux) (./custos.aux) (./qualidade.aux) (./rh.aux)
+(./comunicacoes.aux) (./riscos.aux) (./stakeholders.aux)) ) 
 Here is how much of TeX's memory you used:
- 5506 strings out of 493315
- 73793 string characters out of 6137904
- 161528 words of memory out of 5000000
- 8780 multiletter control sequences out of 15000+600000
- 15439 words of font info for 54 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,12n,43p,662b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbxti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-s12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
-12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb>
-Output written on "Apostila GP.pdf" (14 pages, 510198 bytes).
+ 5864 strings out of 493089
+ 83231 string characters out of 6134842
+ 168642 words of memory out of 5000000
+ 9075 multiletter control sequences out of 15000+600000
+ 14495 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,12n,43p,911b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Apostila GP.pdf" (86 pages, 3726436 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 438 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

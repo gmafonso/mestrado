@@ -1,15 +1,24 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Apostila GP.aux
+A level-1 auxiliary file: termos.aux
+A level-1 auxiliary file: comandos.aux
+A level-1 auxiliary file: capa_gp.aux
+A level-1 auxiliary file: fundamentos.aux
 A level-1 auxiliary file: integracao.aux
 A level-1 auxiliary file: escopo.aux
 A level-1 auxiliary file: tempo.aux
-A level-1 auxiliary file: project.aux
+A level-1 auxiliary file: custos.aux
+A level-1 auxiliary file: qualidade.aux
+A level-1 auxiliary file: rh.aux
+A level-1 auxiliary file: comunicacoes.aux
+A level-1 auxiliary file: riscos.aux
+A level-1 auxiliary file: stakeholders.aux
 The style file: Bibliografia/apalike-pt.bst
 Database file #1: Bibliografia/research.bib
 You've used 1 entry,
             1935 wiz_defined-function locations,
-            483 strings with 3820 characters,
+            493 strings with 3929 characters,
 and the built_in function-call counts, 300 in all, are:
 = -- 27
 > -- 7

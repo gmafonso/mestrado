@@ -55,38 +55,6 @@
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
-\newcommand{\sw}{\textit{software}\xspace}
-\newcommand{\Sw}{\textit{Software}\xspace}
-\newcommand{\sws}{\textit{softwares}\xspace}
-\newcommand{\iso}{ISO 29110\xspace}
-\newcommand{\dsw}{Desenvolvimento de \Sw}
-
-\newcommand{\gp}{Gerente de Projeto\xspace}
-\newcommand{\kick}{reunião de \textit{kick-off} do projeto\xspace}
-\newcommand{\Kick}{Reunião de \textit{kick-off} do projeto\xspace}
-\newcommand{\stake}{\textit{stakeholders}\xspace}
-\newcommand{\bline}{\textit{baseline}\xspace}
-
-\newcommand{\amb}{Fatores Ambientais\xspace}
-\newcommand{\ativ}{Ativos de Processos Organizacionais\xspace}
-
-% nomenclaturas de documentação
-\newcommand{\planproj}{Plano de Gerenciamento do Projeto\xspace}
-\newcommand{\planesc}{Plano de Gerenciamento do Escopo\xspace}
-\newcommand{\plancron}{Plano de Gerenciamento do Cronograma\xspace}
-\newcommand{\plancusto}{Plano de Gerenciamento de Custos\xspace}
-\newcommand{\planqual}{Plano de Gerenciamento da Qualidade\xspace}
-\newcommand{\planpess}{Plano de Gerenciamento de Pessoal\xspace}
-\newcommand{\plancom}{Plano de Gerenciamento das Comunicações\xspace}
-\newcommand{\planrisco}{Plano de Gerenciamento de Riscos\xspace}
-\newcommand{\planaq}{Plano de Gerenciamento de Aquisições\xspace}
-
-\newcommand{\termo}{Termo de Abertura do Projeto\xspace}
-
-\newcommand{\bok}{Guia PMBOK$^{\small{\textregistered}}$\xspace}
-
-\newcommand{\msp}{Project\xspace}
-
 \usepackage{titling}
 \usepackage[brazil]{babel}
 \usepackage{xspace}
@@ -107,11 +75,21 @@
 \begin{document}
 
 %\inputencoding{latin1}\input{titulo}
+\include{termos}
+\include{comandos}
+\include{capa_gp}
+\titleGP
 \include{fundamentos}
 \include{integracao}
 \include{escopo}
 \include{tempo}
-\include{project}
+\include{custos}
+\include{qualidade}
+\include{rh}
+\include{comunicacoes}
+\include{riscos}
+\include{stakeholders}
+%\include{project}
 
 %\bibliographystyle{plain}
 %\bibliographystyle{bibstyle/latex8}     
